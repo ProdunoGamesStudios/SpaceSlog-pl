@@ -90,10 +90,10 @@ UI_ROLE_NAME,Role name
 UI_NUMBER_OF_MEMBERS,# of members
 UI_REMOVE,Remove
 UI_HOTKEY,Hotkey
-,
-,
-,
-,
+UI_HEALTH,Health
+UI_NO_MATS_REQ,No Materials Required
+HINT_ROTATE_LEFT,Rotate left
+HINT_ROTATE_RIGHT,Rotate right
 ,
 UNSUPPORTED_RESOLUTION,Trying to set an unsupported resolution
 DEEP_SPACE,Deep space
