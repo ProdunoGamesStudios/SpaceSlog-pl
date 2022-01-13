@@ -11,6 +11,7 @@
 		"Brutal": "Only choose this option if you want a real challenge, this is only advised for more experienced players.\nEvents will be more hostile and will occur much more frequently. Pawns will require more micro management and are more likely to become ill or depressed.\nFactions will be more foe than friend.",
 	},
 
+	"restart_game_prompt": "You must restart the game in order for the adjusted mods to be loaded correctly.",
 	"game_over_reason_one": "All your pawns are dead and there is no one to run your ship.\nYou can either choose to leave and exit back to the main menu, or you can continue in the hope someone will rescue your ship and allow you to continue.",
 	"game_over_Reason_two": "Your ship has been blown to pieces and any survivors will slowly but surely die, floating within the cold, dark vastness of space until they run out of any air they may have left.",
 
