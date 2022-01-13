@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://Data/Core/Language/Polish/Keys.pl.translation" ]
+
+source_file="res://Data/Core/Language/Polish/Keys.csv"
+dest_files=[ "res://Data/Core/Language/Polish/Keys.pl.translation" ]
+
+[params]
+
+compress=true
+delimiter=0

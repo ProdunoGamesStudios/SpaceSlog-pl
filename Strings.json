@@ -1,0 +1,82 @@
+{
+	"gender" : [
+		"male",
+		"female",
+	],
+
+	"game_difficulty": {
+		"default_description": "Here you can choose the difficulty of the game. The different options will effect things such as event frequency and difficulty. The amount of generated factions and how powerful or hostile these factions will be.",
+		"Timid": "This options is for those that prefer building and exploration and offers a more laid back experience.\nEvents will be less hostile and less frequent. Factions will likely be more friend than foe.",
+		"Normal": "Choosing this option ensures the game is played how the designer intended the game to be played. Events will be random offering a higher replay value.\nThings could either go really well or horribly wrong.\nFaction alignment is random.",
+		"Brutal": "Only choose this option if you want a real challenge, this is only advised for more experienced players.\nEvents will be more hostile and will occur much more frequently. Pawns will require more micro management and are more likely to become ill or depressed.\nFactions will be more foe than friend.",
+	},
+
+	"game_over_reason_one": "All your pawns are dead and there is no one to run your ship.\nYou can either choose to leave and exit back to the main menu, or you can continue in the hope someone will rescue your ship and allow you to continue.",
+	"game_over_Reason_two": "Your ship has been blown to pieces and any survivors will slowly but surely die, floating within the cold, dark vastness of space until they run out of any air they may have left.",
+
+	"nowhere_to_drink" : "There is no where to drink from",
+	"nowhere_to_eat" : "There is no where to eat from",
+	"nowhere_to_sleep" : "Need colonist beds",
+	"nothing_to_drink" : "There is nothing to drink",
+	"nothing_to_eat" : "There is nothing to eat",
+
+	"ship_left" : "The {ship_name} has left comms range",
+	"ship_arrived" : "The {ship_name} is now in comms range",
+	"various_items_selected" : "Various selected {amount}",
+
+	"cargo_space_data" : "Cargo space.\n\nCargo Space Used: {space_used}\nTotal Space Available: {space_available}",
+	"hull_total" : "The current hull health.\n\nHull HP: {current_hp}\nMax Hull HP: {max_hp}",
+	"shield_total" : "Shield HP: {current_hp}\nMax shield HP {max_hp}",
+	"power_total" : "The amount of power used compared to\nthe amount available.\n\nUsed Power: {power_used}\nTotal Power: {total_power}",
+	"heat_total" : "The current heat levels compared to the\nmaximum heat levels the ship can withstand.\n\nOverall Ship Temperature: {current_temp}\nMaximum Ship Temperature: {max_temp}",
+	"gas_total" : "The amount of oxygen compared to\nthe amount of pressure.\nA healthy ship should have\naround 22%% Oxygen overall.\n\nPressure Used: {pressure_used}\nMax Pressure: {max_pressure}",
+
+	"en_health" : "This items current HP.\n\nHP: {current_hp}\nMax HP: {max_hp}",
+	"en_power_source" : "The amount of power used compared to\nthe amount available.\n\nUsed Power: {used_power}\nTotal Power: {total_power}",
+	"en_power_receiver" : "The amount of power received compared to\nthe amount needed.\n\nPower Received: {power_received}\nPower Req: {power_required}",
+	"en_battery" : "The amount of power stored compared to\nthe amount it can store.\n\nPower Stored: {power_stored}\nMax Capacity: {max_power_capacity}",
+	"en_work_to_build" : "How much work there is left\nto build this object.\n\nCurrent: {work_done}\nTotal: {work_total}",
+	"en_flag_for_deconstruction" : "This item is flagged for deconstruction.\n\nYou can cancel this by clicking here.",
+
+	"rm_max_pressure" : "The maximum pressure this room can hold.\n\nA leak in your hull will cause a loss\nof this pressure.\n\nIdeal Pressure: 100%",
+	"rm_oxygen_pressure" : "The current oxygen pressure in this room.\n\nIdeal Pressure: 20%",
+	"rm_carbon_dioxide_pressure" : "The current carbon dioxide pressure in this room.\n\nIdeal Pressure: 0%",
+	"rm_hazardous_gas_pressure" : "The current amount of hazardous gas in this room.\n\nIdeal Pressure: 0%",
+	"rm_inert_gas_pressure" : "The current amount of inert gasses in this room.\n\nIdeal Pressure: 80%",
+	"rm_breached" : "Room Breached - Slowly losing atmosphere",
+	"rm_sealed" : "Room Sealed",
+
+	"pm_health" : "How much health this creature has.\nOnce it reaches zero this creature will die.",
+	"pm_mood" : "This creatures current mood.",
+	"pm_atmosphere" : "This creatures breathable status.",
+
+	"mm_morale" : "Mood reflects this creatures frame of mind.\n\nIf this gets too low then this creature may decide\nto ignore commands or far worse.",
+	"mm_hunger" : "Hunger relates to the amount of solids this creature\nhas consumed recently.\n\nOnce this reaches zero the creature will start\nto loose health and eventually die.",
+	"mm_thirst" : "Thirst relates to the amount of fluids this creature\nhas consumed recently.\n\nOnce this reaches zero the creature will start\nto loose health and eventually die.",
+	"mm_energy" : "Energy relates to the amount of energy this creature\ncan exert before becoming exhausted.\n\nSleeping will increase energy.",
+
+	"systems_alarm_button" : "Sound the alarm. Red Alert: Everyone get back to the ship!",
+	"systems_power_button" : "Turn all the ships power on or off.",
+	"game_date" : "Space Date: Hours, Days, Years",
+	"pause" : "Pause",
+	"normal_speed" : "1X speed",
+	"fast" : "3X speed",
+	"faster" : "5X speed",
+
+	"ship_cannot_afford_this": "This ship cannot afford to buy this!",
+	"player_not_enough_credits": "You do not have enough credits to buy this!",
+	"player_not_enough_cargo_space": "You do not have cargo space to buy this!",
+	"ship_trading_with": "Trading with The {ship_name}",
+	"joined_crew": "{pawn_name} has joined your crew",
+	"left_crew": "{pawn_name} has left your crew",
+	"pawn_initiated_trade": "{pawn_name} has initiated trade with a social skill of {skill_level}",
+
+	"no_name_set": "No name set",
+	"no_description_set": "No description set",
+	"pawn_amount": "Pawn amount {amount}",
+	
+}
+		
+						 
+						 
+						 
