@@ -45,7 +45,7 @@ UI_SOUNDS,Dzwiek
 UI_MASTER_VOLUME,Master Volume
 UI_MUSIC_VOLUME,Music Volume
 UI_SOUNDS_VOLUME,Sounds Volume
-UI_CLOSE,Zamknij
+UI_CLOSE,Close
 UI_OPEN_USER_DIR,Open User Directory
 UI_SAVE_MENU,Zapisz Menu
 UI_LOAD,Load Game
@@ -90,10 +90,10 @@ UI_ROLE_NAME,Role name
 UI_NUMBER_OF_MEMBERS,# of members
 UI_REMOVE,Remove
 UI_HOTKEY,Hotkey
-UI_HEALTH,Health
-UI_NO_MATS_REQ,No Materials Required
-HINT_ROTATE_LEFT,Rotate left
-HINT_ROTATE_RIGHT,Rotate right
+,
+,
+,
+,
 ,
 UNSUPPORTED_RESOLUTION,Trying to set an unsupported resolution
 DEEP_SPACE,Deep space
