@@ -1,27 +1,27 @@
-Keys,en
-UI_NEW_GAME,New game
+Keys,pl
+UI_NEW_GAME,Nowa Gra
 UI_LOAD_GAME,Load game
 UI_MODS,Mods
-UI_OPTIONS,Options
+UI_OPTIONS,Opcje
 UI_CREDITS,Credits
-UI_QUIT,Quit
+UI_QUIT,Wyjdz
 UI_GAME_VERSION,For game version
-UI_AUTHOR,Author
-UI_NEWS,News
+UI_AUTHOR,Autor
+UI_NEWS,Nowsci
 UI_TWITTER,Twitter
 UI_DISCORD,Discord
-UI_MUSIC,Music
+UI_MUSIC,Muzyka
 UI_FORUMS,Forums
 UI_CHOOSE_STORY,Choose your story
 UI_DISABLE_STORY,Disable story text
 UI_CHOOSE_DIFFICULTY,Choose your difficulty
-UI_TIMID,Timid
-UI_NORMAL,Normal
-UI_BRUTAL,Brutal
-UI_CHOOSE_CREW,Choose your crew
+UI_TIMID,Latwy
+UI_NORMAL,Normlny
+UI_BRUTAL,Trudny
+UI_CHOOSE_CREW,Wybierz Druzyne
 UI_BACKSTORY,Backstory
-UI_FIRST_NAME,First name
-UI_LAST_NAME,Second name
+UI_FIRST_NAME,Imie
+UI_LAST_NAME,Nazwisko
 UI_NICKNAME,Nickname
 UI_TRAITS,Traits
 UI_MEDICAL_CONDITIONS,Medical conditions
@@ -30,20 +30,19 @@ UI_VOCATION,Vocation
 UI_PARTY_SKILLS,Party skills
 UI_HEADGEAR,Headgear
 UI_RANDOMISE,Randomise
-UI_OPTIONS,Options
 UI_GAMEPLAY,Gameplay
 UI_PAUSE_ON_ALERT,Pause on alert
 UI_SHOW_NAME_LABEL,Show name under pawns
 UI_SHOW_FPS,Show FPS
-UI_SHOW_CUSTOM_MOUSE,Show custom mouse cursor
+UI_SHOW_CUSTOM_MOUSE,Pokarz opcje myszki
 UI_ENABLE_MOUSE_SCROLL,Enable mouse scrolling
 UI_DEV_MODE,Enable developer mode
 UI_GRAPHICS,Graphics
 UI_RESOLUTION,Resolution
 UI_VSYNC,Enable Vsync
-UI_FULLSCREEN,Full screen
+UI_FULLSCREEN,Pelny Ekran
 UI_BORDERLESS_WINDOW,Enable borderless window
-UI_SOUNDS,Sounds
+UI_SOUNDS,Dzwiek
 UI_MASTER_VOLUME,Master volume
 UI_MUSIC_VOLUME,Music volume
 UI_SOUNDS_VOLUME,Sounds volume
@@ -51,7 +50,7 @@ UI_CLOSE,Close
 UI_CANCEL,Cancel
 UI_OK,Ok
 UI_OPEN_USER_DIR,Open user directory
-UI_SAVE_MENU,Save game
+UI_SAVE_MENU,Zapisz Menu
 UI_LOAD_MENU,Load game
 UI_LOAD,Load Game
 UI_SAVE,New Save
