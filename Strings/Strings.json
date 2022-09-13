@@ -1,9 +1,4 @@
 {
-	"gender": [
-		"male",
-		"female"
-	],
-
 	"game_difficulty": {
 		"default_description": "Here you can choose the difficulty of the game. The different options will effect things such as event frequency and difficulty. The amount of generated factions and how powerful or hostile these factions will be.",
 		"Timid": "This options is for those that prefer building and exploration and offers a more laid back experience.\nEvents will be less hostile and less frequent. Factions will likely be more friend than foe.",
@@ -13,10 +8,11 @@
 
 	"error_text_missing": "No text set.",
 	"restart_game_prompt": "You must restart the game in order for the adjusted mods to be loaded correctly.",
-	"game_over_reason_one": "All your pawns are dead and there is no one to run your ship.\nYou can either choose to leave and exit back to the main menu, or you can continue in the hope someone will rescue your ship and allow you to continue.",
-	"game_over_reason_two": "Your ship has been blown to pieces and any survivors will slowly but surely die, floating within the cold, dark vastness of space until they run out of any air they may have left.",
+	"game_over_pawns_dead": "All your pawns are dead and there is no one to run your ship.\nYou can either choose to leave and exit back to the main menu, or you can continue in the hope someone will rescue your ship and allow you to continue.",
+	"game_over_ship_blown": "Your ship has been blown to pieces and any survivors will slowly but surely die, \nfloating within the cold, dark vastness of space until they either run out of any air they may have left, \nor succumb to the cold or radiation. \nYou can either choose to leave and exit back to the main menu, or you can continue in hope of some miracle.",
 
 	"scenario_default_description": "Choose your story to continue...",
+	"delete_game": "Delete this saved game",
 
 	"nowhere_to_drink" : "There is no where to drink from",
 	"nowhere_to_eat" : "There is no where to eat from",
@@ -31,7 +27,8 @@
 	"cargo_space_data" : "Cargo space.\n\nCargo Space Used: {space_used}\nTotal Space Available: {space_available}",
 	"hull_total" : "The current hull health.\n\nHull HP: {current_hp}\nMax Hull HP: {max_hp}",
 	"shield_total" : "Shield HP: {current_hp}\nMax shield HP {max_hp}",
-	"power_total" : "The amount of power used compared to\nthe amount available.\n\nUsed Power: {power_used}\nTotal Power: {total_power}",
+	"power_total" : "The amount of power used compared to\nthe amount available.\n\nTotal Used Power: {power_used}W\nTotal Power Available: {total_power}W",
+	"stored_total" : "The amount of power stored compared to\nthe amount of storage available.\n\nTotal Stored Power: {current_stored}Wd\nTotal Storage Available: {total_storage}Wd",
 	"heat_total" : "The current heat levels compared to the\nmaximum heat levels the ship can withstand.\n\nOverall Ship Temperature: {current_temp}\nMaximum Ship Temperature: {max_temp}",
 	"gas_total" : "The amount of oxygen compared to\nthe amount of pressure.\nA healthy ship should have\naround 22%% Oxygen overall.\n\nPressure Used: {pressure_used}\nMax Pressure: {max_pressure}",
 
@@ -40,7 +37,9 @@
 	"en_power_receiver" : "The amount of power received compared to\nthe amount needed.",
 	"en_battery" : "The amount of power stored compared to\nthe amount it can store.",
 	"en_work_to_build" : "How much work there is left\nto build this object.",
-	"en_flag_for_deconstruction" : "This item is flagged for deconstruction.\n\nYou can cancel this by clicking here.",
+	"flag_for_deconstruction" : "Cancel deconstruction request.",
+	"flag_for_deconstruction_cancel" : "Request this item to be deconstructed.",
+	"cancel_blueprint" : "Cancel this blueprint.",
 
 	"rm_max_pressure" : "The maximum pressure this room can hold.\n\nA leak in your hull will cause a loss\nof this pressure.\n\nIdeal Pressure: 100%",
 	"rm_oxygen_pressure" : "The current oxygen pressure in this room.\n\nIdeal Pressure: 20%",
@@ -105,9 +104,9 @@
 	"room_destroyed": "{room_name} has been destroyed.",
 
 	"deconstruct_label": "Deconstruct",
-	"deconstruct_info": "Removes and already built entity",
-	"cancel_label": "Cancel Blueprint",
-	"cancel_info": "Cancels a blueprint",
+	"deconstruct_info": "Removes an already built entity.",
+	"cancel_label": "Cancel",
+	"cancel_info": "Cancels any designated work.",
 
 	"hint_ship_trading": "Trading requires you to have positive relations,\na Comms console,\nand someone to initiate the trade.",
 	"hint_bribe_ship": "If this ship is hostile,\nbribing them may force them to leave.",
@@ -122,6 +121,58 @@
 	"already_bribed": "This ship has already\nbeen bribed",
 	"attempt_to_bribe": "Attempt to bribe this ship\n for {bribe_amount} credits?",
 
+	"seconds": "seconds",
+	"minutes": "minutes",
+	"hours": "hours",
+	"days": "days",
+
+	"incapable_performing_skill": "Incapable of performing this skill",
+	"level": "Level",
+	"total_experience": "Total experience",
+	"experience_next_level": "Experience for next level",
+	"pawn_levelled_up": "{pawn_name} has reached level {level} in {skill}.",
+
+	"disable_flooring_button": "Enables the selection of flooring.",
+
+	"door_opening": "Opening",
+	"door_open": "Open",
+	"door_closing": "Closing",
+	"door_closed": "Closed",
+	"battery_discharge_efficiency": "{efficiency}% Efficiency - discharging {power_draw}wd.",
+
+	"kilogram_unit": "kg",
+	"money_unit": "cr",
+
+	"durability": "Durability",
+	"body_covered": "Body parts covered",
+
+	"deep_space": "Deep space",
+	"outside": "Outside",
+	"room": "Room",
+	"zone": "Zone",
+
+	"change_character_name": "Change character name",
+	"change_room_name": "Change room name",
+	"change_ship_name": "Change ship name",
+	"change_faction_name": "Change faction name",
+	"change_zone_name": "Change zone name",
+	"room_name": "Room name",
+	"ship_name": "Ship name",
+	"faction_name": "Faction name",
+	"zone_name": "Zone name",
+	"nickname": "Nickname",
+
+	"equipment_slots": {
+		"gear": "Gear",
+		"armour": "Armour",
+		"weapon": "Weapon",
+		"headgear": "Head Gear",
+		"body_under": "Body Under",
+		"legs": "Legs",
+		"offhand": "Offhand",
+		"body_over": "Body Over",
+		"utility": "Utility"
+	},
 
 	"breathability_status": {
 		"good": "Good",
@@ -134,6 +185,50 @@
 		"suffocating": "Suffocating",
 		"toxic": "Slightly toxic",
 		"highly_toxic": "Highly toxic"
+	},
+
+	"loading_text": {
+		"powering_up": "Powering Up.....",
+		"powering_down": "Powering Down.....",
+		"booting_systems": "Booting Systems.....",
+		"restarting_systems": "Restarting Systems....."
+	},
+
+	"relation_text": {
+		"neutral": "neutral",
+		"friendly": "friendly",
+		"hostile": "hostile"
+	},
+
+	"grammar_engine": {
+		"male_pronoun": "he",
+		"female_pronoun": "she",
+		"other_pronoun": "they",
+		"male_possessive": "his",
+		"female_possessive": "her",
+		"other_possessive": "their",
+		"male_reflexive": "himself",
+		"female_reflexive": "herself",
+		"other_reflexive": "themself"
+	},
+
+	"default": {
+		"no_string": "NO STRING"
+	},
+
+	"backstory": {
+		"health_state": "is a {health_status}",
+		"joined_crew": "Joined your crew on {date}",
+		"age_status": "is a {age} years old"
+	},
+
+	"debug": {
+		"fill": "Fill",
+		"empty": "Empty",
+		"min_add": "Add 0.1",
+		"remove_item": "Remove item",
+		"remove_all_items": "Remove all items",
+		"auto_build": "Auto build"
 	}
 }
 		

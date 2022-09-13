@@ -5,10 +5,10 @@ type="Translation"
 
 [deps]
 
-files=[ "res://Data/Core/Language/pl/Keys/Keys.pl.translation" ]
+files=[ "res://Data/Core/Language/en/Keys/Keys.en.translation" ]
 
-source_file="res://Data/Core/Language/pl/Keys/Keys.csv"
-dest_files=[ "res://Data/Core/Language/pl/Keys/Keys.pl.translation" ]
+source_file="res://Data/Core/Language/en/Keys/Keys.csv"
+dest_files=[ "res://Data/Core/Language/en/Keys/Keys.en.translation" ]
 
 [params]
 

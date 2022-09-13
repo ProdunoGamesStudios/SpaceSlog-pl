@@ -1,56 +1,62 @@
-Keys,pl
-UI_NEW_GAME,Nowa Gra
-UI_LOAD_GAME,Load Game
+Keys,en
+UI_NEW_GAME,New game
+UI_LOAD_GAME,Load game
 UI_MODS,Mods
-UI_OPTIONS,Opcje
+UI_OPTIONS,Options
 UI_CREDITS,Credits
-UI_QUIT,Wyjdz
+UI_QUIT,Quit
 UI_GAME_VERSION,For game version
-UI_AUTHOR,Autor
-UI_NEWS,Nowsci
+UI_AUTHOR,Author
+UI_NEWS,News
 UI_TWITTER,Twitter
 UI_DISCORD,Discord
-UI_MUSIC,Muzyka
-UI_FORUMS,Forum
+UI_MUSIC,Music
+UI_FORUMS,Forums
 UI_CHOOSE_STORY,Choose your story
 UI_DISABLE_STORY,Disable story text
-UI_CHOOSE_DIFFICULTY,Wybierz Trudnosc
-UI_TIMID,Latwy
-UI_NORMAL,Normlny
-UI_BRUTAL,Trudny
-UI_CHOOSE_CREW,Wybierz Druzyne
+UI_CHOOSE_DIFFICULTY,Choose your difficulty
+UI_TIMID,Timid
+UI_NORMAL,Normal
+UI_BRUTAL,Brutal
+UI_CHOOSE_CREW,Choose your crew
 UI_BACKSTORY,Backstory
-UI_FIRST_NAME,Imie
-UI_LAST_NAME,Nazwisko
+UI_FIRST_NAME,First name
+UI_LAST_NAME,Second name
 UI_NICKNAME,Nickname
 UI_TRAITS,Traits
-UI_MEDICAL_CONDITIONS,Medical Conditions
+UI_MEDICAL_CONDITIONS,Medical conditions
 UI_NONE,None
 UI_VOCATION,Vocation
 UI_PARTY_SKILLS,Party skills
 UI_HEADGEAR,Headgear
 UI_RANDOMISE,Randomise
-UI_OPTIONS,Opcje
+UI_OPTIONS,Options
 UI_GAMEPLAY,Gameplay
-UI_PAUSE_ON_ALERT,Pause on Alert
+UI_PAUSE_ON_ALERT,Pause on alert
 UI_SHOW_NAME_LABEL,Show name under pawns
 UI_SHOW_FPS,Show FPS
-UI_SHOW_CUSTOM_MOUSE,Pokarz opcje myszki
-UI_GRAPHICS,Grafika
+UI_SHOW_CUSTOM_MOUSE,Show custom mouse cursor
+UI_ENABLE_MOUSE_SCROLL,Enable mouse scrolling
+UI_DEV_MODE,Enable developer mode
+UI_GRAPHICS,Graphics
 UI_RESOLUTION,Resolution
 UI_VSYNC,Enable Vsync
-UI_FULLSCREEN,Pelny Ekran
-UI_BORDERLESS_WINDOW,Enable Borderless Window
-UI_SOUNDS,Dzwiek
-UI_MASTER_VOLUME,Master Volume
-UI_MUSIC_VOLUME,Music Volume
-UI_SOUNDS_VOLUME,Sounds Volume
+UI_FULLSCREEN,Full screen
+UI_BORDERLESS_WINDOW,Enable borderless window
+UI_SOUNDS,Sounds
+UI_MASTER_VOLUME,Master volume
+UI_MUSIC_VOLUME,Music volume
+UI_SOUNDS_VOLUME,Sounds volume
 UI_CLOSE,Close
-UI_OPEN_USER_DIR,Open User Directory
-UI_SAVE_MENU,Zapisz Menu
+UI_CANCEL,Cancel
+UI_OK,Ok
+UI_OPEN_USER_DIR,Open user directory
+UI_SAVE_MENU,Save game
+UI_LOAD_MENU,Load game
 UI_LOAD,Load Game
-UI_SAVE,Zapisz Menu
-UI_LANGUAGE_CREDITS,Language Credits
+UI_SAVE,New Save
+UI_OVERWRITE,Overwrite
+UI_LANGUAGE_CREDITS,Language credits
 UI_FACTION,Faction
 UI_RELATIONS,Relations
 UI_RACE,Race
@@ -61,10 +67,10 @@ UI_CREW,Crew
 UI_NAME,Name
 UI_MORALE,Morale
 UI_STATUS,Status
-UI_ASSIGNED_ROOM,Assign Room
-UI_ASSIGNED_ROLE,Assign Role
+UI_ASSIGNED_ROOM,Assign room
+UI_ASSIGNED_ROLE,Assign role
 UI_CONTINUE,Continue
-UI_SAVE_LOAD,Save/Load Menu
+UI_SAVE_LOAD,Save/Load menu
 UI_EXIT,Exit
 UI_EXIT_TO_OS,Exit to OS
 UI_CONTINUE,Continue
@@ -72,12 +78,12 @@ UI_GAME_OVER,Game over
 UI_CARGO_CAPACITY,Cargo space capacity
 UI_MONEY,Credits
 UI_RESOURCE,Resource
-UI_YOUR_STOCK,Your Stock
-UI_SELL_PRICE,Sell Price
+UI_YOUR_STOCK,Your stock
+UI_SELL_PRICE,Sell price
 UI_SELL,Sell
 UI_PURCHASE,Purchase
-UI_BUY_PRICE,Buy Price
-UI_OTHER_STOCK,Ship Stock
+UI_BUY_PRICE,Buy price
+UI_OTHER_STOCK,Ship stock
 UI_RESET,Reset
 UI_ACCEPT,Accept
 UI_ADD,Add
@@ -90,10 +96,54 @@ UI_ROLE_NAME,Role name
 UI_NUMBER_OF_MEMBERS,# of members
 UI_REMOVE,Remove
 UI_HOTKEY,Hotkey
-,
-,
-,
-,
-,
+UI_HEALTH,Health
+UI_NO_MATS_REQ,No materials required
+HINT_ROTATE_LEFT,Rotate left
+HINT_ROTATE_RIGHT,Rotate right
+UI_QUARTERMASTER,Quartermaster
+UI_CAPTAIN,Captain
+UI_REG_SHIP_NAME,Registered name
+UI_SYS_MONITOR,System monitor
+UI_ALERT,Alert
+UI_CARGO,Cargo
+UI_POWER_PROVIDED,Power providing
+UI_POWER_USAGE,Power usage
+UI_STORED_POWER,Stored power
+UI_STORED_AIR,Stored air
+UI_WORK_TO_BUILD,Construction progress
+UI_AIR_PROVIDED,Air producing
+UI_FUEL,Fuel
+UI_ENTER_NAME,Enter name
+UI_AUTO_SAVE,Enable auto save
+UI_HELP,Help
+UI_GITHUB,Github
+UI_MAX_HP,Max HP
+UI_DETERIORATION,Deterioration rate
+UI_FLAMMABILITY,Flammability
+UI_MARKET_VALUE,Market value 
+UI_PRICE_MULTIPLIER,Price multiplier 
+UI_MASS,Mass 
+UI_COMFORT,Comfort
+DEFAULT_NO_NAME,No name
+DEFAULT_NO_DESCRIPTION,No description
 UNSUPPORTED_RESOLUTION,Trying to set an unsupported resolution
-DEEP_SPACE,Deep space
+UI_TOTAL_MASS,Total mass
+UI_SHIP_WEIGHT_CAP,Ship weight capacity
+UI_ZONES,Zones
+UI_ALLOW_ALL,Allow all
+UI_REMOVE_ALL,Remove all
+UI_BACKSTORY,Backstory
+UI_PROFESSION,Profession
+UI_PREVIOUS,Previous
+UI_CURRENT,Current
+UI_INFO,Info
+UI_AGE,Age
+UI_GENDER,Gender
+UI_ILLNESSES,Illnesses
+UI_INJURIES,Injuries
+UI_THIRST,Thirst
+UI_ENERGY,Energy
+UI_HUNGER,Hunger
+UI_HISTORY,History
+UI_SKILLS,Skills
+UI_STATISTICS,Statistics
