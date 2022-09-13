@@ -1,0 +1,46 @@
+{
+	"name_start" : [
+		"rotten",
+		"abandoned",
+		"rejected",
+		"roaring",
+		"angry",
+		"sacrificial",
+		"putrid",
+		"last",
+		"bold",
+		"blood",
+		"forsaken",
+		"corrupt",
+		"tainted",
+		"raven",
+		"wasted",
+		"primevil",
+		"fallen"
+	],
+
+	"name_end" : [
+		"vultures",
+		"jackals",
+		"slayers",
+		"honour",
+		"punishment",
+		"defiance",
+		"outlaws",
+		"immortals",
+		"assassins",
+		"outlaws",
+		"dynasty",
+		"hellfire",
+		"legacy",
+		"angels",
+		"damnation",
+		"rage",
+		"hounds",
+		"dragons",
+		"tyranny",
+		"ashes",
+		"vanguards",
+		"lords"
+	]
+}
