@@ -1,19 +1,22 @@
 {
-	"gender" : [
+	"gender": [
 		"male",
-		"female",
+		"female"
 	],
 
 	"game_difficulty": {
 		"default_description": "Here you can choose the difficulty of the game. The different options will effect things such as event frequency and difficulty. The amount of generated factions and how powerful or hostile these factions will be.",
 		"Timid": "This options is for those that prefer building and exploration and offers a more laid back experience.\nEvents will be less hostile and less frequent. Factions will likely be more friend than foe.",
 		"Normal": "Choosing this option ensures the game is played how the designer intended the game to be played. Events will be random offering a higher replay value.\nThings could either go really well or horribly wrong.\nFaction alignment is random.",
-		"Brutal": "Only choose this option if you want a real challenge, this is only advised for more experienced players.\nEvents will be more hostile and will occur much more frequently. Pawns will require more micro management and are more likely to become ill or depressed.\nFactions will be more foe than friend.",
+		"Brutal": "Only choose this option if you want a real challenge, this is only advised for more experienced players.\nEvents will be more hostile and will occur much more frequently. Pawns will require more micro management and are more likely to become ill or depressed.\nFactions will be more foe than friend."
 	},
 
+	"error_text_missing": "No text set.",
 	"restart_game_prompt": "You must restart the game in order for the adjusted mods to be loaded correctly.",
 	"game_over_reason_one": "All your pawns are dead and there is no one to run your ship.\nYou can either choose to leave and exit back to the main menu, or you can continue in the hope someone will rescue your ship and allow you to continue.",
-	"game_over_Reason_two": "Your ship has been blown to pieces and any survivors will slowly but surely die, floating within the cold, dark vastness of space until they run out of any air they may have left.",
+	"game_over_reason_two": "Your ship has been blown to pieces and any survivors will slowly but surely die, floating within the cold, dark vastness of space until they run out of any air they may have left.",
+
+	"scenario_default_description": "Choose your story to continue...",
 
 	"nowhere_to_drink" : "There is no where to drink from",
 	"nowhere_to_eat" : "There is no where to eat from",
@@ -32,11 +35,11 @@
 	"heat_total" : "The current heat levels compared to the\nmaximum heat levels the ship can withstand.\n\nOverall Ship Temperature: {current_temp}\nMaximum Ship Temperature: {max_temp}",
 	"gas_total" : "The amount of oxygen compared to\nthe amount of pressure.\nA healthy ship should have\naround 22%% Oxygen overall.\n\nPressure Used: {pressure_used}\nMax Pressure: {max_pressure}",
 
-	"en_health" : "This items current HP.\n\nHP: {current_hp}\nMax HP: {max_hp}",
-	"en_power_source" : "The amount of power used compared to\nthe amount available.\n\nUsed Power: {used_power}\nTotal Power: {total_power}",
-	"en_power_receiver" : "The amount of power received compared to\nthe amount needed.\n\nPower Received: {power_received}\nPower Req: {power_required}",
-	"en_battery" : "The amount of power stored compared to\nthe amount it can store.\n\nPower Stored: {power_stored}\nMax Capacity: {max_power_capacity}",
-	"en_work_to_build" : "How much work there is left\nto build this object.\n\nCurrent: {work_done}\nTotal: {work_total}",
+	"en_health" : "This items current HP.",
+	"en_power_source" : "The amount of power used compared to\nthe amount available.",
+	"en_power_receiver" : "The amount of power received compared to\nthe amount needed.",
+	"en_battery" : "The amount of power stored compared to\nthe amount it can store.",
+	"en_work_to_build" : "How much work there is left\nto build this object.",
 	"en_flag_for_deconstruction" : "This item is flagged for deconstruction.\n\nYou can cancel this by clicking here.",
 
 	"rm_max_pressure" : "The maximum pressure this room can hold.\n\nA leak in your hull will cause a loss\nof this pressure.\n\nIdeal Pressure: 100%",
@@ -75,7 +78,63 @@
 	"no_name_set": "No name set",
 	"no_description_set": "No description set",
 	"pawn_amount": "Pawn amount {amount}",
-	
+
+	"click_to_assign": "Click to assign",
+	"power_button_on": "POWER\n all on",
+	"power_button_off": "POWER\n all off",
+	"sys_ship_name_button": "The ships currently registered name. \nClick to rename this ship.",
+	"sys_captain_button": "The current captain of this ship.\nClick to assign a new captain.",
+	"sys_quartermaster_button": "The current quartermaster of this ship.\nClick to assign a new quartermaster.",
+	"sys_red_alert_button" : "Sound the alert!",
+
+	"notification_pawn_exhausted": "{pawn_name} is exhausted.",
+	"notification_pawn_dehydrated": "{pawn_name} is dehydrated.",
+	"notification_pawn_starving": "{pawn_name} is starving.",
+	"notification_pawn_suffocating": "{pawn_name} is suffocating.",
+	"notification_pawn_brain_dead": "{pawn_name} is brain dead from suffocation.",
+
+	"history_pawn_exhausted": "Exhausted and needs sleep.",
+	"history_pawn_dehydrating": "Dehydrated due to no fluids to drink.",
+	"history_pawn_starving": "Starving due to having no food to eat.",
+
+	"red_alert_started": "RED ALERT INITIATED!",
+	"red_alert_finished": "RED ALERT ENDED!",
+
+	"room_breach_sealed": "{room_name} has been sealed.",
+	"room_breached": "{room_name} has been breached.",
+	"room_destroyed": "{room_name} has been destroyed.",
+
+	"deconstruct_label": "Deconstruct",
+	"deconstruct_info": "Removes and already built entity",
+	"cancel_label": "Cancel Blueprint",
+	"cancel_info": "Cancels a blueprint",
+
+	"hint_ship_trading": "Trading requires you to have positive relations,\na Comms console,\nand someone to initiate the trade.",
+	"hint_bribe_ship": "If this ship is hostile,\nbribing them may force them to leave.",
+	"notification_no_communication_device": "You need a communication device to initiate communications!",
+	"notification_no_trade_low_relation": "Unable to trade due to low relations!",
+	"notification_no_trade_no_pawn": "There is no one to initiate a trade!",
+	"notification_no_bribe_no_pawn": "There is no one to initiate a bribe!",
+	"notification_no_bribe_no_credits": "You do not have enough credits to bribe!",
+	"notification_bribe_successful": "You're bribe was successful!",
+	"notification_bribe_unsuccessful": "You're bribe was unsuccessful!",
+	"cannot_bribe_ship": "You cannot bribe this ship",
+	"already_bribed": "This ship has already\nbeen bribed",
+	"attempt_to_bribe": "Attempt to bribe this ship\n for {bribe_amount} credits?",
+
+
+	"breathability_status": {
+		"good": "Good",
+		"high": "High",
+		"critically_high": "Critically high",
+		"dangerously_high": "Dangerously high",
+		"low": "Low",
+		"critically_low": "Critically_low",
+		"dangerously_low": "Dangerously low",
+		"suffocating": "Suffocating",
+		"toxic": "Slightly toxic",
+		"highly_toxic": "Highly toxic"
+	}
 }
 		
 						 

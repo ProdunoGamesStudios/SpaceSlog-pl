@@ -1,0 +1,89 @@
+{
+	"Pawn_Jobs": {
+		"name": "pawn_jobs"
+	},
+	"Engineer" : {
+		"title" : "Test",
+		"description" : "{pawn_name} another test."
+	},
+	"Doctor" : {
+		"title" : "Test2",
+		"description" : "{pawn_name} spent several years at medical school then served on a colony ship for a while. Now they are drifting offering {pawn_possessive} services to those in need."
+	},
+	"Marine" : {
+		"title" : "Test3",
+		"description" : "{pawn_name} knew from a young age {pawn_pronoun} wanted to serve in the military. Getting to see parts of the universe others didn't was probably one of the biggest draws."
+	},
+	"Labourer" : {
+		"title" : "Test4",
+		"description" : "Growing up an on poor rim planet is tough and education is scarce. {pawn_name} was one of the lucky ones and managed to find a career as a labourer. It's not a glamorous life but at least it is a life."
+	},
+	"Pilot" : {
+		"title" : "Test5",
+		"description" : "Joining pilot school is all {pawn_name} wanted to do. Who knew {pawn_pronoun} might actually be pretty good at it."
+	},
+	"Miner" : {
+		"title" : "Test6",
+		"description" : "Deep space mining is extremely dangerous and {pawn_name} has had {pawn_possessive} fair share of danger in the past."
+	},
+	"Veterinary" : {
+		"title" : "Veterinary",
+		"description" : "{pawn_name} grew up on a colony ship which had an over abundance of animals. Whilst others would rather try and kill them as pests. {pawn_name} would rescue them and tend to them if they were ill or injured."
+	},
+	"Scientist" : {
+		"title" : "Scientist",
+		"description" : "Scientists are needed now more than ever and {pawn_name} has leveraged this need and managed to turn it into a very profitable career."
+	},
+	"Grower" : {
+		"title" : "Grower",
+		"description" : "Spending lots of time with plants and all things organic has been {pawn_name}'s passion since a very young age."
+	},
+	"Retired" : {
+		"title" : "Retired",
+		"description" : "{pawn_name} has won the life lottery and managed to grow old, {pawn_pronoun} is now living a well deserved dose of retirement."
+	},
+	"Student" : {
+		"title" : "Student",
+		"description" : "{pawn_name} is still studying in the hopes to try and better {pawn_reflexive}, though no one really knows what for, and probably neither does {pawn_pronoun}."
+	},
+	"Professor" : {
+		"title" : "Professor",
+		"description" : "Spending lots of time in education and excelling {pawn_reflexive} has earned {pawn_name} the title of Professor."
+	},
+	"Merchant" : {
+		"title" : "Merchant",
+		"description" : "{pawn_name} has grown up from a long line of traders and decided to continue in the footsteps of {pawn_possessive} forefathers."
+	},
+	"Pirate" : {
+		"title" : "Pirate",
+		"description" : "{pawn_name} lives the life of a Pirate, salvaging anything {pawn_possessive} can, earning whatever wherever {pawn_possessive} can."
+	},
+	"Slave" : {
+		"title" : "Slave",
+		"description" : "{pawn_name} has lived a life of poverty, being sold to the highest bidder and being asked to do all manner of things. There is no telling what {pawn_pronoun} has had to endure."
+	},
+	"Slaver" : {
+		"title" : "Slaver",
+		"description" : "{pawn_name} usually travels the universe in search of poor folk to enslave and sell, or just those unlucky enough to be in the wrong place at the wrong time."
+	},
+	"BountyHunter" : {
+		"title" : "Bounty Hunter",
+		"description" : "{pawn_name} lives the life of an assassin and will hunt anything or anyone for the right price. It's not a job for everyone but it pays well."
+	},
+	"OffworldDetective" : {
+		"title" : "Offworld Detective",
+		"description" : "As as orphan {pawn_name} was raised on colony ships. Trying to survive as a youngster meant getting {pawn_reflexive} into a lot of trouble. It is this that made {pawn_reflexive} decide 'being the boot was better than receiving the boot'."
+	},
+	"PlanetDrifter" : {
+		"title" : "Planet Drifter",
+		"description" : "A Planet Drifter is less of a job and more of a way of life. {pawn_name} drifts from planet to planet picking up whatever work {pawn_pronoun} can. Sometimes {pawn_pronoun} will board a ship not even knowing where it's journey ends."
+	},
+	"Spacefarer" : {
+		"title" : "Spacefarer",
+		"description" : "{pawn_name} travels around the universe. Although this is more of a hobby than a job, {pawn_name} would probably make you believe different."
+	},
+	"Planetologist" : {
+		"title" : "Planetologist",
+		"description" : "{pawn_name} studies the ecosystems of planets. As a child {pawn_pronoun} would dream about all the different weird and wonderful rocks out there. Now {pawn_pronoun} gets to see them all first hand."
+	}
+}
