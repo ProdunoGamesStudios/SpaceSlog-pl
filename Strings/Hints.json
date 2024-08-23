@@ -1,6 +1,6 @@
 {
-    "controls": "Use W, A, S, D or the MIDDLE MOUSE BUTTON to move around. Press CTRL to move quicker.",
-    "zoom": "Use the MIDDLE MOUSE WHEEL to zoom in and out.",
+    "controls": "Użyj W, A, S, D albo ŚRODKOWY PRZYCISK MYSZY do poruszania się. Użyj CTRL by poruszać się szybciej.",
+    "zoom": "Użyj ŚRODKOWY PRZYCISK MYSZY to zoom in and out.",
     "ship_menu": "You can bring up your ship menu by pressing F5. Here you can view various statistics about your ship, change its name and see who is the captain and quartermaster.",
     "scavenge": "Search around the current area to find bits of wreckage you can scavenge from and various asteroids to mine.",
     "life_support1": "Your ship needs to be airtight and hold the correct atmosphere. You can achieve this by building a life support machine from within the build menu (F1) in the top left of the screen, select the atmosphere button then look for the correct component.",

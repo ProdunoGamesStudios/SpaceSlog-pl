@@ -1,72 +1,72 @@
 Keys,en
-UI_NOT_IMPLEMENTED,Not yet implemented
-UI_NEW_GAME,New game
-UI_LOAD_GAME,Load game
-UI_MODS,Modules
-UI_OPTIONS,Options
-UI_CREDITS,Credits
-UI_QUIT,Quit
-UI_BACK,Go back
-UI_CONFIRM,Confirm
+UI_NOT_IMPLEMENTED,Nie wdrożony jeszcze
+UI_NEW_GAME,Nowa gra
+UI_LOAD_GAME,Załaduj grę
+UI_MODS,Moduły
+UI_OPTIONS,Opcje
+UI_CREDITS,Przypisy
+UI_QUIT,Wyjdź
+UI_BACK,Wróć
+UI_CONFIRM,Zatwierdź
 UI_CREATIVE_MODE,Free build
 UI_GAME_VERSION,For game version
-UI_AUTHOR,Author
-UI_NEWS,News
+UI_AUTHOR,Autor
+UI_NEWS,Nowości
 UI_TWITTER,Twitter (X)
 UI_YOUTUBE,YouTube
 UI_DISCORD,Discord
-UI_MUSIC,Music
-UI_FORUMS,Forums
-UI_CHOOSE_STORY,Choose your story
-UI_WORLD_SEED,World seed
-UI_SKIP_STORY,Skip story text
-UI_DIFFICULTY,Difficulty
-UI_SCENARIO,Scenario
-UI_SHIPBUILDER,Ship builder
-UI_TRAITS,Traits
-UI_TIMID,Timid
-UI_NORMAL,Normal
-UI_BRUTAL,Brutal
-UI_CHOOSE_CREW,Choose your crew
-UI_AVAILABLE,Available
-UI_SELECTED,Selected
-UI_BACKSTORY,Backstory
-UI_FIRST_NAME,First name
-UI_LAST_NAME,Last name
-UI_NICKNAME,Nickname
-UI_LAWS,Laws
-UI_CHARACTERISTICS,Characteristics
-UI_MEDICAL_CONDITIONS,Medical conditions
+UI_MUSIC,Muzyka
+UI_FORUMS,Forum
+UI_CHOOSE_STORY,Wybierz swoją historię
+UI_WORLD_SEED,Ziarno generatora
+UI_SKIP_STORY,Przewiń opis
+UI_DIFFICULTY,Trudność
+UI_SCENARIO,Scenariusz
+UI_SHIPBUILDER,Budowanie statku
+UI_TRAITS,Cechy
+UI_TIMID,Nieśmiały
+UI_NORMAL,Normalny
+UI_BRUTAL,Brutalny
+UI_CHOOSE_CREW,Wybierz swoją załogę
+UI_AVAILABLE,Dostępne
+UI_SELECTED,Wybrane
+UI_BACKSTORY,Historia
+UI_FIRST_NAME,Imię 
+UI_LAST_NAME,Nazwisko
+UI_NICKNAME,Pseudonim
+UI_LAWS,Prawa
+UI_CHARACTERISTICS,Cechy
+UI_MEDICAL_CONDITIONS,Stan zdrowia
 UI_NONE,None
-UI_VOCATION,Vocation
+UI_VOCATION,Powołanie
 UI_PARTY_SKILLS,Party skills
-UI_HEADGEAR,Headgear
-UI_RANDOMISE,Randomise
-UI_OPTIONS,Options
+UI_HEADGEAR,Nakrycie głowy
+UI_RANDOMISE,Losowa gra        
+UI_OPTIONS,Opcje
 UI_GAMEPLAY,Gameplay
 UI_PAUSE_ON_ALERT,Pause on alert
 UI_SHOW_NAME_LABEL,Show name under pawns
-UI_SHOW_FPS,Show FPS
+UI_SHOW_FPS,Pokaż FPS
 UI_SHOW_CUSTOM_MOUSE,Show custom mouse cursor
 UI_ENABLE_MOUSE_SCROLL,Enable mouse scrolling
 UI_DEV_MODE,Enable developer mode
-UI_GRAPHICS,Graphics
-UI_RESOLUTION,Resolution
+UI_GRAPHICS,Grafika
+UI_RESOLUTION,Rozdzielczość
 UI_VSYNC,Enable Vsync
-UI_FULLSCREEN,Full screen
+UI_FULLSCREEN,Pełny ekran
 UI_BORDERLESS_WINDOW,Enable borderless window
-UI_SOUNDS,Sounds
+UI_SOUNDS,Dźwięk
 UI_MASTER_VOLUME,Master volume
 UI_MUSIC_VOLUME,Music volume
 UI_SOUNDS_VOLUME,Sfx volume
 UI_MENU_VOLUME,Menu volume
-UI_CLOSE,Close
-UI_CANCEL,Cancel
+UI_CLOSE,Zamknij
+UI_CANCEL,Anuluj
 UI_OK,Ok
 UI_OPEN_USER_DIR,Open user directory
-UI_SAVE_MENU,Save game
-UI_LOAD_MENU,Load game
-UI_LOAD,Load Game
+UI_SAVE_MENU,Zapisz grę
+UI_LOAD_MENU,Załaduj grę
+UI_LOAD,Załduj Grę
 UI_SAVE,New Save
 UI_OVERWRITE,Overwrite
 UI_LANGUAGE_CREDITS,Language credits
@@ -76,69 +76,69 @@ UI_SPECIES,Species
 UI_TYPE,Type
 UI_POWER,Power
 UI_TECH_LEVEL,Tech level
-UI_CREW,Crew
-UI_NAME,Name
+UI_CREW,Załoga
+UI_NAME,Imię
 UI_MORALE,Morale
 UI_STATUS,Status
-UI_ASSIGNED_ROOM,Assign room
-UI_ASSIGNED_ROLE,Assign role
-UI_CONTINUE,Continue
-UI_SAVE_LOAD,Save/Load menu
-UI_EXIT,Exit to main menu
-UI_EXIT_TO_OS,Exit to OS
-UI_CONTINUE,Continue
-UI_GAME_OVER,Game over
-UI_CARGO_CAPACITY,Cargo space capacity
+UI_ASSIGNED_ROOM,Przydziel pokój
+UI_ASSIGNED_ROLE,Przydziel zadanie
+UI_CONTINUE,Kontynuuj
+UI_SAVE_LOAD,Zapisz/Załaduj menu
+UI_EXIT,Wyjdź do menu głównego
+UI_EXIT_TO_OS,Wyjdź do OS
+UI_CONTINUE,Kontynuuj
+UI_GAME_OVER,Koniec gry
+UI_CARGO_CAPACITY,Pojemność przestrzeni ładunkowej
 UI_MONEY,Credits
-UI_RESOURCE,Resource
+UI_RESOURCE,Źródło
 UI_STARTING_ITEMS,Starting items:
-UI_YOUR_STOCK,Your stock
-UI_SELL_PRICE,Sell price
-UI_SELL,Sell
-UI_PURCHASE,Purchase
-UI_BUY_PRICE,Buy price
+UI_YOUR_STOCK,Twoje zapasy
+UI_SELL_PRICE,Cena sprzedaży
+UI_SELL,Sprzedaj
+UI_PURCHASE,Kup
+UI_BUY_PRICE,Cena kupna
 UI_TRADER_STOCK,Trader stock
 UI_TOTAL_TRADE_VALUE,Total trade value:
-UI_TRADE,Trade
-UI_PLAYER,Player
-UI_TRADER,Trader
+UI_TRADE,Handluj
+UI_PLAYER,Gracz
+UI_TRADER,Handlarz
 UI_RESET,Reset
-UI_ACCEPT,Accept
-UI_ADD,Add
-UI_TYPE_NEW_ROLE,Type your new role here
+UI_ACCEPT,Akceptuj
+UI_ADD,Dodaj
+UI_TYPE_NEW_ROLE,Wpisz swoją nową rolę w grze
 UI_SHIP_ROLES,Ship roles
 UI_JOBS,Jobs
 UI_SCHEDULE,Schedule
 UI_ADD_REMOVE_ROLES,Add/Remove roles
 UI_ROLE_NAME,Role name
 UI_NUMBER_OF_MEMBERS,# members
-UI_REMOVE,Remove
+UI_REMOVE,Usuń
 UI_HOTKEY,Hotkey
 UI_HEALTH,Health
-UI_NO_MATS_REQ,No materials required
-HINT_ROTATE_LEFT,Rotate left
-HINT_ROTATE_RIGHT,Rotate right
-UI_QUARTERMASTER,Quartermaster
-UI_CAPTAIN,Captain
-UI_REG_SHIP_NAME,Registered name
+UI_NO_MATS_REQ,Nie wymaga materiałów
+HINT_ROTATE_LEFT,Obróć w lewo
+HINT_ROTATE_RIGHT,Obróć w prawo
+UI_QUARTERMASTER,Kwatermistrz
+UI_CAPTAIN,Kapitan
+UI_REG_SHIP_NAME,Zapisane imię
 UI_SYS_MONITOR,System monitor
-UI_ALERT,Alert
-UI_CARGO,Cargo
+UI_ALERT,Alarm
+UI_CARGO,Ładunek
 UI_POWER_OUTPUT,Power output
-UI_POWER_USAGE,Power usage
+UI_POWER_USAGE,Zużycie energii
 UI_STORED_POWER,Stored power
 UI_STORED_GAS,Stored gas
 UI_MAX_STORAGE,Max storage
 UI_WORK_TO_BUILD,Construction progress
 UI_GAS_PROVIDED,Gas producing
 UI_GAS_SUPPLIED,Gas receiving
-UI_GAS_USAGE,Gas usage
+UI_GAS_USAGE,Zużycie gazu
 UI_GAS_OUTPUT,Gas output
 UI_FUEL_REQUIRED,Fuel required
-UI_FUEL,Fuel
-UI_ENTER_NAME,Enter name
-UI_AUTO_SAVE,Enable auto save
-UI_HELP,Help
+UI_FUEL,Paliwo
+UI_ENTER_NAME,Wpisz imię
+UI_AUTO_SAVE,Automatyczne zapisywanie
+UI_HELP,Pomoc
 UI_GITHUB,Github
 UI_MAX_HP,Max HP
 UI_DETERIORATION,Deterioration rate
@@ -150,67 +150,67 @@ UI_COMFORT,Comfort
 DEFAULT_NO_NAME,No name
 DEFAULT_NO_TITLE,No title
 DEFAULT_NO_DESCRIPTION,No description
-UI_DESCRIPTION,Description
+UI_DESCRIPTION,Opis
 UNSUPPORTED_RESOLUTION,Trying to set an unsupported resolution
 UI_SHIP_WEIGHT_CAP,Ship weight capacity
-UI_ZONES,Zones
-UI_ALLOW_ALL,Allow all
-UI_REMOVE_ALL,Remove all
+UI_ZONES,Strefy
+UI_ALLOW_ALL,Zezwól wszystko
+UI_REMOVE_ALL,Usuń wszystko
 UI_PROFESSION,Profession
-UI_PREVIOUS,Previous
+UI_PREVIOUS,Wcześniejsze
 UI_CURRENT,Current
 UI_INFO,Info
-UI_AGE,Age
-UI_GENDER,Gender
-UI_ILLNESSES,Illnesses
-UI_INJURIES,Injuries
-UI_HYDRATION,Hydration
-UI_ENERGY,Energy
+UI_AGE,Wiek
+UI_GENDER,Płeć
+UI_ILLNESSES,Choroby
+UI_INJURIES,Obrażenia
+UI_HYDRATION,Nawodnienie
+UI_ENERGY,Siła
 UI_FULLNESS,Fullness
 UI_HISTORY,History
 UI_SKILLS,Skills
-UI_STATISTICS,Statistics
+UI_STATISTICS,Statystyka
 UI_PRIMARY_MATERIAL,Primary material
 UI_SECONDARY_MATERIAL,Secondary material
 UI_EXPORT_SHIP_LAYOUT,Export ship layout
 UI_CURRENT_TRACK,Current track:
-UI_NEEDS,Needs
+UI_NEEDS,Potrzeby
 UI_UNIVERSE_CREATION,Universe creation
 UI_FACTIONS_AVAILABLE,Factions available 
 UI_FACTIONS_SELECTED,Factions selected
-UI_CONSTRUCTION,Construction
-UI_RESEARCH_MENU,Research
-UI_GAME_INFO,Game information
-UI_FACTIONS,Factions
-UI_FACTION,Faction
-UI_PAIN,Pain
-UI_CONSCIOUSNESS,consciousness
-UI_RESPIRATION,Respiration
-UI_PRIORITY,Priority
-UI_ROSTER,Roster
-UI_ROOMS,Rooms
-UI_EQUIPMENT,Equipment
-UI_CHOOSE_EMBLEM,Choose emblem
-UI_PICK_A_COLOUR,Pick a colour
+UI_CONSTRUCTION,Konstrukcja
+UI_RESEARCH_MENU,Szukaj
+UI_GAME_INFO,Dane gry
+UI_FACTIONS,Grupy
+UI_FACTION,Grupa
+UI_PAIN,Ból
+UI_CONSCIOUSNESS,Świadomość
+UI_RESPIRATION,Oddychanie
+UI_PRIORITY,Pierszeństwo
+UI_ROSTER,Grafik
+UI_ROOMS,Pomieszczenia
+UI_EQUIPMENT,Wyposażenie
+UI_CHOOSE_EMBLEM,Wybierz godło
+UI_PICK_A_COLOUR,Wybierz kolor
 UI_RECORDS,Records
-UI_TRADE,Trade
-UI_BRIBE,Bribe
-UI_NEGOTIATE,Negotiate
-UI_COMMUNICATE,Open communications
-UI_PREPARING_TO_LEAVE,Preparing to leave ... !
-UI_ATTEMPT_TO_BRIBE,Attempt to bribe
-UI_JOBS_PRIORITY_EXPLANATION,A lower score means a higher priority.
-UI_ANYTHING,Anything
-UI_WORK,Work`
-UI_SLEEP,Sleep
-UI_ENTERTAINMENT,Entertainment
-UI_CONTAINED_MATERIALS,Contained materials:
-UI_CROP,Crop
-UI_SEED_AMOUNT,Seeds available
-UI_INGREDIENT,Ingredients
-UI_RECIPE,Recipe
-UI_INGREDIENTS_ADDED,Ingredients added:
-UI_GAME_STATS,Game statistics
-UI_BUILDING,Building
+UI_TRADE,Handluj
+UI_BRIBE,Daj łapówkę
+UI_NEGOTIATE,Negocjuj
+UI_COMMUNICATE,Otwórz komunikacje
+UI_PREPARING_TO_LEAVE,Przygotowanie do opuszczenia... !
+UI_ATTEMPT_TO_BRIBE,Sprobuj dać łapówkę
+UI_JOBS_PRIORITY_EXPLANATION,Niższy wynik znaczy pierszeństwo.
+UI_ANYTHING,Cokolwiek
+UI_WORK,Praca
+UI_SLEEP,Spać
+UI_ENTERTAINMENT,Rozrywka
+UI_CONTAINED_MATERIALS,Zawarte materiały:
+UI_CROP,Plony
+UI_SEED_AMOUNT,Dostępne nasiona
+UI_INGREDIENT,Składniki
+UI_RECIPE,Przepis
+UI_INGREDIENTS_ADDED,Dodane składniki:
+UI_GAME_STATS,Statystyki gry
+UI_BUILDING,Budowa
 UI_SHIP_SYSTEMS,Ship systems
-UI_EXIT_SURVEY,Exit survey
+UI_EXIT_SURVEY,Wyjdź z ankiety

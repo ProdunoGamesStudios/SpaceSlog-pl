@@ -1,62 +1,34 @@
 {
-	"file_data": {
-		"name": "alerts"
-	},
-    
     "Birthday": {
-        "ref_name": "AlertRef",
         "title": "Birthday!",
-        "description": "Its time for celebration as {subject_name} reaches {pawn_possessive} {age} birthday!",
-        "alert_type": "Standard",
-        "texture_path": "res://Textures/UI/Mote/Birthday.png"
+        "description": "Its time for celebration as {subject_name} reaches {pawn_possessive} {age} birthday!"
     },
     "Death": {
-        "ref_name": "AlertRef",
         "title": "Death!",
-        "description": "{subject_name} has died {reason}",
-        "alert_type": "Standard",
-        "texture_path": "res://Textures/UI/Mote/Death.png"
+        "description": "{subject_name} has died {reason}"
     },
     "Collapsed": {
-        "ref_name": "AlertRef",
         "title": "{subject_name} needs rescuing.",
-        "description": "{subject_name} has collapsed {reason} and needs to be rescued.",
-        "alert_type": "Standard",
-        "texture_path": "res://Textures/UI/Mote/Collapsed.png"
+        "description": "{subject_name} has collapsed {reason} and needs to be rescued."
     },
     "Incapacitated": {
-        "ref_name": "AlertRef",
         "title": "{subject_name} needs rescuing.",
-        "description": "{subject_name} has been incapacitated and can no longer move.",
-        "alert_type": "Standard",
-        "texture_path": "res://Textures/UI/Mote/Incapacitated.png"
+        "description": "{subject_name} has been incapacitated and can no longer move."
     },
     "Mobile": {
-        "ref_name": "AlertRef",
         "title": "{subject_name} mobile.",
-        "description": "{subject_name} is moving again.",
-        "alert_type": "Standard",
-        "texture_path": "res://Textures/UI/Mote/Mobile.png"
+        "description": "{subject_name} is moving again."
     },
     "Fire": {
-        "ref_name": "AlertRef",
         "title": "Fire",
-        "description": "A fire has started!",
-        "alert_type": "Standard",
-        "texture_path": "res://Textures/UI/Mote/Fire.png"
+        "description": "A fire has started!"
     },
     "ShipAttacked": {
-        "ref_name": "AlertRef",
         "title": "Ship attacked.",
-        "description": "Your ship is being attacked!",
-        "alert_type": "Standard",
-        "texture_path": "res://Textures/UI/Mote/ShipAttacked.png"
+        "description": "Your ship is being attacked!"
     },
     "PawnAttacked": {
-        "ref_name": "AlertRef",
         "title": "Pawn attacked.",
-        "description": "{subject_name} is being attacked!",
-        "alert_type": "Standard",
-        "texture_path": "res://Textures/UI/Mote/General.png"
+        "description": "{subject_name} is being attacked!"
     }
 }
