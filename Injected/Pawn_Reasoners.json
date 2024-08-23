@@ -1,0 +1,24 @@
+{
+	"file_data": {
+		"name": "pawn_reasoners"
+	},
+    
+    "Basic": {
+        "ref_name": "ReasonerRef",
+        "title": "Basic Reasoner",
+        "reasoner_type": "PawnReasoner",
+        "options": [
+            "Roam", "Eat", "Sleep", "FollowAndMelee", "Drink"
+        ]
+    },
+    "Human": {
+        "ref_name": "ReasonerRef",
+        "title": "Human Reasoner",
+        "reasoner_type": "PawnReasoner",
+        "options": [
+            "Roam", "Eat", "Drink", "Clean", "Sleep", "Haul", "MoveDead", "Refuel", "Deconstruct", "HaulToPrefab", "HaulToRecipe",
+            "Build", "EquipSpacesuit", "Rescue", "UseEntertainment", "HydratePawn", "FeedPawn", "HealPawn", "HaulObstruction",
+            "Mine", "Flee", "SowPlant", "HarvestPlant", "HarvestBrew"
+        ]
+    }
+}

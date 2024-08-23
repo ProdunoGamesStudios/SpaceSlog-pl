@@ -1,0 +1,216 @@
+{
+	"file_data": {
+		"name": "sounds"
+	},
+    
+    "Thruster": {
+        "ref_name": "SoundRef",
+        "title": "Thruster",
+        "sound_path": "Resources/Sounds/Light_Thruster.wav",
+        "persist": true,
+        "fade_out": 1.0,
+        "positional": true,
+        "volume_range": "Vector2(0.7, 0.7)",
+        "distance": 1000
+    },
+    "ButtonHover": {
+        "ref_name": "SoundRef",
+        "title": "Button hover",
+        "sound_path": "res://Resources/Sounds/Button_hover.wav",
+        "one_shot": true
+    },
+    "ButtonHoverRandomPitch": {
+        "ref_name": "SoundRef",
+        "title": "Button hover",
+        "sound_path": "res://Resources/Sounds/Button_hover.wav",
+        "one_shot": true,
+        "pitch_range": "Vector2(0.9, 1.1)"
+    },
+    "ButtonClick": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Blip_select_1.wav",
+        "one_shot": true
+    },
+
+    "ButtonTab": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Tab_press.wav",
+        "one_shot": true
+    },
+    "BuildHover": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Build_hover.wav",
+        "one_shot": true
+    },
+    "BuildClick": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Build_click.wav",
+        "one_shot": true
+    },
+    "ButtonError": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/UI_cancel_cp.wav",
+        "one_shot": true
+    },
+    "AlertSound": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Alert_notification.wav",
+        "one_shot": true
+    },
+    "AlertText": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Alert_text.wav",
+        "one_shot": true
+    },
+    "PlaceObject": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Place_Object.wav",
+        "one_shot": true
+    },
+    "PlaceObjectRandomPitch": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Place_Object.wav",
+        "one_shot": true,
+        "pitch_range": "Vector2(0.9, 1.1)"
+    },
+    "PlaceObjectError": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Place_Object_Error.wav",
+        "one_shot": true
+    },
+    "PlaceMultiBuild": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Objective.wav",
+        "one_shot": true
+    },
+    "ObjectSelect": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Select.wav",
+        "one_shot": true,
+        "max_at_once": 1
+    },
+    "MultiBuildStart": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Multibuild_Start.wav",
+        "one_shot": true
+    },
+    "Draft": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Draft.wav",
+        "one_shot": true
+    },
+    "DropObject": {
+        "ref_name": "SoundRef",
+        "title": "Button click",
+        "sound_path": "res://Resources/Sounds/Drop_object.wav",
+        "one_shot": true,
+        "licence": "Taken from Dark Fantasy Studio Humble Bundle pack. - Licence http://darkfantasystudio.com/premium-licence/"
+    },
+     "DoorMedium": {
+        "ref_name": "SoundRef",
+        "title": "Door medium",
+        "sound_path": "res://Resources/Sounds/DoorMedium.wav",
+        "one_shot": true,
+        "positional": true,
+        "volume_range": "Vector2(0.1, 0.1)",
+        "distance": 600
+    },
+    "BuildWeld": {
+        "ref_name": "SoundRef",
+        "title": "Welding",
+        "sound_path": "res://Resources/Sounds/Welding.wav",
+        "persist": true,
+        "positional": true,
+        "distance": 600
+    },
+    "Explosion": {
+        "ref_name": "SoundRef",
+        "title": "Explosion",
+        "sound_path": "res://Resources/Sounds/Explosion.wav",
+        "one_shot": true,
+        "positional": true,
+        "volume_range": "Vector2(0.6, 0.6)"
+    },
+    "ArcadeMachinePlayingOne": {
+        "ref_name": "SoundRef",
+        "title": "Arcade machine playing",
+        "sound_path": "res://Resources/Sounds/ArcadeOne.wav",
+        "one_shot": true,
+        "positional": true,
+        "volume_range": "Vector2(0.2, 0.2)",
+        "distance": 700
+    },
+    "ArcadeMachinePlayingTwo": {
+        "ref_name": "SoundRef",
+        "title": "Arcade machine playing",
+        "sound_path": "res://Resources/Sounds/ArcadeTwo.wav",
+        "one_shot": true,
+        "positional": true,
+        "volume_range": "Vector2(0.2, 0.2)",
+        "distance": 700
+    },
+    "ArcadeMachineLose": {
+        "ref_name": "SoundRef",
+        "title": "Arcade machine lose",
+        "sound_path": "res://Resources/Sounds/ArcadeLose.wav",
+        "one_shot": true,
+        "positional": true,
+        "volume_range": "Vector2(0.2, 0.2)",
+        "distance": 700
+    },
+    "AlertAlarm": {
+        "ref_name": "SoundRef",
+        "title": "Alert Alarm",
+        "sound_path": "res://Resources/Sounds/AlertAlarm.wav",
+        "persist": true,
+        "positional": true,
+        "volume_range": "Vector2(0.3, 0.3)",
+        "distance": 800
+    },
+    "MiningHit": {
+        "ref_name": "SoundRef",
+        "title": "Mining hit",
+        "sound_path": "res://Resources/Sounds/MiningHit.wav",
+        "one_shot": true,
+        "max_at_once": 4,
+        "positional": true,
+        "distance": 800,
+        "pitch_range": "Vector2(0.9, 1.1)"
+    },
+    "DestroyRock": {
+        "ref_name": "SoundRef",
+        "title": "Mining hit",
+        "sound_path": "res://Resources/Sounds/DestroyRock.wav",
+        "one_shot": true,
+        "max_at_once": 3,
+        "distance": 600,
+        "positional": true,
+        "volume_range": "Vector2(0.5, 0.5)",
+        "pitch_range": "Vector2(0.9, 1.1)"
+    },
+    "SpaceWormDead": {
+        "ref_name": "SoundRef",
+        "title": "Spaceworm dead",
+        "sound_path": "res://Resources/Sounds/SpaceWormDead.wav",
+        "one_shot": true,
+        "max_at_once": 3,
+        "distance": 300,
+        "positional": true,
+        "volume_range": "Vector2(0.5, 0.5)",
+        "pitch_range": "Vector2(0.9, 1.1)"
+    }
+}

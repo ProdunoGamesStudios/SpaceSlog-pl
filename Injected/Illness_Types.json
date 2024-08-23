@@ -1,0 +1,14 @@
+{
+	"file_data": {
+		"name": "illness_types"
+	},
+
+	"General": {
+		"ref_name": "IllnessRef",
+		"title": "General"
+	},
+	"Hypoxia": {
+		"ref_name": "IllnessRef",
+		"title": "Hypoxia"
+	}
+}

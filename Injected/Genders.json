@@ -1,0 +1,29 @@
+{
+	"file_data": {
+		"name": "genders"
+	},
+	
+	"Male": {
+		"ref_name": "BaseRef",
+		"title": "male",
+		"description": "Has male reproductive organs."
+	},
+
+	"Female": {
+		"ref_name": "BaseRef",
+		"title": "female",
+		"description": "Has female reproductive organs."
+	},
+
+	"Neutral": {
+		"ref_name": "BaseRef",
+		"title": "neutral",
+		"description": "Has neither male or female reproductive organs."
+	},
+	
+	"Hermaphrodite": {
+		"ref_name": "BaseRef",
+		"title": "hermaphrodite",
+		"description": "Has male and female reproductive organs."
+	}
+}

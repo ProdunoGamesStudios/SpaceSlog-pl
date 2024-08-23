@@ -1,0 +1,113 @@
+{
+	"file_data": {
+		"name": "widgets"
+	},
+
+    "PowerReceiverSwitch": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButtonWithState",
+        "title": "Toggle power.",
+        "pressed_state_text": "Turn off. This will no longer receive power.",
+        "depressed_state_text": "Turn on. This will start to receive power if connected to a grid and there is enough supply.",
+        "texture_path": "Textures/UI/Buttons/PowerButton.png"
+    },
+    "PowerSourceSwitch": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButtonWithState",
+        "title": "Toggle power.",
+        "pressed_state_text": "Turn off. This will no longer provide power.",
+        "depressed_state_text": "Turn on. This will start to provide power to it's connected grid if it has enough supply.",
+        "texture_path": "Textures/UI/Buttons/PowerButton.png"
+    },
+    "AutoRefuel": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButtonWithState",
+        "title": "Toggle automatic refuelling.",
+        "pressed_state_text": "Turn off. Your crew will no longer automatically replenish the fuel.",
+        "depressed_state_text": "Turn on. Your crew will automatically replenish the fuel when required.",
+        "texture_path": "Textures/UI/Buttons/Auto.png"
+    },
+    "Cancel": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButton",
+        "title": "Cancel blueprint.",
+        "description": "Cancels and removes the current blueprint.",
+        "texture_path": "Textures/UI/Buttons/CancelButton.png"
+    },
+    "Deconstruct": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButtonWithState",
+        "title": "Toggle deconstruct.",
+        "pressed_state_text": "Cancel deconstruction designation.",
+        "depressed_state_text": "Designate this to be deconstructed.",
+        "texture_path": "Textures/UI/Buttons/DeconstructButton.png"
+    },
+    "Draft": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButtonWithState",
+        "title": "Toggle draft.",
+        "pressed_state_text": "Un-draft this crew member.\nThey will resume normal daily tasks by themselves.",
+        "depressed_state_text": "Draft this crew member.\nDrafted people will follow orders but will not complete normal daily tasks on there own.",
+        "texture_path": "Textures/UI/Buttons/Draft.png"
+    },
+    "DeleteZone": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButton",
+        "title": "Remove zone.",
+        "description": "Removes this zone.",
+        "texture_path": "Textures/UI/Buttons/DeconstructButton.png"
+    },
+    "ExpandZone": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButton",
+        "title": "Expand zone.",
+        "description": "Expand the size of this zone.",
+        "texture_path": "Textures/UI/Buttons/ExpandZone.png"
+    },
+    "ReduceZone": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButton",
+        "title": "Reduce zone.",
+        "description": "Reduce the size of this zone.",
+        "texture_path": "Textures/UI/Buttons/ShrinkZone.png"
+    },  
+    "ChangeColour": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButton",
+        "title": "Change colour.",
+        "description": "Change the colour of this zone.",
+        "texture_path": "Textures/UI/Buttons/ColourSwatch.png"
+    },
+    "ZoneVisibility": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButtonWithState",
+        "title": "Zone visibility.",
+        "pressed_state_text": "Click to hide this zone.",
+        "depressed_state_text": "Click to show this zone.",
+        "texture_path": "Textures/UI/Buttons/ZoneVisibility.png"
+    } ,
+    "Forbid": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButtonWithState",
+        "title": "Toggle interaction.",
+        "pressed_state_text": "Your crew cannot interact with this. Click to allow.",
+        "depressed_state_text": "Your crew can interact with this. Click to forbid.",
+        "texture_path": "Textures/UI/Widgets/Forbid.png"
+    },
+    "Mine": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButtonWithState",
+        "title": "Toggle mining.",
+        "pressed_state_text": "Cancel mining designation.",
+        "depressed_state_text": "Designate this to be mined.",
+        "texture_path": "Textures/UI/Buttons/Mining.png"
+    },
+    "Harvest": {
+        "ref_name": "WidgetRef",
+        "type": "WidgetButtonWithState",
+        "title": "Force harvest.",
+        "pressed_state_text": "Cancel forced harvest.",
+        "depressed_state_text": "Force this to be harvested.",
+        "texture_path": "Textures/UI/Buttons/Harvesting.png"
+    }
+}

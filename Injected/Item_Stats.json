@@ -1,0 +1,47 @@
+{
+	"file_data": {
+		"name": "item_stats"
+	},
+    
+    "CutProtection": {
+        "ref_name": "BaseRef",
+        "title": "Cut protection",
+        "description": "Protects the wearer from cut damage."
+    },
+
+    "CutDamage": {
+        "ref_name": "BaseRef",
+        "title": "Cut damage",
+        "description": "The amount of cut damage inflicted."
+    },
+
+    "BluntProtection": {
+        "ref_name": "BaseRef",
+        "title": "Blunt protection",
+        "description": "Protects the wearer from blunt damage."
+    },
+
+    "BluntDamage": {
+        "ref_name": "BaseRef",
+        "title": "Blunt damage",
+        "description": "The amount of blunt damage inflicted."
+    },
+
+    "RadiationProtection": {
+        "ref_name": "BaseRef",
+        "title": "Radiation protection",
+        "description": "Protects the wearer from radiation."
+    },
+
+    "HeatInsulation": {
+        "ref_name": "BaseRef",
+        "title": "Heat insulation",
+        "description": "Insulates the wearer from heat."
+    },
+    
+    "ColdInsulation": {
+        "ref_name": "BaseRef",
+        "title": "Cold insulation",
+        "description": "Insulates the wearer from the cold."
+    }
+}

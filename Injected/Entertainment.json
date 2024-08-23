@@ -1,0 +1,54 @@
+{
+    "file_data": {
+        "menu_type": "entertainment",
+        "name": "building",
+        "cache_textures": true
+    },
+
+    "ArcadeMachine": {
+        "base_class": "Building",
+        "title": "Arcade machine",
+        "description": "Can reduce stress.",
+        "movement_cost": 45,
+        "mass": 60,
+        "deterioration_rate": 10,
+        "flammability": 25,
+        "base_market_value": 500,
+        "comfort": 2,
+        "is_interactable": true,
+        "interact_type": "Play",
+        "has_interaction_cell": true,
+        "interaction_cell_offset": "Vector2i(0, 1)",
+        "skill_amount_required": 6,
+        "work_to_build": 2500,
+        "rotatable": true,
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)",
+        "materials": {
+            "use_material_colour": false,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium"
+                ],
+                "primary_mats_amount": 31,
+                "secondary_mats": [
+                    "Silicon"
+                ],
+                "secondary_mats_amount": 4
+            }
+        },
+        "health": {
+            "max_health": 120
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "texture_path": "Textures/Things/Building/Entertainment/ArcadeMachine"
+        },
+        "components": {
+            "Switchable":{},
+            "PowerReceiver": {
+                "amount_required": 65
+            }
+        }
+    }
+}

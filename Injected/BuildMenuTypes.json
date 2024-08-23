@@ -1,0 +1,53 @@
+{
+	"file_data": {
+		"name": "build_menu_types"
+	},
+    
+    "atmosphere": {
+        "ref_name": "BaseRef",
+        "title": "Atmosphere",
+        "texture_path": "res://Textures/UI/Icons/Atmosphere.png"
+    },
+
+    "cargo": {
+        "ref_name": "BaseRef",
+        "title": "Cargo",
+        "texture_path": "res://Textures/UI/Icons/Cargo.png"
+    },
+
+    "furniture": {
+        "ref_name": "BaseRef",
+        "title": "Furniture",
+        "texture_path": "res://Textures/UI/Icons/Furniture.png"
+    },
+
+    "power": {
+        "ref_name": "BaseRef",
+        "title": "Power",
+        "texture_path": "res://Textures/UI/Icons/Power.png"
+    },
+
+    "production": {
+        "ref_name": "BaseRef",
+        "title": "Production",
+        "texture_path": "res://Textures/UI/Icons/Production.png"
+    },
+
+    "structure": {
+        "ref_name": "BaseRef",
+        "title": "Structure",
+        "texture_path": "res://Textures/UI/Icons/Structure.png"
+    },
+
+    "entertainment": {
+        "ref_name": "BaseRef",
+        "title": "Entertainment",
+        "texture_path": "res://Textures/UI/Icons/Entertainment.png"
+    },
+    
+    "misc": {
+        "ref_name": "BaseRef",
+        "title": "Miscellaneous",
+        "texture_path": "res://Textures/UI/Icons/Misc.png"
+    }
+}

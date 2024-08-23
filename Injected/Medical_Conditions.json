@@ -1,0 +1,10 @@
+{
+	"file_data": {
+		"name": "medical_conditions"
+	},
+
+    "Senile" : {
+		"title" : "senile",
+		"description" : "Showing the loss of mental faculties."
+	}
+}

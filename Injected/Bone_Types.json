@@ -1,0 +1,28 @@
+{
+	"file_data": {
+		"name": "bone_types"
+	},
+	
+	"Human": {
+		"ref_name": "BonesRef",
+		"title": "Bone",
+        "description": "Made of connective tissue and specialised bone cells.",
+        "colour": "#ff0000",
+        "material": "Bone",
+		"texture_path": ""
+	},
+    "Worm": {
+		"ref_name": "BonesRef",
+		"title": "Bone",
+		"description": "Thin and brittle.",
+        "colour": "#9dc100",
+        "material": "Bone"
+	},
+    "Rodent": {
+		"ref_name": "BonesRef",
+		"title": "Bone",
+		"description": "Thin and brittle.",
+        "colour": "#ff0000",
+        "material": "Bone"
+	}
+}

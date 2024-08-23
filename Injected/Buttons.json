@@ -1,0 +1,46 @@
+{
+	"file_data": {
+		"name": "buttons"
+	},
+    
+    "CancelBlueprint": {
+        "ref_name": "BaseRef",
+        "title": "Cancel",
+        "description": "Cancels any designated work."
+    },
+    "Deconstruct": {
+        "ref_name": "BaseRef",
+        "title": "Deconstruct",
+        "description": "Removes an already built entity."
+    },
+    "DeconstructFlooringOverlay": {
+        "ref_name": "BaseRef",
+        "title": "Deconstruct flooring overlay",
+        "description": "Removes any flooring overlays such as carpets."
+    },
+    "DeconstructCables": {
+        "ref_name": "BaseRef",
+        "title": "Deconstruct cables",
+        "description": "Removes any already built cables."
+    },
+    "DeconstructDucting": {
+        "ref_name": "BaseRef",
+        "title": "Deconstruct ducting",
+        "description": "Removes an already built ducting."
+    },
+    "CancelFlooringOverlay": {
+        "ref_name": "BaseRef",
+        "title": "Cancel flooring overlay",
+        "description": "Removes any designated flooring overlay work such as carpets."
+    },
+    "CancelCables": {
+        "ref_name": "BaseRef",
+        "title": "Cancel cables",
+        "description": "Removes any designated cables."
+    },
+    "CancelDucting": {
+        "ref_name": "BaseRef",
+        "title": "Cancel ducting",
+        "description": "Removes any designated ducting."
+    }
+}

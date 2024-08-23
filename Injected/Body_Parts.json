@@ -1,0 +1,118 @@
+{
+	"file_data": {
+		"name": "body_parts"
+	},
+	
+	"torso": {
+		"ref_name": "BodyPartRef",
+		"title": "Torso"
+	},
+	"head": {
+		"ref_name": "BodyPartRef",
+		"title": "Head",
+		"damage_type": "Headbutt"
+	},
+	"jaw": {
+		"ref_name": "BodyPartRef",
+		"title": "Jaw"
+		},
+	"leg": {
+		"ref_name": "BodyPartRef",
+		"title": "Leg",
+		"damage_type": "Kick"
+	},
+	"foot": {
+		"ref_name": "BodyPartRef",
+		"title": "Foot",
+		"damage_type": "Stomp"
+	},
+	"arm": {
+		"ref_name": "BodyPartRef",
+		"title": "Arm"
+	},
+	"hand": {
+		"ref_name": "BodyPartRef",
+		"title": "Hand",
+		"damage_type": "Punch"
+	},
+	"lung": {
+		"ref_name": "BodyPartRef",
+		"title": "Lung"
+	},
+	"ribs": {
+		"ref_name": "BodyPartRef",
+		"title": "Ribs"
+	},
+	"heart": {
+		"ref_name": "BodyPartRef",
+		"title": "Heart"
+	},
+	"liver": {
+		"ref_name": "BodyPartRef",
+		"title": "Liver"
+	},
+	"teeth": {
+		"ref_name": "BodyPartRef",
+		"title": "Teeth",
+		"damage_type": "Bite"
+	},
+	"claw": {
+		"ref_name": "BodyPartRef",
+		"title": "Claw",
+		"damage_type": "Scratch"	
+	},
+	"kidney": {
+		"ref_name": "BodyPartRef",
+		"title": "Kidney"
+	},
+	"groin": {
+		"ref_name": "BodyPartRef",
+		"title": "groin"
+	},
+	"finger": {
+		"ref_name": "BodyPartRef",
+		"title": "Finger",
+		"damage_type": "Poke"		
+	},
+	"thumb": {
+		"ref_name": "BodyPartRef",
+		"title": "Thumb",
+		"damage_type": "Gouge"
+	},
+	"toe": {
+		"ref_name": "BodyPartRef",
+		"title": "Toe"
+	},
+	"neck": {
+		"ref_name": "BodyPartRef",
+		"title": "Neck"
+	},
+	"stomach": {
+		"ref_name": "BodyPartRef",
+		"title": "Stomach"
+	},
+	"intestines": {
+		"ref_name": "BodyPartRef",
+		"title": "Intestines"
+	},
+	"ear": {
+		"ref_name": "BodyPartRef",
+		"title": "Ear"
+	},
+	"nose": {
+		"ref_name": "BodyPartRef",
+		"title": "Nose"
+	},
+	"skull": {
+		"ref_name": "BodyPartRef",
+		"title": "Skull"
+	},
+	"paw": {
+		"ref_name": "BodyPartRef",
+		"title": "Paw"
+	},
+	"tail": {
+		"ref_name": "BodyPartRef",
+		"title": "Tail"
+	}
+}

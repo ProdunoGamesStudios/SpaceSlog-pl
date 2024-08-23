@@ -1,0 +1,45 @@
+{
+	"file_data": {
+		"name": "liquid_recipes"
+	},
+
+	"Water": {
+		"ref_name": "RecipeRef",
+		"title": "Water",
+        "description": "Melt ice down into water.",
+		"input": {
+            "Ice" : 1
+        },
+        "output": "Water",
+        "output_volume": 10,
+        "days_till_ready": 2,
+        "ticks_to_harvest": 450
+	},
+    "Wine": {
+		"ref_name": "RecipeRef",
+		"title": "Wine",
+        "description": "Ferment water and berries together to create wine.",
+		"input": {
+            "Water" : 8,
+            "Berries": 10
+        },
+        "output": "Wine",
+        "output_volume": 8,
+        "days_till_ready": 5,
+        "ticks_to_harvest": 550
+	},
+    "VegetableBroth": {
+		"ref_name": "RecipeRef",
+		"title": "Vegetable broth",
+        "description": "Make a tasty herb and vegetable broth.",
+		"input": {
+            "Water" : 6,
+            "RootVegetables": 8,
+            "Herbs": 6
+        },
+        "output": "VegetableBroth",
+        "output_volume": 10,
+        "days_till_ready": 0.5,
+        "ticks_to_harvest": 650
+	}
+}

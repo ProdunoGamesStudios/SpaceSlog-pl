@@ -1,0 +1,36 @@
+{
+	"file_data": {
+		"name": "item",
+        "cache_textures": true
+	},
+
+    "Barrel": {
+        "ref_name": "ItemRef",
+        "entity_class": "Barrel",
+        "title": "Barrel",
+        "description": "Used to store liquids.",
+        "mass": 0.2,
+        "merchandise": true,
+        "base_market_value": 130,
+        "max_usable": 15,
+        "slot": "item",
+        "materials": {
+			"use_material_colour": true,
+			"material_types": {
+				"primary_mats": [
+                    "Silver", 
+                    "Gold",
+                    "Logs"
+                ],
+				"primary_mats_amount": 4
+			}
+		},
+        "health": {
+			"max_health": 100
+        },
+        "graphics": {
+        	"graphics_class": "GraphicsSingle",
+            "texture_path": "Textures/Things/Assets/Barrel"
+        }
+    }
+}

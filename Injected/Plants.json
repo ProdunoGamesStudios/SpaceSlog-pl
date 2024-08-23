@@ -1,0 +1,132 @@
+{
+	"file_data": {
+		"name": "plants",
+        "cache_textures": true
+	},
+
+    "WheatPlant": {
+        "ref_name": "FloraRef",
+        "entity_class": "Flora",
+        "title": "Wheat grass",
+        "description": "Produces wheat once cultivated.",
+        "mass": 0.1,
+        "merchandise": false,
+        "base_market_value": 5,
+        "harvestable": true,
+        "life_stages": 2,
+        "days_to_grow": 25,
+        "ticks_to_harvest": 120,
+        "fertility_growth_rate": "1",
+        "crop_output": "Wheat",
+        "crop_volume": 22,
+        "seed_output": "WheatSeeds",
+        "seed_volume": 1,
+        "health": {
+			"max_health": 100
+		},
+        "graphics": {
+        	"graphics_class": "GraphicsSingle",
+            "texture_path": "Textures/Things/Environment/Plants/WheatPlant"
+        }
+    },
+    "RicePlant": {
+        "ref_name": "FloraRef",
+        "entity_class": "Flora",
+        "title": "Rice grass",
+        "description": "Produces rice once cultivated.",
+        "mass": 0.1,
+        "merchandise": false,
+        "base_market_value": 5,
+        "harvestable": true,
+        "life_stages": 2,
+        "days_to_grow": 20,
+        "ticks_to_harvest": 120,
+        "fertility_growth_rate": "1",
+        "crop_output": "Rice",
+        "crop_volume": 17,
+        "seed_output": "RiceSeeds",
+        "seed_volume": 1,
+        "health": {
+			"max_health": 100
+		},
+        "graphics": {
+        	"graphics_class": "GraphicsSingle",
+            "texture_path": "Textures/Things/Environment/Plants/RicePlant"
+        }
+    },
+    "PotatoPlant": {
+        "ref_name": "FloraRef",
+        "entity_class": "Flora",
+        "title": "Potato plant",
+        "description": "A plant that produces potato's once cultivated.",
+        "mass": 0.1,
+        "merchandise": false,
+        "base_market_value": 5,
+        "harvestable": true,
+        "life_stages": 2,
+        "days_to_grow": 13.3,
+        "ticks_to_harvest": 120,
+        "fertility_growth_rate": "1",
+        "crop_output": "Potato",
+        "crop_volume": 10,
+        "seed_output": "PotatoSeeds",
+        "seed_volume": 1,
+        "health": {
+			"max_health": 100
+		},
+        "graphics": {
+        	"graphics_class": "GraphicsSingle",
+            "texture_path": "Textures/Things/Environment/Plants/PotatoPlant"
+        }
+    },
+    "CarrotPlant": {
+        "ref_name": "FloraRef",
+        "entity_class": "Flora",
+        "title": "Carrot plant",
+        "description": "A plant that produces carrots once cultivated.",
+        "mass": 0.1,
+        "merchandise": false,
+        "base_market_value": 5,
+        "harvestable": true,
+        "life_stages": 2,
+        "days_to_grow": 11.6,
+        "ticks_to_harvest": 120,
+        "fertility_growth_rate": "1",
+        "crop_output": "RootVegetables",
+        "crop_volume": 12,
+        "seed_output": "CarrotSeeds",
+        "seed_volume": 1,
+        "health": {
+			"max_health": 100
+		},
+        "graphics": {
+        	"graphics_class": "GraphicsSingle",
+            "texture_path": "Textures/Things/Environment/Plants/CarrotPlant"
+        }
+    },
+    "HerbPlant": {
+        "ref_name": "FloraRef",
+        "entity_class": "Flora",
+        "title": "Herb plant",
+        "description": "A plant that produces herbs once cultivated.",
+        "mass": 0.1,
+        "merchandise": false,
+        "base_market_value": 5,
+        "harvestable": true,
+        "life_stages": 3,
+        "days_to_grow": 15,
+        "ticks_to_harvest": 120,
+        "fertility_growth_rate": "1",
+        "crop_output": "Herbs",
+        "crop_volume": 25,
+        "seed_output": "OnionSeeds",
+        "seed_volume": 1,
+        "health": {
+			"max_health": 100
+		},
+        "graphics": {
+        	"graphics_class": "GraphicsSingle",
+            "texture_path": "Textures/Things/Environment/Plants/HerbPlant"
+        }
+    }
+}

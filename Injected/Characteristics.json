@@ -1,0 +1,262 @@
+{
+	"file_data": {
+		"name": "characteristics"
+	},
+	
+	"LowGravity" : {
+		"ref_name": "PawnSkillRef",
+		"title" : "Prefers low gravity",
+		"description" : "Being born and raised on a colony ship, which is where {pawn_name} has spent most of {pawn_possessive} life, means {pawn_possessive} bones and muscles have become accustomed to the artificial gravity commonly found on larger ships. This gravity is relatively weak which means {pawn_name} struggles more than others in high gravity areas.",
+		"preferred_professions": ["Spacefarer", "OffworldDetective", "AnimalHandler"],
+		"base_chance": 0.8,
+		"note": "TODO."
+	},
+
+	"HighGravity" : {
+		"ref_name": "PawnSkillRef",
+		"title" : "Prefers high gravity",
+		"description" : "Years of living on a planet with a higher than usual amount of gravity has meant {pawn_name} now prefers slightly higher gravity atmospheres.",
+		"base_chance": 0.8,
+		"note": "TODO."
+	},
+
+	"Gay" : {
+		"ref_name": "PawnSkillRef",
+		"title" : "Gay",
+		"note": "Referring to relationships. TODO.",
+		"description" : "{pawn_name} prefers those of the same sex as themselves.",
+		"base_chance": 0.3
+	},
+
+	"Murderous" : {
+		"ref_name": "PawnSkillRef",
+		"title" : "Murderous",
+		"note": "For break downs, more likely to murder people. TODO.",
+		"description" : "Has been known to murder others on occasions.",
+		"preferred_professions": ["Prisoner"],
+		"base_chance": 0.5
+	},
+
+	"Ugly": {
+		"ref_name": "PawnSkillRef",
+		"title": "Ugly",
+		"note": "TODO.",
+		"description": "Not very nice to look at.",
+		"base_chance": 0.6
+	},
+
+	"Pretty": {
+		"ref_name": "PawnSkillRef",
+		"title": "Pretty",
+		"description": "Naturally easy on the eyes.",
+		"preferred_professions": ["Consor"],
+		"base_chance": 0.6,
+		"note": "TODO."
+	},
+
+	"PickPocket": {
+		"ref_name": "PawnSkillRef",
+		"title": "Pick pocket",
+		"note": "More likely to steal on a mental break. TODO.",
+		"description": "Has a disregard for a sense of ownership.",
+		"base_chance": 0.3
+	},
+
+	"Claustrophobic": {
+		"ref_name": "PawnSkillRef",
+		"note": "Negative thought for being in a spacesuit. Negative thought for confined area. TODO.",
+		"title": "Claustrophobic",
+		"description": "Dislikes confined spaces.",
+		"preferred_professions": ["Prisoner"],
+		"base_chance": 0.3
+	},
+
+	"SocialButterfly": {
+		"ref_name": "PawnSkillRef",
+		"title": "Social butterfly",
+		"note": "If in an area of another pawn, they get mood buff. TODO.",
+		"description": "Dislikes being left alone.",
+		"base_chance": 0.3
+	},
+
+	"Reclusive": {
+		"ref_name": "PawnSkillRef",
+		"title": "Reclusive",
+		"note": "Will try and take food back to room rather than find a public table. Positive thought if no one within 3 tiles. TODO.",
+		"description": "Prefers to avoid the company of others.",
+		"base_chance": 0.4
+	},
+
+	"Creative": {
+		"ref_name": "PawnSkillRef",
+		"title": "Creative",
+		"note": "beauty has a higher effect with this characteristic. TODO.",
+		"description": "Has a good eye for art and other creative activities.",
+		"base_chance": 0.5
+	},
+
+	"Ambitious": {
+		"ref_name": "PawnSkillRef",
+		"title": "Ambitious",
+		"description": "Has high aspirations for themselves.",
+		"base_chance": 0.6,
+		"effect": "Gains a bonus of 10% extra skill points. Prefers to be assigned a high ranking role."
+	},
+
+	"Fearless": {
+		"ref_name": "PawnSkillRef",
+		"title": "Fearless",
+		"note": "Related to combat. TODO.",
+		"description": "Prefers not to back down from a fight.",
+		"base_chance": 0.6
+	},
+
+	"Coward": {
+		"ref_name": "PawnSkillRef",
+		"title": "Coward",
+		"note": "Related to combat. TODO.",
+		"description": "Life has taught {pawn_name} to either run from, or actively avoid confrontation or dangerous situations.",
+		"base_chance": 0.6
+	},
+
+	"LoudSnorer": {
+		"ref_name": "PawnSkillRef",
+		"title": "Loud snorer",
+		"note": "Gives a de-buff to everyone sleeping in the same room as them. TODO.",
+		"description": "Snores extremely loud. Should probably sleep alone.",
+		"base_chance": 0.8
+	},
+
+	"Jealous": {
+		"ref_name": "PawnSkillRef",
+		"title": "Jealous",
+		"note": "Gets a debuf is others have a bigger or more beautiful room. If others in a relationship and they are not. doesn't like their other half speaking to others. TODO.",
+		"description": "Doesn't like it if others have things better than themselves.",
+		"base_chance": 0.8
+	},
+
+	"Unhygienic": {
+		"ref_name": "PawnSkillRef",
+		"title": "Unhygienic",
+		"note": "Maybe doesn't like cleaning either? Or a higher chance to not do cleaning work?",
+		"description": "Doesn't care much for personal hygiene.",
+		"preferred_professions": ["Slave"],
+		"base_chance": 0.8,
+		"effect": "Generates dirt at a quicker rate than normal."
+	},
+
+	"NeatFreak": {
+		"ref_name": "PawnSkillRef",
+		"title": "Neat freak",
+		"note": "If items are not zoned and stacked properly they get a debuf. Or if the ship is particularly dirty? Or they passed/stood in dirt? TODO.",
+		"description": "Obsessively likes things to be neat and tidy.",
+		"preferred_professions": ["Professor"],
+		"base_chance": 0.8
+	},
+	
+	"Mumbler": {
+		"ref_name": "PawnSkillRef",
+		"title": "Mumbler",
+		"note": "Pawns near him could get annoyed. If having a chat has a certain % they have a mood debuf. TODO.",
+		"description": "{pawn_name} enjoys mumbling to {pawn_possessive}, though sometimes at the annoyance of others.",
+		"base_chance": 0.8
+	},
+
+	"Depressive": {
+		"ref_name": "PawnSkillRef",
+		"title": "Depressive",
+		"note": "Always has a negative debuf.",
+		"description": "{pawn_name} suffers from a personality disorder which include worthlessness, low self esteem and joylessness.",
+		"base_chance": 0.8
+	},
+
+	"Chatterbox": {
+		"ref_name": "PawnSkillRef",
+		"title": "Chatterbox",
+		"note": "More chance of talking to a pawn then they pass them. Give higher score to chatting in ai.",
+		"description": "{pawn_name} likes to talk a lot, to which some people may find annoying but others may find comforting.",
+		"base_chance": 0.8
+	},
+
+	"Earther": {
+		"ref_name": "PawnSkillRef",
+		"title": "Earther",
+		"note": "Permanent debuf when on the ship and perm buff when on planet.",
+		"description": "Prefers living life on a planet.",
+		"base_chance": 0.8
+	},
+
+	"Spacer": {
+		"ref_name": "PawnSkillRef",
+		"title": "Spacer",
+		"note": "Perm buff if on ship, perm debuf if on planet.",
+		"description": "Prefers living life in the vastness of space.",
+		"base_chance": 0.8
+	},
+
+	"Lazy": {
+		"ref_name": "PawnSkillRef",
+		"title": "Lazy",
+		"note": "Takes longer to do anything. Take longer to regain energy when sleeping. Could even walk everywhere slower.",
+		"description": "Generally works slower than others and tends to want more sleep.",
+		"base_chance": 0.8
+	},
+
+	"HardWorker": {
+		"ref_name": "PawnSkillRef",
+		"title": "Hard worker",
+		"note": "Does work tasks quicker than normal (Decrease tick time to complete work tasks).",
+		"description": "Likes to work quicker than others.",
+		"preferred_professions": ["Slave"],
+		"base_chance": 0.8
+	},
+
+	"Nervous": {
+		"ref_name": "PawnSkillRef",
+		"title": "Nervous",
+		"note": "If performing maintenance more likely to fail the task. Accuracy reduced for shooting.",
+		"description": "Has a tendency to to let {pawn_possessive} nerves get in the way, often causing undesired outcomes.",
+		"base_chance": 0.8
+	},
+
+	"Tinkerer": {
+		"ref_name": "PawnSkillRef",
+		"title": "Tinkerer",
+		"note": "Has a chance of a higher quality when doing maintenance or building etc.",
+		"description": "For better or worse {pawn_pronoun} likes to tinker with things.",
+		"preferred_professions": ["Engineer"],
+		"base_chance": 0.8
+	},
+
+	"Greedy": {
+		"ref_name": "PawnSkillRef",
+		"title": "Greedy",
+		"note": "Gives more points to eating task in ai. Possibly has a mood buff if they are eating lots? TODO.",
+		"description": "Always wants more than everyone else.",
+		"base_chance": 0.8
+	},
+
+	"Creepy": {
+		"ref_name": "PawnSkillRef",
+		"title": "Creepy",
+		"note": "Randomly stand and watch people doing things like sleeping, eating etc. Could randomly follow people around. TODO.",
+		"description": "Makes others around them feel nervous.",
+		"base_chance": 0.8
+	},
+
+	"HighlyStrung": {
+		"ref_name": "PawnSkillRef",
+		"title": "Highly strung",
+		"description": "Reacts quickly to mood changes.",
+		"base_chance": 0.8
+	},
+
+	"Simple": {
+		"ref_name": "PawnSkillRef",
+		"title": "Simple",
+		"note": "Prefers manual labour?",
+		"description": "Not very intelligent.",
+		"effect": "Gets a permanent mood buff but gets less skill points per level.",
+		"base_chance": 0.8
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"file_data": {
+		"name": "highlights"
+	},
+    
+    "Debug": {
+        "ref_name": "HighlightRef",
+        "title": "Debug",
+        "texture_path": "Textures/UI/Designators/RoomSelector.png"
+    },
+    "Tile": {
+        "ref_name": "HighlightRef",
+        "title": "Tile",
+        "texture_path": "Textures/UI/Designators/RoomSelector.png"
+    },
+    "Edge": {
+        "ref_name": "HighlightRef",
+        "title": "Edge",
+        "texture_path": "Textures/UI/Designators/RoomHighlight.png",
+        "uses_region": true
+    },
+    "Room": {
+        "ref_name": "HighlightRef",
+        "title": "Room",
+        "texture_path": "Textures/UI/Designators/RoomHighlight.png",
+        "uses_region": true
+    },
+    "Zone": {
+        "ref_name": "HighlightRef",
+        "title": "Zone",
+        "texture_path": "Textures/UI/Designators/ZoneHighlight.png",
+        "uses_region": true
+    },
+    "Chevron": {
+        "ref_name": "HighlightRef",
+        "title": "Chevron",
+        "texture_path": "Textures/UI/Designators/Chevron.png"
+    },
+    "Blueprint": {
+        "ref_name": "HighlightRef",
+        "title": "Blueprint",
+        "texture_path": "Textures/UI/Designators/BuildHelper.png"
+    }
+}

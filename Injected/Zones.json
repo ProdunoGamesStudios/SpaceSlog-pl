@@ -1,0 +1,12 @@
+{
+	"file_data": {
+		"name": "zones"
+	},
+    
+    "Stockpile": {
+        "ref_name": "AreaRef",
+        "title": "Stockpile",
+        "description": "Place this down to store cargo.",
+        "highlight": "Zone"
+    }
+}

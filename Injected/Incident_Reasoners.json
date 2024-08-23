@@ -1,0 +1,14 @@
+{
+	"file_data": {
+		"name": "incident_reasoners"
+	},
+    
+    "Basic": {
+        "ref_name": "ReasonerRef",
+        "title": "Incident reasoner",
+        "reasoner_type": "IncidentReasoner",
+        "options": [
+            "PassingShip", "AsteroidField", "BattleDebris", "HostileCreatureAssault"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+	"file_data": {
+		"name": "incident_considerations"
+	},
+    
+    "IsShipMoving": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "ConsiderationIsShipMoving",
+        "title": "Is ship moving",
+        "description": "Is the player ship moving?"
+    },
+    "IsShipStationary": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "ConsiderationIsShipStationary",
+        "title": "Is ship stationary",
+        "description": "Is the player ship stationary?"
+    },
+    "AboveWealthThreshold": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "ConsiderationAboveWealthThreshold",
+        "title": "Is above wealth amount",
+        "description": "Is the player above this wealth amount?",
+        "wealth": 10000
+    },
+    "IsTransponderActive": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "IsTransponderActive",
+        "title": "Is transponder active",
+        "description": "Checking if the ship transponder is active."
+    }
+}

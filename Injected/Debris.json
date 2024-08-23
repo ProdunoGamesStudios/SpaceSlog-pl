@@ -1,0 +1,43 @@
+{
+	"file_data": {
+		"name": "debris",
+        "cache_textures": true
+	},
+
+    "ShipDebris": {
+        "ref_name": "BuildingRef",
+        "entity_class": "Debris",
+        "can_be_forbidden": false,
+        "skill_type_required": "Engineering",
+        "title": "Ship debris",
+        "description": "It looks like wreckage from a ship.",
+        "deconstructable": true,
+        "flammability": 10,
+        "mass": 24,
+        "movement_cost": 39,
+        "base_market_value": 50,
+        "deterioration_rate": 10,
+        "beauty": 1,
+        "comfort": 1,
+        "skill_amount_required": 1,
+        "work_to_build": 3000,
+        "is_interactable": true,
+        "draw_size": "Vector2i(4, 4)",
+        "size": "Vector2i(4, 4)",
+        "materials": {
+            "material_types": {
+                "primary_mats": [
+                    "Titanium"
+                ],
+                "primary_mats_amount": 25
+            }
+        },
+        "health": {
+            "max_health": 100
+        },
+        "graphics": {
+            "graphics_class": "GraphicsRandom",
+            "texture_path": "Textures/Things/Debris/ShipDebris"
+        }
+    }
+}

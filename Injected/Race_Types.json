@@ -1,0 +1,42 @@
+{
+	"file_data": {
+		"name": "race_types"
+	},
+	
+	"Earther": {
+		"ref_name": "RaceRef",
+		"title": "Earther",
+        "description": "A human that has spent generations on Earth.",
+        "skin": "Human",
+        "blood": "Human",
+        "bone": "Human",
+        "meat": "Human"
+	},
+	"Spacer": {
+		"ref_name": "RaceRef",
+		"title": "Spacer",
+        "description": "A human that has spent generations in space.",
+        "skin": "Human",
+        "blood": "Human",
+        "bone": "Human",
+        "meat": "Human"
+	},
+    "SpaceWorm": {
+		"ref_name": "RaceRef",
+		"title": "Space worm",
+		"description": "A large gross squishy looking worm, surprisingly tough and resilient.",
+        "skin": "Worm",
+        "blood": "Worm",
+        "bone": "Worm",
+        "meat": "Worm"
+	},
+    "Rodent": {
+		"ref_name": "RaceRef",
+		"title": "Rat",
+		"description": "A small rodent.",
+        "skin": "Rodent",
+        "blood": "Human",
+        "bone": "Human",
+        "meat": "Human"
+	}
+}

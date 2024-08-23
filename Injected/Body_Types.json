@@ -1,0 +1,73 @@
+{
+	"file_data": {
+		"name": "body_types",
+		"cache_textures": true
+	},
+	
+	"Male": {
+		"ref_name": "BodyRef",
+		"for_gender": [
+			"male"
+		],
+		"body_scale": "Vector2(0.6, 0.6)",
+		"head_position": "Vector2i(0, -60)",
+		"body_composition": "Humanoid",
+		"texture_path": "Textures/Things/Pawn/Humanoid/Bodies/Male"
+	},
+
+	"Female": {
+		"ref_name": "BodyRef",
+		"for_gender": [
+			"female"
+		],
+		"body_scale": "Vector2(0.6, 0.6)",
+		"head_position": "Vector2i(0, -60)",
+		"body_composition": "Humanoid",
+		"texture_path": "Textures/Things/Pawn/Humanoid/Bodies/Female"
+	},
+
+	"Fat": {
+		"ref_name": "BodyRef",
+		"for_gender": [
+			"male", 
+			"female"
+		],
+		"body_scale": "Vector2(0.6, 0.6)",
+		"head_position": "Vector2i(0, -60)",
+		"body_composition": "Humanoid",
+		"texture_path": "Textures/Things/Pawn/Humanoid/Bodies/Fat"
+	},
+	
+	"Thin": {
+		"ref_name": "BodyRef",
+		"for_gender": [
+			"male", 
+			"female"
+		],
+		"body_scale": "Vector2(0.6, 0.6)",
+		"head_position": "Vector2i(0, -60)",
+		"body_composition": "Humanoid",
+		"texture_path": "Textures/Things/Pawn/Humanoid/Bodies/Thin"
+	},
+
+	"Worm": {
+		"ref_name": "BodyRef",
+		"for_gender": [
+			"male", 
+			"female"
+		],
+		"body_scale": "Vector2(0.6, 0.6)",
+		"body_composition": "Worm",
+		"texture_path": "Textures/Things/Pawn/Creatures/Worm"
+	},
+	"Rat": {
+		"ref_name": "BodyRef",
+		"for_gender": [
+			"male", 
+			"female"
+		],
+		"body_scale": "Vector2(0.6, 0.6)",
+		"body_composition": "Rat",
+		"texture_path": "Textures/Things/Pawn/Creatures/Rat"
+	}
+}

@@ -1,0 +1,65 @@
+{
+    "file_data": {
+		"name": "category"
+    },
+    
+    "Wood": {
+        "ref_name": "CategoryRef",
+        "title": "Wood",
+        "Description": "",
+        "flammability_mod": 1, 
+        "toughness_mod": 0,
+        "price_multiplier": 0,
+        "comfort_multiplier": 0
+    },
+
+    "Metal": {
+        "ref_name": "CategoryRef",
+        "title": "Metal",
+        "Description": "",
+        "flammability_mod": 1,
+        "toughness_mod": 0,
+        "price_multiplier": 0,
+        "comfort_multiplier": 0
+    },
+
+    "Mineral": {
+        "ref_name": "CategoryRef",
+        "title": "Minerals",
+        "Description": "",
+        "flammability_mod": 1,
+        "toughness_mod": 0,
+        "price_multiplier": 0,
+        "comfort_multiplier": 0
+    },
+
+    "Fabric": {
+        "ref_name": "CategoryRef",
+        "title": "Fabric",
+        "Description": "",
+        "flammability_mod": 1,
+        "toughness_mod": 0,
+        "price_multiplier": 0,
+        "comfort_multiplier": 0
+    },
+
+    "Liquid": {
+        "ref_name": "CategoryRef",
+        "title": "Liquid",
+        "Description": "",
+        "flammability_mod": 1,
+        "toughness_mod": 0,
+        "price_multiplier": 0,
+        "comfort_multiplier": 0
+    },
+
+    "Solid": {
+        "ref_name": "CategoryRef",
+        "title": "Solid",
+        "Description": "",
+        "flammability_mod": 1,
+        "toughness_mod": 0,
+        "price_multiplier": 0,
+        "comfort_multiplier": 0
+    }
+}

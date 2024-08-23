@@ -1,0 +1,612 @@
+{
+    "file_data": {
+        "menu_type": "furniture",
+        "name": "building",
+        "cache_textures": true
+    },
+
+    "SleepingSpot": {
+        "base_class": "BaseBed",
+        "title": "Sleeping spot",
+        "description": "An uncomfortable rescue or sleeping spot for one humanoid.",
+        "movement_cost": 10,
+        "flammability": 100,
+        "comfort": 0.2,
+        "rest_effectiveness": 0.92,
+        "work_to_build": 0,
+        "should_show_sleeper_body": true,
+        "rotatable": true,
+        "heal_amount_per_day": 5,
+        "draw_size": "Vector2i(1, 2)",
+        "size": "Vector2i(1, 2)",
+        "health": {
+            "max_health": 45
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "texture_path": "Textures/Things/Building/Furniture/SleepingSpot"
+        }
+    },
+
+    "SleepingBag": {
+        "base_class": "BaseBed",
+        "title": "Sleeping bag",
+        "description": "An uncomfortable place for one humanoid to sleep.",
+        "movement_cost": 19,
+        "mass": 6,
+        "deterioration_rate": 10,
+        "flammability": 100,
+        "base_market_value": 15,
+        "comfort": 1,
+        "rest_effectiveness": 1.02,
+        "work_to_build": 430,
+        "rotatable": true,
+        "heal_amount_per_day": 10,
+        "draw_size": "Vector2i(1, 2)",
+        "size": "Vector2i(1, 2)",
+        "materials": {
+            "use_material_colour": true,
+            "use_secondary_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Cloth", 
+                    "Linen", 
+                    "Wool"
+                ],
+                "secondary_mats": [
+                    "RedDye", 
+                    "BlueDye", 
+                    "CharcoalDye", 
+                    "GreenDye"
+                ],
+                "primary_mats_amount": 6,
+                "secondary_mats_amount": 1
+            }
+        },
+        "health": {
+            "max_health": 45
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "texture_path": "Textures/Things/Building/Furniture/SleepingBag"
+        }
+    },
+
+    "SingleBed": {
+        "base_class": "BaseBed",
+        "title": "Single bed",
+        "description": "A comfortable place for one humanoid to sleep.",
+        "movement_cost": 45,
+        "mass": 52,
+        "deterioration_rate": 10,
+        "flammability": 90,
+        "base_market_value": 5,
+        "comfort": 2,
+        "rest_effectiveness": 1.12,
+        "work_to_build": 1500,
+        "rotatable": true,
+        "heal_amount_per_day": 20,
+        "draw_size": "Vector2i(1, 2)",
+        "size": "Vector2i(1, 2)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Logs", 
+                    "Gold"
+                ],
+                "secondary_mats": [
+                    "Cloth", 
+                    "Linen", 
+                    "Wool"
+                ],
+                "primary_mats_amount": 18,
+                "secondary_mats_amount": 4
+            }
+        },
+        "health": {
+            "max_health": 45
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "colour_two": "#7a5c23",
+            "texture_path": "Textures/Things/Building/Furniture/Bed/SingleBed"
+        }
+    },
+
+    "DoubleBed": {
+        "base_class": "BaseBed",
+        "title": "Double bed",
+        "description": "A comfortable place for two humanoids to sleep.",
+        "movement_cost": 45,
+        "mass": 80,
+        "deterioration_rate": 10,
+        "flammability": 90,
+        "base_market_value": 5,
+        "comfort": 3,
+        "rest_effectiveness": 1.2,
+        "skill_amount_required": 2,
+        "work_to_build": 3000,
+        "rotatable": true,
+        "heal_amount_per_day": 20,
+        "draw_size": "Vector2i(2, 2)",
+        "size": "Vector2i(2, 2)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Logs", 
+                    "Gold"
+                ],
+                "secondary_mats": [
+                    "Cloth", 
+                    "Linen", 
+                    "Wool"
+                ],
+                "primary_mats_amount": 32,
+                "secondary_mats_amount": 10
+            }
+        },
+        "health": {
+            "max_health": 60
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "colour_two": "#7a5c23",
+            "texture_path": "Textures/Things/Building/Furniture/Bed/DoubleBed"
+        }
+    },
+
+    "HospitalBed": {
+        "base_class": "BaseBed",
+        "title": "Single Hospital bed",
+        "description": "A comfortable place for one humanoid to rest and recover.",
+        "movement_cost": 45,
+        "mass": 52,
+        "deterioration_rate": 10,
+        "flammability": 90,
+        "base_market_value": 500,
+        "comfort": 2,
+        "skill_amount_required": 7,
+        "work_to_build": 3400,
+        "rotatable": true,
+        "heal_amount_per_day": 40,
+        "default_medical": true,
+        "draw_size": "Vector2i(1, 2)",
+        "size": "Vector2i(1, 2)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Logs", 
+                    "Gold"
+                ],
+                "secondary_mats": [
+                    "Cloth", 
+                    "Linen", 
+                    "Wool"
+                ],
+                "primary_mats_amount": 38,
+                "secondary_mats_amount": 10
+            }
+        },
+        "health": {
+            "max_health": 45
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "colour_two": "#112f66",
+            "texture_path": "Textures/Things/Building/Furniture/HospitalBed"
+        }
+    },
+
+    "CryoPod": {
+        "base_class": "CryoPod",
+        "title": "Cryo pod",
+        "description": "Freezes creatures in time, preventing ageing for as long as this item has power.",
+        "movement_cost": 45,
+        "mass": 120,
+        "deterioration_rate": 10,
+        "flammability": 40,
+        "base_market_value": 200,
+        "comfort": 1,
+        "skill_amount_required": 6,
+        "work_to_build": 3700,
+        "rotatable": true,
+        "draw_size": "Vector2i(1, 2)",
+        "size": "Vector2i(1, 2)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 42,
+                "secondary_mats": [
+                    "Silicon"
+                ],
+                "secondary_mats_amount": 12
+            }
+        },
+        "health": {
+            "max_health": 100
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "texture_path": "Textures/Things/Building/Furniture/CryoPod"
+        },
+        "components": {
+            "Switchable":{},
+        	"PowerReceiver": {
+        		"amount_required": 50
+        	}
+        }
+    },
+
+    "SmallTable": {
+        "base_class": "Building",
+        "title": "Small table",
+        "description": "A small table that is a relatively comfortable place for a humanoid to eat. At least it's better than eating off the floor.",
+        "movement_cost": 39,
+        "mass": 15,
+        "deterioration_rate": 10,
+        "flammability": 30,
+        "base_market_value": 50,
+        "comfort": 3,
+        "work_to_build": 1200,
+        "is_interactable": true,
+        "interact_type": "Ingest",
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Logs", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 14
+            }
+        },
+        "health": {
+            "max_health": 15
+        },
+        "graphics": {
+            "graphics_class": "Graphics",
+            "texture_path": "Textures/Things/Building/Furniture/SmallTable"
+        }
+    },
+
+    "MediumTable": {
+        "base_class": "Building",
+        "title": "Medium table",
+        "description": "A table that is a relatively comfortable place for a humanoid to eat. At least it's better than eating off the floor.",
+        "movement_cost": 39,
+        "mass": 20,
+        "deterioration_rate": 10,
+        "flammability": 30,
+        "base_market_value": 50,
+        "comfort": 3,
+        "skill_amount_required": 2,
+        "work_to_build": 1440,
+        "rotatable": true,
+        "is_interactable": true,
+        "interact_type": "Ingest",
+        "draw_size": "Vector2i(1, 2)",
+        "size": "Vector2i(1, 2)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Logs", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 20
+            }
+        },
+        "health": {
+            "max_health": 30
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "texture_path": "Textures/Things/Building/Furniture/MedTable"
+        }
+    },
+
+    "LargeTable": {
+        "base_class": "Building",
+        "title": "Large table",
+        "description": "A large table that is a relatively comfortable place for a humanoid to eat. At least it's better than eating off the floor.",
+        "flammability": 30,
+        "mass": 24,
+        "movement_cost": 39,
+        "base_market_value": 50,
+        "deterioration_rate": 10,
+        "beauty": 2,
+        "comfort": 3,
+        "skill_amount_required": 2,
+        "work_to_build": 2600,
+        "is_interactable": true,
+        "interact_type": "Ingest",
+        "draw_size": "Vector2i(2, 2)",
+        "size": "Vector2i(2, 2)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Logs", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 36
+            }
+        },
+        "health": {
+            "max_health": 60
+        },
+        "graphics": {
+            "graphics_class": "Graphics",
+            "texture_path": "Textures/Things/Building/Furniture/LargeTable"
+        }
+    },
+
+    "Chair": {
+        "base_class": "Building",
+        "title": "Chair",
+        "description": "A relatively comfortable place for a humanoid to sit.",
+        "rotatable": true,
+        "movement_cost": 30,
+        "mass": 6,
+        "deterioration_rate": 10,
+        "flammability": 30,
+        "base_market_value": 50,
+        "skill_amount_required": 3,
+        "comfort": 3,
+        "work_to_build": 860,
+        "is_sittable": true,
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Logs", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 12
+            }
+        },
+        "health": {
+            "max_health": 8
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "texture_path": "Textures/Things/Building/Furniture/Chair"
+        }
+    },
+
+    "Stool": {
+        "base_class": "Building",
+        "title": "Stool",
+        "description": "Marginally better than sitting on the floor.",
+        "movement_cost": 25,
+        "mass": 4,
+        "deterioration_rate": 10,
+        "flammability": 30,
+        "base_market_value": 50,
+        "comfort": 3,
+        "work_to_build": 575,
+        "is_sittable": true,
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Logs", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 8
+            }
+        },
+        "health": {
+            "max_health": 6
+        },
+        "graphics": {
+            "graphics_class": "Graphics",
+            "texture_path": "Textures/Things/Building/Furniture/Stool"
+        }
+    },
+
+    "CaptainsChair": {
+        "base_class": "Building",
+        "title": "Captains chair",
+        "description": "A chair suitable for a Captain.",
+        "rotatable": true,
+        "movement_cost": 35,
+        "mass": 46,
+        "deterioration_rate": 10,
+        "flammability": 30,
+        "base_market_value": 50,
+        "comfort": 3,
+        "skill_amount_required": 3,
+        "work_to_build": 2700,
+        "is_sittable": true,
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Logs", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 38
+            }
+        },
+        "health": {
+            "max_health": 35
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "colour_two": "#FF8C00",
+            "texture_path": "Textures/Things/Building/Furniture/CaptainsChair"
+        }
+    },
+
+    "CommandChair": {
+        "base_class": "Building",
+        "title": "Command chair",
+        "description": "A chair mostly used on the bridge.",
+        "rotatable": true,
+        "movement_cost": 35,
+        "mass": 42,
+        "deterioration_rate": 10,
+        "flammability": 30,
+        "base_market_value": 50,
+        "comfort": 3,
+        "skill_amount_required": 3,
+        "work_to_build": 2300,
+        "is_sittable": true,
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Logs", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 32
+            }
+        },
+        "health": {
+            "max_health": 28
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "colour_two": "#1D8EFF",
+            "texture_path": "Textures/Things/Building/Furniture/CommandChair"
+        }
+    },
+    
+    "FloorLight": {
+        "base_class": "Building",
+        "title": "Floor light",
+        "description": "A light that fits into the floor.",
+        "rotatable": true,
+        "movement_cost": 0,
+        "mass": 2,
+        "deterioration_rate": 15,
+        "flammability": 2,
+        "comfort": 1,
+        "skill_amount_required": 1,
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)",
+        "work_to_build": 300,
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 2,
+                "secondary_mats": [
+                    "Silicon"
+                ],
+                "secondary_mats_amount": 2
+            }
+        },
+        "health": {
+            "max_health": 100
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "texture_path": "Textures/Things/Building/Furniture/FloorLight"
+        },
+        "components": {
+            "PowerReceiver": {
+                "amount_required": 15
+            },
+            "Switchable":{},
+            "Lamp": {
+                "texture_mask_path": "Textures/Things/LightMaps/CircularLightMap.png",
+                "position": "Vector2i(32, 32)",
+                "illumination_radius": 4,
+                "max_light_intensity": 1
+            }
+        }
+    },
+
+    "AlarmFloorLight": {
+        "base_class": "Building",
+        "title": "Alarm floor light",
+        "description": "A light that fits into the floor.",
+        "rotatable": true,
+        "movement_cost": 0,
+        "mass": 2,
+        "deterioration_rate": 15,
+        "flammability": 2,
+        "comfort": 1,
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)",
+        "skill_amount_required": 3,
+        "work_to_build": 380,
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 3,
+                "secondary_mats": [
+                    "Silicon"
+                ],
+                "secondary_mats_amount": 2
+            }
+        },
+        "health": {
+            "max_health": 100
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "texture_path": "Textures/Things/Building/Furniture/FloorLight"
+        },
+        "components": {
+            "PowerReceiver": {
+                "amount_required": 15
+            },
+            "Switchable":{},
+            "Audio": {
+                "sound_ref": "AlertAlarm"
+            },
+            "AlarmLamp": {
+                "texture_mask_path": "Textures/Things/LightMaps/CircularLightMap.png",
+                "position": "Vector2i(32, 32)",
+                "illumination_radius": 5,
+                "max_light_intensity": 1,
+                "colour": "#ff0000"
+            }
+        }
+    }
+}

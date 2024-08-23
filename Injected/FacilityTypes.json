@@ -1,0 +1,22 @@
+{
+	"file_data": {
+		"name": "facility_types"
+	},
+
+    "PlayerShip": {
+        "ref_name": "BaseRef",
+        "title": "Player ship"
+    },
+    "TradeShip": {
+        "ref_name": "BaseRef",
+        "title": "Trade ship"
+    },
+    "PirateShip": {
+        "ref_name": "BaseRef",
+        "title": "Pirate ship"
+    },
+    "SlaveShip": {
+        "ref_name": "BaseRef",
+        "title": "Slave ship"
+    }
+}

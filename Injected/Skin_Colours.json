@@ -1,0 +1,131 @@
+{
+	"file_data": {
+		"name": "skin_colours"
+	},
+
+	"tone1": {
+		"ref_name": "ColourRef",
+		"title": "Tone1",
+		"colour": "#FAE7D0",
+		"for_species": ["Human"]
+	},
+
+	"tone2": {
+		"ref_name": "ColourRef",
+		"title": "Tone2",
+		"colour": "#FFCC99",
+		"for_species": ["Human"]
+	},
+
+	"tone3": {
+		"ref_name": "ColourRef",
+		"title": "Tone3",
+		"colour": "#FEB186",
+		"for_species": ["Human"]
+	},
+
+	"tone4": {
+		"ref_name": "ColourRef",
+		"title": "Tone4",
+		"colour": "#DFC183",
+		"for_species": ["Human"]
+	},
+
+	"tone5": {
+		"ref_name": "ColourRef",
+		"title": "Tone5",
+		"colour": "#CEAB69",
+		"for_species": ["Human"]
+	},
+
+	"tone6": {
+		"ref_name": "ColourRef",
+		"title": "Tone6",
+		"colour": "#B98865",
+		"for_species": ["Human"]
+	},
+
+	"tone7": {
+		"ref_name": "ColourRef",
+		"title": "Tone7",
+		"colour": "#AA724B",
+		"for_species": ["Human"]
+	},
+
+	"tone8": {
+		"ref_name": "ColourRef",
+		"title": "Tone8",
+		"colour": "#935D37",
+		"for_species": ["Human"]
+	},
+
+	"tone9": {
+		"ref_name": "ColourRef",
+		"title": "Tone9",
+		"colour": "#7B4B2A",
+		"for_species": ["Human"]
+	},
+
+	"tone10": {
+		"ref_name": "ColourRef",
+		"title": "Tone10",
+		"colour": "#C8ACA3",
+		"for_species": ["Human"]
+	},
+
+	"tone11": {
+		"ref_name": "ColourRef",
+		"title": "Tone11",
+		"colour": "#C0A183",
+		"for_species": ["Human"]
+	},
+
+	"tone12": {
+		"ref_name": "ColourRef",
+		"title": "Tone12",
+		"colour": "#C18E74",
+		"for_species": ["Human"]
+	},
+
+	"tone13": {
+		"ref_name": "ColourRef",
+		"title": "Tone13",
+		"colour": "#E8CDA8",
+		"for_species": ["Human"]
+	},
+
+	"tone14": {
+		"ref_name": "ColourRef",
+		"title": "Tone14",
+		"colour": "#CAA661",
+		"for_species": ["Human"]
+	},
+
+	"tone15": {
+		"ref_name": "ColourRef",
+		"title": "Tone15",
+		"colour": "#B58A3F",
+		"for_species": ["Human"]
+	},
+
+	"tone16": {
+		"ref_name": "ColourRef",
+		"title": "Tone16",
+		"colour": "#573719",
+		"for_species": ["Human"]
+	},
+	
+	"tone17": {
+		"ref_name": "ColourRef",
+		"title": "Tone17",
+		"colour": "#483728",
+		"for_species": ["Human", "Rat"]
+	},
+
+	"tone18": {
+		"ref_name": "ColourRef",
+		"title": "Tone17",
+		"colour": "#434343",
+		"for_species": ["Rat"]
+	}
+}

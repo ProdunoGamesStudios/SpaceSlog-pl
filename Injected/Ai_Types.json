@@ -1,0 +1,14 @@
+{
+	"file_data": {
+		"name": "ai_types"
+	},
+    
+    "Human": {
+        "ref_name": "AiTypeRef",
+        "reasoners": ["Human"]
+    },
+    "Creature": {
+        "ref_name": "AiTypeRef",
+        "reasoners": ["Basic"]
+    }
+}

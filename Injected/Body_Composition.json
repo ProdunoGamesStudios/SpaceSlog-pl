@@ -1,0 +1,434 @@
+{
+	"file_data": {
+		"name": "body_composition"
+	},
+
+    "Humanoid": {
+        "ref_name": "BodyCompRef",
+        "core": {
+            "torso": {
+                "layer": "outer",
+                "parts": {
+                    "ribs": {
+                        "layer": "inner"
+                    },
+                    "heart": {
+                        "layer": "inner"
+                    },
+                    "lung": {
+                        "title": "left lung",
+                        "layer": "inner"
+                    },
+                    "lung": {
+                        "title": "right lung",
+                        "layer": "inner"
+                    },
+                    "kidney": {
+                        "title": "left kidney",
+                        "layer": "inner"
+                    },
+                    "kidney": {
+                        "title": "right kidney",
+                        "layer": "inner"
+                    },
+                    "liver": {
+                        "layer": "inner"
+                    },
+                    "stomach" : {
+                        "layer": "inner"
+                    },
+                    "intestines": {
+                        "layer": "inner"
+                    },
+                    "neck": {
+                        "layer": "outer"
+                    },
+                    "arm": {
+                        "title": "left arm",
+                        "layer": "outer",
+                        "parts": {
+                            "hand": {
+                                "title": "left hand",
+                                "layer": "outer",
+                                "parts": {
+                                    "thumb": {
+                                        "title": "left thumb",
+                                        "layer": "outer"
+                                    },
+                                    "finger": {
+                                        "title": "left little finger",
+                                        "layer": "outer"
+                                    },
+                                    "finger": {
+                                        "title": "left fourth finger",
+                                        "layer": "outer"
+                                    },
+                                    "finger": {
+                                        "title": "left middle finger",
+                                        "layer": "outer"
+                                    },
+                                    "finger": {
+                                        "title": "left fore finger",
+                                        "layer": "outer"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "arm": {
+                        "title": "right arm",
+                        "layer": "outer",
+                        "parts": {
+                            "hand": {
+                                "title": "right hand",
+                                "layer": "outer",
+                                "parts": {
+                                    "thumb": {
+                                        "title": "right thumb",
+                                        "layer": "outer"
+                                    },
+                                    "finger": {
+                                        "title": "right little finger",
+                                        "layer": "outer"
+                                    },
+                                    "finger": {
+                                        "title": "right fourth finger",
+                                        "layer": "outer"
+                                    },
+                                    "finger": {
+                                        "title": "right middle finger",
+                                        "layer": "outer"
+                                    },
+                                    "finger": {
+                                        "title": "right fore finger",
+                                        "layer": "outer"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "head": {
+                "layer": "outer",
+                "parts": {
+                    "skull":{
+                        "layer": "outer"
+                    },
+                    "jaw": {
+                        "layer": "outer"
+                    },
+                    "teeth": {
+                        "layer": "outer"
+                    },
+                    "nose": {
+                        "layer": "outer"
+                    }
+                }
+            },
+            "groin": {
+                "layer": " outer",
+                "parts": {
+                    "leg": {
+                        "title": "left leg",
+                        "layer": "outer",
+                        "parts": {
+                            "foot": {
+                                "title": "left foot",
+                                "layer": "outer",
+                                "parts": {
+                                    "toe": {
+                                        "title": "left big toe",
+                                        "layer": "outer"
+                                    },
+                                    "toe": {
+                                        "title": "left second toe",
+                                        "layer": "outer"
+                                    },
+                                    "toe": {
+                                        "title": "left third toe",
+                                        "layer": "outer"
+                                    },
+                                    "toe": {
+                                        "title": "left fourth toe",
+                                        "layer": "outer"
+                                    },
+                                    "toe": {
+                                        "title": "left little toe",
+                                        "layer": "outer"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "leg": {
+                        "title": "right leg",
+                        "layer": "outer",
+                        "parts": {
+                            "foot": {
+                                "title": "right foot",
+                                "layer": "outer",
+                                "parts": {
+                                    "toe": {
+                                        "title": "right big toe",
+                                        "layer": "outer"
+                                    },
+                                    "toe": {
+                                        "title": "right second toe",
+                                        "layer": "outer"
+                                    },
+                                    "toe": {
+                                        "title": "right third toe",
+                                        "layer": "outer"
+                                    },
+                                    "toe": {
+                                        "title": "right fourth toe",
+                                        "layer": "outer"
+                                    },
+                                    "toe": {
+                                        "title": "right little toe",
+                                        "layer": "outer"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+
+    "Worm":{
+        "ref_name": "BodyCompRef",
+        "core": {
+            "torso": {
+                "layer": "outer",
+                "parts": {
+                    "heart": {
+                        "layer": "inner"
+                    },
+                    "stomach" : {
+                        "layer": "inner"
+                    },
+                    "intestines": {
+                        "layer": "inner"
+                    },
+                    "tail": {
+                        "layer": "outer"
+                    },
+                    "leg": {
+                        "title": "left front leg",
+                        "layer": "outer"
+                    },
+                    "leg": {
+                        "title": "left middle leg",
+                        "layer": "outer"
+                    },
+                    "leg": {
+                        "title": "left rear leg",
+                        "layer": "outer"
+                    },
+                    "leg": {
+                        "title": "right front leg",
+                        "layer": "outer"
+                    },
+                    "leg": {
+                        "title": "right middle leg",
+                        "layer": "outer"
+                    },
+                    "leg": {
+                        "title": "right rear leg",
+                        "layer": "outer"
+                    }
+                }
+            },
+            "head": {
+                "layer": "outer",
+                "parts": {
+                    "jaw": {
+                        "layer": "outer",
+                        "parts": {
+                            "teeth": {
+                                "layer": "outer"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "Rat":{
+        "ref_name": "BodyCompRef",
+        "core": {
+            "torso": {
+                "layer": "outer",
+                "parts": {
+                    "heart": {
+                        "layer": "inner"
+                    },
+                    "lung": {
+                        "title": "left lung",
+                        "layer": "inner"
+                    },
+                    "lung": {
+                        "title": "right lung",
+                        "layer": "inner"
+                    },
+                    "kidney": {
+                        "title": "left kidney",
+                        "layer": "inner"
+                    },
+                    "kidney": {
+                        "title": "right kidney",
+                        "layer": "inner"
+                    },
+                    "liver": {
+                        "layer": "inner"
+                    },
+                    "stomach" : {
+                        "layer": "inner"
+                    },
+                    "intestines": {
+                        "layer": "inner"
+                    },
+                    "tail": {
+                        "layer": "outer"
+                    },
+                    "leg": {
+                        "title": "front left leg",
+                        "layer": "outer",
+                        "parts": {
+                            "paw": {
+                                "title": "front left paw",
+                                "layer": "outer",
+                                "parts": {
+                                    "claw": {
+                                        "title": "front left claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "front left claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "front left claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "front left claw",
+                                        "layer": "outer"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "leg": {
+                        "title": "front right leg",
+                        "layer": "outer",
+                        "parts": {
+                            "paw": {
+                                "title": "front right paw",
+                                "layer": "outer",
+                                "parts": {
+                                    "claw": {
+                                        "title": "front right claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "front right claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "front right claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "front right claw",
+                                        "layer": "outer"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "leg": {
+                        "title": "rear left leg",
+                        "layer": "outer",
+                        "parts": {
+                            "paw": {
+                                "title": "rear left paw",
+                                "layer": "outer",
+                                "parts": {
+                                    "claw": {
+                                        "title": "rear left claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "rear left claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "rear left claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "rear left claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "rear left claw",
+                                        "layer": "outer"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "leg": {
+                        "title": "rear right leg",
+                        "layer": "outer",
+                        "parts": {
+                            "paw": {
+                                "title": "rear right paw",
+                                "layer": "outer",
+                                "parts": {
+                                    "claw": {
+                                        "title": "rear right claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "rear right claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "rear right claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "rear right claw",
+                                        "layer": "outer"
+                                    },
+                                    "claw": {
+                                        "title": "rear right claw",
+                                        "layer": "outer"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "head": {
+                "layer": "outer",
+                "parts": {
+                    "jaw": {
+                        "layer": "outer",
+                        "parts": {
+                            "teeth": {
+                                "layer": "outer"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

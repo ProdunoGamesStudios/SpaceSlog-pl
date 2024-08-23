@@ -1,0 +1,362 @@
+{
+    "file_data": {
+        "menu_type": "atmosphere",
+        "name": "building",
+        "cache_textures": true
+    },
+
+    "Ducting": {
+        "base_class": "Building",
+        "entity_class": "Ducting",
+        "title": "Atmospheric ducting",
+        "description": "Carries gasses.",
+        "movement_cost": 0,
+        "mass": 4,
+        "deterioration_rate": 10,
+        "flammability": 40,
+        "base_market_value": 30,
+        "comfort": 1,
+        "work_to_build": 80,
+        "builds_on_wall": true,
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium",
+                    "Gold"
+                ],
+                "primary_mats_amount": 1
+            }
+        },
+        "health": {
+            "max_health": 10
+        },
+        "graphics": {
+            "graphics_class": "GraphicsLinked",
+            "texture_path": "Textures/Things/Building/BuildingFrame/Ducting"  
+        }
+    },
+
+    "AirVent": {
+        "base_class": "Building",
+        "title": "Air vent",
+        "description": "Vents atmosphere into a room, but only if connected to an oxygen generator via ducting.",
+        "movement_cost": 1,
+        "mass": 20,
+        "deterioration_rate": 10,
+        "flammability": 40,
+        "base_market_value": 80,
+        "comfort": 1,
+        "work_to_build": 216,
+        "rotatable": true,
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium",
+                    "Gold"
+                ],
+                "primary_mats_amount": 3
+            }
+        },
+        "health": {
+            "max_health": 30
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "texture_path": "Textures/Things/Building/Production/AirVent"
+        },
+        "components": {
+            "AirReceiver":{
+                "amount_required": 1200
+            },
+            "Ventilation": {},
+            "ParticleEmitter": {
+                "particle_type": "VentingEffect",
+                "position": "Vector2i(32, 32)",
+                "particle_scale": "Vector2(1.0, 1.0)"
+            }
+        }
+    },
+
+    "LifeSupport": {
+        "base_class": "Building",
+        "title": "Life support",
+        "description": "Generates a small amount of oxygen which can be dispersed through vents, and also filters and cleans hazardous gasses and CO2 from the atmosphere.",
+        "movement_cost": 40,
+        "mass": 90,
+        "deterioration_rate": 10,
+        "flammability": 40,
+        "base_market_value": 200,
+        "comfort": 1,
+        "work_to_build": 1500,
+        "rotatable": true,
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium",
+                    "Gold"
+                ],
+                "primary_mats_amount": 12,
+                "secondary_mats": [
+                    "Silicon"
+                ],
+                "secondary_mats_amount": 6
+            }
+        },
+        "health": {
+            "max_health": 100
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "texture_path": "Textures/Things/Building/Production/LifeSupport"
+        },
+        "components": {
+            "AirSource":{
+                "air_type": "Oxygen",
+                "amount_provided": 1300
+            },
+            "AirScrubber": {
+                "gas_to_scrub": ["CarbonDioxide", "Hazardous"],
+                "amount_required": 50
+           },
+            "Ventilation": {},
+            "ConsumesFuel": {
+                "fuel_type": "Ice",
+                "burn_rate": 3,
+                "consume_fuel_only_if_powered": true,
+                "fuel_capacity": 7
+           },
+            "PowerReceiver": {
+                "amount_required": 100
+            },
+            "Switchable":{}
+        }
+    },
+
+    "OxygenGenerator": {
+        "base_class": "Building",
+        "title": "Oxygen generator",
+        "description": "Generates oxygen which can be dispersed through vents.",
+        "movement_cost": 50,
+        "mass": 90,
+        "deterioration_rate": 10,
+        "flammability": 40,
+        "base_market_value": 200,
+        "comfort": 1,
+        "skill_amount_required": 3,
+        "work_to_build": 2500,
+        "rotatable": true,
+        "draw_size": "Vector2i(2, 2)",
+        "size": "Vector2i(2, 2)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium",
+                    "Gold"
+                ],
+                "primary_mats_amount": 23,
+                "secondary_mats": [
+                    "Silicon"
+                ],
+                "secondary_mats_amount": 7
+            }
+        },
+        "health": {
+            "max_health": 100
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "texture_path": "Textures/Things/Building/Production/SmallOxygenGenerator"
+        },
+        "components": {
+            "AirSource":{
+                "air_type": "Oxygen",
+                "amount_provided": 6240
+            },
+            "ConsumesFuel": {
+                "fuel_type": "Ice",
+                "burn_rate": 3,
+                "consume_fuel_only_if_powered": true,
+                "fuel_capacity": 13
+           },
+            "PowerReceiver": {
+                "amount_required": 130
+            },
+            "Switchable":{}
+        }
+    },
+
+    "LargeOxygenGenerator": {
+        "base_class": "Building",
+        "title": "Large Oxygen generator",
+        "description": "Generates a large quantity of oxygen which can be dispersed through vents.",
+        "movement_cost": 50,
+        "mass": 130,
+        "deterioration_rate": 10,
+        "flammability": 40,
+        "base_market_value": 400,
+        "comfort": 1,
+        "skill_amount_required": 6,
+        "work_to_build": 4200,
+        "rotatable": true,
+        "draw_size": "Vector2i(2, 3)",
+        "size": "Vector2i(2, 3)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium",
+                    "Gold"
+                ],
+                "primary_mats_amount": 40,
+                "secondary_mats": [
+                    "Silicon"
+                ],
+                "secondary_mats_amount": 19
+            }
+        },
+        "health": {
+            "max_health": 200
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "texture_path": "Textures/Things/Building/Production/LargeOxygenGenerator"
+        },
+        "components": {
+            "AirSource":{
+                "air_type": "Oxygen",
+                "amount_provided": 10660
+            },
+            "ConsumesFuel": {
+                "fuel_type": "Ice",
+                "burn_rate": 3,
+                "consume_fuel_only_if_powered": true,
+                "fuel_capacity": 25
+           },
+            "PowerReceiver": {
+                "amount_required": 190
+            },
+            "Switchable":{}
+        }
+    },
+
+    "GasScrubber": {
+        "base_class": "Building",
+        "title": "Gas scrubber",
+        "description": "Filters and cleans hazardous gasses and CO2 from the atmosphere.",
+        "movement_cost": 50,
+        "mass": 90,
+        "deterioration_rate": 10,
+        "flammability": 40,
+        "base_market_value": 200,
+        "comfort": 1,
+        "skill_amount_required": 4,
+        "work_to_build": 2400,
+        "rotatable": true,
+        "draw_size": "Vector2i(2, 2)",
+        "size": "Vector2i(2, 2)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium",
+                    "Gold"
+                ],
+                "primary_mats_amount":26,
+                "secondary_mats": [
+                    "Silicon"
+                ],
+                "secondary_mats_amount": 8
+            }
+        },
+        "health": {
+            "max_health": 100
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "texture_path": "Textures/Things/Building/Production/AtmosphericScrubber"
+        },
+        "components": {
+            "ConsumesFuel": {
+                "fuel_type": "Ice",
+                "burn_rate": 12,
+                "consume_fuel_only_if_powered": true,
+                "fuel_capacity": 25
+           },
+           "AirScrubber": {
+                "gas_to_scrub": ["CarbonDioxide", "Hazardous"],
+                "amount_required": 500
+           },
+            "PowerReceiver": {
+                "amount_required": 130
+            },
+            "Switchable":{}
+        }
+    },
+
+    "OxygenTank": {
+        "base_class": "Building",
+        "title": "Oxygen tank",
+        "description": "Stores a small amount of oxygen.",
+        "rotatable": true,
+        "movement_cost": 42,
+        "mass": 60,
+        "deterioration_rate": 10,
+        "flammability": 40,
+        "base_market_value": 100,
+        "comfort": 1,
+        "skill_amount_required": 3,
+        "work_to_build": 2600,
+        "builds_on_wall": false,
+        "draw_size": "Vector2i(1, 2)",
+        "size": "Vector2i(1, 2)",
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 28,
+                "secondary_mats": [
+                    "Silicon"
+                ],
+                "secondary_mats_amount": 8
+            }
+        },
+        "health": {
+            "max_health": 80
+        },
+        "graphics": {
+            "graphics_class": "GraphicsMultiple",
+            "shader_type": "ColourMask",
+            "texture_path": "Textures/Things/Building/Production/AirTank"
+        },
+        "components": {
+            "AirStorer": {
+                "air_type": "Oxygen",
+                "max_storage": 7000,
+                "indicator_size": "Vector2(62, 16)",
+                "indicator_pos": "Vector2(24, 32)"
+            },
+            "AirSource": {
+            },
+            "AirReceiver": {
+            }
+        }
+    }
+}

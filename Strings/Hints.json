@@ -1,0 +1,14 @@
+{
+    "controls": "Use W, A, S, D or the MIDDLE MOUSE BUTTON to move around. Press CTRL to move quicker.",
+    "zoom": "Use the MIDDLE MOUSE WHEEL to zoom in and out.",
+    "ship_menu": "You can bring up your ship menu by pressing F5. Here you can view various statistics about your ship, change its name and see who is the captain and quartermaster.",
+    "scavenge": "Search around the current area to find bits of wreckage you can scavenge from and various asteroids to mine.",
+    "life_support1": "Your ship needs to be airtight and hold the correct atmosphere. You can achieve this by building a life support machine from within the build menu (F1) in the top left of the screen, select the atmosphere button then look for the correct component.",
+    "life_support2": "Remember any breaches including open doors will cause atmosphere to leak.\n\nOnce your life support has been completed, it will need to be connected to a vent via ducting and will require fuel and power.\nYou can check this by clicking on the built item to bring up the menu.",
+    "power": "Most items will require power to run which can be obtained from a power generator.\nYou will need to make sure every item is connected to the generator via cables.\nA red cable shows the connecting cable to each machine, so you need to ensure each red cable are connected together.",
+    "survival": "Your crew will require sleep, food and drink so make sure they receive plenty of each.\nYou can set work schedules for them by clicking on the roster menu (F3) at the top left of the screen. You can also give them specific roles and various other orders here.",
+    "thruster": "Once you have secured your ship and added thrusters on top of the back of your hull you are ready to start exploring.",
+    "high_burn": "To explore you will need to enter high burn, this is a high G-force manoeuvre and will propel your ship forwards.\nYou can do this by powering up your thrusters and waiting for the burn meter to fill.\n\nOnce full you can hit the BURN button.",
+    "high_burn_rules": "Once in high burn your crew cannot exit the ship due to extreme high pressures, so any external repairs or personal crew explorations will need to take place when out of high burn.\n\nRemember though that being out of high burn leaves you vulnerable whilst waiting for your burn meter to refill.",
+    "final_words": "Space is harsh and very unforgiving, expect to lose many crew members.\n\nYou should also be prepared to meet various other factions, you can view these by pressing F4."
+}

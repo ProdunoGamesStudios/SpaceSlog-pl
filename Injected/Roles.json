@@ -1,0 +1,19 @@
+{
+	"file_data": {
+		"name": "roles"
+	},
+
+    "Captain": {
+        "ref_name": "RoleRef",
+        "title": "Captain",
+        "max_members": 1,
+        "can_be_deleted": false
+    },
+
+    "Quartermaster": {
+        "ref_name": "RoleRef",
+        "title": "Quartermaster",
+        "max_members": 1,
+        "can_be_deleted": false
+    }
+}

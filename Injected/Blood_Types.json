@@ -1,0 +1,20 @@
+{
+	"file_data": {
+		"name": "blood_types"
+	},
+	
+	"Human": {
+		"ref_name": "BloodRef",
+		"title": "Blood.",
+        "description": "Thick and red.",
+        "colour": "#ff0000",
+		"dirt_type": "Blood"
+	},
+    "Worm": {
+		"ref_name": "BloodRef",
+		"title": "Blood.",
+		"description": "Green and gooey.",
+        "colour": "#9dc100",
+		"dirt_type": "Blood"
+	}
+}

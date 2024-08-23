@@ -1,147 +1,203 @@
 {
 	"game_difficulty": {
-		"default_description": "Here you can choose the difficulty of the game. The different options will effect things such as event frequency and difficulty. The amount of generated factions and how powerful or hostile these factions will be.",
-		"Timid": "This options is for those that prefer building and exploration and offers a more laid back experience.\nEvents will be less hostile and less frequent. Factions will likely be more friend than foe.",
-		"Normal": "Choosing this option ensures the game is played how the designer intended the game to be played. Events will be random offering a higher replay value.\nThings could either go really well or horribly wrong.\nFaction alignment is random.",
-		"Brutal": "Only choose this option if you want a real challenge, this is only advised for more experienced players.\nEvents will be more hostile and will occur much more frequently. Pawns will require more micro management and are more likely to become ill or depressed.\nFactions will be more foe than friend."
+		"shipbuilder": "Ship Builder",
+		"timid": "Timid",
+		"normal": "Normal",
+		"brutal": "I hate winning",
+		"default_description": "Here you can choose the difficulty of the game. The different options will effect things such as event frequency and difficulty, the amount of generated factions and how powerful or hostile these factions will be.",
+		"shipbuilder_description": "If you want to peacefully build your ship or just explore. Threats will be mostly non-existent and factions will be mostly friendly. You will have more potential trade variation and your pawns will have a permanent mood buff.",
+		"timid_description": "For those that prefer building or exploration and offers a more laid back experience. Events will be less hostile and less frequent. Factions will likely be more friend than foe.",
+		"normal_description": "Ensures the game is played how the designer intended the game to be played. Events will be randomised offering a higher replay value. Things could either go really well or horribly wrong. Faction alignment is random.",
+		"brutal_description": "Only choose this option if you want a real challenge, this is only advised for more experienced players. Events will be more hostile and will occur much more frequently. Factions will be more foe than friend."
+	},
+	"game_settings": {
+		"world_seed_description": "Here you can change the random seed for the current universe. You can then share this seed so others can play the same universe as you.",
+		"randomise_seed_button_hint": "Randomises the current seed.",
+		"seed_line_edit_hint": "Start typing to choose your own seed."
 	},
 
 	"error_text_missing": "No text set.",
-	"restart_game_prompt": "You must restart the game in order for the adjusted mods to be loaded correctly.",
-	"game_over_pawns_dead": "All your pawns are dead and there is no one to run your ship.\nYou can either choose to leave and exit back to the main menu, or you can continue in the hope someone will rescue your ship and allow you to continue.",
-	"game_over_ship_blown": "Your ship has been blown to pieces and any survivors will slowly but surely die, \nfloating within the cold, dark vastness of space until they either run out of any air they may have left, \nor succumb to the cold or radiation. \nYou can either choose to leave and exit back to the main menu, or you can continue in hope of some miracle.",
+	"restart_game_prompt": "You must restart the game for the adjusted mods to be loaded correctly.",
+	"game_over_pawns_dead": "All your pawns are dead and there is no one left to run your ship.\nYou can either choose to leave and exit back to the main menu, or you can continue in the hope someone will rescue your ship and allow you to continue.",
+	"game_over_ship_blown": "Your ship has been blown to pieces and any survivors will surely die, floating in the cold, dark vastness of space, \nwatching their air and energy levels slowly decrease to zero.\nYou can either choose to leave and exit back to the main menu, or you can continue in hope of some miracle.",
+	"quit_confirm": "Are you sure? If you quit now you will lose any unsaved progress.",
+
+	"skill_required": "Skill required",
+	"fertility": "Fertility",
+	"requires": "Requires",
+	"prefab": "prefab",
 
 	"scenario_default_description": "Choose your story to continue...",
+	"select": "Select",
+	"deselect": "De-select",
 	"delete_game": "Delete this saved game",
 
-	"nowhere_to_drink" : "There is no where to drink from",
-	"nowhere_to_eat" : "There is no where to eat from",
-	"nowhere_to_sleep" : "Need colonist beds",
-	"nothing_to_drink" : "There is nothing to drink",
-	"nothing_to_eat" : "There is nothing to eat",
+	"ship_arrived": "The {ship_name} is now in comms range",
+	"various_items_selected": "Various selected",
 
-	"ship_left" : "The {ship_name} has left comms range",
-	"ship_arrived" : "The {ship_name} is now in comms range",
-	"various_items_selected" : "Various selected {amount}",
+	"cargo_space_data": "Cargo space.\n\nCargo Space Used: {space_used}\nTotal Space Available: {space_available}",
+	"hull_total": "The total current hull health compared to the maximum possible.",
+	"shield_total": "Shield HP: {current_hp}\nMax shield HP {max_hp}",
+	"power_total": "The amount of power used compared to\nthe amount available.\n\nTotal Used Power: {power_used}{unit}\nTotal Power Available: {total_power}{unit}",
+	"stored_power_total": "The amount of power stored compared to\nthe amount of storage available.\n\nTotal Stored Power: {current_stored}{unit}\nTotal Storage Available: {total_storage}{unit}",
+	"heat_total": "Overall average temperature of this facility: {current_temp}{unit}.\nA higher temperature means a higher chance for fires to start.",
+	"atmosphere_total": "The overall breathable air compared to\nthe maximum internal pressure.",
+	"gas_total": "The amount of gas used compared to\nthe amount available.\n\nTotal Used Gas: {gas_used}{unit}\nTotal Gas Available: {total_gas}{unit}",
+	"stored_gas_total": "The amount of gas stored compared to\nthe amount of storage available.\n\nTotal Stored Gas: {current_stored}{unit}\nTotal Storage Available: {total_storage}{unit}",
+	
+	"en_health": "This items current HP.",
+	"en_power_source": "The amount of power added to the grid\ncompared to the amount available.",
+	"en_power_receiver": "The amount of power taken from the grid\ncompared to the amount needed.",
+	"en_battery": "The amount of power stored compared to\nthe amount it can store.",
+	"en_work_to_build": "How much work there is left\nto build this object.",
+	"flag_for_deconstruction": "Cancel deconstruction request.",
+	"flag_for_deconstruction_cancel": "Request this item to be deconstructed.",
+	"cancel_blueprint": "Cancel this blueprint.",
 
-	"cargo_space_data" : "Cargo space.\n\nCargo Space Used: {space_used}\nTotal Space Available: {space_available}",
-	"hull_total" : "The current hull health.\n\nHull HP: {current_hp}\nMax Hull HP: {max_hp}",
-	"shield_total" : "Shield HP: {current_hp}\nMax shield HP {max_hp}",
-	"power_total" : "The amount of power used compared to\nthe amount available.\n\nTotal Used Power: {power_used}W\nTotal Power Available: {total_power}W",
-	"stored_total" : "The amount of power stored compared to\nthe amount of storage available.\n\nTotal Stored Power: {current_stored}Wd\nTotal Storage Available: {total_storage}Wd",
-	"heat_total" : "The current heat levels compared to the\nmaximum heat levels the ship can withstand.\n\nOverall Ship Temperature: {current_temp}\nMaximum Ship Temperature: {max_temp}",
-	"gas_total" : "The amount of oxygen compared to\nthe amount of pressure.\nA healthy ship should have\naround 22%% Oxygen overall.\n\nPressure Used: {pressure_used}\nMax Pressure: {max_pressure}",
+	"faction_backstory": "A species of {species} known as {name}. {description} {laws} {traits}",
 
-	"en_health" : "This items current HP.",
-	"en_power_source" : "The amount of power used compared to\nthe amount available.",
-	"en_power_receiver" : "The amount of power received compared to\nthe amount needed.",
-	"en_battery" : "The amount of power stored compared to\nthe amount it can store.",
-	"en_work_to_build" : "How much work there is left\nto build this object.",
-	"flag_for_deconstruction" : "Cancel deconstruction request.",
-	"flag_for_deconstruction_cancel" : "Request this item to be deconstructed.",
-	"cancel_blueprint" : "Cancel this blueprint.",
+	"room_panel": {
+		"oxygen_pressure": "The current oxygen pressure in this room.",
+		"carbon_dioxide_pressure": "The current carbon dioxide pressure in this room.",
+		"hazardous_gas_pressure": "The current amount of hazardous gas in this room.",
+		"breached": "Room Breached - Losing atmosphere",
+		"sealed": "Room Sealed"
+	},
 
-	"rm_max_pressure" : "The maximum pressure this room can hold.\n\nA leak in your hull will cause a loss\nof this pressure.\n\nIdeal Pressure: 100%",
-	"rm_oxygen_pressure" : "The current oxygen pressure in this room.\n\nIdeal Pressure: 20%",
-	"rm_carbon_dioxide_pressure" : "The current carbon dioxide pressure in this room.\n\nIdeal Pressure: 0%",
-	"rm_hazardous_gas_pressure" : "The current amount of hazardous gas in this room.\n\nIdeal Pressure: 0%",
-	"rm_inert_gas_pressure" : "The current amount of inert gasses in this room.\n\nIdeal Pressure: 80%",
-	"rm_breached" : "Room Breached - Slowly losing atmosphere",
-	"rm_sealed" : "Room Sealed",
+	"character_panel": {
+		"health": "How much health this creature has.",
+		"mood": "This creatures current mood.",
+		"atmosphere": "This creatures breathable status.",
+		"gas_tank_level": "How much air the currently equipped gas tank has remaining.",
+		"facility_label": "of {facility_name}"
+	},
 
-	"pm_health" : "How much health this creature has.\nOnce it reaches zero this creature will die.",
-	"pm_mood" : "This creatures current mood.",
-	"pm_atmosphere" : "This creatures breathable status.",
+	"object_panel" : {
+		"fuel_type_required": "Current fuel amount.\n\nFuel required: {fuel}.",
+		"air_source": "The amount of gas being produced.",
+		"air_receiver": "The amount of gas receiving.",
+		"stored_air": "The amount of gas currently stored.",
+		"stored_power": "The amount of power currently stored.",
+		"growth_percent": "{growth}% grown",
+		"ready_to_harvest": "Ready to harvest",
+		"mature": "Mature"
+	},
 
-	"mm_morale" : "Mood reflects this creatures frame of mind.\n\nIf this gets too low then this creature may decide\nto ignore commands or far worse.",
-	"mm_hunger" : "Hunger relates to the amount of solids this creature\nhas consumed recently.\n\nOnce this reaches zero the creature will start\nto loose health and eventually die.",
-	"mm_thirst" : "Thirst relates to the amount of fluids this creature\nhas consumed recently.\n\nOnce this reaches zero the creature will start\nto loose health and eventually die.",
-	"mm_energy" : "Energy relates to the amount of energy this creature\ncan exert before becoming exhausted.\n\nSleeping will increase energy.",
+	"morale_panel": {
+		"morale": "{percentage}%\n\nMood reflects this creatures frame of mind.\n\nIf this gets too low then this creature may decide\nto ignore commands or far worse.",
+		"hunger": "{percentage}%\n\nHunger relates to the amount of solids this creature\nhas consumed recently.",
+		"thirst": "{percentage}%\n\nThirst relates to the amount of fluids this creature\nhas consumed recently.",
+		"energy": "{percentage}%\n\nEnergy relates to the amount of energy this creature\ncan exert before becoming exhausted."
+	},
 
-	"systems_alarm_button" : "Sound the alarm. Red Alert: Everyone get back to the ship!",
-	"systems_power_button" : "Turn all the ships power on or off.",
-	"game_date" : "Space Date: Hours, Days, Years",
-	"pause" : "Pause",
-	"normal_speed" : "1X speed",
-	"fast" : "3X speed",
-	"faster" : "5X speed",
+	"equipment_panel": {
+		"encumbrance": "Encumbrance",
+		"temperature_range": "The range of temperature this creature feels most comfortable.",
+		"durability": "Total durability of all items equipped.",
+		"rad_defence": "Total radiation defence.",
+		"cut_attack": "Total cutting attack.",
+		"blunt_attack": "Total blunt attack.",
+		"cut_defence": "Total cut defence.",
+		"blunt_defence": "Total blunt defence."
+	},
 
-	"ship_cannot_afford_this": "This ship cannot afford to buy this!",
-	"player_not_enough_credits": "You do not have enough credits to buy this!",
-	"player_not_enough_cargo_space": "You do not have cargo space to buy this!",
-	"ship_trading_with": "Trading with The {ship_name}",
-	"joined_crew": "{pawn_name} has joined your crew",
-	"left_crew": "{pawn_name} has left your crew",
+	"crew_panel": {
+		"always_try_wear_spacesuit": "Select to ensure this character will always try and wear a full spacesuit if available.",
+		"allow_removal_of_helmet": "Select to allow this character to remove their helmet whenever possible."
+	},
+
+	"equipment_slots": {
+		"carrying": "Carrying",
+		"armour": "Armour",
+		"weapon": "Weapon",
+		"headgear": "Headgear",
+		"body_under": "Body Under",
+		"legs": "Legs",
+		"footwear": "Footwear",
+		"offhand": "Offhand",
+		"body_over": "Body Over",
+		"utility": "Utility",
+		"hands": "Hands"
+	},
+
+	"priorities": {
+		"low": "Low",
+		"medium": "Medium",
+		"high": "High"
+	},
+
+	"context" :{
+		"schedule": "schedule"
+	},
+
+	"systems_alarm_button": "Sound the alarm. Red Alert!",
+	"systems_power_button": "Turn all the ships power on or off.",
+	"black_alert": "Black Alert: Everyone get back to the ship!",
+	"jump_to_high_burn": "Propel to high burn. Warning: Doing so will leave everything in this sector behind.",
+	"drop_from_high_burn": "Drop from high burn. Doing so will leave you vulnerable to your surroundings.\nYou will also need to recharge your burn meter.",
+	"high_burn_meter": "To enter high burn, the ship thrusters have to charge and the cabin within the ship has to pressurise.\nThis is determined by the amount of thrusters currently being powered.\nOnce completed you can enter high burn.\n\nCurrent charge: {current}\nCharge required: {max}",
+	"pause": "Pause",
+	"normal_speed": "1X speed",
+	"fast": "3X speed",
+	"faster": "5X speed",
+
+	"ship_communicating_with": "Facility: The {ship_name}",
 	"pawn_initiated_trade": "{pawn_name} has initiated trade with a social skill of {skill_level}",
 
-	"no_name_set": "No name set",
-	"no_description_set": "No description set",
-	"pawn_amount": "Pawn amount {amount}",
+	"no_name_set": "No name set.",
+	"no_description_set": "No description set.",
+	"pawn_amount": "{amount} members.",
 
 	"click_to_assign": "Click to assign",
-	"power_button_on": "POWER\n all on",
-	"power_button_off": "POWER\n all off",
+	"power_button_on": "all on",
+	"power_button_off": "all off",
 	"sys_ship_name_button": "The ships currently registered name. \nClick to rename this ship.",
 	"sys_captain_button": "The current captain of this ship.\nClick to assign a new captain.",
 	"sys_quartermaster_button": "The current quartermaster of this ship.\nClick to assign a new quartermaster.",
 	"sys_red_alert_button" : "Sound the alert!",
 
-	"notification_pawn_exhausted": "{pawn_name} is exhausted.",
-	"notification_pawn_dehydrated": "{pawn_name} is dehydrated.",
-	"notification_pawn_starving": "{pawn_name} is starving.",
-	"notification_pawn_suffocating": "{pawn_name} is suffocating.",
-	"notification_pawn_brain_dead": "{pawn_name} is brain dead from suffocation.",
-
-	"history_pawn_exhausted": "Exhausted and needs sleep.",
-	"history_pawn_dehydrating": "Dehydrated due to no fluids to drink.",
-	"history_pawn_starving": "Starving due to having no food to eat.",
-
-	"red_alert_started": "RED ALERT INITIATED!",
-	"red_alert_finished": "RED ALERT ENDED!",
-
-	"room_breach_sealed": "{room_name} has been sealed.",
-	"room_breached": "{room_name} has been breached.",
-	"room_destroyed": "{room_name} has been destroyed.",
-
-	"deconstruct_label": "Deconstruct",
-	"deconstruct_info": "Removes an already built entity.",
-	"cancel_label": "Cancel",
-	"cancel_info": "Cancels any designated work.",
-
-	"hint_ship_trading": "Trading requires you to have positive relations,\na Comms console,\nand someone to initiate the trade.",
-	"hint_bribe_ship": "If this ship is hostile,\nbribing them may force them to leave.",
-	"notification_no_communication_device": "You need a communication device to initiate communications!",
-	"notification_no_trade_low_relation": "Unable to trade due to low relations!",
-	"notification_no_trade_no_pawn": "There is no one to initiate a trade!",
-	"notification_no_bribe_no_pawn": "There is no one to initiate a bribe!",
-	"notification_no_bribe_no_credits": "You do not have enough credits to bribe!",
-	"notification_bribe_successful": "You're bribe was successful!",
-	"notification_bribe_unsuccessful": "You're bribe was unsuccessful!",
-	"cannot_bribe_ship": "You cannot bribe this ship",
-	"already_bribed": "This ship has already\nbeen bribed",
-	"attempt_to_bribe": "Attempt to bribe this ship\n for {bribe_amount} credits?",
-
-	"seconds": "seconds",
-	"minutes": "minutes",
-	"hours": "hours",
-	"days": "days",
+	"facility_panel": {
+		"faction_info": "{ship_type} of {faction}",
+		"bribe_info": "Bribing a ship could increase your relations with the faction they belong to. If they are hostile and you are successful they may decide to leave rather than take offensive action. Be warned though that a failed bribe attempt could have catastrophic consequences.",
+		"ship_left": "The {ship_name} has left comms range",
+		"no_communication_device": "You need a communication device to initiate communications!",
+		"no_pawn_to_communicate": "There is no one to open communications.",
+		"no_trade_low_relation": "Unable to trade due to low relations!",
+		"no_trade_no_pawn": "There is no one to initiate a trade.",
+		"no_bribe_no_pawn": "There is no one to initiate a bribe.",
+		"no_bribe_no_credits": "You cannot afford to do this!",
+		"bribe_successful": "Your bribe was successful!",
+		"bribe_unsuccessful": "Your bribe was unsuccessful!",
+		"ship_cannot_afford_this": "This trader cannot afford to buy this!",
+		"player_not_enough_credits": "You do not have enough credits to buy this!",
+		"hint_ship_trading": "Trading requires you to have positive relations, a Comms console, and someone to initiate the trade.",
+		"hint_bribe_ship": "If this ship is hostile, bribing them may force them to leave.",
+		"cannot_bribe_ship": "You cannot bribe this ship",
+		"already_bribed": "This ship has already been bribed",
+		"attempt_to_bribe": "You can attempt to bribe this ship for {bribe_amount} credits."
+	},
 
 	"incapable_performing_skill": "Incapable of performing this skill",
 	"level": "Level",
 	"total_experience": "Total experience",
 	"experience_next_level": "Experience for next level",
-	"pawn_levelled_up": "{pawn_name} has reached level {level} in {skill}.",
 
 	"disable_flooring_button": "Enables the selection of flooring.",
+	"click_to_center": "Click here to jump to the subject.",
 
 	"door_opening": "Opening",
 	"door_open": "Open",
 	"door_closing": "Closing",
 	"door_closed": "Closed",
-	"battery_discharge_efficiency": "{efficiency}% Efficiency - discharging {power_draw}wd.",
+	"battery_discharge_efficiency": "{efficiency}% Efficiency - discharging {power_draw}{unit}.",
 
 	"kilogram_unit": "kg",
+	"tonne_unit": "T",
 	"money_unit": "cr",
+	"watt_days_unit": "Wd",
+	"watt_unit": "W",
+	"litres_unit": "L",
+	"litre_days_unit": "LPD",
 
 	"durability": "Durability",
 	"body_covered": "Body parts covered",
@@ -162,19 +218,50 @@
 	"zone_name": "Zone name",
 	"nickname": "Nickname",
 
-	"equipment_slots": {
-		"gear": "Gear",
-		"armour": "Armour",
-		"weapon": "Weapon",
-		"headgear": "Head Gear",
-		"body_under": "Body Under",
-		"legs": "Legs",
-		"offhand": "Offhand",
-		"body_over": "Body Over",
-		"utility": "Utility"
+	"mod_game_version": "For game version",
+	"mod_author": "Author",
+
+	"reducing_mood": "Reducing mood by",
+	"increasing_mood": "Increasing mood by",
+	"lasting_for": "Lasting for",
+
+	"fatal_error_files_missing_or_corrupt": "FATAL ERROR: Files missing or corrupt needed to run the game. {message}. Shutting down! - please check for file or folder typo's or re-download the files and report a bug with your log data.",
+
+	"nowhere_to_drink": "There is nowhere for your crew to drink from",
+	"nowhere_to_eat": "There is nowhere for your crew to eat from",
+	"nowhere_to_sleep": "There are no available beds for your crew to sleep in",
+	"nothing_to_drink": "Your crew has nothing to drink",
+	"nothing_to_eat": "Your crew has nothing to eat",
+
+	"history": {
+		"joined_crew": "Joined your crew."
+	},
+
+	"notification": {
+		"exhausted": "{pawn_name} is exhausted.",
+		"dehydrated": "{pawn_name} is dehydrated.",
+		"starving": "{pawn_name} is starving.",
+		"suffocating": "{pawn_name} is suffocating.",
+		"brain_dead": "{pawn_name} is brain dead from suffocation.",
+		"joined_crew": "{pawn_name} has joined your crew",
+		"left_crew": "{pawn_name} has left your crew",
+		"pawn_levelled_up": "{pawn_name} has reached level {level} in {skill}.",
+		"room_breach_sealed": "{room_name} has been sealed.",
+		"room_breached": "{room_name} has been breached.",
+		"room_destroyed": "{room_name} has been destroyed.",
+		"ran_out_of_fuel": "A {entity} has ran out of fuel.",
+		"red_alert_started": "RED ALERT INITIATED!",
+		"red_alert_finished": "RED ALERT ENDED!",
+		"nothing_to_cancel": "There is nothing to cancel here.",
+		"cannot_deconstruct_here": "Cannot deconstruct here.",
+		"unable_to_build_here": "Unable to build here.",
+		"build_transponder_first": "You must build a transponder before you can build this.",
+		"unable_to_place_zone_here": "Unable to place a zone here.",
+		"no_path_nearby": "There is no path nearby to move to."
 	},
 
 	"breathability_status": {
+		"excellent": "Excellent",
 		"good": "Good",
 		"high": "High",
 		"critically_high": "Critically high",
@@ -191,7 +278,13 @@
 		"powering_up": "Powering Up.....",
 		"powering_down": "Powering Down.....",
 		"booting_systems": "Booting Systems.....",
-		"restarting_systems": "Restarting Systems....."
+		"restarting_systems": "Restarting Systems.....",
+		"building_core_data": "Building core data.",
+		"building_module_data": "Building module data.",
+		"building_textures": "Building textures.",
+		"world_grid_ready": "World grid ready.",
+		"loading_game_world": "Loading game world.",
+		"generating_initial_room": "Generating initial room."
 	},
 
 	"relation_text": {
@@ -209,7 +302,25 @@
 		"other_possessive": "their",
 		"male_reflexive": "himself",
 		"female_reflexive": "herself",
-		"other_reflexive": "themself"
+		"other_reflexive": "themself",
+		"male_reflexive_short": "him",
+		"female_reflexive_short": "her",
+		"other_reflexive_short": "them"
+	},
+
+	"date": {
+		"st": "st",
+		"nd": "nd",
+		"rd": "rd",
+		"th": "th",
+		"month_1": "first third",
+		"month_2": "mid third",
+		"month_3": "last third",
+		"time_display": "Space Date: {hours} hour on the {day} of the {month} of {year}.",
+		"seconds": "seconds",
+		"minutes": "minutes",
+		"hours": "hours",
+		"days": "days"
 	},
 
 	"default": {
@@ -218,8 +329,8 @@
 
 	"backstory": {
 		"health_state": "is a {health_status}",
-		"joined_crew": "Joined your crew on {date}",
-		"age_status": "is a {age} years old"
+		"joined_crew": "{pawn_name} joined your crew on the {day} of the {month} of {year}.",
+		"age_gender_and_species_status": "is a {species} {gender} and was born on the {day} of the {month} of {year}, which makes {pawn_reflexive_short} {age} years of age"
 	},
 
 	"debug": {
@@ -229,6 +340,25 @@
 		"remove_item": "Remove item",
 		"remove_all_items": "Remove all items",
 		"auto_build": "Auto build"
+	},
+
+	"state_text": {
+		"maintenance": "Performing maintenance",
+		"cleaning": "Cleaning",
+		"dead": "Dead",
+		"sleeping": "Sleeping",
+		"snoozing": "Snoozing",
+		"idle": "Idle",
+		"awaiting_orders": "Awaiting orders",
+		"collapsed": "Collapsed"
+	},
+
+	"priority": {
+		"will_not_do_it": "Will not do this task",
+		"low": "Low priority",
+		"medium": "Medium priority",
+		"high": "High priority",
+		"highest": "Top priority"
 	}
 }
 		

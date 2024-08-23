@@ -1,0 +1,238 @@
+{
+	"file_data": {
+		"name": "pawn_considerations"
+	},
+    
+    "Hungry": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasNeed",
+        "title": "Is hungry",
+        "description": "Am i hungry?",
+        "response_curve": "PolyLowerRight",
+        "component_needed": "Hunger"
+    },
+    "Thirsty": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasNeed",
+        "title": "Is thirsty",
+        "description": "Am i thirsty?",
+        "response_curve": "PolyLowerRight",
+        "component_needed": "Thirst"
+    },
+    "Tired": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasNeed",
+        "title": "Is tired",
+        "description": "Am i tired?",
+        "response_curve": "PolyLowerRightEnergy",
+        "component_needed": "Energy"
+    },
+    "HasFood": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasFood",
+        "title": "Has food available",
+        "description": "Is there food available?"
+    },
+    "HasDrink": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasDrink",
+        "title": "Has drink available",
+        "description": "Is there anything to drink available?"
+    },
+    "Fallback": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "Fallback",
+        "title": "Fallback",
+        "description": "This is just a fallback for when we have nothing else to do."
+    },
+    "HasPrefab": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasPrefab",
+        "title": "Something needs building",
+        "description": "Does anything need building?"
+    },
+    "HasDirt": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasDirt",
+        "title": "Something needs cleaning",
+        "description": "Is there any dirt to clean?"
+    },
+    "ThingToHaul": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "ThingToHaul",
+        "title": "Something needs hauling",
+        "description": "Checking if there is there anything to haul."
+    },
+    "NeedsMatsPrefab": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "NeedsMatsPrefab",
+        "title": "Has materials",
+        "description": "Checking if we have the required materials."
+    },
+    "NeedsMatsRecipe": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "NeedsMatsRecipe",
+        "title": "Has materials",
+        "description": "Checking if we have the required materials."
+    },
+    "HasDeconstruction": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasDeconstruction",
+        "title": "Something needs deconstructing",
+        "description": "Is there anything to deconstruct?"
+    },
+    "HasMineable": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasMineable",
+        "title": "Something needs mining",
+        "description": "Is there anything to mine?"
+    },
+    "SomewhereToSleep": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "SomewhereToSleep",
+        "title": "Has somewhere to sleep",
+        "description": "Checking if there is somewhere to sleep."
+    },
+    "PawnNeedsRescue": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "PawnNeedsRescue",
+        "title": "A Pawn needs rescuing",
+        "description": "Checking if a pawn needs to be rescued."
+    },
+    "HasMedicalBed": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasMedicalBed",
+        "title": "Has somewhere to rest and heal",
+        "description": "Checking if there is somewhere to rest and heal."
+    },
+    "Greedy": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasCharacteristic",
+        "characteristic_type": "Greedy",
+        "title": "Is greedy",
+        "description": "Am I considered greedy.",
+        "add": true
+    },
+    "SomewhereToRoam": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "SomewhereToRoam",
+        "title": "Has somewhere to roam",
+        "description": "Is there somewhere to roam to?"
+    },
+    "MyHealth": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "MyHealth",
+        "title": "My health",
+        "description": "Checking my health.",
+        "response_curve": "ReverseLinear"
+    },
+    "TargetHealth": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "TargetHealth",
+        "title": "Targets health",
+        "description": "Checking targets health.",
+        "response_curve": "ReverseLinear"
+    },
+    "ThingNeedsRefuelling": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "ThingNeedsRefuelling",
+        "title": "Something needs refuelling",
+        "description": "Checking if something needs to be refilled with fuel.",
+        "response_curve": "ReverseLinear"
+    },
+    "DeadPawn": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "IsDeadPawn",
+        "title": "A dead pawn needs moving",
+        "description": "Checking if we have a dead pawn that needs to be disposed of."
+    },
+    "EquipSpacesuit": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "Variable",
+        "title": "Needs to equip a spacesuit",
+        "description": "Checking if we need to equip a spacesuit.",
+        "variable": "always_try_equip_space_suit",
+        "boolean": true
+    },
+    "HasFullPressuredSuit": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasFullPressuredSuit",
+        "title": "Has full pressured suit",
+        "description": "Checking if we already have a full pressured suit equipped."
+    },
+    "IsCaptain": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasRole",
+        "role": "Captain",
+        "title": "Is captain",
+        "description": "Am I a captain?"
+    },
+    "HasEntertainment": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasEntertainment",
+        "title": "Has some entertainment to play.",
+        "description": "Checking if we have some entertainment to play."
+    },
+    "PawnNeedsHealing": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "NeedsTendHeal",
+        "title": "A pawn needs healing",
+        "description": "Checking if a pawn needs healing."
+    },
+    "PawnNeedsFeeding": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "NeedsTendFeed",
+        "title": "A pawn needs feeding",
+        "description": "Checking if a pawn needs feeding."
+    },
+    "PawnNeedsHydrating": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "NeedsTendHydrate",
+        "title": "A pawn needs hydrating",
+        "description": "Checking if a pawn needs hydrating."
+    },
+    "PrefabObstruction": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "PrefabHasObstruction",
+        "title": "An obstruction needs moving",
+        "description": "Checking if an obstruction needs moving."
+    },
+    "Aggroed": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "Variable",
+        "title": "Are we aggroed?",
+        "description": "Checking if we are aggroed.",
+        "variable": "aggroed",
+        "boolean": true
+    },
+    "HasAttackTarget": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "HasAttackTarget",
+        "title": "Do we have a target to attack?",
+        "description": "Trying to find a target to attack."
+    },
+    "IsHostileEnemyNearby": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "IsHostileEnemyNearby",
+        "title": "Is there an enemy close by?",
+        "description": "Checking if an enemy is close by."
+    },
+    "SomethingToSow": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "SomethingToSow",
+        "title": "Is there something to sow?",
+        "description": "Checking if there is something to sow."
+    },
+    "SomethingToHarvest": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "SomethingToHarvest",
+        "title": "Is there something to harvest?",
+        "description": "Checking if there is something to harvest."
+    },
+    "SomethingToHarvestRecipe": {
+        "ref_name": "ConsiderationRef",
+        "consideration_type": "SomethingToHarvestRecipe",
+        "title": "Is there a recipe finished to harvest?",
+        "description": "Checking if there is a finished recipe."
+    }
+}

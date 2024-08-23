@@ -1,0 +1,215 @@
+{
+	"file_data": {
+		"name": "emblem_symbols"
+	},
+
+    "symbol_1": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_1.png",
+        "tags": ["Banditry"],
+        "can_rotate": false
+    },
+    
+    "symbol_2": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_2.png",
+        "tags": ["Banditry"],
+        "can_rotate": false
+    },
+    
+    "symbol_3": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_3.png",
+        "tags": ["Militar"],
+        "can_rotate": false
+    },
+    
+    "symbol_4": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_4.png",
+        "tags": ["Militar"],
+        "can_rotate": false
+    },
+    
+    "symbol_5": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_5.png",
+        "tags": ["Mechanical"],
+        "can_rotate": false
+    },
+    
+    "symbol_6": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_6.png",
+        "tags": ["Mechanical"],
+        "can_rotate": false
+    },
+    
+    "symbol_7": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_7.png",
+        "tags": ["Science"],
+        "can_rotate": false
+    },
+    
+    "symbol_8": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_8.png",
+        "tags": ["Science"],
+        "can_rotate": false
+    },
+    
+    "symbol_9": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_9.png",
+        "tags": ["Cannibalism"],
+        "can_rotate": false
+    },
+    
+    "symbol_10": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_10.png",
+        "tags": ["Cannibalism"],
+        "can_rotate": false
+    },
+    
+    "symbol_11": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_11.png",
+        "tags": ["Exploration"],
+        "can_rotate": false
+    },
+    
+    "symbol_12": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_12.png",
+        "tags": ["Exploration"],
+        "can_rotate": false
+    },
+    
+    "symbol_13": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_13.png",
+        "tags": ["Expansionist"],
+        "can_rotate": false
+    },
+    
+    "symbol_14": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_14.png",
+        "tags": ["Expansionist"],
+        "can_rotate": false
+    },
+    
+    "symbol_15": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_15.png",
+        "tags": ["Mining"],
+        "can_rotate": false
+    },
+    
+    "symbol_16": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_16.png",
+        "tags": ["Mining"],
+        "can_rotate": false
+    },
+    
+    "symbol_17": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_17.png",
+        "tags": ["Commerce", "Capitalist"],
+        "can_rotate": false
+    },
+    
+    "symbol_18": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_18.png",
+        "tags": ["Commerce", "Capitalist"],
+        "can_rotate": false
+    },
+    
+    "symbol_19": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_19.png",
+        "tags": ["Rebellious"],
+        "can_rotate": false
+    },
+    
+    "symbol_20": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_20.png",
+        "tags": ["Rebellious"],
+        "can_rotate": false
+    },
+    
+    "symbol_21": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_21.png",
+        "tags": ["Slavery"],
+        "can_rotate": false
+    },
+    
+    "symbol_22": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_22.png",
+        "tags": ["Slavery"],
+        "can_rotate": false
+    },
+    
+    "symbol_23": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_23.png",
+        "tags": ["Farming"],
+        "can_rotate": false
+    },
+    
+    "symbol_24": {
+        "ref_name": "EmblemRef",
+        "texture_path": "Textures/Emblems/Symbols/symbol_24.png",
+        "tags": ["Farming"],
+        "can_rotate": false
+    },
+    
+    "symbol_25": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_25.png",
+        "tags": ["Psychotic"],
+        "can_rotate": false
+    },
+    
+    "symbol_26": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_26.png",
+        "tags": ["Psychotic"],
+        "can_rotate": false
+    },
+    
+    "symbol_27": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_27.png",
+        "tags": ["Obtruder"],
+        "can_rotate": false
+    },
+    
+    "symbol_28": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_28.png",
+        "tags": ["Obtruder"],
+        "can_rotate": false
+    },
+    
+    "symbol_29": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_29.png",
+        "tags": ["Unassimilable"],
+        "can_rotate": false
+    },
+    
+    "symbol_30": {
+        "ref_name": "EmblemRef",
+        "texture_path": "res://Textures/Emblems/Symbols/symbol_30.png",
+        "tags": ["Unassimilable"],
+        "can_rotate": false
+    }
+}

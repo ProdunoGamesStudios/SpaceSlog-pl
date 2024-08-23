@@ -1,0 +1,158 @@
+{
+	"file_data": {
+		"name": "asteroids",
+        "cache_textures": true
+	},
+
+
+    "SmallRockAsteroid": {
+        "ref_name": "EntityRef",
+        "entity_class": "Asteroid",
+        "title": "Asteroid",
+        "description": "May contain precious resources.",
+        "skill_type_required": "Mining",
+        "skill_amount_required": 0,
+        "can_be_forbidden": false,
+        "deconstructable": false,
+        "mineable": true,
+        "mass": 24,
+        "movement_cost": 1,
+        "is_interactable": true,
+        "draw_size": "Vector2i(2, 2)",
+        "size": "Vector2i(2, 2)",
+        "mineable_asset": "Rock",
+        "mining_yield": "3",
+        "health": {
+            "max_health": 2000
+        },
+        "graphics": {
+            "graphics_class": "GraphicsRandom",
+            "texture_path": "Textures/Things/Debris/SmallAsteroid"
+        }
+    },
+    "LargeRockAsteroid": {
+        "ref_name": "EntityRef",
+        "entity_class": "Asteroid",
+        "title": "Asteroid",
+        "description": "May contain precious resources.",
+        "skill_type_required": "Mining",
+        "skill_amount_required": 0,
+        "can_be_forbidden": false,
+        "deconstructable": false,
+        "mineable": true,
+        "mass": 50,
+        "movement_cost": 1,
+        "is_interactable": true,
+        "draw_size": "Vector2i(4, 4)",
+        "size": "Vector2i(4, 4)",
+        "mineable_asset": "Rock",
+        "mining_yield": "6",
+        "health": {
+            "max_health": 4000
+        },
+        "graphics": {
+            "graphics_class": "GraphicsRandom",
+            "texture_path": "Textures/Things/Debris/LargeAsteroid"
+        }
+    },
+    "SmallIceAsteroid": {
+        "ref_name": "EntityRef",
+        "entity_class": "Asteroid",
+        "title": "Asteroid",
+        "description": "May contain precious resources.",
+        "skill_type_required": "Mining",
+        "skill_amount_required": 0,
+        "can_be_forbidden": false,
+        "deconstructable": false,
+        "mineable": true,
+        "mass": 24,
+        "movement_cost": 1,
+        "is_interactable": true,
+        "draw_size": "Vector2i(2, 2)",
+        "size": "Vector2i(2, 2)",
+        "mineable_asset": "Ice",
+        "mining_yield": "1",
+        "health": {
+            "max_health": 2000
+        },
+        "graphics": {
+            "graphics_class": "GraphicsRandom",
+            "texture_path": "Textures/Things/Debris/SmallAsteroid"
+        }
+    },
+    "LargeIceAsteroid": {
+        "ref_name": "EntityRef",
+        "entity_class": "Asteroid",
+        "title": "Asteroid",
+        "description": "May contain precious resources.",
+        "skill_type_required": "Mining",
+        "skill_amount_required": 0,
+        "can_be_forbidden": false,
+        "deconstructable": false,
+        "mineable": true,
+        "mass": 50,
+        "movement_cost": 1,
+        "is_interactable": true,
+        "draw_size": "Vector2i(4, 4)",
+        "size": "Vector2i(4, 4)",
+        "mineable_asset": "Ice",
+        "mining_yield": "2",
+        "health": {
+            "max_health": 4000
+        },
+        "graphics": {
+            "graphics_class": "GraphicsRandom",
+            "texture_path": "Textures/Things/Debris/LargeAsteroid"
+        }
+    },
+    "SmallSiliconAsteroid": {
+        "ref_name": "EntityRef",
+        "entity_class": "Asteroid",
+        "title": "Asteroid",
+        "description": "May contain precious resources.",
+        "skill_type_required": "Mining",
+        "skill_amount_required": 0,
+        "can_be_forbidden": false,
+        "deconstructable": false,
+        "mineable": true,
+        "mass": 24,
+        "movement_cost": 1,
+        "is_interactable": true,
+        "draw_size": "Vector2i(2, 2)",
+        "size": "Vector2i(2, 2)",
+        "mineable_asset": "Silicon",
+        "mining_yield": "3",
+        "health": {
+            "max_health": 2000
+        },
+        "graphics": {
+            "graphics_class": "GraphicsRandom",
+            "texture_path": "Textures/Things/Debris/SmallAsteroid"
+        }
+    },
+    "LargeSiliconAsteroid": {
+        "ref_name": "EntityRef",
+        "entity_class": "Asteroid",
+        "title": "Asteroid",
+        "description": "May contain precious resources.",
+        "skill_type_required": "Mining",
+        "skill_amount_required": 0,
+        "can_be_forbidden": false,
+        "deconstructable": false,
+        "mineable": true,
+        "mass": 50,
+        "movement_cost": 1,
+        "is_interactable": true,
+        "draw_size": "Vector2i(4, 4)",
+        "size": "Vector2i(4, 4)",
+        "mineable_asset": "Silicon",
+        "mining_yield": "6",
+        "health": {
+            "max_health": 4000
+        },
+        "graphics": {
+            "graphics_class": "GraphicsRandom",
+            "texture_path": "Textures/Things/Debris/LargeAsteroid"
+        }
+    }
+}

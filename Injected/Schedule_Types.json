@@ -1,0 +1,21 @@
+{
+	"file_data": {
+		"name": "schedule_types"
+	},
+
+    "Anything": {
+        "ref_name": "BaseRef",
+        "title": "Anything",
+        "description": "Can do anything."
+    },
+    "Work": {
+        "ref_name": "BaseRef",
+        "title": "Work",
+        "description": "Will only perform work based tasks where possible."
+    },
+    "Sleep": {
+        "ref_name": "BaseRef",
+        "title": "Sleep",
+        "description": "Will only try and sleep if possible."
+    }
+}

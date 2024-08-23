@@ -1,0 +1,382 @@
+{
+	"file_data": {
+		"menu_type": "production",
+		"name": "building",
+		"cache_textures": true
+	},
+	"Transponder": {
+		"base_class": "Building",
+		"entity_class": "Transponder",
+		"title": "Transponder",
+		"description": "It is mandatory for all ships to have a powered and functioning transponder. The construction of anything other than hull is forbidden until one has been installed.",
+		"movement_cost": 48,
+		"mass": 25,
+		"deterioration_rate": 10,
+		"flammability": 40,
+		"base_market_value": 200,
+		"comfort": 1,
+		"work_to_build": 1600,
+		"builds_on_wall": false,
+		"draw_size": "Vector2i(1, 1)",
+		"size": "Vector2i(1, 1)",
+		"materials": {
+			"use_material_colour": true,
+			"material_types": {
+				"primary_mats": [
+					"Titanium",
+					"Gold",
+					"Silver"
+				],
+				"primary_mats_amount": 14,
+				"secondary_mats": [
+					"Silicon"
+				],
+				"secondary_mats_amount": 8
+			}
+		},
+		"health": {
+			"max_health": 600
+		},
+		"graphics": {
+			"graphics_class": "Graphics",
+			"shader_type": "ColourMask",
+			"texture_path": "Textures/Things/Building/Production/Transponder"
+		},
+		"components": {
+			"PowerReceiver": {
+				"amount_required": 30
+			},
+			"Switchable": {
+
+			},
+			"Lamp": {
+				"texture_mask_path": "Textures/Things/LightMaps/CircularLightMap.png",
+				"position": "Vector2i(32, 32)",
+				"illumination_radius": 1,
+				"max_light_intensity": 1
+			}
+		}
+	},
+	"NavConsole": {
+		"base_class": "Building",
+		"title": "Navigation console",
+		"description": "Required to navigate a ship throughout the universe.",
+		"movement_cost": 50,
+		"mass": 62,
+		"deterioration_rate": 10,
+		"flammability": 40,
+		"base_market_value": 200,
+		"comfort": 1,
+		"skill_amount_required": 5,
+		"work_to_build": 2800,
+		"rotatable": true,
+		"draw_size": "Vector2i(3, 1)",
+		"size": "Vector2i(3, 1)",
+		"materials": {
+			"use_material_colour": true,
+			"material_types": {
+				"primary_mats": [
+					"Titanium",
+					"Gold",
+					"Silver",
+					"Logs"
+				],
+				"primary_mats_amount": 24,
+				"secondary_mats": [
+					"Silicon"
+				],
+				"secondary_mats_amount": 15
+			}
+		},
+		"health": {
+			"max_health": 120
+		},
+		"graphics": {
+			"graphics_class": "GraphicsMultiple",
+			"shader_type": "ColourMask",
+			"texture_path": "Textures/Things/Building/Production/NavConsole"
+		},
+		"components": {
+			"PowerReceiver": {
+				"amount_required": 200
+			}
+		}
+	},
+	"CommConsole": {
+		"base_class": "Building",
+		"title": "Comms console",
+		"description": "Used for communication with other ships.",
+		"movement_cost": 50,
+		"mass": 62,
+		"deterioration_rate": 10,
+		"flammability": 40,
+		"base_market_value": 200,
+		"comfort": 1,
+		"skill_amount_required": 5,
+		"work_to_build": 3200,
+		"rotatable": true,
+		"draw_size": "Vector2i(3, 1)",
+		"size": "Vector2i(3, 1)",
+		"materials": {
+			"use_material_colour": true,
+			"material_types": {
+				"primary_mats": [
+					"Titanium",
+					"Gold",
+					"Silver",
+					"Logs"
+				],
+				"primary_mats_amount": 32,
+				"secondary_mats": [
+					"Silicon"
+				],
+				"secondary_mats_amount": 12
+			}
+		},
+		"health": {
+			"max_health": 120
+		},
+		"graphics": {
+			"graphics_class": "GraphicsMultiple",
+			"shader_type": "ColourMask",
+			"texture_path": "Textures/Things/Building/Production/CommsConsole"
+		},
+		"components": {
+			"PowerReceiver": {
+				"amount_required": 200
+			}
+		}
+	},
+	"SmallThruster": {
+		"base_class": "Building",
+		"entity_class": "Thruster",
+		"title": "Small thruster",
+		"description": "Provides a small amount of forward thrust when activated.",
+		"movement_cost": 50,
+		"mass": 125,
+		"deterioration_rate": 10,
+		"flammability": 40,
+		"base_market_value": 200,
+		"comfort": 1,
+		"skill_amount_required": 1,
+		"work_to_build": 3300,
+		"base_thrust": 20,
+		"clear_area_size": "Vector2i(1, 4)",
+		"draw_size": "Vector2i(1, 2)",
+		"size": "Vector2i(1, 1)",
+		"builds_on_wall": true,
+		"materials": {
+			"use_material_colour": true,
+			"material_types": {
+				"primary_mats": [
+					"Titanium",
+					"Silver",
+					"Gold"
+				],
+				"primary_mats_amount": 32,
+				"secondary_mats": [
+					"Silicon"
+				],
+				"secondary_mats_amount": 14
+			}
+		},
+		"health": {
+			"max_health": 120
+		},
+		"graphics": {
+			"graphics_class": "Graphics",
+			"shader_type": "ColourMask",
+			"texture_path": "Textures/Things/Building/Production/SmallThruster",
+			"show_above_walls": true
+		},
+		"components": {
+			"PowerReceiver": {
+				"amount_required": 150
+			},
+			"Switchable": {
+
+			},
+			"Audio": {
+				"sound_ref": "Thruster"
+			},
+			"Lamp": {
+				"texture_mask_path": "Textures/Things/LightMaps/CircularLightMap.png",
+				"position": "Vector2i(32, 64)"
+			},
+			"ParticleEmitter": {
+				"particle_type": "ThrusterEffect",
+				"position": "Vector2i(32, 138)",
+				"particle_scale": "Vector2(1.0, 1.0)"
+			}
+		}
+	},
+	"MediumThruster": {
+		"base_class": "Building",
+		"entity_class": "Thruster",
+		"title": "Medium thruster",
+		"description": "Provides a moderate amount of forward thrust when activated.",
+		"movement_cost": 50,
+		"mass": 200,
+		"deterioration_rate": 10,
+		"flammability": 40,
+		"base_market_value": 500,
+		"comfort": 1,
+		"skill_amount_required": 4,
+		"work_to_build": 6000,
+		"base_thrust": 50,
+		"clear_area_size": "Vector2i(2, 4)",
+		"draw_size": "Vector2i(2, 2)",
+		"size": "Vector2i(2, 1)",
+		"builds_on_wall": true,
+		"materials": {
+			"use_material_colour": true,
+			"material_types": {
+				"primary_mats": [
+					"Titanium",
+					"Silver",
+					"Gold"
+				],
+				"primary_mats_amount": 60,
+				"secondary_mats": [
+					"Silicon"
+				],
+				"secondary_mats_amount": 24
+			}
+		},
+		"health": {
+			"max_health": 240
+		},
+		"graphics": {
+			"graphics_class": "Graphics",
+			"shader_type": "ColourMask",
+			"texture_path": "Textures/Things/Building/Production/MedThruster",
+			"show_above_walls": true
+		},
+		"components": {
+			"PowerReceiver": {
+				"amount_required": 500
+			},
+			"Switchable": {
+
+			},
+			"Audio": {
+				"sound_ref": "Thruster"
+			},
+			"Lamp": {
+				"texture_mask_path": "Textures/Things/LightMaps/CircularLightMap.png",
+				"position": "Vector2i(64, 64)"
+			},
+			"ParticleEmitter": {
+				"particle_type": "ThrusterEffect",
+				"position": "Vector2i(65, 138)",
+				"particle_scale": "Vector2(1.4, 1.0)"
+			}
+		}
+	},
+	"LargeThruster": {
+		"base_class": "Building",
+		"entity_class": "Thruster",
+		"title": "Large thruster",
+		"description": "Provides a large amount of forward thrust when activated.",
+		"movement_cost": 50,
+		"mass": 450,
+		"deterioration_rate": 10,
+		"flammability": 40,
+		"base_market_value": 200,
+		"comfort": 1,
+		"skill_amount_required": 7,
+		"work_to_build": 7800,
+		"base_thrust": 120,
+		"clear_area_size": "Vector2i(3, 6)",
+		"draw_size": "Vector2i(3, 4)",
+		"size": "Vector2i(3, 2)",
+		"builds_on_wall": true,
+		"materials": {
+			"use_material_colour": true,
+			"material_types": {
+				"primary_mats": [
+					"Titanium",
+					"Silver",
+					"Gold"
+				],
+				"primary_mats_amount": 82,
+				"secondary_mats": [
+					"Silicon"
+				],
+				"secondary_mats_amount": 27
+			}
+		},
+		"health": {
+			"max_health": 450
+		},
+		"graphics": {
+			"graphics_class": "Graphics",
+			"shader_type": "ColourMask",
+			"texture_path": "Textures/Things/Building/Production/LargeThruster",
+			"show_above_walls": true
+		},
+		"components": {
+			"PowerReceiver": {
+				"amount_required": 1100
+			},
+			"Switchable": {
+
+			},
+			"Audio": {
+				"sound_ref": "Thruster"
+			},
+			"Lamp": {
+				"texture_mask_path": "Textures/Things/LightMaps/CircularLightMap.png",
+				"position": "Vector2i(96, 160)"
+			},
+			"ParticleEmitter": {
+				"particle_type": "ThrusterEffect",
+				"position": "Vector2i(96, 288)",
+				"particle_scale": "Vector2(2.8, 1.5)"
+			}
+		}
+	},
+	"Aeroponics": {
+		"base_class": "Aeroponics",
+		"title": "Aeroponics",
+		"description": " A place to grow plants and vegetables.",
+		"flammability": 30,
+		"mass": 24,
+		"movement_cost": 45,
+		"base_market_value": 50,
+		"deterioration_rate": 10,
+		"beauty": 2,
+		"comfort": 2,
+		"fertility": 5,
+		"skill_amount_required": 3,
+		"work_to_build": 2800,
+		"rotatable": true,
+		"draw_size": "Vector2i(4, 1)",
+		"size": "Vector2i(4, 1)",
+		"materials": {
+			"use_material_colour": true,
+			"material_types": {
+				"primary_mats": [
+					"Titanium",
+					"Silver",
+					"Gold"
+				],
+				"primary_mats_amount": 40
+			}
+		},
+		"health": {
+			"max_health": 120
+		},
+		"graphics": {
+			"graphics_class": "GraphicsMultiple",
+			"texture_path": "Textures/Things/Building/Production/Aeroponics"
+		},
+		"components": {
+			"PowerReceiver": {
+				"amount_required": 60
+			},
+			"Switchable": {
+			}
+		}
+	}
+}

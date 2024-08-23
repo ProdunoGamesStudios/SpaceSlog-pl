@@ -1,0 +1,169 @@
+{
+	"file_data": {
+		"name": "thoughts"
+	},
+	
+    "Thirsty": {
+		"ref_name": "ThoughtRef",
+		"text": "I am so thirsty. I wish there was something to drink around here.",
+		"title": "Dehydrated",
+		"base_effect": -5,
+		"show_thought_bubble": true,
+		"emote": "Thirsty"
+	},
+
+    "Starving": {
+		"ref_name": "ThoughtRef",
+		"title": "Starving",
+		"base_effect": -5,
+		"text": "I am starving. I wish there was something to eat around here.",
+		"show_thought_bubble": true,
+		"emote": "Starving"
+	},
+
+	"Exhausted": {
+		"ref_name": "ThoughtRef",
+		"title": "Exhausted",
+		"base_effect": -5,
+		"text": "So so tired, I can hardly keep my eyes open.",
+		"show_thought_bubble": true,
+		"emote": "Exhausted"
+	},
+
+	"ColonistDied": {
+		"ref_name": "ThoughtRef",
+		"title": "Colonist died",
+		"text": "A member of the crew has died. Maybe it will be me next time.",
+		"base_effect": -10,
+		"duration": 96
+	},
+
+	"Ill": {
+		"ref_name": "ThoughtRef",
+		"title": "Has an illness",
+		"base_effect": -5,
+		"text": "I feel so ill."
+	},
+
+    "LowOxygen": {
+		"ref_name": "ThoughtRef",
+		"note": "If oxygen is below 10% capacity?",
+		"title": "Low Oxygen",
+		"base_effect": -9,
+		"text": "I am really struggling to breath.",
+		"show_thought_bubble": true,
+		"emote": "Panicking"
+	},
+
+    "Optimistic":  {
+		"ref_name": "ThoughtRef",
+		"title": "Optimistic",
+		"text": "I am feeling pretty happy about how things are going right now.",
+		"base_effect": 12,
+		"duration": 72
+	},
+
+    "PlentyOfReserves":  {
+		"ref_name": "ThoughtRef",
+		"note": "We need to check how many colonists there are and then make sure there is enough food for at least a week or two?",
+		"title": "Plenty of reserves",
+		"base_effect": 7,
+		"text": "It's great that we have plenty of food and water reserves on the ship."
+	},
+
+    "Content":  {
+		"ref_name": "ThoughtRef",
+		"note": "If they have above 60% food and water for more than so many days??",
+		"title": "Content",
+		"base_effect": 7,
+		"text": "I am well watered and have food in my belly. Everything seems to be going ok for now."
+	},
+
+    "AteOnFloor":  {
+		"ref_name": "ThoughtRef",
+		"title": "Eaten on the floor.",
+		"text": "It sucks having to eat on the floor.",
+		"base_effect": -3,
+		"duration": 20
+	},
+
+    "SharesRoom":  {
+		"ref_name": "ThoughtRef",
+		"title": "Shares a room.",
+		"text": "I really need my own privacy.",
+		"base_effect": -4,
+		"duration": 20
+	},
+
+    "SleptOnFloor":  {
+		"ref_name": "ThoughtRef",
+		"title": "Slept on the floor.",
+		"text": "I really wish i had a bed. It sucks having to sleep on the floor.",
+		"base_effect": -10,
+		"duration": -2
+	},
+
+	"SleptInComfyBed":  {
+		"ref_name": "ThoughtRef",
+		"title": "Slept on the floor.",
+		"text": "Wow, my bed is so comfy. I could sleep in it all day.",
+		"base_effect": 10,
+		"duration": 3
+	},
+
+	"SharingBed":  {
+		"ref_name": "ThoughtRef",
+		"title": "Slept on the floor.",
+		"text": "I hate having to share a bed, it stinks.",
+		"base_effect": -10,
+		"duration": -3
+	},
+
+    "Cramped":  {
+		"ref_name": "ThoughtRef",
+		"title": "Cramped.",
+		"text": "I can hardly move in this place.",
+		"base_effect": -10,
+		"duration": -6
+	},
+	
+    "Spacious":  {
+		"ref_name": "ThoughtRef",
+		"title": "Spacious.",
+		"text": "This place is huge.",
+		"base_effect": 10,
+		"duration": 6
+	},
+
+	"UnsatisfiedWithRole":  {
+		"ref_name": "ThoughtRef",
+		"title": "Unsatisfied with given role.",
+		"text": "I really think I deserve a higher ranking role than the one I have been given.",
+		"base_effect": -4,
+		"replace_thoughts": ["SatisfiedWithRole"],
+		"show_thought_bubble": true
+	},
+
+	"SatisfiedWithRole":  {
+		"ref_name": "ThoughtRef",
+		"title": "Satisfied with given role.",
+		"text": "I am really happy with the role I have been given.",
+		"base_effect": 4,
+		"replace_thoughts": ["UnsatisfiedWithRole"],
+		"show_thought_bubble": true
+	},
+
+	"Depressed":  {
+		"ref_name": "ThoughtRef",
+		"title": "Depressed.",
+		"text": "My life sucks and I hate it!",
+		"base_effect": -8
+	},
+
+	"HappyThoughts":  {
+		"ref_name": "ThoughtRef",
+		"title": "Happy thoughts.",
+		"text": "Trala lalala. Weeeeeeee.",
+		"base_effect": 8
+	}
+}

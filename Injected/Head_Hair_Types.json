@@ -1,0 +1,144 @@
+{
+	"file_data": {
+		"name": "head_hair_types",
+		"cache_textures": true
+	},
+	
+	"Mohawk": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Male", 
+			"Female"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/Mohawk"
+	},
+
+	"MohawkFull": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Male", 
+			"Female"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/MohawkFull"
+	},
+
+	"Spikes": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Male", 
+			"Female"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/Spikes"
+	},
+
+	"FringeUp": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Male"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/FringeUp"
+	},
+
+	"CrewCut": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Female", 
+			"Male"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/CrewCut"
+	},
+
+	"SideFringe": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Male"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/SideFringe"
+	},
+
+	"SidePartedShort": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Male"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/SidePartedShort"
+	},
+
+	"FemaleHairOne": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Female", 
+			"Male"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/FemaleHairOne"
+	},
+
+	"FemaleHairTwo": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Female"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/FemaleHairTwo"
+	},
+
+	"FemaleHairThree": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Female"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/FemaleHairThree"
+	},
+
+	"FemaleHairFour": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Female"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/FemaleHairFour"
+	},
+	
+	"UnisexHairOne": {
+		"ref_name": "StyleRef",
+		"for_species": [
+			"Human"
+		],
+		"for_gender": [
+			"Male", 
+			"Female"
+		],
+		"texture_path": "Textures/Things/Pawn/Humanoid/Hair/UnisexHairOne"
+	}
+}

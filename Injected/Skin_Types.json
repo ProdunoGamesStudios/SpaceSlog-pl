@@ -1,0 +1,24 @@
+{
+	"file_data": {
+		"name": "skin_types"
+	},
+	
+	"Human": {
+		"ref_name": "SkinRef",
+		"title": "Skin",
+        "description": "Waterproof but weak.",
+        "material": "Leather"
+	},
+    "Worm": {
+		"ref_name": "SkinRef",
+		"title": "Skin",
+		"description": "Relatively strong.",
+        "material": "Leather"
+	},
+    "Rodent": {
+		"ref_name": "SkinRef",
+		"title": "Skin",
+		"description": "Relatively strong.",
+        "material": "Leather"
+	}
+}

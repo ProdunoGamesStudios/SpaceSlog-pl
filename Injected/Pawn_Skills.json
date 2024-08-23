@@ -1,0 +1,289 @@
+{
+	"file_data": {
+		"name": "pawn_skills"
+	},
+	
+	"Engineering" : {
+		"ref_name": "PawnSkillRef",
+		"title": "engineering",
+		"description": "A useful skill when building, maintaining and repairing things.\n\n- Building.\n- Deconstructing.",
+		"allowed_professions": [
+			"Engineer", 
+			"Pilot", 
+			"Scientist", 
+			"Retired", 
+			"Professor", 
+			"Student", 
+			"Pirate",
+			"OffworldDetective", 
+			"PlanetDrifter",
+			"Spacefarer", 
+			"Planetologist"
+		],
+		"preferred_professions": [
+			"Engineer"
+		]
+	},
+
+	"Navigation" : {
+		"ref_name": "PawnSkillRef",
+		"title": "navigation",
+		"description": "Quicker ship speeds and can make a better Captain.",
+		"allowed_professions": [
+			"Engineer", 
+			"Doctor", 
+			"Marine", 
+			"Pilot", 
+			"Miner", 
+			"Scientist", 
+			"Retired", 
+			"Professor", 
+			"Student", 
+			"Pirate", 
+			"Slaver", 
+			"BountyHunter", 
+			"Merchant", 
+			"OffworldDetective", 
+			"PlanetDrifter", 
+			"Spacefarer", 
+			"Planetologist"
+		],
+		"preferred_professions": [
+			"Pilot"
+		]
+	},
+
+	"Ranged" : {
+		"ref_name": "PawnSkillRef",
+		"title": "ranged",
+		"description": "Ranged combat, better accuracy and effectiveness \nwith firearms and shipborne weaponry.\n\n- Shooting.",
+		"allowed_professions": [
+			"Engineer", 
+			"Marine", 
+			"Labourer", 
+			"Pilot", 
+			"Miner", 
+			"Scientist", 
+			"Retired", 
+			"Professor", 
+			"Student", 
+			"Pirate", 
+			"Slaver", 
+			"BountyHunter", 
+			"Merchant", 
+			"OffworldDetective", 
+			"PlanetDrifter", 
+			"Spacefarer", 
+			"Planetologist", 
+			"Consor"
+		],
+		"preferred_professions": [
+			"Marine",
+			"BountyHunter",
+			"OffworldDetective"
+		]
+	},
+
+	"Melee" : {
+		"ref_name": "PawnSkillRef",
+		"title": "melee",
+		"description": "Effectiveness in hand to hand combat \nboth armed and unarmed.\n\n- Melee.",
+		"allowed_professions": [
+			"Engineer", 
+			"Marine", 
+			"Labourer", 
+			"Pilot", 
+			"Miner", 
+			"Grower", 
+			"Professor", 
+			"Student", 
+			"Pirate", 
+			"Slave", 
+			"Slaver", 
+			"BountyHunter", 
+			"Merchant", 
+			"OffworldDetective", 
+			"PlanetDrifter", 
+			"Spacefarer", 
+			"Planetologist", 
+			"Consor"
+		],
+		"preferred_professions": [
+			"Marine",
+			"Labourer",
+			"Consor",
+			"Chef"
+		]
+	},
+
+	"Social" : {
+		"ref_name": "PawnSkillRef",
+		"title": "social",
+		"description": "Likeability, negotiation and the ability \nto get on with others.\n\n- Trading.",
+		"allowed_professions": [
+			"Engineer", 
+			"Doctor", 
+			"Marine", 
+			"Labourer", 
+			"Pilot", 
+			"Miner", 
+			"AnimalHandler", 
+			"Scientist", 
+			"Grower", 
+			"Retired", 
+			"Professor", 
+			"Student", 
+			"Pirate", 
+			"Merchant", 
+			"OffworldDetective",
+			"PlanetDrifter", 
+			"Spacefarer", 
+			"Planetologist", 
+			"Consor",
+			"Chef"
+		],
+		"preferred_professions": [
+			"Consor",
+			"AnimalHandler",
+			"Merchant"
+		]
+	},
+
+	"Operations" : {
+		"ref_name": "PawnSkillRef",
+		"title": "operations",
+		"description": "Operating various ship components, such as thrusters.",
+		"allowed_professions": [
+			"Engineer", 
+			"Marine", 
+			"Pilot", 
+			"Scientist", 
+			"Grower", 
+			"Professor", 
+			"Student", 
+			"Pirate", 
+			"BountyHunter",
+			"Merchant", 
+			"OffworldDetective", 
+			"PlanetDrifter", 
+			"Spacefarer", 
+			"Planetologist"
+		],
+		"preferred_professions": [
+			"Professor",
+			"Pilot",
+			"Marine"
+		]
+	},
+
+	"Cooking" : {
+		"ref_name": "PawnSkillRef",
+		"title": "cooking",
+		"description": "Ability to cook and brew using raw ingredients.\n\n- Brewing.",
+		"allowed_professions": [
+			"Engineer", 
+			"Marine", 
+			"Pilot", 
+			"Scientist", 
+			"Grower", 
+			"Professor", 
+			"Slaver", 
+			"BountyHunter", 
+			"OffworldDetective", 
+			"PlanetDrifter", 
+			"Spacefarer", 
+			"Planetologist"
+		],
+		"preferred_professions": [
+			"Chef"
+		]
+	},
+
+	"Mining" : {
+		"ref_name": "PawnSkillRef",
+		"title": "mining",
+		"description": "Efficiency and speed of mining materials.\n\n- Mining.",
+		"allowed_professions": [
+			"Engineer", 
+			"Marine", 
+			"Labourer", 
+			"Miner",
+			"Student", 
+			"Slave", 
+			"Merchant", 
+			"PlanetDrifter", 
+			"Spacefarer", 
+			"Planetologist"
+		],
+		"preferred_professions": [
+			"Miner"
+		]
+	},
+
+	"Science" : {
+		"ref_name": "PawnSkillRef",
+		"title": "science",
+		"description": "Researching and growing.\n\n- Growing.",
+		"allowed_professions": [
+			"Engineer", 
+			"Scientist", 
+			"Retired", 
+			"Grower",
+			"Professor", 
+			"Student", 
+			"PlanetDrifter", 
+			"Spacefarer", 
+			"Planetologist",
+			"Chef"
+		],
+		"preferred_professions": [
+			"Scientist"
+		]
+	},
+
+	"Animals" : {
+		"ref_name": "PawnSkillRef",
+		"title": "animals",
+		"description": "Taming and training animals, maybe aliens too.",
+		"allowed_professions": [
+			"Doctor", 
+			"AnimalHandler", 
+			"Scientist", 
+			"Retired", 
+			"Professor", 
+			"Student", 
+			"Slave", 
+			"PlanetDrifter", 
+			"Spacefarer", 
+			"Planetologist", 
+			"Consor"
+		],
+		"preferred_professions": [
+			"AnimalHandler"
+		]
+	},
+
+	"Medical" : {
+		"ref_name": "PawnSkillRef",
+		"title": "medical",
+		"description": "Using medicine and the healing of others.\n\n- Healing others.",
+		"allowed_professions": [
+			"Doctor", 
+			"Scientist", 
+			"Retired", 
+			"Professor", 
+			"Student", 
+			"BountyHunter", 
+			"OffworldDetective", 
+			"PlanetDrifter", 
+			"Spacefarer", 
+			"Planetologist", 
+			"Consor",
+			"Chef"
+		],
+		"preferred_professions": [
+			"Doctor",
+			"Consor"
+		]
+	}
+}

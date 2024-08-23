@@ -1,0 +1,96 @@
+{
+	"file_data": {
+		"name": "base_classes"
+	},
+
+    "Building": {
+        "ref_name": "BuildingRef",
+        "entity_class": "Building",
+        "can_be_forbidden": false,
+        "deconstructable": true,
+        "skill_type_required": "Engineering"
+    },
+	
+    "BaseDoor": {
+        "base_class": "Building",
+        "entity_class": "Door",
+        "can_replace_internal_wall": true,
+        "materials": {
+            "use_material_colour": true
+        },
+        "graphics": {
+            "graphics_class": "GraphicsOpener",
+            "occludes_light": true
+        },
+        "components": {
+            "Audio": {
+                "sound_ref": "DoorMedium"
+            }
+        }
+    },
+
+    "BaseAirlockDoor": {
+        "base_class": "BaseDoor",
+        "entity_class": "AirLockDoor"
+    },
+
+    "BaseHull": {
+        "base_class": "Building",
+        "entity_class": "Hull",
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)"
+    },
+
+    "BaseHullArmour": {
+        "base_class": "Building",
+        "entity_class": "HullArmour",
+        "walkable": false,
+        "mass": 60,
+        "deterioration_rate": 20,
+        "flammability": 2,
+        "comfort": 1,
+        "engineering_skill_required": 3,
+        "work_to_build": 300,
+        "materials": {
+            "use_material_colour": true,
+            "material_types": {
+                "primary_mats": [
+                    "Titanium", 
+                    "Gold"
+                ],
+                "primary_mats_amount": 9
+            }
+        },
+        "health": {
+            "max_health": 180
+        },
+        "graphics": {
+            "graphics_class": "GraphicsLinked",
+            "occludes_light": true
+        }
+    },
+
+    "BaseFloor": {
+        "base_class": "Building",
+        "entity_class": "Flooring",
+        "draw_size": "Vector2i(1, 1)",
+        "size": "Vector2i(1, 1)"
+    },
+
+    "BaseBed": {
+        "base_class": "Building",
+        "entity_class": "Bed",
+        "is_sleepable": true,
+        "rest_effectiveness": 1.0
+    },
+
+    "Aeroponics": {
+        "base_class": "Building",
+        "entity_class": "Aeroponics"
+    },
+
+    "CryoPod": {
+        "base_class": "Building",
+        "entity_class": "CryoPod"
+    }
+}

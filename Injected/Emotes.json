@@ -1,0 +1,91 @@
+{
+	"file_data": {
+		"name": "emotes"
+	},
+
+    "Sleep": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/SleepZ.png",
+        "shader_type": "Wiggle"
+    },
+    "Healing": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/BlueCross.png",
+        "shader_type": "Fade"
+    },
+    "Clean": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/Sponge.png"
+    },
+    "Butcher": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/Butcher.png"
+    },
+    "Slaughter": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/Slaughter.png"
+    },
+    "Harvest": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/Harvest.png"
+    },
+    "Brewing": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/Brewing.png"
+    },
+    "Cooking": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/Cooking.png"
+    },
+    "Thought": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/ThoughtBubble.png"
+    },
+    "Exhausted": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/ThoughtBubble.png",
+        "secondary_texture_path": "Textures/UI/Mote/Tired.png",
+        "shader_type": "Hologram"
+    },
+    "Panicking": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/ThoughtBubble.png",
+        "secondary_texture_path": "Textures/UI/Mote/Embarrassed.png",
+        "shader_type": "Hologram"
+    },
+    "Collapsed": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/Collapsed.png",
+        "shader_type": "Wiggle"
+    },
+    "Thirsty": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/ThoughtBubble.png",
+        "secondary_texture_path": "Textures/UI/Mote/Thirsty.png",
+        "shader_type": "Hologram"
+    },
+    "Starving": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/ThoughtBubble.png",
+        "secondary_texture_path": "Textures/UI/Mote/Hungry.png",
+        "shader_type": "Hologram"
+    },
+    "LowMorale": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/ThoughtBubble.png",
+        "secondary_texture_path": "Textures/UI/Mote/General.png",
+        "shader_type": "Hologram"
+    },
+    "HighMorale": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/ThoughtBubble.png",
+        "secondary_texture_path": "Textures/UI/Mote/General.png",
+        "shader_type": "Hologram"
+    },
+    "Suffocating": {
+        "ref_name": "EmoteRef",
+        "texture_path": "Textures/UI/Mote/ThoughtBubble.png",
+        "secondary_texture_path": "Textures/UI/Mote/Suffocating.png",
+        "shader_type": "Hologram"
+    }
+}

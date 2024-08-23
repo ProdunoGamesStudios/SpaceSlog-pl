@@ -1,0 +1,36 @@
+{
+	"file_data": {
+		"name": "incident_options"
+	},
+
+    "PassingShip": {
+        "ref_name": "OptionRef",
+        "title": "Passing ship",
+        "incident": "PassingShip",
+        "considerations": ["IsShipStationary", "IsTransponderActive"]
+    },
+    "AsteroidField": {
+        "ref_name": "OptionRef",
+        "title": "Asteroid field",
+        "incident": "Asteroids",
+        "considerations": ["IsShipMoving"]
+    },
+    "BattleDebris": {
+        "ref_name": "OptionRef",
+        "title": "Battle debris",
+        "incident": "Debris",
+        "considerations": ["IsShipMoving"]
+    },
+    "CryoChamber": {
+        "ref_name": "OptionRef",
+        "title": "Cryo chamber spotted",
+        "incident": "CryoChamber",
+        "considerations": ["IsShipMoving"]
+    },
+    "HostileCreatureAssault": {
+        "ref_name": "OptionRef",
+        "title": "Hostile creatures have entered the area",
+        "incident": "HostileCreatureAssault",
+        "considerations": ["IsShipStationary"]
+    }
+}

@@ -1,0 +1,10 @@
+{
+	"file_data": {
+		"name": "director_types"
+	},
+    
+    "General": {
+        "ref_name": "AiTypeRef",
+        "reasoners": ["Basic"]
+    }
+}

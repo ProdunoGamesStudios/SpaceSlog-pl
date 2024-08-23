@@ -1,0 +1,46 @@
+{
+    "file_data": {
+        "name": "pawn_spawn_templates"
+    },
+	
+	"HumanPlayer": {
+		"ref_name": "PawnSpawnRef",
+		"title": "Human player",
+		"pawn_type": "Human",
+		"default_faction": "player_faction",
+		"inventory": [
+			"SpaceSuit", 
+			"SpaceHelmet"
+		]
+	},
+	"HumanPirate": {
+		"ref_name": "PawnSpawnRef",
+		"title": "Human pirate",
+		"pawn_type": "Human",
+		"default_faction": "hostile",
+		"inventory": [
+			"SpaceSuit", 
+			"SpaceHelmet"
+		]
+	},
+	"HumanNeutral": {
+		"ref_name": "PawnSpawnRef",
+		"title": "Human neutral",
+		"pawn_type": "Human",
+		"default_faction": "neutral",
+		"inventory": [
+			"SpaceSuit", 
+			"SpaceHelmet"
+		]
+	},
+	"SpaceWorm": {
+		"ref_name": "PawnSpawnRef",
+		"title": "Space worm",
+		"pawn_type": "Worm"
+	},
+	"Rat": {
+		"ref_name": "PawnSpawnRef",
+		"title": "Rat",
+		"pawn_type": "Rat"
+	}
+}

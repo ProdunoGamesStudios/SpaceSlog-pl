@@ -1,0 +1,360 @@
+{
+	"file_data": {
+		"name": "tasks"
+	},
+    
+    "Pickup": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskPickup",
+        "title": "Pickup",
+        "description": "Grabbing",
+        "variable": "entity"
+    },
+    "DropIntoBed": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskDropIntoBed",
+        "title": "Drop into bed",
+        "description": "Dropping into bed.",
+        "variable": "entity_b"
+    },
+    "Drop": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskDrop",
+        "title": "Drop",
+        "description": "Dropping"
+    },
+    "DropAtTargetB": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskDrop",
+        "title": "Drop",
+        "description": "Dropping",
+        "variable": "entity_b"
+    },
+    "Heal": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskHeal",
+        "title": "Heal",
+        "description": "Healing"
+    },
+    "Repair": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskRepair",
+        "title": "Repair",
+        "description": "Repairing"
+    },
+    "MoveTo": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskMoveTo",
+        "title": "Move",
+        "description": "Moving",
+        "variable": "path"
+    },
+    "Wait": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskWait",
+        "title": "Wait",
+        "description": "Waiting"
+    },
+    "FindFood": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskFindFood",
+        "title": "Find food",
+        "description": "Finding food"
+    },
+    "EatFood": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskEatFood",
+        "title": "Eat food",
+        "description": "Eating"
+    },
+    "Drink": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskDrink",
+        "title": "Drink",
+        "description": "Drinking"
+    },
+    "FindPathToTarget": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskFindPathToTarget",
+        "title": "Find path to target",
+        "description": "Finding path to target"
+    },
+    "FindPathToTargetB": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskFindPathToTarget",
+        "title": "Find path to target",
+        "description": "Finding path to target",
+        "variable": "entity_b"
+    },
+    "FindPathToTargetCell": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskFindPathToTargetCell",
+        "title": "Find path to target cell",
+        "description": "Finding path to target cell"
+    },
+    "FindBestStorageCell": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskFindBestStorageCell",
+        "title": "Find best storage cell",
+        "description": "Finding the best storage cell for item."
+    },
+    "GetClosestFuel": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskGetClosestFuel",
+        "title": "Find path to closest fuel",
+        "description": "Finding path to fuel"
+    },
+    "GetDeadPawnDropSpot": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskGetDeadPawnDropSpot",
+        "title": "Find somewhere to dispose of dead pawn",
+        "description": "Finding a place to dispose of dead pawn."
+    },
+    "Refuel": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskRefuel",
+        "title": "Refuelling",
+        "description": "Refuelling"
+    },
+    "RefuelTargetB": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskRefuel",
+        "title": "Refuelling",
+        "description": "Refuelling",
+        "variable": "entity_b"
+    },
+    "Clean": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskClean",
+        "title": "Clean",
+        "description": "Cleaning"
+    },
+    "Reserve": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskReserve",
+        "title": "Reserve",
+        "description": "Reserving",
+        "variable": "entity"
+    },
+    "ReserveEntityB": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskReserve",
+        "title": "Reserve",
+        "description": "Reserving",
+        "variable": "entity_b"
+    },
+    "ReserveCell": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskReserve",
+        "title": "Reserve cell",
+        "description": "Reserving cell",
+        "variable": "target_cell"
+    },
+    "ReserveCombatTarget": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskReserveCombatTarget",
+        "title": "Reserve combat target",
+        "description": "Reserving combatant",
+        "variable": "entity"
+    },
+    "Sleep": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskSleep",
+        "title": "Sleep",
+        "description": "Sleeping"
+    },
+    "Equip": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskEquip",
+        "title": "Equip",
+        "description": "Equipping"
+    },
+    "UnEquip": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskUnEquip",
+        "title": "Removing",
+        "description": "Removing from inventory"
+    },
+    "Slip": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskSlip",
+        "title": "Slip",
+        "description": "Slipped"
+    },
+    "Trip": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskTrip",
+        "title": "Trip",
+        "description": "Tripped"
+    },
+    "Sing": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskSing",
+        "title": "Sing",
+        "description": "Singing"
+    },
+    "Wave": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskWave",
+        "title": "Wave",
+        "description": "Waving"
+    },
+    "Chat": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskChat",
+        "title": "Chat",
+        "description": "Chatting"
+    },
+    "Daze": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskDaze",
+        "title": "Daze",
+        "description": "Dazed"
+    },
+    "Shout": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskShout",
+        "title": "Shout",
+        "description": "Shouting"
+    },
+    "SowAtTargetB": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskSow",
+        "title": "Sow",
+        "description": "Sowing",
+        "variable": "entity_b"
+    },
+    "HarvestPlant": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskHarvest",
+        "title": "Harvest",
+        "description": "Harvesting"
+    },
+    "HarvestBrew": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskHarvestBrew",
+        "title": "Harvest",
+        "description": "Harvesting"
+    },
+    "Water": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskWater",
+        "title": "Water",
+        "description": "Watering"
+    },
+    "Feed": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskFeed",
+        "title": "Feed",
+        "description": "Feeding"
+    },
+    "ClosestMoveCellToPos": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskClosestMoveCellToPos",
+        "title": "Forced move",
+        "description": "Force move."
+    },
+    "Strip": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskStrip",
+        "title": "Strip",
+        "description": "Stripping Pawn."
+    },
+    "Mine": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskMine",
+        "title": "Mine",
+        "description": "Mining"
+    },
+    "Deconstruct": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskDeconstruct",
+        "title": "Deconstruct",
+        "description": "Deconstructing"
+    },
+    "Build": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskBuild",
+        "title": "Build",
+        "description": "Building"
+    },
+    "DestroyAsset": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskDestroyAsset",
+        "title": "Destroy asset.",
+        "description": "Destroying"
+    },
+    "SitAtChair": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskSitAtChair",
+        "title": "Sit at chair.",
+        "description": "Sitting"
+    },
+    "PlayArcadeMachine": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskPlayArcadeMachine",
+        "title": "Play arcade machine.",
+        "description": "Playing on"
+    },
+    "TendHeal": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskHeal",
+        "title": "Heal",
+        "description": "Healing",
+        "variable_b": "entity_b"
+    },
+    "TendFeed": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskFeed",
+        "title": "Feed",
+        "description": "Feeding",
+        "variable_b": "entity_b"
+    },
+    "TendHydrate": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskHydrate",
+        "title": "Hydrate",
+        "description": "Hydrating",
+        "variable_b": "entity_b"
+    },
+    "FindPlaceToIngest": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskFindPlaceToIngest",
+        "title": "Find place to ingest",
+        "description": "Finding somewhere to ingest"
+    },
+    "BackToShip": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskBackToShip",
+        "title": "Find place to ingest",
+        "description": "Finding somewhere to ingest"
+    },
+
+    "Slaughter": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskSlaughter",
+        "title": "Slaughter",
+        "description": "Slaughtering"
+    },
+    "Butcher": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskButcher",
+        "title": "Butcher",
+        "description": "Butchering"
+    },
+    "FollowAndMelee": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskFollowAndMelee",
+        "title": "Follow and melee",
+        "description": "Attacking"
+    },
+
+    "InsertGetMaterials": {
+        "ref_name": "TaskRef",
+        "task_type": "TaskInsertTaskDriver",
+        "title": "Gather materials",
+        "description": "Gathering materials requested.",
+        "task_driver_type": "TaskDriverCollectMaterials"
+    }
+    
+}
