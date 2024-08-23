@@ -1,14 +1,14 @@
 {
-	"created_by": "Created by",
-	"music_and_sounds": "Music and Sounds",
-	"art": "Art",
-	"moderators": "Moderators",
-	"community_testers": "Community testers",
-	"translations": "Translations",
-	"polish": "Polish language",
-	"french": "French language",
-	"ukrainian": "Ukrainian language",
-	"game_engine": "Game Engine",
-	"special_thanks": "Special Thanks",
-	"thanks_for_playing": "Thank you for playing!"
+	"created_by": "Stworzony przez",
+	"music_and_sounds": "Muzyka i dźwięk",
+	"art": "Szata graficzna",
+	"moderators": "Moderatorzy",
+	"community_testers": "Testerzy",
+	"translations": "Tłumaczenie",
+	"polish": "Język Polski",
+	"french": "Język Francuski",
+	"ukrainian": "Język Ukraiński",
+	"game_engine": "Silnik gry",
+	"special_thanks": "Specjalne podziękowania",
+	"thanks_for_playing": "Dziękuję za granie!"
 }

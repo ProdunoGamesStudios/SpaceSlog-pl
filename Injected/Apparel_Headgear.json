@@ -5,72 +5,8 @@
 	},
 	
 	"SpaceHelmet": {
-		"ref_name": "ItemRef",
-		"entity_class": "Apparel",
 		"title": "Space helmet",
-		"description": "Part of an EVA suit used to perform orbital extra-vehicular activity, the spacesuit counterpart is also needed for full functionality. Extremely uncomfortable to sleep in.",
-		"for_species": [
-			"Human"
-		],
-		"deterioration_rate": 2,
-		"flammability": 1.0,
-		"mass": 2.0,
-		"movement_cost": 3,
-		"skill_type_required_to_make": "Tailor",
-		"skill_amount_required_to_make": 3,
-		"base_market_value": 500,
-		"work_to_make": 120,
-		"comfort": -1,
-		"equip_delay": 200,
-		"can_be_pressurised": true,
-		"covers": [
-			"head",
-			"head_hair",
-			"facial_hair"
-		],
-		"slot": "headgear",
-		"materials": {
-			"use_material_colour": true,
-            "use_secondary_material_colour": true,
-			"material_types": {
-				"primary_mats": [
-					"CarbonFibre"
-				],
-				"secondary_mats": [
-					"RedDye",
-					"BlueDye",
-					"CharcoalDye",
-					"GreenDye"
-				],
-				"primary_mats_amount": 12,
-				"secondary_mats_amount": 1
-			}
-		},
-		"stats": {
-			"CutProtection": {
-				"max_value": 3
-			},
-			"BluntProtection": {
-				"max_value": 3
-			},
-			"RadiationProtection": {
-				"max_value": 4
-			},
-			"HeatInsulation": {
-				"max_value": 3
-			},
-			"ColdInsulation": {
-				"max_value": 4
-			}
-		},
-		"health": {
-			"max_health": 100
-		},
-        "graphics": {
-        	"graphics_class": "GraphicsSingle",
-			"random_rotation_on_dropped": true,
-            "texture_path": "Textures/Things/Items/Apparel/SpaceHelmet"
-        }
+		"description": "Part of an EVA suit used to perform orbital extra-vehicular activity, the spacesuit counterpart is also needed for full functionality. Extremely uncomfortable to sleep in."
 	},
 
 	"CowboyHat": {
