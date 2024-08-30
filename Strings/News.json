@@ -1,5 +1,14 @@
 {
     "news": "Welcome to the pre-release of SpaceSlog, please note the game is still in its early stages and many bugs or issues may still be present. That said, if you find any bugs or have any suggestions then please visit our [color=ORANGE][url={forums_link}]forums[/url][/color] or [color=ORANGE][url={discord_link}]discord[/url][/color].\n\nAll features are still being added and expanded, what you are currently playing is not representative of the final game.\n\nIf you have any questions or feedback then please head over to our forums or discord following the links above.\n\n\nThanks and have fun!",
     "demo_news": "Welcome to the demo of SpaceSlog, please note the game is still in its early stages and many bugs or issues may still be present. That said, if you find any bugs or have any suggestions then please visit our [color=ORANGE][url={forums_link}]forums[/url][/color] or [color=ORANGE][url={discord_link}]discord[/url][/color].\n\nSeveral features have been omitted from this demo build with the intention to give players a small taste of what the game has to offer. What you are currently playing is not representative of the final completed product.\n\nIf you have any questions or feedback then please head over to our forums or discord following the links above.\n\n\nThanks and have fun!",
-    "exit_survey": "Thank you for playing the pre-release of SpaceSlog.\n\nPlease ensure you visit one of the links below to report any bugs or issues and to also offer any feedback.\nYour feedback is highly valuable and I make sure I read every single post.\n\n[color=ORANGE][url={discord_link}]Discord[/url][/color]\n[color=ORANGE][url={forums_link}]Forums[/url][/color]\n[color=ORANGE][url={steam_discussions_link}]Steam Discussions[/url][/color]"
+    "exit_survey": "Thank you for playing the pre-release of SpaceSlog.\n\nPlease ensure you visit one of the links below to report any bugs or issues and to also offer any feedback.\nYour feedback is highly valuable and I make sure I read every single post.\n\n[color=ORANGE][url={discord_link}]Discord[/url][/color]\n[color=ORANGE][url={forums_link}]Forums[/url][/color]\n[color=ORANGE][url={steam_discussions_link}]Steam Discussions[/url][/color]",
+    "point_1": "A procedurally generated galaxy to explore.",
+    "point_2": "Different planets to discover and the means to explore them.",
+    "point_3": "Complex combat and medical systems.",
+    "point_4": "Ship to ship combat and boarding.",
+    "point_5": "More realistic ship simulations.",
+    "point_6": "More alien lifeforms and other animals.",
+    "point_7": "Derelict ships, facilities and other anomalies.",
+    "point_8": "A different way to research and craft items.",
+    "point_9": "Plus much more!"
 }
