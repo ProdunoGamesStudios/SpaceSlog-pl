@@ -5,7 +5,7 @@
 	
 	"HumanPlayer": {
 		"ref_name": "PawnSpawnRef",
-		"title": "Human player",
+		"title": "Gracz",
 		"pawn_type": "Human",
 		"default_faction": "player_faction",
 		"inventory": [
@@ -15,7 +15,7 @@
 	},
 	"HumanPirate": {
 		"ref_name": "PawnSpawnRef",
-		"title": "Human pirate",
+		"title": "Ludzki pirat",
 		"pawn_type": "Human",
 		"default_faction": "hostile",
 		"inventory": [
@@ -25,7 +25,7 @@
 	},
 	"HumanNeutral": {
 		"ref_name": "PawnSpawnRef",
-		"title": "Human neutral",
+		"title": "człowiek neutralny",
 		"pawn_type": "Human",
 		"default_faction": "neutral",
 		"inventory": [
@@ -35,12 +35,12 @@
 	},
 	"SpaceWorm": {
 		"ref_name": "PawnSpawnRef",
-		"title": "Space worm",
+		"title": "Kosmiczny robak",
 		"pawn_type": "Worm"
 	},
 	"Rat": {
 		"ref_name": "PawnSpawnRef",
-		"title": "Rat",
+		"title": "Szczór",
 		"pawn_type": "Rat"
 	}
 }

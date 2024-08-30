@@ -5,213 +5,22 @@
 	},
 	
 	"SpaceHelmet": {
-		"title": "Space helmet",
-		"description": "Part of an EVA suit used to perform orbital extra-vehicular activity, the spacesuit counterpart is also needed for full functionality. Extremely uncomfortable to sleep in."
+		"title": "Kosmiczny hełm",
+		"description": "Część skafandra EVA używanego do wykonywania orbitalnych działań poza pojazdami, odpowiednik skafandra kosmicznego jest również potrzebny do pełnej funkcjonalności. Niezwykle niewygodne do spania."
 	},
 
 	"CowboyHat": {
-		"ref_name": "ItemRef",
-		"entity_class": "Apparel",
-		"title": "Cowboy hat",
-		"description": "A cowboy hat.",
-		"for_species": [
-			"Human"
-		],
-		"deterioration_rate": 2,
-		"flammability": 3.0,
-		"mass": 1.0,
-		"movement_cost": 1,
-		"skill_type_required_to_make": "Tailor",
-		"skill_amount_required_to_make": 2,
-		"base_market_value": 150,
-		"work_to_make": 70,
-		"comfort": 1,
-		"equip_delay": 100,
-		"can_be_pressurised": false,
-		"covers": [
-			"head",
-			"head_hair"
-		],
-		"slot": "headgear",
-		"materials": {
-			"use_material_colour": true,
-            "use_secondary_material_colour": true,
-			"material_types": {
-				"primary_mats": [
-					"Cloth",
-					"Leather"
-				],
-				"primary_mats_amount": 6,
-				"secondary_mats": [
-					"RedDye",
-					"BlueDye",
-					"CharcoalDye",
-					"GreenDye"
-				],
-				"secondary_mats_amount": 1
-			}
-		},
-		"stats": {
-			"CutProtection": {
-				"max_value": 1
-			},
-			"BluntProtection": {
-				"max_value": 1
-			},
-			"RadiationProtection": {
-				"max_value": 0
-			},
-			"HeatInsulation": {
-				"max_value": 1
-			},
-			"ColdInsulation": {
-				"max_value": 1
-			}
-		},
-		"health": {
-			"max_health": 100
-		},
-        "graphics": {
-        	"graphics_class": "GraphicsSingle",
-			"random_rotation_on_dropped": true,
-            "texture_path": "Textures/Things/Items/Apparel/CowboyHat"
-        }
+		"title": "Kowbojski kapelusz",
+		"description": "Kowbojski kapelusz."
 	},
 
 	"BeanieHat": {
-		"ref_name": "ItemRef",
-		"entity_class": "Apparel",
-		"title": "Beanie hat",
-		"description": "A beanie hat.",
-		"for_species": [
-			"Human"
-		],
-		"deterioration_rate": 2,
-		"flammability": 5.0,
-		"mass": 1.0,
-		"movement_cost": 2,
-		"skill_type_required_to_make": "Tailor",
-		"skill_amount_required_to_make": 2,
-		"base_market_value": 150,
-		"work_to_make": 70,
-		"comfort": 1,
-		"equip_delay": 100,
-		"can_be_pressurised": false,
-		"covers": [
-			"head",
-			"head_hair"
-		],
-		"slot": "headgear",
-		"materials": {
-			"use_material_colour": true,
-            "use_secondary_material_colour": true,
-			"material_types": {
-				"primary_mats": [
-					"Cloth",
-					"Wool"
-				],
-				"primary_mats_amount": 6,
-				"secondary_mats": [
-					"RedDye",
-					"BlueDye",
-					"CharcoalDye",
-					"GreenDye"
-				],
-				"secondary_mats_amount": 1
-			}
-		},
-		"stats": {
-			"CutProtection": {
-				"max_value": 1
-			},
-			"BluntProtection": {
-				"max_value": 1
-			},
-			"RadiationProtection": {
-				"max_value": 0
-			},
-			"HeatInsulation": {
-				"max_value": 1
-			},
-			"ColdInsulation": {
-				"max_value": 4
-			}
-		},
-		"health": {
-			"max_health": 100
-		},
-        "graphics": {
-        	"graphics_class": "GraphicsSingle",
-			"random_rotation_on_dropped": true,
-            "texture_path": "Textures/Things/Items/Apparel/BeanieHat"
-        }
+		"title": "Czapka bez daszka",
+		"description": "Czapka bez daszka."
 	},
 
 	"CombatHelmet": {
-		"ref_name": "ItemRef",
-		"entity_class": "Apparel",
-		"title": "Combat helmet",
-		"description": "A hard helmet for use in combat.",
-		"for_species": [
-			"Human"
-		],
-		"deterioration_rate": 2,
-		"flammability": 5.0,
-		"mass": 1.0,
-		"movement_cost": 2,
-		"skill_type_required_to_make": "Tailor",
-		"skill_amount_required_to_make": 2,
-		"base_market_value": 350,
-		"work_to_make": 70,
-		"comfort": 1,
-		"equip_delay": 130,
-		"can_be_pressurised": false,
-		"covers": [
-			"head",
-			"head_hair"
-		],
-		"slot": "headgear",
-		"materials": {
-			"use_material_colour": true,
-            "use_secondary_material_colour": true,
-			"material_types": {
-				"primary_mats": [
-					"CarbonFibre"
-				],
-				"primary_mats_amount": 8,
-				"secondary_mats": [
-					"RedDye",
-					"BlueDye",
-					"CharcoalDye",
-					"GreenDye"
-				],
-				"secondary_mats_amount": 1
-			}
-		},
-		"stats": {
-			"CutProtection": {
-				"max_value": 5
-			},
-			"BluntProtection": {
-				"max_value": 5
-			},
-			"RadiationProtection": {
-				"max_value": 0
-			},
-			"HeatInsulation": {
-				"max_value": 1
-			},
-			"ColdInsulation": {
-				"max_value": 2
-			}
-		},
-		"health": {
-			"max_health": 100
-		},
-        "graphics": {
-        	"graphics_class": "GraphicsSingle",
-			"random_rotation_on_dropped": true,
-            "texture_path": "Textures/Things/Items/Apparel/CombatHelmet"
-        }
+		"title": "Hełm bojowy",
+		"description": "Twardy hełm do użytku bojowego."
 	}
 }

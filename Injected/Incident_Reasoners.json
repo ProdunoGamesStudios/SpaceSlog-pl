@@ -5,7 +5,7 @@
     
     "Basic": {
         "ref_name": "ReasonerRef",
-        "title": "Incident reasoner",
+        "title": "IncidentReasoner",
         "reasoner_type": "IncidentReasoner",
         "options": [
             "PassingShip", "AsteroidField", "BattleDebris", "HostileCreatureAssault"

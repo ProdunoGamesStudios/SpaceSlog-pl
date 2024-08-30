@@ -16,19 +16,19 @@
                         "layer": "inner"
                     },
                     "lung": {
-                        "title": "left lung",
+                        "title": "lewe płuco",
                         "layer": "inner"
                     },
                     "lung": {
-                        "title": "right lung",
+                        "title": "prawe płuco",
                         "layer": "inner"
                     },
                     "kidney": {
-                        "title": "left kidney",
+                        "title": "lewa nerka",
                         "layer": "inner"
                     },
                     "kidney": {
-                        "title": "right kidney",
+                        "title": "prawa nerka",
                         "layer": "inner"
                     },
                     "liver": {
@@ -44,31 +44,31 @@
                         "layer": "outer"
                     },
                     "arm": {
-                        "title": "left arm",
+                        "title": "lewe ramię",
                         "layer": "outer",
                         "parts": {
                             "hand": {
-                                "title": "left hand",
+                                "title": "lewa ręka",
                                 "layer": "outer",
                                 "parts": {
                                     "thumb": {
-                                        "title": "left thumb",
+                                        "title": "lewy kcuik",
                                         "layer": "outer"
                                     },
                                     "finger": {
-                                        "title": "left little finger",
+                                        "title": "lewy mały palec",
                                         "layer": "outer"
                                     },
                                     "finger": {
-                                        "title": "left fourth finger",
+                                        "title": "lewy czwarty palec",
                                         "layer": "outer"
                                     },
                                     "finger": {
-                                        "title": "left middle finger",
+                                        "title": "lewy środkowy palec",
                                         "layer": "outer"
                                     },
                                     "finger": {
-                                        "title": "left fore finger",
+                                        "title": "lewy palec wskazujący",
                                         "layer": "outer"
                                     }
                                 }
@@ -76,31 +76,31 @@
                         }
                     },
                     "arm": {
-                        "title": "right arm",
+                        "title": "prawę ramię",
                         "layer": "outer",
                         "parts": {
                             "hand": {
-                                "title": "right hand",
+                                "title": "prawa ręka",
                                 "layer": "outer",
                                 "parts": {
                                     "thumb": {
-                                        "title": "right thumb",
+                                        "title": "prawy kciuk",
                                         "layer": "outer"
                                     },
                                     "finger": {
-                                        "title": "right little finger",
+                                        "title": "prawy mały palec",
                                         "layer": "outer"
                                     },
                                     "finger": {
-                                        "title": "right fourth finger",
+                                        "title": "prawy czwarty palec",
                                         "layer": "outer"
                                     },
                                     "finger": {
-                                        "title": "right middle finger",
+                                        "title": "prawy środkowy palec",
                                         "layer": "outer"
                                     },
                                     "finger": {
-                                        "title": "right fore finger",
+                                        "title": "prawy palec wskazujący",
                                         "layer": "outer"
                                     }
                                 }
@@ -130,31 +130,31 @@
                 "layer": " outer",
                 "parts": {
                     "leg": {
-                        "title": "left leg",
+                        "title": "lewa noga",
                         "layer": "outer",
                         "parts": {
                             "foot": {
-                                "title": "left foot",
+                                "title": "lewa stopa",
                                 "layer": "outer",
                                 "parts": {
                                     "toe": {
-                                        "title": "left big toe",
+                                        "title": "lewy duży palec u nogi",
                                         "layer": "outer"
                                     },
                                     "toe": {
-                                        "title": "left second toe",
+                                        "title": "lewy drugi palec",
                                         "layer": "outer"
                                     },
                                     "toe": {
-                                        "title": "left third toe",
+                                        "title": "lewy trzeci palec",
                                         "layer": "outer"
                                     },
                                     "toe": {
-                                        "title": "left fourth toe",
+                                        "title": "lewy czwarty palec",
                                         "layer": "outer"
                                     },
                                     "toe": {
-                                        "title": "left little toe",
+                                        "title": "lewy mały palec",
                                         "layer": "outer"
                                     }
                                 }
@@ -162,31 +162,30 @@
                         }
                     },
                     "leg": {
-                        "title": "right leg",
+                        "title": "prawa noga",
                         "layer": "outer",
                         "parts": {
                             "foot": {
-                                "title": "right foot",
-                                "layer": "outer",
+                                "title": "prawa stopa",
                                 "parts": {
                                     "toe": {
-                                        "title": "right big toe",
+                                        "title": "prawy duży palec u nogi",
                                         "layer": "outer"
                                     },
                                     "toe": {
-                                        "title": "right second toe",
+                                        "title": "prawy drugi palec",
                                         "layer": "outer"
                                     },
                                     "toe": {
-                                        "title": "right third toe",
+                                        "title": "prawy trzeci palec",
                                         "layer": "outer"
                                     },
                                     "toe": {
-                                        "title": "right fourth toe",
+                                        "title": "prawy czwarty palec",
                                         "layer": "outer"
                                     },
                                     "toe": {
-                                        "title": "right little toe",
+                                        "title": "prawy mały palec u nogi",
                                         "layer": "outer"
                                     }
                                 }
@@ -217,27 +216,27 @@
                         "layer": "outer"
                     },
                     "leg": {
-                        "title": "left front leg",
+                        "title": "przód lewej noga",
                         "layer": "outer"
                     },
                     "leg": {
-                        "title": "left middle leg",
+                        "title": "środek lewej nogi",
                         "layer": "outer"
                     },
                     "leg": {
-                        "title": "left rear leg",
+                        "title": "tył lewej nogi",
                         "layer": "outer"
                     },
                     "leg": {
-                        "title": "right front leg",
+                        "title": "przód prawej nogi",
                         "layer": "outer"
                     },
                     "leg": {
-                        "title": "right middle leg",
+                        "title": "środek prawej nogi",
                         "layer": "outer"
                     },
                     "leg": {
-                        "title": "right rear leg",
+                        "title": "tył prawej nogi",
                         "layer": "outer"
                     }
                 }
@@ -267,19 +266,19 @@
                         "layer": "inner"
                     },
                     "lung": {
-                        "title": "left lung",
+                        "title": "lewe płuco",
                         "layer": "inner"
                     },
                     "lung": {
-                        "title": "right lung",
+                        "title": "prawe płuco",
                         "layer": "inner"
                     },
                     "kidney": {
-                        "title": "left kidney",
+                        "title": "lewa nerka",
                         "layer": "inner"
                     },
                     "kidney": {
-                        "title": "right kidney",
+                        "title": "prawa nerka",
                         "layer": "inner"
                     },
                     "liver": {
@@ -295,27 +294,27 @@
                         "layer": "outer"
                     },
                     "leg": {
-                        "title": "front left leg",
+                        "title": "przednia lewa noga",
                         "layer": "outer",
                         "parts": {
                             "paw": {
-                                "title": "front left paw",
+                                "title": "przenia lewa łapa",
                                 "layer": "outer",
                                 "parts": {
                                     "claw": {
-                                        "title": "front left claw",
+                                        "title": "przedni lewy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "front left claw",
+                                        "title": "przedni lewy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "front left claw",
+                                        "title": "przedni lewy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "front left claw",
+                                        "title": "przedni lewy pazur",
                                         "layer": "outer"
                                     }
                                 }
@@ -323,27 +322,27 @@
                         }
                     },
                     "leg": {
-                        "title": "front right leg",
+                        "title": "przednia prawa noga",
                         "layer": "outer",
                         "parts": {
                             "paw": {
-                                "title": "front right paw",
+                                "title": "przednia prawa łapa",
                                 "layer": "outer",
                                 "parts": {
                                     "claw": {
-                                        "title": "front right claw",
+                                        "title": "przednia prawa łapa",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "front right claw",
+                                        "title": "przednia prawa łapa",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "front right claw",
+                                        "title": "przednia prawa łapa",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "front right claw",
+                                        "title": "przednia prawa łapa",
                                         "layer": "outer"
                                     }
                                 }
@@ -351,31 +350,31 @@
                         }
                     },
                     "leg": {
-                        "title": "rear left leg",
+                        "title": "tył lewej nogi",
                         "layer": "outer",
                         "parts": {
                             "paw": {
-                                "title": "rear left paw",
+                                "title": "tył lewej łapy",
                                 "layer": "outer",
                                 "parts": {
                                     "claw": {
-                                        "title": "rear left claw",
+                                        "title": "tylny lewy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "rear left claw",
+                                        "title": "tylny lewy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "rear left claw",
+                                        "title": "tylny lewy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "rear left claw",
+                                        "title": "tylny lewy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "rear left claw",
+                                        "title": "tylny lewy pazur",
                                         "layer": "outer"
                                     }
                                 }
@@ -383,31 +382,31 @@
                         }
                     },
                     "leg": {
-                        "title": "rear right leg",
+                        "title": "tył prawej nogi",
                         "layer": "outer",
                         "parts": {
                             "paw": {
-                                "title": "rear right paw",
+                                "title": "tylna prawa łapa",
                                 "layer": "outer",
                                 "parts": {
                                     "claw": {
-                                        "title": "rear right claw",
+                                        "title": "tylnny prawy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "rear right claw",
+                                        "title": "tylnny prawy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "rear right claw",
+                                        "title": "tylnny prawy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "rear right claw",
+                                        "title": "tylnny prawy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "rear right claw",
+                                        "title": "tylnny prawy pazur",
                                         "layer": "outer"
                                     }
                                 }

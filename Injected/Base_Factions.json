@@ -6,8 +6,8 @@
 	"Player": {
 		"ref_name": "FactionRef",
 		"type": "Player",
-		"title": "Player faction",
-		"description": "This is the player's faction.",
+		"title": "Frakcja gracza",
+		"description": "To jest frakcja gracza.",
 		"species": "Human",
 		"starting_name": "Player's faction"
 	},
@@ -15,7 +15,7 @@
 	"Reavers": {
 		"ref_name": "FactionRef",
 		"type": "Reavers",
-		"description": "A once civilised species, driven to insanity and lost on the fringes of space.",
+		"description": "Gatunek niegdyś cywilizowany, doprowadzony do szaleństwa i zagubiony na obrzeżach kosmosu.",
 		"species": "Human",
 		"allowed_laws": [
 			"Cannibalism", 
@@ -31,7 +31,7 @@
 	"Pirates": {
 		"ref_name": "FactionRef",
 		"type": "Pirates",
-		"description": "Let down and forgotten by society, they must now pillage and plunder whatever they can in order to survive.",
+		"description": "Zawiedzeni i zapomniani przez społeczeństwo, aby przetrwać, muszą teraz plądrować i szabrować wszystko, co tylko się da.",
 		"species": "Human",
 		"allowed_laws": [
 			"Banditry", 
@@ -47,7 +47,7 @@
 	"SplinterFaction": {
 		"ref_name": "FactionRef",
 		"type": "Splinter Faction",
-		"description": "A breakaway faction that has found itself dispersed across the universe.",
+		"description": "Oderwana frakcja, która została rozproszona po całym wszechświecie.",
 		"species": "Human",
 		"allowed_laws": [
 			"Slavery", 

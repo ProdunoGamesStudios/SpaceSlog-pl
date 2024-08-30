@@ -1,34 +1,34 @@
 {
     "Birthday": {
-        "title": "Birthday!",
-        "description": "Its time for celebration as {subject_name} reaches {pawn_possessive} {age} birthday!"
+        "title": "Urodziny!",
+        "description": "Czas na świetowanie z okazji urodzin {subject_name} przeżył {pawn_possessive} {age} "
     },
     "Death": {
-        "title": "Death!",
-        "description": "{subject_name} has died {reason}"
+        "title": "Śmierć!",
+        "description": "{subject_name} Umarł {reason}"
     },
     "Collapsed": {
-        "title": "{subject_name} needs rescuing.",
-        "description": "{subject_name} has collapsed {reason} and needs to be rescued."
+        "title": "{subject_name} potrzebuje ratunku.",
+        "description": "{subject_name} upadł {reason} oraz potrzebuje ratunku."
     },
     "Incapacitated": {
-        "title": "{subject_name} needs rescuing.",
-        "description": "{subject_name} has been incapacitated and can no longer move."
+        "title": "{subject_name} potrzebuje ratunku.",
+        "description": "{subject_name} jest nie zdolny do pracy i nie może się poruszać."
     },
     "Mobile": {
-        "title": "{subject_name} mobile.",
-        "description": "{subject_name} is moving again."
+        "title": "{subject_name} ruch.",
+        "description": "{subject_name} znów sie porusza."
     },
     "Fire": {
-        "title": "Fire",
-        "description": "A fire has started!"
+        "title": "Ogień",
+        "description": "Rozpoczął się pożar!"
     },
     "ShipAttacked": {
-        "title": "Ship attacked.",
-        "description": "Your ship is being attacked!"
+        "title": "Statek zaatakowany.",
+        "description": "Twój statek jest atakowany!"
     },
     "PawnAttacked": {
-        "title": "Pawn attacked.",
-        "description": "{subject_name} is being attacked!"
+        "title": "Pionek zaatakowany.",
+        "description": "{subject_name} jest atakowany!"
     }
 }

@@ -5,15 +5,15 @@
 	
 	"Human": {
 		"ref_name": "BloodRef",
-		"title": "Blood.",
-        "description": "Thick and red.",
+		"title": "Krew.",
+        "description": "Gęsta i czerwona.",
         "colour": "#ff0000",
 		"dirt_type": "Blood"
 	},
     "Worm": {
 		"ref_name": "BloodRef",
-		"title": "Blood.",
-		"description": "Green and gooey.",
+		"title": "Krew.",
+		"description": "Zielona i lepka.",
         "colour": "#9dc100",
 		"dirt_type": "Blood"
 	}

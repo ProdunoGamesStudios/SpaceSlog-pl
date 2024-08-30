@@ -5,8 +5,8 @@
 	
     "Thirsty": {
 		"ref_name": "ThoughtRef",
-		"text": "I am so thirsty. I wish there was something to drink around here.",
-		"title": "Dehydrated",
+		"text": "Jestem bardzo spragniony. Chciałbym, żeby było tu coś do picia.",
+		"title": "Odwodniony",
 		"base_effect": -5,
 		"show_thought_bubble": true,
 		"emote": "Thirsty"
@@ -14,51 +14,51 @@
 
     "Starving": {
 		"ref_name": "ThoughtRef",
-		"title": "Starving",
+		"title": "Głodowanie",
 		"base_effect": -5,
-		"text": "I am starving. I wish there was something to eat around here.",
+		"text": "Umieram z głodu. Chciałbym, żeby było tu coś do jedzenia.",
 		"show_thought_bubble": true,
 		"emote": "Starving"
 	},
 
 	"Exhausted": {
 		"ref_name": "ThoughtRef",
-		"title": "Exhausted",
+		"title": "Wyczerpany",
 		"base_effect": -5,
-		"text": "So so tired, I can hardly keep my eyes open.",
+		"text": "Jestem tak zmęczony, że ledwo mogę utrzymać oczy otwarte.",
 		"show_thought_bubble": true,
 		"emote": "Exhausted"
 	},
 
 	"ColonistDied": {
 		"ref_name": "ThoughtRef",
-		"title": "Colonist died",
-		"text": "A member of the crew has died. Maybe it will be me next time.",
+		"title": "Kolonista zmarł",
+		"text": "Zmarł członek załogi. Może następnym razem to będę ja.",
 		"base_effect": -10,
 		"duration": 96
 	},
 
 	"Ill": {
 		"ref_name": "ThoughtRef",
-		"title": "Has an illness",
+		"title": "Ma chorobę",
 		"base_effect": -5,
-		"text": "I feel so ill."
+		"text": "Czuję się tak źle."
 	},
 
     "LowOxygen": {
 		"ref_name": "ThoughtRef",
 		"note": "If oxygen is below 10% capacity?",
-		"title": "Low Oxygen",
+		"title": "Niski poziom tlenu",
 		"base_effect": -9,
-		"text": "I am really struggling to breath.",
+		"text": "Naprawdę ciężko się oddycha.",
 		"show_thought_bubble": true,
 		"emote": "Panicking"
 	},
 
     "Optimistic":  {
 		"ref_name": "ThoughtRef",
-		"title": "Optimistic",
-		"text": "I am feeling pretty happy about how things are going right now.",
+		"title": "Optymistyczny",
+		"text": "Jestem całkiem zadowolony z tego, jak sprawy się obecnie układają.",
 		"base_effect": 12,
 		"duration": 72
 	},
@@ -66,79 +66,79 @@
     "PlentyOfReserves":  {
 		"ref_name": "ThoughtRef",
 		"note": "We need to check how many colonists there are and then make sure there is enough food for at least a week or two?",
-		"title": "Plenty of reserves",
+		"title": "Mnóstwo rezerw",
 		"base_effect": 7,
-		"text": "It's great that we have plenty of food and water reserves on the ship."
+		"text": "Świetnie, że mamy na statku mnóstwo zapasów żywności i wody."
 	},
 
     "Content":  {
 		"ref_name": "ThoughtRef",
 		"note": "If they have above 60% food and water for more than so many days??",
-		"title": "Content",
+		"title": "Treść",
 		"base_effect": 7,
-		"text": "I am well watered and have food in my belly. Everything seems to be going ok for now."
+		"text": "Jestem dobrze nawodniony i jestem pełny wszystko wydaję sie być na razie w porządku."
 	},
 
     "AteOnFloor":  {
 		"ref_name": "ThoughtRef",
-		"title": "Eaten on the floor.",
-		"text": "It sucks having to eat on the floor.",
+		"title": "Je na podłodze .",
+		"text": "Szkoda że ​​trzeba jeść na podłodze.",
 		"base_effect": -3,
 		"duration": 20
 	},
 
     "SharesRoom":  {
 		"ref_name": "ThoughtRef",
-		"title": "Shares a room.",
-		"text": "I really need my own privacy.",
+		"title": "Dzieli pokój.",
+		"text": "Naprawdę potrzebuję prywatności.",
 		"base_effect": -4,
 		"duration": 20
 	},
 
     "SleptOnFloor":  {
 		"ref_name": "ThoughtRef",
-		"title": "Slept on the floor.",
-		"text": "I really wish i had a bed. It sucks having to sleep on the floor.",
+		"title": "Spałem na podłodze.",
+		"text": "Naprawdę chciałbym mieć łóżko Szkoda że ​​muszę spać na podłodze.",
 		"base_effect": -10,
 		"duration": -2
 	},
 
 	"SleptInComfyBed":  {
 		"ref_name": "ThoughtRef",
-		"title": "Slept on the floor.",
-		"text": "Wow, my bed is so comfy. I could sleep in it all day.",
+		"title": "Spałem na podłodze.",
+		"text": "Wow, moje łóżko jest takie wygodne. Mógłbym w nim spać cały dzień.",
 		"base_effect": 10,
 		"duration": 3
 	},
 
 	"SharingBed":  {
 		"ref_name": "ThoughtRef",
-		"title": "Slept on the floor.",
-		"text": "I hate having to share a bed, it stinks.",
+		"title": "Spałem na podłodze.",
+		"text": "Nienawidzę dzielić łóżka, śmierdzi.",
 		"base_effect": -10,
 		"duration": -3
 	},
 
     "Cramped":  {
 		"ref_name": "ThoughtRef",
-		"title": "Cramped.",
-		"text": "I can hardly move in this place.",
+		"title": "Tłoczno.",
+		"text": "Ledwo co mogę się poruszać.",
 		"base_effect": -10,
 		"duration": -6
 	},
 	
     "Spacious":  {
 		"ref_name": "ThoughtRef",
-		"title": "Spacious.",
-		"text": "This place is huge.",
+		"title": "Przestronny.",
+		"text": "To miejsce jest ogromne.",
 		"base_effect": 10,
 		"duration": 6
 	},
 
 	"UnsatisfiedWithRole":  {
 		"ref_name": "ThoughtRef",
-		"title": "Unsatisfied with given role.",
-		"text": "I really think I deserve a higher ranking role than the one I have been given.",
+		"title": "Niezadowolony z danej roli.",
+		"text": "Naprawdę uważam, że zasługuję na wyższą rolę niż ta, którą mi wyznaczono.",
 		"base_effect": -4,
 		"replace_thoughts": ["SatisfiedWithRole"],
 		"show_thought_bubble": true
@@ -146,8 +146,8 @@
 
 	"SatisfiedWithRole":  {
 		"ref_name": "ThoughtRef",
-		"title": "Satisfied with given role.",
-		"text": "I am really happy with the role I have been given.",
+		"title": "Zadowolony z danej roli.",
+		"text": "Jestem bardzo zadowolony z roli, jaką mi powierzono.",
 		"base_effect": 4,
 		"replace_thoughts": ["UnsatisfiedWithRole"],
 		"show_thought_bubble": true
@@ -155,15 +155,15 @@
 
 	"Depressed":  {
 		"ref_name": "ThoughtRef",
-		"title": "Depressed.",
-		"text": "My life sucks and I hate it!",
+		"title": "Przygnębiony.",
+		"text": "Moje życie ssie, nienawidzę go!",
 		"base_effect": -8
 	},
 
 	"HappyThoughts":  {
 		"ref_name": "ThoughtRef",
-		"title": "Happy thoughts.",
-		"text": "Trala lalala. Weeeeeeee.",
+		"title": "Szczęśliwe myśli.",
+		"text": "Trala lalala. Jupeeeee.",
 		"base_effect": 8
 	}
 }

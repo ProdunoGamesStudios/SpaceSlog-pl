@@ -7,8 +7,8 @@
 
     "SleepingSpot": {
         "base_class": "BaseBed",
-        "title": "Sleeping spot",
-        "description": "An uncomfortable rescue or sleeping spot for one humanoid.",
+        "title": "Miejsce do spania",
+        "description": "Niewygodne miejsce do ratowania lub spania dla jednego humanoida.",
         "movement_cost": 10,
         "flammability": 100,
         "comfort": 0.2,
@@ -30,8 +30,8 @@
 
     "SleepingBag": {
         "base_class": "BaseBed",
-        "title": "Sleeping bag",
-        "description": "An uncomfortable place for one humanoid to sleep.",
+        "title": "Śpiwór",
+        "description": "Niewygodne miejsce do spania dla jednego humanoida.",
         "movement_cost": 19,
         "mass": 6,
         "deterioration_rate": 10,
@@ -74,8 +74,8 @@
 
     "SingleBed": {
         "base_class": "BaseBed",
-        "title": "Single bed",
-        "description": "A comfortable place for one humanoid to sleep.",
+        "title": "Pojedyncze łóżko",
+        "description": "Wygodne miejsce do spania dla jednego humanoida.",
         "movement_cost": 45,
         "mass": 52,
         "deterioration_rate": 10,
@@ -118,8 +118,8 @@
 
     "DoubleBed": {
         "base_class": "BaseBed",
-        "title": "Double bed",
-        "description": "A comfortable place for two humanoids to sleep.",
+        "title": "Podwójne łóżko",
+        "description": "Wygodne miejsce do spania dla dwóch humanoidów.",
         "movement_cost": 45,
         "mass": 80,
         "deterioration_rate": 10,
@@ -163,8 +163,8 @@
 
     "HospitalBed": {
         "base_class": "BaseBed",
-        "title": "Single Hospital bed",
-        "description": "A comfortable place for one humanoid to rest and recover.",
+        "title": "Pojedyncze łóżko szpitalne",
+        "description": "Wygodne miejsce dla jednego humanoida do odpoczynku i regeneracji.",
         "movement_cost": 45,
         "mass": 52,
         "deterioration_rate": 10,
@@ -208,8 +208,8 @@
 
     "CryoPod": {
         "base_class": "CryoPod",
-        "title": "Cryo pod",
-        "description": "Freezes creatures in time, preventing ageing for as long as this item has power.",
+        "title": "Kapsuła kriogeniczna",
+        "description": "Zamraża stworzenia w czasie, zapobiegając starzeniu się tak długo, jak długo ten przedmiot ma energię.",
         "movement_cost": 45,
         "mass": 120,
         "deterioration_rate": 10,
@@ -253,8 +253,8 @@
 
     "SmallTable": {
         "base_class": "Building",
-        "title": "Small table",
-        "description": "A small table that is a relatively comfortable place for a humanoid to eat. At least it's better than eating off the floor.",
+        "title": "Mały stolik",
+        "description": "Mały stolik będący stosunkowo wygodnym miejscem do jedzenia dla humanoida. Przynajmniej to lepsze niż jedzenie z podłogi.",
         "movement_cost": 39,
         "mass": 15,
         "deterioration_rate": 10,
@@ -288,8 +288,8 @@
 
     "MediumTable": {
         "base_class": "Building",
-        "title": "Medium table",
-        "description": "A table that is a relatively comfortable place for a humanoid to eat. At least it's better than eating off the floor.",
+        "title": "Średni stół",
+        "description": "Stół będący stosunkowo wygodnym miejscem do jedzenia dla humanoida. Przynajmniej to lepsze niż jedzenie z podłogi.",
         "movement_cost": 39,
         "mass": 20,
         "deterioration_rate": 10,
@@ -325,8 +325,8 @@
 
     "LargeTable": {
         "base_class": "Building",
-        "title": "Large table",
-        "description": "A large table that is a relatively comfortable place for a humanoid to eat. At least it's better than eating off the floor.",
+        "title": "Duży stół",
+        "description": "Duży stół będący stosunkowo wygodnym miejscem do jedzenia dla humanoida. Przynajmniej to lepsze niż jedzenie z podłogi.",
         "flammability": 30,
         "mass": 24,
         "movement_cost": 39,
@@ -362,8 +362,8 @@
 
     "Chair": {
         "base_class": "Building",
-        "title": "Chair",
-        "description": "A relatively comfortable place for a humanoid to sit.",
+        "title": "Krzesło",
+        "description": "Stosunkowo wygodne miejsce do siedzenia dla humanoida.",
         "rotatable": true,
         "movement_cost": 30,
         "mass": 6,
@@ -398,8 +398,8 @@
 
     "Stool": {
         "base_class": "Building",
-        "title": "Stool",
-        "description": "Marginally better than sitting on the floor.",
+        "title": "Stołek",
+        "description": "Nieco lepsze niż siedzenie na podłodze.",
         "movement_cost": 25,
         "mass": 4,
         "deterioration_rate": 10,
@@ -432,8 +432,8 @@
 
     "CaptainsChair": {
         "base_class": "Building",
-        "title": "Captains chair",
-        "description": "A chair suitable for a Captain.",
+        "title": "Krzesło kapitańskie",
+        "description": "Krzesło odpowiednie dla Kapitana.",
         "rotatable": true,
         "movement_cost": 35,
         "mass": 46,
@@ -470,8 +470,8 @@
 
     "CommandChair": {
         "base_class": "Building",
-        "title": "Command chair",
-        "description": "A chair mostly used on the bridge.",
+        "title": "Krzesło dowodzenia",
+        "description": "Krzesło używane głównie na mostku.",
         "rotatable": true,
         "movement_cost": 35,
         "mass": 42,
@@ -508,8 +508,8 @@
     
     "FloorLight": {
         "base_class": "Building",
-        "title": "Floor light",
-        "description": "A light that fits into the floor.",
+        "title": "Światło podłogowe",
+        "description": "Lampa pasująca do podłogi.",
         "rotatable": true,
         "movement_cost": 0,
         "mass": 2,
@@ -558,8 +558,8 @@
 
     "AlarmFloorLight": {
         "base_class": "Building",
-        "title": "Alarm floor light",
-        "description": "A light that fits into the floor.",
+        "title": "Alarmowa lampa podłogowa",
+        "description": "Lampa pasująca do podłogi.",
         "rotatable": true,
         "movement_cost": 0,
         "mass": 2,

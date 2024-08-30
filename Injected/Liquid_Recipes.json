@@ -5,8 +5,8 @@
 
 	"Water": {
 		"ref_name": "RecipeRef",
-		"title": "Water",
-        "description": "Melt ice down into water.",
+		"title": "Woda",
+        "description": "Rozpuść lód.",
 		"input": {
             "Ice" : 1
         },
@@ -17,8 +17,8 @@
 	},
     "Wine": {
 		"ref_name": "RecipeRef",
-		"title": "Wine",
-        "description": "Ferment water and berries together to create wine.",
+		"title": "Wino",
+        "description": "Fermentuj razem wodę i jagody, aby stworzyć wino.",
 		"input": {
             "Water" : 8,
             "Berries": 10
@@ -30,8 +30,8 @@
 	},
     "VegetableBroth": {
 		"ref_name": "RecipeRef",
-		"title": "Vegetable broth",
-        "description": "Make a tasty herb and vegetable broth.",
+		"title": "Rosół warzywny",
+        "description": "Przygotuj smaczny bulion ziołowo-warzywny.",
 		"input": {
             "Water" : 6,
             "RootVegetables": 8,

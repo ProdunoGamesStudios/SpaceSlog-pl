@@ -8,8 +8,8 @@
     "Cables": {
         "base_class": "Building",
         "entity_class": "Cable",
-        "title": "Power cable",
-        "description": "Carries electricity.",
+        "title": "Kabel zasilający",
+        "description": "Przewodzi prąd.",
         "movement_cost": 0,
         "mass": 3,
         "deterioration_rate": 10,
@@ -41,8 +41,8 @@
 
     "SmallGenerator": {
         "base_class": "Building",
-        "title": "Small generator",
-        "description": "Consumes Plutonium stored in Fuel Cells to generate a small amount of electricity.",
+        "title": "Mały generator",
+        "description": "Zużywa pluton przechowywany w ogniwach paliwowych, aby wytworzyć niewielką ilość energii elektrycznej.",
         "movement_cost": 50,
         "mass": 95,
         "deterioration_rate": 10,
@@ -99,8 +99,8 @@
 
     "LargeGenerator": {
         "base_class": "Building",
-        "title": "Large generator",
-        "description": "Consumes Plutonium stored in Fuel Cells to generate a large amount of electricity.",
+        "title": "Duży generator",
+        "description": "Zużywa pluton przechowywany w ogniwach paliwowych, aby wygenerować dużą ilość energii elektrycznej.",
         "movement_cost": 50,
         "mass": 220,
         "deterioration_rate": 10,
@@ -158,8 +158,8 @@
 
     "SmallSolarPanel": {
         "base_class": "Building",
-        "title": "Small solar panel",
-        "description": "Generates a small amount of electricity from natural light sources, such as a star.",
+        "title": "Mały panel słoneczny",
+        "description": "Generuje niewielką ilość energii elektrycznej z naturalnych źródeł światła, takich jak gwiazda.",
         "movement_cost": 50,
         "mass": 34,
         "deterioration_rate": 10,
@@ -208,8 +208,8 @@
 
     "LargeSolarPanel": {
         "base_class": "Building",
-        "title": "Large solar panel",
-        "description": "Generates electricity from natural light sources, such as a star.",
+        "title": "Duży panel słoneczny",
+        "description": "Wytwarza energię elektryczną z naturalnych źródeł światła, takich jak gwiazda.",
         "movement_cost": 50,
         "mass": 102,
         "deterioration_rate": 10,
@@ -258,8 +258,8 @@
     
     "Battery": {
         "base_class": "Building",
-        "title": "Battery",
-        "description": "Stores an amount of electricity which is available for use as as necessary.",
+        "title": "Bateria",
+        "description": "Przechowuje ilość energii elektrycznej, którą można wykorzystać w razie potrzeby.",
         "rotatable": true,
         "movement_cost": 50,
         "mass": 52,

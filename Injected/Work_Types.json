@@ -5,111 +5,111 @@
 	
 	"FireControl": {
 		"ref_name": "WorkTypeRef",
-		"title": "Fire control",
-		"description": "Will attempt to fight any fires.",
+		"title": "Kontrola ognia",
+		"description": "Podejmę próbę gaszenia wszelkich pożarów.",
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/FireControl.png"
 	},
 
 	"Patient": {
 		"ref_name": "WorkTypeRef",
-		"title": "Patient",
-		"description": "Will use beds when injured or sick to heal themselves back to full health.",
+		"title": "Pacjęt",
+		"description": "Będzie korzystał z łóżek, gdy zostanie ranny lub chory, aby wyleczyć się i wrócić do pełnego zdrowia.",
 		"require_capable_colonist": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Patient.png"
 	},
 
 	"Medical": {
 		"ref_name": "WorkTypeRef",
-		"title": "Medical",
-		"description": "Rescues, looks after and heals the sick or wounded.",
+		"title": "Medyk",
+		"description": "Ratuje, opiekuje się i leczy chorych i rannych.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Medical.png"
 	},
 
 	"Combat": {
 		"ref_name": "WorkTypeRef",
-		"title": "Combat",
-		"description": "Will engage in combat.",
+		"title": "Wojownik",
+		"description": "Weźmie udział w walce.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Combat.png"
 	},
 
 	"Cook": {
 		"ref_name": "WorkTypeRef",
-		"title": "Cook",
-		"description": "Performs all cooking and brewing activities.",
+		"title": "Kucharz",
+		"description": "Wykonuje wszelkie czynności związane z gotowaniem i warzeniem piwa.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Cook.png"
 	},
 
 	"Botany": {
 		"ref_name": "WorkTypeRef",
-		"title": "Botany",
-		"description": "Tends to any plants including planting seeds and harvesting crops.",
+		"title": "BBotanika",
+		"description": "Zajmuje się wszelkimi roślinami, w tym sadzeniem nasion i zbieraniem plonów.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Botany.png"
 	},
 
 	"Engineering": {
 		"ref_name": "WorkTypeRef",
-		"title": "Engineering",
-		"description": "Performs any maintenance and constructs or deconstructs anything required.",
+		"title": "Inżynier",
+		"description": "Wykonuje wszelkie prace konserwacyjne oraz konstruuje lub dekonstruuje wszystko, co jest wymagane.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Engineering.png"
 	},
 
 	"Janitor": {
 		"ref_name": "WorkTypeRef",
-		"title": "Janitor",
-		"description": "Cleans flooring and performs many basic tasks.",
+		"title": "Dozorca",
+		"description": "Sprząta podłogi i wykonuje wiele podstawowych zadań.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Janitor.png"
 	},
 
 	"Security": {
 		"ref_name": "WorkTypeRef",
-		"title": "Security",
-		"description": "Looks after and manages prisoners.",
+		"title": "ochroniarz",
+		"description": "Opiekuje się i zarządza więźniami.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Security.png"
 	},
 
 	"Science": {
 		"ref_name": "WorkTypeRef",
-		"title": "Science",
-		"description": "Performs research, development and other scientific activities.",
+		"title": "Naukowiec",
+		"description": "Prowadzi działalność badawczo-rozwojową i inną działalność naukową.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Science.png"
 	},
 
 	"Veterinarian": {
 		"ref_name": "WorkTypeRef",
-		"title": "Veterinarian",
-		"description": "Trains and takes care of animals.",
+		"title": "Weterynarz",
+		"description": "Szkoli i opiekuje się zwierzętami.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Veterinarian.png"
 	},
 
 	"Tailor": {
 		"ref_name": "WorkTypeRef",
-		"title": "Tailor",
-		"description": "Creates apparel.",
+		"title": "Krawiec",
+		"description": "Tworzy odzież.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Tailor.png"
 	},
 	
 	"Machining": {
 		"ref_name": "WorkTypeRef",
-		"title": "Machining",
-		"description": "Creates various equipment and ship parts.",
+		"title": "Obróbka",
+		"description": "Tworzy różnorodne wyposażenie i części statków.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Machining.png"
 	},
 
 	"Labourer": {
 		"ref_name": "WorkTypeRef",
-		"title": "Labourer",
-		"description": "Hauls the dead, equipment and resources where required. Refills designated machinery.",
+		"title": "Robotnik",
+		"description": "Uzupełnia maszyny.",
 		"start_active": false,
 		"texture_path": "res://Textures/UI/Icons/WorkTypes/Labourer.png"
 	}

@@ -5,20 +5,20 @@
 	
 	"Human": {
 		"ref_name": "SkinRef",
-		"title": "Skin",
-        "description": "Waterproof but weak.",
+		"title": "Skóra",
+        "description": "Wodoodporna, ale słaba.",
         "material": "Leather"
 	},
     "Worm": {
 		"ref_name": "SkinRef",
-		"title": "Skin",
-		"description": "Relatively strong.",
+		"title": "Skóra",
+		"description": "Stosunkowo mocna.",
         "material": "Leather"
 	},
     "Rodent": {
 		"ref_name": "SkinRef",
-		"title": "Skin",
-		"description": "Relatively strong.",
+		"title": "Skóra",
+		"description": "Stosunkowo mocny.",
         "material": "Leather"
 	}
 }

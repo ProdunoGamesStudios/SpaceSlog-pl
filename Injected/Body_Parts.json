@@ -5,114 +5,114 @@
 	
 	"torso": {
 		"ref_name": "BodyPartRef",
-		"title": "Torso"
+		"title": "Tułów"
 	},
 	"head": {
 		"ref_name": "BodyPartRef",
-		"title": "Head",
+		"title": "Głowa",
 		"damage_type": "Headbutt"
 	},
 	"jaw": {
 		"ref_name": "BodyPartRef",
-		"title": "Jaw"
+		"title": "Szczęka"
 		},
 	"leg": {
 		"ref_name": "BodyPartRef",
-		"title": "Leg",
+		"title": "Noga",
 		"damage_type": "Kick"
 	},
 	"foot": {
 		"ref_name": "BodyPartRef",
-		"title": "Foot",
+		"title": "Stopa",
 		"damage_type": "Stomp"
 	},
 	"arm": {
 		"ref_name": "BodyPartRef",
-		"title": "Arm"
+		"title": "Ramię"
 	},
 	"hand": {
 		"ref_name": "BodyPartRef",
-		"title": "Hand",
+		"title": "Ręka",
 		"damage_type": "Punch"
 	},
 	"lung": {
 		"ref_name": "BodyPartRef",
-		"title": "Lung"
+		"title": "Płuco"
 	},
 	"ribs": {
 		"ref_name": "BodyPartRef",
-		"title": "Ribs"
+		"title": "Żebro"
 	},
 	"heart": {
 		"ref_name": "BodyPartRef",
-		"title": "Heart"
+		"title": "Serce"
 	},
 	"liver": {
 		"ref_name": "BodyPartRef",
-		"title": "Liver"
+		"title": "Wątroba"
 	},
 	"teeth": {
 		"ref_name": "BodyPartRef",
-		"title": "Teeth",
+		"title": "Ząb",
 		"damage_type": "Bite"
 	},
 	"claw": {
 		"ref_name": "BodyPartRef",
-		"title": "Claw",
+		"title": "Pazur",
 		"damage_type": "Scratch"	
 	},
 	"kidney": {
 		"ref_name": "BodyPartRef",
-		"title": "Kidney"
+		"title": "Nerka"
 	},
 	"groin": {
 		"ref_name": "BodyPartRef",
-		"title": "groin"
+		"title": "Pachwina"
 	},
 	"finger": {
 		"ref_name": "BodyPartRef",
-		"title": "Finger",
+		"title": "Palec",
 		"damage_type": "Poke"		
 	},
 	"thumb": {
 		"ref_name": "BodyPartRef",
-		"title": "Thumb",
+		"title": "Kciuk",
 		"damage_type": "Gouge"
 	},
 	"toe": {
 		"ref_name": "BodyPartRef",
-		"title": "Toe"
+		"title": "Palec u nogi"
 	},
 	"neck": {
 		"ref_name": "BodyPartRef",
-		"title": "Neck"
+		"title": "Szyja"
 	},
 	"stomach": {
 		"ref_name": "BodyPartRef",
-		"title": "Stomach"
+		"title": "Brzuch"
 	},
 	"intestines": {
 		"ref_name": "BodyPartRef",
-		"title": "Intestines"
+		"title": "Jelita"
 	},
 	"ear": {
 		"ref_name": "BodyPartRef",
-		"title": "Ear"
+		"title": "Ucho"
 	},
 	"nose": {
 		"ref_name": "BodyPartRef",
-		"title": "Nose"
+		"title": "Nos"
 	},
 	"skull": {
 		"ref_name": "BodyPartRef",
-		"title": "Skull"
+		"title": "Czaszka"
 	},
 	"paw": {
 		"ref_name": "BodyPartRef",
-		"title": "Paw"
+		"title": "Łapa"
 	},
 	"tail": {
 		"ref_name": "BodyPartRef",
-		"title": "Tail"
+		"title": "Ogon"
 	}
 }

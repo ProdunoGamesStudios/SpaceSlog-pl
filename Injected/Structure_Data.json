@@ -6,8 +6,8 @@
 	},
 	"MetalHull": {
 		"base_class": "BaseHull",
-		"title": "Hull wall",
-		"description": "An impermeable hull that can hold atmosphere. Required to enable the placement of flooring.",
+		"title": "Ściana kadłuba",
+		"description": "Nieprzepuszczalny kadłub, który może utrzymać atmosferę. Wymagane, aby umożliwić położenie podłogi.",
 		"walkable": false,
 		"mass": 40,
 		"deterioration_rate": 20,
@@ -36,24 +36,24 @@
 	},
 	"MetalHullCorner": {
 		"base_class": "BaseHullArmour",
-		"title": "Hull wall armour",
-		"description": "Armoured hull is used on ship exteriors. Due to its heavy nature is made porous to save weight. This means it does not hold atmosphere.",
+		"title": "Pancerz ścian kadłuba",
+		"description": "Kadłub pancerny jest używany na zewnątrz statków. Ze względu na swój ciężki charakter jest porowaty, aby zaoszczędzić na wadze. Oznacza to, że nie utrzymuje atmosfery.",
 		"graphics": {
 			"texture_path": "Textures/Things/Building/BuildingFrame/Hull/MetalHullCorner"
 		}
 	},
 	"MetalHullAngle": {
 		"base_class": "BaseHullArmour",
-		"title": "Hull wall armour",
-		"description": "Armoured hull is used on ship exteriors. Due to its heavy nature is made porous to save weight. This means it does not hold atmosphere.",
+		"title": "Pancerz ścian kadłuba",
+		"description": "Kadłub pancerny jest używany na zewnątrz statków. Ze względu na swój ciężki charakter jest porowaty, aby zaoszczędzić na wadze. Oznacza to, że nie utrzymuje atmosfery.",
 		"graphics": {
 			"texture_path": "Textures/Things/Building/BuildingFrame/Hull/MetalHullAngle"
 		}
 	},
 	"MetalFloor": {
 		"base_class": "BaseFloor",
-		"title": "Hull floor",
-		"description": "A standard type of flooring used in spaceships across the galaxy. Place on top of hull to create rooms.",
+		"title": "Podłoga kadłuba",
+		"description": "Standardowy rodzaj podłogi używany w statkach kosmicznych w całej galaktyce. Umieść na szczycie kadłuba, aby utworzyć pokoje.",
 		"movement_cost": 1,
 		"mass": 15,
 		"deterioration_rate": 20,
@@ -81,8 +81,8 @@
 	},
 	"ConcreteFloor": {
 		"base_class": "BaseFloor",
-		"title": "Concrete floor",
-		"description": "A heavy flooring used in large crafts. Place on top of hull to create rooms.",
+		"title": "Betonowa podłoga",
+		"description": "Ciężka podłoga stosowana w dużych rzemiosłach. Umieść na szczycie kadłuba, aby utworzyć pokoje.",
 		"movement_cost": 1,
 		"mass": 30,
 		"deterioration_rate": 20,
@@ -110,8 +110,8 @@
 	},
 	"CarpetFloor": {
 		"base_class": "BaseFloor",
-		"title": "Carpet",
-		"description": "A very comfortable luxury carpet. Must be placed on top of other flooring.",
+		"title": "Dywan",
+		"description": "Bardzo wygodny luksusowy dywan. Należy go położyć na innej podłodze.",
 		"flooring_overlay": true,
 		"mass": 2,
 		"deterioration_rate": 20,
@@ -148,8 +148,8 @@
 	},
 	"WoodFloor": {
 		"base_class": "BaseFloor",
-		"title": "Wooden flooring",
-		"description": "A standard type of flooring made from wood. Must be placed on top of other flooring.",
+		"title": "Drewniana podłoga",
+		"description": "Standardowy rodzaj podłogi wykonanej z drewna. Należy go położyć na innej podłodze.",
 		"flooring_overlay": true,
 		"mass": 6,
 		"deterioration_rate": 20,
@@ -176,8 +176,8 @@
 	},
 	"Door": {
 		"base_class": "BaseDoor",
-		"title": "Door",
-		"description": "A manual door.",
+		"title": "Drzwi",
+		"description": "Drzwi ręczne.",
 		"movement_cost": 2,
 		"mass": 12,
 		"deterioration_rate": 15,
@@ -211,8 +211,8 @@
 	},
 	"ArmouredDoor": {
 		"base_class": "BaseDoor",
-		"title": "Armoured door",
-		"description": "A manual reinforced door.",
+		"title": "Drzwi pancerne",
+		"description": "Drzwi ręczne wzmocnione.",
 		"movement_cost": 3,
 		"mass": 23,
 		"deterioration_rate": 15,
@@ -245,8 +245,8 @@
 	},
 	"BlastDoor": {
 		"base_class": "BaseAirlockDoor",
-		"title": "Blast door",
-		"description": "A manual, air tight door",
+		"title": "Szczelne drzwi",
+		"description": "Ręczne, szczelne drzwi",
 		"movement_cost": 2,
 		"mass": 25,
 		"deterioration_rate": 15,
@@ -280,8 +280,8 @@
 	},
 	"ArmouredBlastDoor": {
 		"base_class": "BaseAirlockDoor",
-		"title": "Armoured blast door",
-		"description": "A manual, reinforced air tight door.",
+		"title": "Wzmacniane szczelne drzwi",
+		"description": "Ręczne, wzmocnione drzwi szczelne.",
 		"movement_cost": 3,
 		"mass": 32,
 		"deterioration_rate": 15,

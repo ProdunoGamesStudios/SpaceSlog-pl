@@ -5,18 +5,18 @@
 
     "PlayerShip": {
         "ref_name": "BaseRef",
-        "title": "Player ship"
+        "title": "Statek gracza"
     },
     "TradeShip": {
         "ref_name": "BaseRef",
-        "title": "Trade ship"
+        "title": "Statek handlowy"
     },
     "PirateShip": {
         "ref_name": "BaseRef",
-        "title": "Pirate ship"
+        "title": "Statek piracki"
     },
     "SlaveShip": {
         "ref_name": "BaseRef",
-        "title": "Slave ship"
+        "title": "Statek niewolników"
     }
 }

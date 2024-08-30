@@ -5,13 +5,13 @@
 
 	"General": {
 		"ref_name": "DamageRef",
-		"title": "General",
+		"title": "Ogólne",
 		"death_text": ".",
 		"allows_blood": true
 	},
 	"Explosion": {
 		"ref_name": "DamageRef",
-		"title": "Explosion",
+		"title": "Eksplozja",
 		"death_text": "by explosion.",
 		"allows_blood": true
 	},
@@ -21,97 +21,97 @@
 	},
 	"Dehydration": {
 		"ref_name": "DamageRef",
-		"title": "Dehydration",
+		"title": "Odwodnienie",
 		"past_tense": "dehydrated",
 		"death_text": "from dehydration."
 	},
 	"Starvation": {
 		"ref_name": "DamageRef",
-		"title": "Starvation",
+		"title": "Wygłodzenie",
 		"past_tense": "starved",
 		"death_text": "from starvation."
 	},
 	"Exhaustion": {
 		"ref_name": "DamageRef",
-		"title": "Exhaustion",
+		"title": "Wyczerpanie",
 		"past_tense": "exhausted",
 		"death_text": "from exhaustion."
 	},
 	"Suffocation": {
 		"ref_name": "DamageRef",
-		"title": "Suffocation",
+		"title": "Uduszenie",
 		"past_tense": "suffocated",
 		"death_text": "from suffocation."
 	},
 	"OrganFailure": {
 		"ref_name": "DamageRef",
-		"title": "Organ failure",
+		"title": "Niewydolność narządów",
 		"past_tense": "extreme internal organ failure",
 		"death_text": "from extreme internal organ failure."
 	},
 	"Punch": {
 		"ref_name": "DamageRef",
-		"title": "Punch",
+		"title": "uderzanie",
 		"past_tense": "punched",
 		"death_text": "from being punched."
 	},
 	"Kick": {
 		"ref_name": "DamageRef",
-		"title": "Kick",
+		"title": "Kopnięcie",
 		"past_tense": "kicked",
 		"death_text": "from being kicked."
 	},
 	"Bite": {
 		"ref_name": "DamageRef",
-		"title": "Bite",
+		"title": "Ugryzienie",
 		"past_tense": "bitten",
 		"death_text": "from being bitten."
 	},
 	"Scratch": {
 		"ref_name": "DamageRef",
-		"title": "Scratch",
+		"title": "Zadrapanie",
 		"past_tense": "scratched",
 		"death_text": "from being scratched."
 	},
 	"Poke": {
 		"ref_name": "DamageRef",
-		"title": "Poke",
+		"title": "szturchnięty",
 		"past_tense": "poked",
 		"death_text": "from being poked."
 	},
 	"Headbutt": {
 		"ref_name": "DamageRef",
-		"title": "Headbutt",
+		"title": "Uderzenie głową",
 		"past_tense": "headbutted",
 		"death_text": "from being headbutted."
 	},
 	"Gouge": {
 		"ref_name": "DamageRef",
-		"title": "Gouge",
+		"title": "wyżłobiony",
 		"past_tense": "gouged",
 		"death_text": "from being gouged."
 	},
 	"Stomp": {
 		"ref_name": "DamageRef",
-		"title": "Stomp",
+		"title": "uderzenie",
 		"past_tense": "stomped",
 		"death_text": "from being stomped."
 	},
 	"Whip": {
 		"ref_name": "DamageRef",
-		"title": "Whip",
+		"title": "bicz",
 		"past_tense": "whipped",
 		"death_text": "from being whipped."
 	},
 	"Rot": {
 		"ref_name": "DamageRef",
-		"title": "Rot",
+		"title": "Gnicie",
 		"past_tense": "rotted",
 		"death_text": "from rotting."
 	},
 	"Deteriorate": {
 		"ref_name": "DamageRef",
-		"title": "Deteriorate",
+		"title": "podupadł ",
 		"past_tense": "deteriorated",
 		"death_text": "deteriorated."
 	}

@@ -5,23 +5,23 @@
 	
 	"Human": {
 		"ref_name": "BonesRef",
-		"title": "Bone",
-        "description": "Made of connective tissue and specialised bone cells.",
+		"title": "Kość",
+        "description": "zrobione z tkanki i komórek kostnych.",
         "colour": "#ff0000",
         "material": "Bone",
 		"texture_path": ""
 	},
     "Worm": {
 		"ref_name": "BonesRef",
-		"title": "Bone",
-		"description": "Thin and brittle.",
+		"title": "Kość",
+		"description": "cienka i krucha.",
         "colour": "#9dc100",
         "material": "Bone"
 	},
     "Rodent": {
 		"ref_name": "BonesRef",
-		"title": "Bone",
-		"description": "Thin and brittle.",
+		"title": "Kość",
+		"description": "cienka i krucha.",
         "colour": "#ff0000",
         "material": "Bone"
 	}

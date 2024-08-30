@@ -5,22 +5,22 @@
     
     "None": {
         "ref_name": "AtmosphereRef",
-        "title": "No atmosphere",
-        "description": "There is no atmosphere here. This means there is very little pressure or gasses, if any at all.",
+        "title": "Brak atmosfery",
+        "description": "Nie ma tu atmosfery. Oznacza to, że ciśnienie lub gazy są bardzo małe, jeśli w ogóle występują.",
         "max_pressure_per_cell": 0
     },
 
     "Empty": {
         "ref_name": "AtmosphereRef",
-        "title": "Empty atmosphere",
-        "description": "You must fill this atmosphere with your own gasses.",
+        "title": "Pusta atmosfera",
+        "description": "Musisz wypełnić tę atmosferę gazami.",
         "max_pressure_per_cell": 200
     },
 
     "EarthLike": {
         "ref_name": "AtmosphereRef",
-        "title": "Earth-like",
-        "description": "This atmosphere has earth like properties.",
+        "title": "Ziemskie",
+        "description": "Atmosfera ta ma właściwości podobne do ziemskich.",
         "max_pressure_per_cell": 200,
         "gasses": ["Oxygen", "Nitrogen"]
     }

@@ -5,43 +5,43 @@
     
     "CutProtection": {
         "ref_name": "BaseRef",
-        "title": "Cut protection",
-        "description": "Protects the wearer from cut damage."
+        "title": "Ochrona przed cięciem",
+        "description": "Chroni użytkownika przed cięciami."
     },
 
     "CutDamage": {
         "ref_name": "BaseRef",
-        "title": "Cut damage",
-        "description": "The amount of cut damage inflicted."
+        "title": "obrażenia od cięcia",
+        "description": "Ilość zadanych obrażeń ciętych."
     },
 
     "BluntProtection": {
         "ref_name": "BaseRef",
-        "title": "Blunt protection",
-        "description": "Protects the wearer from blunt damage."
+        "title": "ochrona przed narzędziami tępymi",
+        "description": "Chroni noszącego przed obrażeniami tępymi."
     },
 
     "BluntDamage": {
         "ref_name": "BaseRef",
-        "title": "Blunt damage",
-        "description": "The amount of blunt damage inflicted."
+        "title": "Tępe obrażenia",
+        "description": "Ilość zadanych obrażeń tępych."
     },
 
     "RadiationProtection": {
         "ref_name": "BaseRef",
-        "title": "Radiation protection",
-        "description": "Protects the wearer from radiation."
+        "title": "Ochrona przed promieniowaniem",
+        "description": "Chroni użytkownika przed promieniowaniem."
     },
 
     "HeatInsulation": {
         "ref_name": "BaseRef",
-        "title": "Heat insulation",
-        "description": "Insulates the wearer from heat."
+        "title": "Izolacja cieplna",
+        "description": "Izoluje użytkownika od ciepła."
     },
     
     "ColdInsulation": {
         "ref_name": "BaseRef",
-        "title": "Cold insulation",
-        "description": "Insulates the wearer from the cold."
+        "title": "Izolacja zimna",
+        "description": "Izoluje noszącego od zimna."
     }
 }

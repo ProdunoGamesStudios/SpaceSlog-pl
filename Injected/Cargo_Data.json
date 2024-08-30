@@ -1,10 +1,10 @@
 {
 	"SmallContainer": {
-        "title": "Small Container",
-        "description": "Dude! Wheres my car?!."
+        "title": "Mały pojemnik",
+        "description": "Ziomuś! Gdzie jest mój samochód?!."
     },
     "SmallBarrel": {
-        "title": "Small Barrel",
+        "title": "Mała baryłka",
         "description": "Testy for polish."
     }
 }

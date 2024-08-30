@@ -5,8 +5,8 @@
     
     "Room": {
         "ref_name": "AreaRef",
-        "title": "Room",
-        "description": "A standard type of room.",
+        "title": "Pokój",
+        "description": "Standardowy typ pokoju.",
         "highlight": "Edge"
     }
 }

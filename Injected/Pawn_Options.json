@@ -5,8 +5,8 @@
     
     "Build": {
         "ref_name": "OptionRef",
-        "title": "Build",
-        "description": "Building",
+        "title": "Zbuduj",
+        "description": "budowanie",
         "context_text": "construct",
         "work_types_required": ["Engineering"],
         "considerations": ["HasPrefab"],
@@ -16,8 +16,8 @@
     },
     "Deconstruct": {
         "ref_name": "OptionRef",
-        "title": "Deconstruct",
-        "description": "Deconstructing building",
+        "title": "Dekonstruuj",
+        "description": "Dekonstrukcja budynku",
         "context_text": "deconstruct",
         "work_types_required": ["Engineering"],
         "considerations": ["HasDeconstruction"],
@@ -27,8 +27,8 @@
     },
     "Mine": {
         "ref_name": "OptionRef",
-        "title": "Mine",
-        "description": "Mining",
+        "title": "Wykop",
+        "description": "Kopanie",
         "context_text": "mine",
         "work_types_required": ["Labourer"],
         "considerations": ["HasMineable"],
@@ -38,8 +38,8 @@
     },
     "Refuel": {
         "ref_name": "OptionRef",
-        "title": "Refuel",
-        "description": "Refuelling",
+        "title": "Zatankuj",
+        "description": "Tankowanie",
         "context_text": "refuel",
         "work_types_required": ["Labourer"],
         "considerations": ["ThingNeedsRefuelling"],
@@ -49,8 +49,8 @@
     },
     "Eat": {
         "ref_name": "OptionRef",
-        "title": "Eat",
-        "description": "Eating",
+        "title": "Zjedz",
+        "description": "Jedzenie",
         "context_text": "eat",
         "considerations": ["Hungry", "HasFood", "Greedy"],
         "task_driver": "Eat",
@@ -59,8 +59,8 @@
     },
     "Drink": {
         "ref_name": "OptionRef",
-        "title": "Drink",
-        "description": "Drinking",
+        "title": "Wypij",
+        "description": "Picie",
         "context_text": "drink",
         "considerations": ["Thirsty", "HasDrink", "Greedy"],
         "task_driver": "Drink",
@@ -69,8 +69,8 @@
     },
     "Sleep": {
         "ref_name": "OptionRef",
-        "title": "Sleep",
-        "description": "Sleeping",
+        "title": "Śpij",
+        "description": "Spanie",
         "context_text": "rest at",
         "considerations": ["Tired", "SomewhereToSleep"],
         "task_driver": "Sleep",
@@ -79,15 +79,15 @@
     },
     "Roam": {
         "ref_name": "OptionRef",
-        "title": "Roam",
-        "description": "Roaming",
+        "title": "Wędruj",
+        "description": "Węrduje",
         "considerations": ["Fallback", "SomewhereToRoam"],
         "task_driver": "Roam",
         "schedule_types": ["Work", "Sleep"]
     },
     "BeatFire": {
         "ref_name": "OptionRef",
-        "title": "Put out fire",
+        "title": "Zgaś ogień",
         "context_text": "put out",
         "work_types_required": ["FireControl"],
         "considerations": [],
@@ -95,8 +95,8 @@
     },
     "Clean": {
         "ref_name": "OptionRef",
-        "title": "Clean",
-        "description": "Cleaning",
+        "title": "Wyczyść",
+        "description": "Czyszczenie",
         "context_text": "clean",
         "work_types_required": ["Janitor"],
         "considerations": ["HasDirt"],
@@ -106,24 +106,24 @@
     },
     "SelfTend": {
         "ref_name": "OptionRef",
-        "title": "Self tend",
-        "context_text": "self tend",
+        "title": "pielęgnacja",
+        "context_text": "pielęgnacja",
         "work_types_required": ["Medical"],
         "considerations": [],
         "schedule_types": ["Work", "Sleep"]
     },
     "RestHeal": {
         "ref_name": "OptionRef",
-        "title": "Rest heal",
-        "description": "Resting in bed until healed.",
+        "title": "odpoczynek leczy",
+        "description": "odpoczynek leczy obrażenia.",
         "work_types_required": ["Patient"],
         "considerations": ["MyHealth", "HasMedicalBed"],
         "schedule_types": ["Work", "Sleep"]
     },
     "Rescue": {
         "ref_name": "OptionRef",
-        "title": "Rescue",
-        "description": "Rescuing collapsed pawn.",
+        "title": "Ratunek",
+        "description": "Ratowanie upadłego pionka.",
         "context_text": "rescue",
         "work_types_required": ["Medical"],
         "considerations": ["PawnNeedsRescue", "HasMedicalBed"],
@@ -133,8 +133,8 @@
     },
     "Repair": {
         "ref_name": "OptionRef",
-        "title": "Repair",
-        "description": "Repairing",
+        "title": "Napraw",
+        "description": "Naprawianie",
         "context_text": "repair",
         "work_types_required": ["Engineering"],
         "considerations": [],
@@ -143,8 +143,8 @@
     },
     "Haul": {
         "ref_name": "OptionRef",
-        "title": "Haul",
-        "description": "Hauling",
+        "title": "Ciągnij",
+        "description": "Ciągniecie",
         "context_text": "haul",
         "work_types_required": ["Labourer"],
         "considerations": ["ThingToHaul"],
@@ -153,8 +153,8 @@
     },
     "HaulObstruction": {
         "ref_name": "OptionRef",
-        "title": "Haul obstruction",
-        "description": "Hauling obstruction",
+        "title": "przeszkoda w transporcie",
+        "description": "Przeszkoda w transporcie",
         "work_types_required": ["Labourer"],
         "considerations": ["PrefabObstruction"],
         "task_driver": "Haul",
@@ -162,8 +162,8 @@
     },
     "HaulToPrefab": {
         "ref_name": "OptionRef",
-        "title": "Haul to prefab",
-        "description": "Hauling to prefab",
+        "title": "Transport do prefabrykatów",
+        "description": "Transport do prefabrykatów",
         "context_text": "haul material to",
         "work_types_required": ["Labourer"],
         "considerations": ["NeedsMatsPrefab"],
@@ -173,8 +173,8 @@
     },
     "HaulToRecipe": {
         "ref_name": "OptionRef",
-        "title": "Haul to recipe",
-        "description": "Hauling to recipe",
+        "title": "Przenieś do przepisu",
+        "description": "Transportowanie do przepisu",
         "context_text": "haul material to",
         "work_types_required": ["Labourer"],
         "considerations": ["NeedsMatsRecipe"],
@@ -184,46 +184,46 @@
     },
     "Research": {
         "ref_name": "OptionRef",
-        "title": "Research",
-        "context_text": "research at",
+        "title": "Badania",
+        "context_text": "Bdania o",
         "work_types_required": ["Science"],
         "considerations": [],
         "schedule_types": ["Work"]
     },
     "FindAtmosphere": {
         "ref_name": "OptionRef",
-        "title": "Find safe atmosphere",
+        "title": "Znajdź bezpieczną atmosferę",
         "considerations": [],
         "schedule_types": ["Work", "Sleep"]
     },
     "FindSafeTemperature": {
         "ref_name": "OptionRef",
-        "title": "Find safe temperature",
+        "title": "Znajdź bezpieczną temperaturę",
         "considerations": [],
         "schedule_types": ["Work", "Sleep"]
     },
     "DoBadMood": {
         "ref_name": "OptionRef",
-        "title": "Do bad mood",
+        "title": "Zrób zły nastrój",
         "considerations": [],
         "schedule_types": ["Work", "Sleep"]
     },
     "DoGoodMood": {
         "ref_name": "OptionRef",
-        "title": "Do good mood",
+        "title": "Zrób dobry nastrój",
         "considerations": [],
         "schedule_types": ["Work", "Sleep"]
     },
     "DoSocial": {
         "ref_name": "OptionRef",
-        "title": "Do social",
+        "title": "Działaj społecznie",
         "considerations": [],
         "schedule_types": ["Work", "Sleep"]
     },
     "MoveDead": {
         "ref_name": "OptionRef",
-        "title": "Move dead pawn",
-        "description": "Moving the dead",
+        "title": "Przesuń martwego pionka",
+        "description": "przesuwanie martwego pionka",
         "context_text": "dispose of",
         "work_types_required": ["Labourer"],
         "considerations": ["DeadPawn"],
@@ -232,38 +232,38 @@
     },
     "EquipSpacesuit": {
         "ref_name": "OptionRef",
-        "title": "Equip spacesuit",
-        "description": "Equipping a spacesuit",
+        "title": "Wyposaż skafander kosmicznyt",
+        "description": "Zakładanie skafandra kosmicznego",
         "considerations": ["EquipSpacesuit", "HasFullPressuredSuit"],
         "task_driver": "Equip",
         "schedule_types": ["Work"]
     },
     "ForceMove": {
         "ref_name": "OptionRef",
-        "title": "Force move",
-        "description": "Moving",
+        "title": "Wymuś ruch",
+        "description": "poruszanie",
         "context_text": "move here",
         "task_driver": "ForceMove"
     },
     "Equip": {
         "ref_name": "OptionRef",
-        "title": "Equip",
-        "description": "Equipping",
+        "title": "Wyposaż",
+        "description": "Zakładnie",
         "context_text": "wear",
         "context_text_alt": "equip",
         "task_driver": "Equip"
     },
     "UnEquip": {
         "ref_name": "OptionRef",
-        "title": "Drop",
-        "description": "Dropping",
+        "title": "Upóść",
+        "description": "Upuszczanie",
         "context_text": "drop",
         "task_driver": "UnEquip"
     },
     "Strip": {
         "ref_name": "OptionRef",
-        "title": "Strip",
-        "description": "Stripping",
+        "title": "Zdejmij",
+        "description": "Zdejmowanie",
         "context_text": "strip",
         "work_types_required": ["Janitor"],
         "task_driver": "Strip",
@@ -271,8 +271,8 @@
     },
     "DestroyAsset": {
         "ref_name": "OptionRef",
-        "title": "Destroy asset",
-        "description": "Destroying item.",
+        "title": "Zniszcz zasób",
+        "description": "Niszczenie przedmiotu.",
         "context_text": "destroy",
         "work_types_required": ["Janitor", "Engineer"],
         "task_driver": "DestroyAsset",
@@ -280,8 +280,8 @@
     },
     "UseEntertainment": {
         "ref_name": "OptionRef",
-        "title": "Use entertainment",
-        "description": "Using entertainment",
+        "title": "Korzystaj z rozrywki",
+        "description": "Korzystanie z rozrywki",
         "context_text": "play on",
         "considerations": ["HasEntertainment"],
         "task_driver": "UseEntertainment",
@@ -289,15 +289,15 @@
     },
     "SitAtChair": {
         "ref_name": "OptionRef",
-        "title": "Sit at chair",
-        "description": "Sitting at chair",
+        "title": "Usiądź na krześle",
+        "description": "Siedzenie na krześle",
         "context_text": "sit on",
         "task_driver": "SitAtChair"
     },
     "HealPawn": {
         "ref_name": "OptionRef",
-        "title": "Heal pawn",
-        "description": "Healing pawn back to health",
+        "title": "Uzdrów pionek",
+        "description": "Przywrócenie pionkowi zdrowia",
         "context_text": "tend to",
         "work_types_required": ["Medical"],
         "considerations": ["PawnNeedsHealing"],
@@ -307,8 +307,8 @@
     },
     "FeedPawn": {
         "ref_name": "OptionRef",
-        "title": "Feed pawn",
-        "description": "Feeding pawn",
+        "title": "Nakarm pionek",
+        "description": "Karmienie pionka",
         "context_text": "feed",
         "work_types_required": ["Medical"],
         "considerations": ["PawnNeedsFeeding"],
@@ -318,8 +318,8 @@
     },
     "HydratePawn": {
         "ref_name": "OptionRef",
-        "title": "Hydrate pawn",
-        "description": "Hydrating pawn",
+        "title": "Nawodnij pionek",
+        "description": "Nawadnianie pionka",
         "context_text": "hydrate",
         "work_types_required": ["Medical"],
         "considerations": ["PawnNeedsHydrating"],
@@ -329,8 +329,8 @@
     },
     "Slaughter": {
         "ref_name": "OptionRef",
-        "title": "Slaughter",
-        "description": "Slaughtering",
+        "title": "Mordój",
+        "description": "Mordowanie",
         "context_text": "slaughter",
         "work_types_required": ["Combat"],
         "task_driver": "Slaughter",
@@ -339,8 +339,8 @@
     },
     "Butcher": {
         "ref_name": "OptionRef",
-        "title": "Butcher",
-        "description": "Butchering",
+        "title": "Rzeźnik",
+        "description": "Zarżnąć",
         "context_text": "butcher",
         "work_types_required": ["Labourer"],
         "task_driver": "Butcher",
@@ -349,8 +349,8 @@
     },
     "FollowAndMelee": {
         "ref_name": "OptionRef",
-        "title": "Follow and melee",
-        "description": "Melee",
+        "title": "Podążaj i walcz wręcz",
+        "description": "Bijatyka",
         "context_text": "melee",
         "considerations": ["Aggroed", "HasAttackTarget"],
         "task_driver": "FollowAndMelee",
@@ -359,16 +359,16 @@
     },
     "Flee": {
         "ref_name": "OptionRef",
-        "title": "Flee",
-        "description": "Flee to a safe area",
+        "title": "Ucieknij",
+        "description": "Uciekaj w bezpieczne miejsce",
         "considerations": ["IsHostileEnemyNearby", "SomewhereToRoam"],
         "task_driver": "Flee",
         "schedule_types": ["Work", "Sleep"]
     },
     "SowPlant": {
         "ref_name": "OptionRef",
-        "title": "Sow plant",
-        "description": "Sow a plant",
+        "title": "Zasiej roślinę",
+        "description": "Zasiej roślinę",
         "work_types_required": ["Botany"],
         "considerations": ["SomethingToSow"],
         "task_driver": "SowPlant",
@@ -377,8 +377,8 @@
     },
     "HarvestPlant": {
         "ref_name": "OptionRef",
-        "title": "Harvest plant",
-        "description": "Harvesting a plant",
+        "title": "Zbieraj rośliny",
+        "description": "Zbieranie roślin",
         "work_types_required": ["Botany"],
         "considerations": ["SomethingToHarvest"],
         "task_driver": "HarvestPlant",
@@ -387,8 +387,8 @@
     },
     "HarvestBrew": {
         "ref_name": "OptionRef",
-        "title": "Harvest brew",
-        "description": "Harvesting a brew",
+        "title": "Napar ze zbiorów",
+        "description": "Zbieranie naparu",
         "work_types_required": ["Cook"],
         "considerations": ["SomethingToHarvestRecipe"],
         "task_driver": "HarvestBrew",

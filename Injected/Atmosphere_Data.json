@@ -8,8 +8,8 @@
     "Ducting": {
         "base_class": "Building",
         "entity_class": "Ducting",
-        "title": "Atmospheric ducting",
-        "description": "Carries gasses.",
+        "title": "Kanały atmosferyczne",
+        "description": "Niesie gazy.",
         "movement_cost": 0,
         "mass": 4,
         "deterioration_rate": 10,
@@ -41,8 +41,8 @@
 
     "AirVent": {
         "base_class": "Building",
-        "title": "Air vent",
-        "description": "Vents atmosphere into a room, but only if connected to an oxygen generator via ducting.",
+        "title": "Otwór wentylacyjny",
+        "description": "Wypuszcza atmosferę do pomieszczenia, ale tylko wtedy, gdy jest podłączony do generatora tlenu za pomocą przewodów.",
         "movement_cost": 1,
         "mass": 20,
         "deterioration_rate": 10,
@@ -86,8 +86,8 @@
 
     "LifeSupport": {
         "base_class": "Building",
-        "title": "Life support",
-        "description": "Generates a small amount of oxygen which can be dispersed through vents, and also filters and cleans hazardous gasses and CO2 from the atmosphere.",
+        "title": "System wsparcia",
+        "description": "Wytwarza niewielką ilość tlenu, który może być rozproszony przez otwory wentylacyjne, a także filtruje i oczyszcza atmosferę z niebezpiecznych gazów i CO2.",
         "movement_cost": 40,
         "mass": 90,
         "deterioration_rate": 10,
@@ -145,8 +145,8 @@
 
     "OxygenGenerator": {
         "base_class": "Building",
-        "title": "Oxygen generator",
-        "description": "Generates oxygen which can be dispersed through vents.",
+        "title": "Generator tlenu",
+        "description": "Wytwarza tlen, który może być rozproszony przez otwory wentylacyjne.",
         "movement_cost": 50,
         "mass": 90,
         "deterioration_rate": 10,
@@ -200,8 +200,8 @@
 
     "LargeOxygenGenerator": {
         "base_class": "Building",
-        "title": "Large Oxygen generator",
-        "description": "Generates a large quantity of oxygen which can be dispersed through vents.",
+        "title": "Duży generator tlenu",
+        "description": "Wytwarza dużą ilość tlenu, który może być rozproszony przez otwory wentylacyjne.",
         "movement_cost": 50,
         "mass": 130,
         "deterioration_rate": 10,
@@ -255,8 +255,8 @@
 
     "GasScrubber": {
         "base_class": "Building",
-        "title": "Gas scrubber",
-        "description": "Filters and cleans hazardous gasses and CO2 from the atmosphere.",
+        "title": "Płuczka gazu",
+        "description": "Filtruje i oczyszcza atmosferę z niebezpiecznych gazów i CO2.",
         "movement_cost": 50,
         "mass": 90,
         "deterioration_rate": 10,
@@ -310,8 +310,8 @@
 
     "OxygenTank": {
         "base_class": "Building",
-        "title": "Oxygen tank",
-        "description": "Stores a small amount of oxygen.",
+        "title": "Zbiornik tlenu",
+        "description": "Przechowuje niewielką ilość tlenu.",
         "rotatable": true,
         "movement_cost": 42,
         "mass": 60,

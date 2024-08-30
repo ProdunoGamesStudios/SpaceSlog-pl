@@ -5,8 +5,8 @@
 	
 	"Engineering" : {
 		"ref_name": "PawnSkillRef",
-		"title": "engineering",
-		"description": "A useful skill when building, maintaining and repairing things.\n\n- Building.\n- Deconstructing.",
+		"title": "inżynieria",
+		"description": "Umiejętność przydatna podczas budowania, konserwacji i naprawy rzeczy.\n\n- Budowanie.\n- Rozmontowywanie.",
 		"allowed_professions": [
 			"Engineer", 
 			"Pilot", 
@@ -27,8 +27,8 @@
 
 	"Navigation" : {
 		"ref_name": "PawnSkillRef",
-		"title": "navigation",
-		"description": "Quicker ship speeds and can make a better Captain.",
+		"title": "nawigacja",
+		"description": "Większe prędkości statków i mogą być lepszym kapitanem.",
 		"allowed_professions": [
 			"Engineer", 
 			"Doctor", 
@@ -55,8 +55,8 @@
 
 	"Ranged" : {
 		"ref_name": "PawnSkillRef",
-		"title": "ranged",
-		"description": "Ranged combat, better accuracy and effectiveness \nwith firearms and shipborne weaponry.\n\n- Shooting.",
+		"title": "walka dystansowa",
+		"description": "Walka dystansowa, lepsza celność i skuteczność \n bronią palną i bronią pokładową.\n\n- Strzelanie.",
 		"allowed_professions": [
 			"Engineer", 
 			"Marine", 
@@ -86,8 +86,8 @@
 
 	"Melee" : {
 		"ref_name": "PawnSkillRef",
-		"title": "melee",
-		"description": "Effectiveness in hand to hand combat \nboth armed and unarmed.\n\n- Melee.",
+		"title": "Walka",
+		"description": "Skuteczność w walce wręcz \nbzarówno uzbrojonych, jak i nieuzbrojonych.\n\n- Bijatyka.",
 		"allowed_professions": [
 			"Engineer", 
 			"Marine", 
@@ -118,8 +118,8 @@
 
 	"Social" : {
 		"ref_name": "PawnSkillRef",
-		"title": "social",
-		"description": "Likeability, negotiation and the ability \nto get on with others.\n\n- Trading.",
+		"title": "społeczny",
+		"description": "Sympatia, negocjacje i umiejętność \nżeby dogadać się z innymi.\n\n- Wymiana.",
 		"allowed_professions": [
 			"Engineer", 
 			"Doctor", 
@@ -151,8 +151,8 @@
 
 	"Operations" : {
 		"ref_name": "PawnSkillRef",
-		"title": "operations",
-		"description": "Operating various ship components, such as thrusters.",
+		"title": "Operators",
+		"description": "Obsługa różnych elementów statku, takich jak stery strumieniowe.",
 		"allowed_professions": [
 			"Engineer", 
 			"Marine", 
@@ -178,8 +178,8 @@
 
 	"Cooking" : {
 		"ref_name": "PawnSkillRef",
-		"title": "cooking",
-		"description": "Ability to cook and brew using raw ingredients.\n\n- Brewing.",
+		"title": "gotowanie",
+		"description": "Umiejętność gotowania i warzenia z wykorzystaniem składników.\n\n- Browarnictwo.",
 		"allowed_professions": [
 			"Engineer", 
 			"Marine", 
@@ -201,8 +201,8 @@
 
 	"Mining" : {
 		"ref_name": "PawnSkillRef",
-		"title": "mining",
-		"description": "Efficiency and speed of mining materials.\n\n- Mining.",
+		"title": "górnictwo",
+		"description": "Wydajność i szybkość wydobywania materiałów.\n\n- Górnictwo.",
 		"allowed_professions": [
 			"Engineer", 
 			"Marine", 
@@ -222,8 +222,8 @@
 
 	"Science" : {
 		"ref_name": "PawnSkillRef",
-		"title": "science",
-		"description": "Researching and growing.\n\n- Growing.",
+		"title": "nauka",
+		"description": "Badania i rozwój.\n\n- Rozwój.",
 		"allowed_professions": [
 			"Engineer", 
 			"Scientist", 
@@ -243,8 +243,8 @@
 
 	"Animals" : {
 		"ref_name": "PawnSkillRef",
-		"title": "animals",
-		"description": "Taming and training animals, maybe aliens too.",
+		"title": "zwierzęta",
+		"description": "Oswajanie i tresowanie zwierząt, a może i kosmitów.",
 		"allowed_professions": [
 			"Doctor", 
 			"AnimalHandler", 
@@ -265,8 +265,8 @@
 
 	"Medical" : {
 		"ref_name": "PawnSkillRef",
-		"title": "medical",
-		"description": "Using medicine and the healing of others.\n\n- Healing others.",
+		"title": "medyczny",
+		"description": "Stosowanie medycyny i uzdrawianie innych.\n\n- Uzdrawianie innych.",
 		"allowed_professions": [
 			"Doctor", 
 			"Scientist", 

@@ -7,8 +7,8 @@
     "Barrel": {
         "ref_name": "ItemRef",
         "entity_class": "Barrel",
-        "title": "Barrel",
-        "description": "Used to store liquids.",
+        "title": "Beczka",
+        "description": "Służy do przechowywania płynów.",
         "mass": 0.2,
         "merchandise": true,
         "base_market_value": 130,

@@ -6,8 +6,8 @@
     
     "Dirt": {
         "ref_name": "DirtRef",
-        "title": "Dirt",
-        "description": "General dirt.",
+        "title": "Brud",
+        "description": "Brud.",
         "ticks_to_clean": 40,
         "chance_to_spread": 0.1,
         "beauty": -4,
@@ -19,8 +19,8 @@
 
     "Slime": {
         "ref_name": "DirtRef",
-        "title": "Slime",
-        "description": "Gross and slimy.",
+        "title": "Szlam",
+        "description": "Brudne i oślizgłe.",
         "ticks_to_clean": 60,
         "chance_to_spread": 0.3,
         "beauty": -6,
@@ -32,8 +32,8 @@
 
     "Puke": {
         "ref_name": "DirtRef",
-        "title": "Puke",
-        "description": "Chunky bodily fluids.",
+        "title": "Wymiociny",
+        "description": "płyny ustrojowe.",
         "ticks_to_clean": 40,
         "chance_to_spread": 0.1,
         "beauty": -5,
@@ -44,8 +44,8 @@
     },
     "Blood": {
         "ref_name": "DirtRef",
-        "title": "Blood",
-        "description": "Bodily fluids.",
+        "title": "Krew",
+        "description": "płyny ustrojowe.",
         "ticks_to_clean": 40,
         "chance_to_spread": 0.1,
         "beauty": -5,

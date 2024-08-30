@@ -5,31 +5,31 @@
 
     "PassingShip": {
         "ref_name": "OptionRef",
-        "title": "Passing ship",
-        "incident": "PassingShip",
+        "title": "Przepływający obok statek",
+        "incident": "a passing ship",
         "considerations": ["IsShipStationary", "IsTransponderActive"]
     },
     "AsteroidField": {
         "ref_name": "OptionRef",
-        "title": "Asteroid field",
+        "title": "Pole asteroid",
         "incident": "Asteroids",
         "considerations": ["IsShipMoving"]
     },
     "BattleDebris": {
         "ref_name": "OptionRef",
-        "title": "Battle debris",
+        "title": "Szczątki bitwy",
         "incident": "Debris",
         "considerations": ["IsShipMoving"]
     },
     "CryoChamber": {
         "ref_name": "OptionRef",
-        "title": "Cryo chamber spotted",
+        "title": "Znaleziono komorę kriogeniczną",
         "incident": "CryoChamber",
         "considerations": ["IsShipMoving"]
     },
     "HostileCreatureAssault": {
         "ref_name": "OptionRef",
-        "title": "Hostile creatures have entered the area",
+        "title": "Wrogie stworzenia weszły na ten obszar",
         "incident": "HostileCreatureAssault",
         "considerations": ["IsShipStationary"]
     }

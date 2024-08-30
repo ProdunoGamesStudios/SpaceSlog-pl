@@ -5,10 +5,10 @@
 
 	"General": {
 		"ref_name": "IllnessRef",
-		"title": "General"
+		"title": "Ogólnie"
 	},
 	"Hypoxia": {
 		"ref_name": "IllnessRef",
-		"title": "Hypoxia"
+		"title": "Niedotlenienie"
 	}
 }

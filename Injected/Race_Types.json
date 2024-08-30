@@ -5,8 +5,8 @@
 	
 	"Earther": {
 		"ref_name": "RaceRef",
-		"title": "Earther",
-        "description": "A human that has spent generations on Earth.",
+		"title": "Ziemianin",
+        "description": "Człowiek, który spędził pokolenia na Ziemi.",
         "skin": "Human",
         "blood": "Human",
         "bone": "Human",
@@ -14,8 +14,8 @@
 	},
 	"Spacer": {
 		"ref_name": "RaceRef",
-		"title": "Spacer",
-        "description": "A human that has spent generations in space.",
+		"title": "odstępnik",
+        "description": "Człowiek, który spędził pokolenia w kosmosie.",
         "skin": "Human",
         "blood": "Human",
         "bone": "Human",
@@ -23,8 +23,8 @@
 	},
     "SpaceWorm": {
 		"ref_name": "RaceRef",
-		"title": "Space worm",
-		"description": "A large gross squishy looking worm, surprisingly tough and resilient.",
+		"title": "Kosmiczny robak",
+		"description": "Duży, grubo wyglądający, gąbczasty robak, zaskakująco mocny i sprężysty.",
         "skin": "Worm",
         "blood": "Worm",
         "bone": "Worm",
@@ -32,8 +32,8 @@
 	},
     "Rodent": {
 		"ref_name": "RaceRef",
-		"title": "Rat",
-		"description": "A small rodent.",
+		"title": "Szczury",
+		"description": "Mały gryzoń.",
         "skin": "Rodent",
         "blood": "Human",
         "bone": "Human",

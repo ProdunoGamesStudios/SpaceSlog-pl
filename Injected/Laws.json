@@ -5,43 +5,43 @@
     
     "Slavery": {
         "ref_name": "LawRef",
-        "title": "Slavery",
-        "description": "Trafficking species is normal and not punishable by law. This has made the buying and selling of slaves a common sight in and around this faction's territories.",
+        "title": "Niewolnictwo",
+        "description": "Handel gatunkami jest zjawiskiem normalnym i nie podlega karze. To sprawiło, że kupno i sprzedaż niewolników stało się powszechnym widokiem na terytoriach tej frakcji i wokół nich.",
         "relation_modifier": -10
     },
 
     "Cannibalism": {
         "ref_name": "LawRef",
-        "title": "Cannibalism",
-        "description": "Some might resort to cannibalism out of need and others out of want. This faction finds no issue with either and has even made it legal.",
+        "title": "Kanibalizm",
+        "description": "Niektórzy uciekają się do kanibalizmu z potrzeby, inni z niedostatku. Ta frakcja nie widzi żadnego problemu w żadnym z nich, a nawet uczyniła to legalnym.",
         "relation_modifier": -15
     },
 
     "Commerce": {
         "ref_name": "LawRef",
-        "title": "Commerce",
-        "description": "This faction has a sophisticated trade system.",
+        "title": "Handlarz",
+        "description": "Frakcja ta posiada wyrafinowany system handlu.",
         "relation_modifier": 10
     },
 
     "Exploration": {
         "ref_name": "LawRef",
-        "title": "Exploration",
-        "description": "A species of explorers. It is a legal requirement for one to join the exploration ships sent out.",
+        "title": "Badacze",
+        "description": "Gatunek odkrywców. Przyłączenie się do wysłanych statków badawczych jest wymogiem prawnym.",
         "relation_modifier": 15
     },
 
     "Expansionist": {
         "ref_name": "LawRef",
-        "title": "Expansionist",
-        "description": "It is encouraged and legal to try and colonise other segments of the universe.",
+        "title": "Ekspansjonista",
+        "description": "Próby kolonizacji innych części wszechświata są zachęcane i legalne.",
         "relation_modifier": 0
     },
     
     "Banditry": {
         "ref_name": "LawRef",
-        "title": "Bandits",
-        "description": "Banditry is encouraged within this faction and often includes crimes such as extortion, robbery and murder. Those engaging in these types of activities are often referred to as bandits.",
+        "title": "Bandyci",
+        "description": "W tej frakcji zachęca się do bandytyzmu, który często obejmuje przestępstwa takie jak wymuszenia, rabunki i morderstwa. Osoby zajmujące się tego typu działalnością często nazywane są bandytami.",
         "relation_modifier": -30
     }
 }

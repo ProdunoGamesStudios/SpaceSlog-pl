@@ -5,7 +5,7 @@
     
     "Wood": {
         "ref_name": "CategoryRef",
-        "title": "Wood",
+        "title": "Drewno",
         "Description": "",
         "flammability_mod": 1, 
         "toughness_mod": 0,
@@ -25,7 +25,7 @@
 
     "Mineral": {
         "ref_name": "CategoryRef",
-        "title": "Minerals",
+        "title": "Minerały",
         "Description": "",
         "flammability_mod": 1,
         "toughness_mod": 0,
@@ -35,7 +35,7 @@
 
     "Fabric": {
         "ref_name": "CategoryRef",
-        "title": "Fabric",
+        "title": "Tkanina",
         "Description": "",
         "flammability_mod": 1,
         "toughness_mod": 0,
@@ -45,7 +45,7 @@
 
     "Liquid": {
         "ref_name": "CategoryRef",
-        "title": "Liquid",
+        "title": "Płyn",
         "Description": "",
         "flammability_mod": 1,
         "toughness_mod": 0,

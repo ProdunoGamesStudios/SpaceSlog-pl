@@ -5,47 +5,47 @@
     
     "Incapacitated": {
         "ref_name": "BaseRef",
-        "title": "Incapacitated.",
+        "title": "Ubezwłasnowolniony.",
         "texture_path": "res://Textures/UI/Mote/Incapacitated.png"
     },
     "Death": {
         "ref_name": "BaseRef",
-        "title": "Dead.",
+        "title": "Martwy.",
         "texture_path": "res://Textures/UI/Mote/Death.png"
     },
     "Collapsed": {
         "ref_name": "BaseRef",
-        "title": "Collapsed.",
+        "title": "Upadł.",
         "texture_path": "res://Textures/UI/Mote/Collapsed.png"
     },
     "Idle": {
         "ref_name": "BaseRef",
-        "title": "Idle.",
+        "title": "Bezczynny.",
         "texture_path": "res://Textures/UI/Mote/Death.png"
     },
     "Injured": {
         "ref_name": "BaseRef",
-        "title": "Injured.",
+        "title": "Zraniony.",
         "texture_path": "res://Textures/UI/Mote/General.png"
     },
     "Ill": {
         "ref_name": "BaseRef",
-        "title": "Ill.",
+        "title": "Chory.",
         "texture_path": "res://Textures/UI/Mote/General.png"
     },
     "Bleeding": {
         "ref_name": "BaseRef",
-        "title": "Bleeding.",
+        "title": "Krwawi.",
         "texture_path": "res://Textures/UI/Mote/General.png"
     },
     "Away": {
         "ref_name": "BaseRef",
-        "title": "Away.",
+        "title": "Z dala.",
         "texture_path": "res://Textures/UI/Mote/General.png"
     },
     "MentalBreak": {
         "ref_name": "BaseRef",
-        "title": "On mental break.",
+        "title": "Na przerwie psychicznej.",
         "texture_path": "res://Textures/UI/Mote/General.png"
     }
 }

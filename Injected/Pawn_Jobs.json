@@ -4,86 +4,86 @@
 	},
 	"Engineer" : {
 		"title" : "Test",
-		"description" : "{pawn_name} another test."
+		"description" : "{pawn_name} kolejnu test."
 	},
 	"Doctor" : {
 		"title" : "Test2",
-		"description" : "{pawn_name} spent several years at medical school then served on a colony ship for a while. Now they are drifting offering {pawn_possessive} services to those in need."
+		"description" : "{pawn_name} spędził kilka lat w szkole medycznej, a następnie służył na statku kolonizacyjnym. Teraz dryfują z oferując {pawn_possessive} pomagając tym którzy pomocy potrzebują."
 	},
 	"Marine" : {
 		"title" : "Test3",
-		"description" : "{pawn_name} knew from a young age {pawn_pronoun} wanted to serve in the military. Getting to see parts of the universe others didn't was probably one of the biggest draws."
+		"description" : "{pawn_name} Od najmłodszych lat wiedział, {pawn_pronoun} że chce służyć w wojsku. Możliwość zobaczenia części wszechświata, których inni nie widzieli, była prawdopodobnie jedną z największych atrakcji."
 	},
 	"Labourer" : {
 		"title" : "Test4",
-		"description" : "Growing up an on poor rim planet is tough and education is scarce. {pawn_name} was one of the lucky ones and managed to find a career as a labourer. It's not a glamorous life but at least it is a life."
+		"description" : "Dorastanie na biednej planecie jest trudne, a edukacja jest ograniczona. {pawn_name} Był jednym ze szczęśliwców, którym udało się znaleźć karierę jako robotnik. To nie jest wspaniałe życie, ale przynajmniej jest życie."
 	},
 	"Pilot" : {
 		"title" : "Test5",
-		"description" : "Joining pilot school is all {pawn_name} wanted to do. Who knew {pawn_pronoun} might actually be pretty good at it."
+		"description" : "Dołączenie do szkoły pilotażu to wszystko co {pawn_name} zawsze chciał zrobić. Kto wiedział że {pawn_pronoun} może być w tym całkiem dobry."
 	},
 	"Miner" : {
 		"title" : "Test6",
-		"description" : "Deep space mining is extremely dangerous and {pawn_name} has had {pawn_possessive} fair share of danger in the past."
+		"description" : "Wydobycie w głębokim kosmosie jest niezwykle niebezpieczne i {pawn_name} miał {pawn_possessive} sporą część niebezpieczeństwa w przeszłości."
 	},
 	"Veterinary" : {
-		"title" : "Veterinary",
-		"description" : "{pawn_name} grew up on a colony ship which had an over abundance of animals. Whilst others would rather try and kill them as pests. {pawn_name} would rescue them and tend to them if they were ill or injured."
+		"title" : "Weterynaria",
+		"description" : "{pawn_name} dorastał na statku kolonizacyjnym, na którym było mnóstwo zwierząt. Podczas gdy inni woleliby spróbować zabić je jako szkodniki. {pawn_name} ratowałby je i opiekował się nimi, gdyby były chore lub ranne."
 	},
 	"Scientist" : {
-		"title" : "Scientist",
-		"description" : "Scientists are needed now more than ever and {pawn_name} has leveraged this need and managed to turn it into a very profitable career."
+		"title" : "Naukowiec",
+		"description" : "Naukowcy są teraz potrzebni bardziej niż kiedykolwiek i {pawn_name} wykorzystał tę potrzebę i udało mu się przekształcić ją w bardzo dochodową karierę."
 	},
 	"Grower" : {
-		"title" : "Grower",
-		"description" : "Spending lots of time with plants and all things organic has been {pawn_name}'s passion since a very young age."
+		"title" : "Hodowca",
+		"description" : "Spędzanie dużej ilości czasu z roślinami i wszystkim, co organiczne, było {pawn_name}'s pasją już od najmłodszych lat."
 	},
 	"Retired" : {
-		"title" : "Retired",
-		"description" : "{pawn_name} has won the life lottery and managed to grow old, {pawn_pronoun} is now living a well deserved dose of retirement."
+		"title" : "Emeryt",
+		"description" : "{pawn_name} wygrał życiową loterię i zdążył się zestarzeć, {pawn_pronoun} obecnie żyje na zasłużonej emeryturze."
 	},
 	"Student" : {
 		"title" : "Student",
-		"description" : "{pawn_name} is still studying in the hopes to try and better {pawn_reflexive}, though no one really knows what for, and probably neither does {pawn_pronoun}."
+		"description" : "{pawn_name} nadal się uczy w nadziei, że będzie lepiej {pawn_reflexive}, chociaż nikt tak naprawdę nie wie po co i on sam prawdopodobieństwo też nie wie {pawn_pronoun}."
 	},
 	"Professor" : {
-		"title" : "Professor",
-		"description" : "Spending lots of time in education and excelling {pawn_reflexive} has earned {pawn_name} the title of Professor."
+		"title" : "Profesor",
+		"description" : "Spędzania dużo czasu na edukacji i doskonaleniu się {pawn_reflexive}  {pawn_name} zasłużył na tytuł profesora."
 	},
 	"Merchant" : {
-		"title" : "Merchant",
-		"description" : "{pawn_name} has grown up from a long line of traders and decided to continue in the footsteps of {pawn_possessive} forefathers."
+		"title" : "Kupiec",
+		"description" : "{pawn_name} wyrósł z długiej linii traderów i postanowił podążać śladami {pawn_possessive} przodków."
 	},
 	"Pirate" : {
-		"title" : "Pirate",
-		"description" : "{pawn_name} lives the life of a Pirate, salvaging anything {pawn_possessive} can, earning whatever wherever {pawn_possessive} can."
+		"title" : "Pirat",
+		"description" : "{pawn_name} żyje życiem pirata, okradając wszystkich {pawn_possessive} może zarobić cokolwiek gdziekolwiek {pawn_possessive} może."
 	},
 	"Slave" : {
 		"title" : "Slave",
 		"description" : "{pawn_name} has lived a life of poverty, being sold to the highest bidder and being asked to do all manner of things. There is no telling what {pawn_pronoun} has had to endure."
 	},
 	"Slaver" : {
-		"title" : "Slaver",
-		"description" : "{pawn_name} usually travels the universe in search of poor folk to enslave and sell, or just those unlucky enough to be in the wrong place at the wrong time."
+		"title" : "Sprzedawca niewolników",
+		"description" : "{pawn_name} zwykle podróżuje po wszechświecie w poszukiwaniu biednych ludzi, których można zniewolić i sprzedać, lub po prostu tych, którzy mają pecha i znaleźli się w niewłaściwym miejscu o niewłaściwym czasie."
 	},
 	"BountyHunter" : {
-		"title" : "Bounty Hunter",
-		"description" : "{pawn_name} lives the life of an assassin and will hunt anything or anyone for the right price. It's not a job for everyone but it pays well."
+		"title" : "Łowca nagród",
+		"description" : "{pawn_name} żyje życiem zabójcy i będzie polować na wszystko lub kogokolwiek za odpowiednią cenę. Nie jest to praca dla każdego, ale dobrze płatna."
 	},
 	"OffworldDetective" : {
-		"title" : "Offworld Detective",
-		"description" : "As as orphan {pawn_name} was raised on colony ships. Trying to survive as a youngster meant getting {pawn_reflexive} into a lot of trouble. It is this that made {pawn_reflexive} decide 'being the boot was better than receiving the boot'."
+		"title" : "Detektyw z pozaświata",
+		"description" : "Jako sierota {pawn_name}wychowywał sie na statkach kolonialnych  {pawn_reflexive} wpakowywał się w mnóstwo kłopotów zdecydował {pawn_reflexive} że „bycie butem było lepsze niż otrzymanie buta”.."
 	},
 	"PlanetDrifter" : {
-		"title" : "Planet Drifter",
-		"description" : "A Planet Drifter is less of a job and more of a way of life. {pawn_name} drifts from planet to planet picking up whatever work {pawn_pronoun} can. Sometimes {pawn_pronoun} will board a ship not even knowing where it's journey ends."
+		"title" : "Włóczęga Planet",
+		"description" : "Włóczęga planet to nie praca a bardziej sposób życia. {pawn_name} dryfuje z planety na planetę, podejmując jakąkolwiek pracę {pawn_pronoun} czasem może {pawn_pronoun} wejdzie na statek, nawet nie wiedząc, gdzie kończy się jego podróż."
 	},
 	"Spacefarer" : {
-		"title" : "Spacefarer",
-		"description" : "{pawn_name} travels around the universe. Although this is more of a hobby than a job, {pawn_name} would probably make you believe different."
+		"title" : "Podróżnik kosmiczny",
+		"description" : "{pawn_name} podróżuje po wszechświecie. Chociaż jest to bardziej hobby niż praca, {pawn_name} prawdopodobnie sprawiłoby, że uwierzyłbyś inaczej."
 	},
 	"Planetologist" : {
-		"title" : "Planetologist",
-		"description" : "{pawn_name} studies the ecosystems of planets. As a child {pawn_pronoun} would dream about all the different weird and wonderful rocks out there. Now {pawn_pronoun} gets to see them all first hand."
+		"title" : "Planetolog",
+		"description" : "{pawn_name} bada ekosystemy planet. Jako dziecko {pawn_pronoun} śniłbym o tych wszystkich dziwnych i cudownych skałach. Teraz {pawn_pronoun} będe mógł zobaczyć je wszystkie z pierwszej ręki."
 	}
 }

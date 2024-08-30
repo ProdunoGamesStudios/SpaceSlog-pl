@@ -5,49 +5,49 @@
     
     "atmosphere": {
         "ref_name": "BaseRef",
-        "title": "Atmosphere",
+        "title": "Atmosfera",
         "texture_path": "res://Textures/UI/Icons/Atmosphere.png"
     },
 
     "cargo": {
         "ref_name": "BaseRef",
-        "title": "Cargo",
+        "title": "Ładunek",
         "texture_path": "res://Textures/UI/Icons/Cargo.png"
     },
 
     "furniture": {
         "ref_name": "BaseRef",
-        "title": "Furniture",
+        "title": "Meble",
         "texture_path": "res://Textures/UI/Icons/Furniture.png"
     },
 
     "power": {
         "ref_name": "BaseRef",
-        "title": "Power",
+        "title": "Moc",
         "texture_path": "res://Textures/UI/Icons/Power.png"
     },
 
     "production": {
         "ref_name": "BaseRef",
-        "title": "Production",
+        "title": "Produkcja",
         "texture_path": "res://Textures/UI/Icons/Production.png"
     },
 
     "structure": {
         "ref_name": "BaseRef",
-        "title": "Structure",
+        "title": "Struktura",
         "texture_path": "res://Textures/UI/Icons/Structure.png"
     },
 
     "entertainment": {
         "ref_name": "BaseRef",
-        "title": "Entertainment",
+        "title": "Rozrywka",
         "texture_path": "res://Textures/UI/Icons/Entertainment.png"
     },
     
     "misc": {
         "ref_name": "BaseRef",
-        "title": "Miscellaneous",
+        "title": "rozmaity",
         "texture_path": "res://Textures/UI/Icons/Misc.png"
     }
 }

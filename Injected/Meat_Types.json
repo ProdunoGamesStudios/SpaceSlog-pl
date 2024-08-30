@@ -5,16 +5,16 @@
 	
 	"Human": {
 		"ref_name": "MeatRef",
-		"title": "Meat",
-        "description": "Thick and red.",
+		"title": "Mięso",
+        "description": "Grube i czerwone.",
         "colour": "#ff7f7f",
         "material": "RawMeat",
         "base_quantity": "1"
 	},
     "Worm": {
 		"ref_name": "MeatRef",
-		"title": "Meat",
-		"description": "Green and gooey.",
+		"title": "Mięso",
+		"description": "Zielone i lepkie.",
         "colour": "#9dc100",
         "material": "RawMeat",
         "base_quantity": "1"

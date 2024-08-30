@@ -5,7 +5,7 @@
 	
 	"black": {
 		"ref_name" : "ColourRef",
-		"title": "Black",
+		"title": "Czarny",
 		"colour": "#090806",
 		"for_species": ["Human"],
 		"young": true
@@ -13,7 +13,7 @@
 
 	"off_black": {
 		"ref_name" : "ColourRef",
-		"title": "Off black",
+		"title": "Zgaszona czerń",
 		"colour":"#2C222B",
 		"for_species": ["Human"],
 		"old": true
@@ -21,7 +21,7 @@
 
 	"dark_brown": {
 		"ref_name" : "ColourRef",
-		"title": "Dark brown",
+		"title": "Ciemny brąz",
 		"colour":"#3B3024",
 		"for_species": ["Human"],
 		"young": true
@@ -29,7 +29,7 @@
 
 	"med_dark_brown": {
 		"ref_name" : "ColourRef",
-		"title": "Medium dark brown",
+		"title": "Średnio ciemny brąz",
 		"colour":"#4E433F",
 		"for_species": ["Human"],
 		"young": true
@@ -37,7 +37,7 @@
 
 	"chestnut_brown": {
 		"ref_name" : "ColourRef",
-		"title": "Chestnut brown",
+		"title": "Kasztanowy brąz",
 		"colour":"#504444",
 		"for_species": ["Human"],
 		"young": true
@@ -45,7 +45,7 @@
 
 	"light_chestnut_brown": {
 		"ref_name" : "ColourRef",
-		"title": "Light chestnut brown",
+		"title": "Jasny kasztanowy brąz",
 		"colour":"#6A4E42",
 		"for_species": ["Human"],
 		"young": true
@@ -53,7 +53,7 @@
 
 	"dark_golden_brown": {
 		"ref_name" : "ColourRef",
-		"title": "Dark golden brown",
+		"title": "Ciemnozłoty brąz",
 		"colour":"#554838",
 		"for_species": ["Human"],
 		"young": true
@@ -61,7 +61,7 @@
 
 	"light_golden_brown": {
 		"ref_name" : "ColourRef",
-		"title": "Light golden brown",
+		"title": "Jasnozłoty brąz",
 		"colour":"#A7856A",
 		"for_species": ["Human"],
 		"young": true
@@ -69,7 +69,7 @@
 
 	"honey_blonde": {
 		"ref_name" : "ColourRef",
-		"title": "Honey blonde",
+		"title": "Miodowy blond",
 		"colour":"#B89778",
 		"for_species": ["Human"],
 		"young": true
@@ -77,7 +77,7 @@
 
 	"bleach_blonde": {
 		"ref_name" : "ColourRef",
-		"title": "Bleach blonde",
+		"title": "Rozjaśniany blond",
 		"colour":"#DCD0BA",
 		"for_species": ["Human"],
 		"young": true
@@ -85,7 +85,7 @@
 
 	"ash_blonde": {
 		"ref_name" : "ColourRef",
-		"title": "Ash blonde",
+		"title": "Popielaty blond",
 		"colour":"#DEBC99",
 		"for_species": ["Human"],
 		"young": true
@@ -93,7 +93,7 @@
 
 	"ash_brown": {
 		"ref_name" : "ColourRef",
-		"title": "Ash brown",
+		"title": "Popielaty brąz",
 		"colour":"#977961",
 		"for_species": ["Human"],
 		"young": true
@@ -101,7 +101,7 @@
 
 	"light_blonde": {
 		"ref_name" : "ColourRef",
-		"title": "Light blonde",
+		"title": "Jasny blond",
 		"colour":"#E6CEA8",
 		"for_species": ["Human"],
 		"young": true
@@ -109,7 +109,7 @@
 
 	"golden_blonde": {
 		"ref_name" : "ColourRef",
-		"title": "Golden blonde",
+		"title": "Złoty blondynk",
 		"colour":"#E5C8A8",
 		"for_species": ["Human"],
 		"young": true
@@ -117,7 +117,7 @@
 
 	"strawberry_blonde": {
 		"ref_name" : "ColourRef",
-		"title": "Strawberry-blonde",
+		"title": "Truskawkowy blond",
 		"colour":"#A56B46",
 		"for_species": ["Human"],
 		"young": true
@@ -125,7 +125,7 @@
 
 	"light_auburn": {
 		"ref_name" : "ColourRef",
-		"title": "Light auburn",
+		"title": "Jasnokasztanowy",
 		"colour":"#91553D",
 		"for_species": ["Human"],
 		"young": true
@@ -133,7 +133,7 @@
 
 	"dark_auburn": {
 		"ref_name" : "ColourRef",
-		"title": "Dark auburn",
+		"title": "Ciemny kasztan",
 		"colour":"#533D32",
 		"for_species": ["Human"],
 		"young": true
@@ -141,7 +141,7 @@
 
 	"dark_grey": {
 		"ref_name" : "ColourRef",
-		"title": "Dark grey",
+		"title": "Ciemnoszary",
 		"colour":"#71635A",
 		"for_species": ["Human"],
 		"old": true
@@ -149,7 +149,7 @@
 
 	"medium_grey": {
 		"ref_name" : "ColourRef",
-		"title": "Medium grey",
+		"title": "Średni szary",
 		"colour":"#B7A69E",
 		"for_species": ["Human"],
 		"old": true
@@ -157,7 +157,7 @@
 
 	"light_grey": {
 		"ref_name" : "ColourRef",
-		"title": "Light grey",
+		"title": "Jasnoszary",
 		"colour":"#D6C4C2",
 		"for_species": ["Human"],
 		"old": true
@@ -165,7 +165,7 @@
 
 	"white_blonde": {
 		"ref_name" : "ColourRef",
-		"title": "White blonde",
+		"title": "Biały blond",
 		"colour":"#FFF5E1",
 		"for_species": ["Human"],
 		"old": true
@@ -173,7 +173,7 @@
 
 	"platinum_blonde": {
 		"ref_name" : "ColourRef",
-		"title": "Platinum blonde",
+		"title": "Platynowy blond",
 		"colour":"#CABFB1",
 		"for_species": ["Human"],
 		"old": true
@@ -181,7 +181,7 @@
 
 	"red": {
 		"ref_name" : "ColourRef",
-		"title": "Red",
+		"title": "Czerwony",
 		"colour":"#8D4A43",
 		"for_species": ["Human"],
 		"young": true

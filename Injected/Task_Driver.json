@@ -5,47 +5,47 @@
     
     "Roam": {
         "ref_name": "TaskDriverRef",
-        "title": "Roam",
+        "title": "Wędrój",
         "tasks": ["MoveTo"],
         "text": "Roaming.",
         "urgency": 1
     },
     "Eat": {
         "ref_name": "TaskDriverRef",
-        "title": "Eat",
+        "title": "Zjedz",
         "tasks": ["Reserve", "MoveTo", "Pickup", "FindPlaceToIngest", "ReserveCell", "MoveTo", "EatFood"],
         "text": "Eating.",
         "urgency": 3
     },
     "Drink": {
         "ref_name": "TaskDriverRef",
-        "title": "Drink",
+        "title": "Wypij",
         "tasks": ["Reserve", "MoveTo", "Pickup", "Drink"],
         "text": "Drinking.",
         "urgency": 3
     },
     "Clean": {
         "ref_name": "TaskDriverRef",
-        "title": "Clean",
+        "title": "Czyść",
         "tasks": ["Reserve", "MoveTo", "Clean"],
         "text": "Cleaning."
     },
     "Sleep": {
         "ref_name": "TaskDriverRef",
-        "title": "Sleep",
+        "title": "Śpij",
         "tasks": ["Reserve", "MoveTo", "Sleep"],
         "text": "Sleeping.",
         "urgency": 3
     },
     "InvoluntarySleep": {
         "ref_name": "TaskDriverRef",
-        "title": "Sleep",
+        "title": "Śpij",
         "tasks": ["Reserve", "Sleep"],
         "text": "Resting."
     },
     "ForceMove": {
         "ref_name": "TaskDriverRef",
-        "title": "Force Move",
+        "title": "Wymuś ruch",
         "tasks": ["ClosestMoveCellToPos", "MoveTo"],
         "text": "Forced move.",
         "urgency": 3,
@@ -53,97 +53,97 @@
     },
     "Pickup": {
         "ref_name": "TaskDriverRef",
-        "title": "Pickup",
+        "title": "Podnieś",
         "tasks": ["Reserve", "MoveTo", "Pickup"],
         "text": "Pickup."
     },
     "Haul": {
         "ref_name": "TaskDriverRef",
-        "title": "Haul",
+        "title": "Zaciąg",
         "tasks": ["Reserve", "FindBestStorageCell", "ReserveCell", "MoveTo", "Pickup", "FindPathToTargetCell", "MoveTo", "Drop"],
         "text": "Hauling."
     },
     "Refuel": {
         "ref_name": "TaskDriverRef",
-        "title": "Refuel",
+        "title": "uzupełnij",
         "tasks": ["Reserve", "ReserveEntityB", "MoveTo", "Pickup", "FindPathToTargetB", "MoveTo", "RefuelTargetB"],
         "text": "Refuel."
     },
     "MoveDeadPawn": {
         "ref_name": "TaskDriverRef",
-        "title": "Move dead pawn",
+        "title": "Przesuń martwego pionka",
         "tasks": ["Reserve", "MoveTo", "Pickup", "GetDeadPawnDropSpot", "MoveTo", "Drop"],
         "text": "Move a dead pawn."  
     },
     "Equip": {
         "ref_name": "TaskDriverRef",
-        "title": "Equip",
+        "title": "Wyposaż",
         "tasks": ["Reserve", "MoveTo", "Equip"],
         "text": "Equip item."  
     },
     "UnEquip": {
         "ref_name": "TaskDriverRef",
-        "title": "Removing",
+        "title": "Zdejmij",
         "tasks": ["UnEquip"],
         "text": "Removing item from inventory."
     },
     "CollectMaterials": {
         "ref_name": "TaskDriverRef",
-        "title": "Collect materials",
+        "title": "Zbieraj materiały",
         "tasks": ["GetClosestFuel", "Reserve", "MoveTo", "Pickup"],
         "text": "Collect materials."
     },
     "Strip": {
         "ref_name": "TaskDriverRef",
-        "title": "Strip",
+        "title": "Zdejmij",
         "tasks": ["Reserve", "MoveTo", "Strip"],
         "text": "Removing items from pawns inventory."
     },
     "Deconstruct": {
         "ref_name": "TaskDriverRef",
-        "title": "Deconstruct",
+        "title": "Dekonstruuj",
         "tasks": ["Reserve", "MoveTo", "Deconstruct"],
         "text": "Deconstructing."
     },
     "Mine": {
         "ref_name": "TaskDriverRef",
-        "title": "Mine",
+        "title": "Kop",
         "tasks": ["Reserve", "MoveTo", "Mine"],
         "text": "Mining."
     },
     "DestroyAsset": {
         "ref_name": "TaskDriverRef",
-        "title": "Destroy asset",
+        "title": "Zniszcz zasób",
         "tasks": ["Reserve", "MoveTo", "DestroyAsset"],
         "text": "Deconstructing."
     },
     "HaulToPrefab": {
         "ref_name": "TaskDriverRef",
-        "title": "Haul to prefab",
+        "title": "Transport do prefabrykatów",
         "tasks": ["Reserve", "ReserveEntityB", "MoveTo", "Pickup", "FindPathToTargetB", "MoveTo", "DropAtTargetB"],
         "text": "Hauling to prefab."
     },
     "Build": {
         "ref_name": "TaskDriverRef",
-        "title": "Build",
+        "title": "Zbuduj",
         "tasks": ["Reserve", "MoveTo", "Build"],
         "text": "Building prefab."
     },
     "Rescue": {
         "ref_name": "TaskDriverRef",
-        "title": "Rescue",
+        "title": "Uratuj",
         "tasks": ["Reserve", "ReserveEntityB", "MoveTo", "Pickup", "FindPathToTargetB", "MoveTo", "DropIntoBed"],
         "text": "Rescue."
     },
     "UseEntertainment": {
         "ref_name": "TaskDriverRef",
-        "title": "Play arcade machine.",
+        "title": "Zagraj na automatach.",
         "tasks": ["Reserve", "MoveTo", "PlayArcadeMachine"],
         "text": "Playing arcade machine."
     },
     "SitAtChair": {
         "ref_name": "TaskDriverRef",
-        "title": "Sitting.",
+        "title": "siedzi.",
         "tasks": ["Reserve", "MoveTo", "SitAtChair"],
         "text": "Sitting."
     },
@@ -155,7 +155,7 @@
     },
     "TendFeed": {
         "ref_name": "TaskDriverRef",
-        "title": "Heal pawn",
+        "title": "Uzdrów pionka",
         "tasks": ["Reserve", "ReserveEntityB", "MoveTo", "Pickup", "FindPathToTargetB", "MoveTo", "TendFeed"],
         "text": "Feeding pawn."
     },
@@ -167,50 +167,50 @@
     },
     "GetBackToShip": {
         "ref_name": "TaskDriverRef",
-        "title": "Get back to the ship",
+        "title": "Wróć na statek",
         "tasks": ["BackToShip", "MoveTo"],
         "text": "Making my way back to the ship."
     },
     "Slaughter": {
         "ref_name": "TaskDriverRef",
-        "title": "Slaughter.",
+        "title": "Wymorduj.",
         "tasks": ["Reserve", "MoveTo", "Slaughter"],
         "text": "Slaughtering."
     },
     "Butcher": {
         "ref_name": "TaskDriverRef",
-        "title": "Butcher",
+        "title": "Rzeźnik",
         "tasks": ["Reserve", "MoveTo", "Butcher"],
         "text": "Butchering."
     },
     "SowPlant": {
         "ref_name": "TaskDriverRef",
-        "title": "Sow plant",
+        "title": "Zasiej roślinę",
         "tasks": ["Reserve", "ReserveEntityB", "MoveTo", "Pickup", "FindPathToTargetCell", "MoveTo", "SowAtTargetB"],
         "text": "Sow plant."
     },
     "HarvestPlant": {
         "ref_name": "TaskDriverRef",
-        "title": "Harvest plant",
+        "title": "Zbierz zbiory",
         "tasks": ["Reserve", "MoveTo", "HarvestPlant"],
         "text": "Harvest plant."
     },
     "HarvestBrew": {
         "ref_name": "TaskDriverRef",
-        "title": "Harvest brew",
+        "title": "Zbierz napar",
         "tasks": ["Reserve", "MoveTo", "HarvestBrew"],
         "text": "Harvest brew."
     },
     "FollowAndMelee": {
         "ref_name": "TaskDriverRef",
-        "title": "Follow and melee",
+        "title": "Podążaj i walcz wręcz",
         "tasks": ["ReserveCombatTarget", "FollowAndMelee"],
         "text": "Attacking.",
         "urgency": 3
     },
     "Flee": {
         "ref_name": "TaskDriverRef",
-        "title": "Flee",
+        "title": "Uciekaj",
         "tasks": ["MoveTo"],
         "text": "Fleeing.",
         "urgency": 4

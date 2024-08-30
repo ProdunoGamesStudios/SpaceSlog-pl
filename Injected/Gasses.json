@@ -5,32 +5,32 @@
     
     "Oxygen": {
         "ref_name": "GasRef",
-        "title": "Oxygen",
-        "description": "Oxygen is an oxidising agent, and most humanoid life forms use this for breathing.",
+        "title": "Tlen",
+        "description": "Tlen jest środkiem utleniającym i większość humanoidalnych form życia używa go do oddychania.",
         "symbol": "02"
     },
     "Nitrogen": {
         "ref_name": "GasRef",
-        "title": "Nitrogen",
-        "description": "Nitrogen is a common element in the universe, and is present in most organic compounds.",
+        "title": "Azot",
+        "description": "Azot jest powszechnym pierwiastkiem we wszechświecie i występuje w większości związków organicznych.",
         "symbol": "N2"
     },
     "CarbonDioxide": {
         "ref_name": "GasRef",
-        "title": "Carbon Dioxide",
-        "description": "Carbon Dioxide is a respiratory by-product of most humanoid life forms.",
+        "title": "Dwutlenek węgla",
+        "description": "Dwutlenek węgla jest produktem ubocznym oddychania większości humanoidalnych form życia.",
         "symbol": "CO2"
     },
     "Hazardous": {
         "ref_name": "GasRef",
-        "title": "Hazardous",
-        "description": "Hazardous gas is a collective term for any gas that is considered toxic or otherwise harmful to most humanoid life forms.",
+        "title": "Niebezpieczny gaz",
+        "description": "Niebezpieczny gaz to zbiorcze określenie wszelkich gazów uznawanych za toksyczne lub w inny sposób szkodliwe dla większości humanoidalnych form życia.",
         "symbol": "H"
     },
     "Explosive": {
         "ref_name": "GasRef",
-        "title": "Explosive",
-        "description": "Explosive gas is a collective term for any gas that is considered flammable or explosive.",
+        "title": "Gaz wybuchowy",
+        "description": "Gaz wybuchowy to zbiorcze określenie wszelkich gazów uznawanych za łatwopalne lub wybuchowe.",
         "symbol": "Ex"
     }
 }

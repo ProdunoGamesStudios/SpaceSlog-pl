@@ -8,7 +8,7 @@
 		"ref_name": "ItemRef",
 		"entity_class": "Weapon",
 		"title": "Gladius",
-		"description": "A short sword used for close combat.",
+		"description": "Krótki miecz używany do walki wręcz.",
 		"for_species": [
 			"Human"
 		],
@@ -52,8 +52,8 @@
 	"HandGun": {
 		"ref_name": "ItemRef",
 		"entity_class": "ProjectileWeapon",
-		"title": "Handgun",
-		"description": "A small handgun used for ranged combat.",
+		"title": "Pistolet",
+		"description": "Mały pistolet używany do walki na dystans.",
 		"for_species": [
 			"Human"
 		],
@@ -146,8 +146,8 @@
 	"RoundShield": {
 		"ref_name": "ItemRef",
 		"entity_class": "Weapon",
-		"title": "Round shield",
-		"description": "A round shield used to block attacks.",
+		"title": "Okrągła tarcza",
+		"description": "Okrągła tarcza służąca do blokowania ataków.",
 		"for_species": [
 			"Human"
 		],

@@ -5,14 +5,14 @@
 
     "Captain": {
         "ref_name": "RoleRef",
-        "title": "Captain",
+        "title": "Kapitan",
         "max_members": 1,
         "can_be_deleted": false
     },
 
     "Quartermaster": {
         "ref_name": "RoleRef",
-        "title": "Quartermaster",
+        "title": "Kwatermistrz",
         "max_members": 1,
         "can_be_deleted": false
     }

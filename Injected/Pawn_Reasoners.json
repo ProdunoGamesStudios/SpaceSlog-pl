@@ -5,7 +5,7 @@
     
     "Basic": {
         "ref_name": "ReasonerRef",
-        "title": "Basic Reasoner",
+        "title": "Typowy racjonalista",
         "reasoner_type": "PawnReasoner",
         "options": [
             "Roam", "Eat", "Sleep", "FollowAndMelee", "Drink"
@@ -13,7 +13,7 @@
     },
     "Human": {
         "ref_name": "ReasonerRef",
-        "title": "Human Reasoner",
+        "title": "Ludzki racjonalista",
         "reasoner_type": "PawnReasoner",
         "options": [
             "Roam", "Eat", "Drink", "Clean", "Sleep", "Haul", "MoveDead", "Refuel", "Deconstruct", "HaulToPrefab", "HaulToRecipe",

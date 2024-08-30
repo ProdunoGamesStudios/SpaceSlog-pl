@@ -5,17 +5,17 @@
 
     "Anything": {
         "ref_name": "BaseRef",
-        "title": "Anything",
-        "description": "Can do anything."
+        "title": "Wszystko",
+        "description": "Może zrobić wszystko."
     },
     "Work": {
         "ref_name": "BaseRef",
-        "title": "Work",
-        "description": "Will only perform work based tasks where possible."
+        "title": "Pracuje",
+        "description": "W miarę możliwości będzie wykonywał zadania oparte na pracy."
     },
     "Sleep": {
         "ref_name": "BaseRef",
-        "title": "Sleep",
-        "description": "Will only try and sleep if possible."
+        "title": "Sen",
+        "description": "Spróbuję tylko spać, jeśli to możliwe."
     }
 }

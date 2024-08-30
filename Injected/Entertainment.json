@@ -7,8 +7,8 @@
 
     "ArcadeMachine": {
         "base_class": "Building",
-        "title": "Arcade machine",
-        "description": "Can reduce stress.",
+        "title": "automaty do gier",
+        "description": "Może zmniejszyć stres.",
         "movement_cost": 45,
         "mass": 60,
         "deterioration_rate": 10,
