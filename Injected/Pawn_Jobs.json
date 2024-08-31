@@ -12,7 +12,7 @@
 	},
 	"Marine" : {
 		"title" : "Test3",
-		"description" : "{pawn_name} Od najmłodszych lat wiedział, {pawn_pronoun} że chce służyć w wojsku. Możliwość zobaczenia części wszechświata, których inni nie widzieli, była prawdopodobnie jedną z największych atrakcji."
+		"description" : "{pawn_name} Od najmłodszych lat {pawn_pronoun} wiedział że chce służyć w wojsku. Możliwość zobaczenia części wszechświata, których inni nie widzieli, była prawdopodobnie jedną z największych atrakcji."
 	},
 	"Labourer" : {
 		"title" : "Test4",
@@ -44,11 +44,11 @@
 	},
 	"Student" : {
 		"title" : "Student",
-		"description" : "{pawn_name} nadal się uczy w nadziei, że będzie lepiej {pawn_reflexive}, chociaż nikt tak naprawdę nie wie po co i on sam prawdopodobieństwo też nie wie {pawn_pronoun}."
+		"description" : "{pawn_name} nadal się uczy w nadziei, że będzie lepiej {pawn_reflexive}, chociaż nikt tak naprawdę nie wie po co i on sam prawdopodobnie też nie wie {pawn_pronoun}."
 	},
 	"Professor" : {
 		"title" : "Profesor",
-		"description" : "Spędzania dużo czasu na edukacji i doskonaleniu się {pawn_reflexive}  {pawn_name} zasłużył na tytuł profesora."
+		"description" : "Spędzanie dużo czasu na edukacji i doskonaleniu się {pawn_reflexive} , {pawn_name} zasłużył na tytuł profesora."
 	},
 	"Merchant" : {
 		"title" : "Kupiec",
@@ -59,8 +59,8 @@
 		"description" : "{pawn_name} żyje życiem pirata, okradając wszystkich {pawn_possessive} może zarobić cokolwiek gdziekolwiek {pawn_possessive} może."
 	},
 	"Slave" : {
-		"title" : "Slave",
-		"description" : "{pawn_name} has lived a life of poverty, being sold to the highest bidder and being asked to do all manner of things. There is no telling what {pawn_pronoun} has had to endure."
+		"title" : "Niewolnik",
+		"description" : "{pawn_name} żyje w nędzy, being sold to the highest bidder and being asked to do all manner of things. There is no telling what {pawn_pronoun} has had to endure."
 	},
 	"Slaver" : {
 		"title" : "Sprzedawca niewolników",

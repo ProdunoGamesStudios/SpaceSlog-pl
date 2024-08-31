@@ -1,198 +1,97 @@
 {
-	"file_data": {
-		"name": "hair_colours"
-	},
-	
 	"black": {
-		"ref_name" : "ColourRef",
-		"title": "Czarny",
-		"colour": "#090806",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Czarny"
 	},
 
 	"off_black": {
-		"ref_name" : "ColourRef",
-		"title": "Zgaszona czerń",
-		"colour":"#2C222B",
-		"for_species": ["Human"],
-		"old": true
+		"title": "Zgaszona czerń"
 	},
 
 	"dark_brown": {
-		"ref_name" : "ColourRef",
-		"title": "Ciemny brąz",
-		"colour":"#3B3024",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Ciemny brąz"
 	},
 
 	"med_dark_brown": {
-		"ref_name" : "ColourRef",
-		"title": "Średnio ciemny brąz",
-		"colour":"#4E433F",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Średnio ciemny brąz"
 	},
 
 	"chestnut_brown": {
-		"ref_name" : "ColourRef",
-		"title": "Kasztanowy brąz",
-		"colour":"#504444",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Kasztanowy brąz"
 	},
 
 	"light_chestnut_brown": {
-		"ref_name" : "ColourRef",
-		"title": "Jasny kasztanowy brąz",
-		"colour":"#6A4E42",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Jasny kasztanowy brąz"
 	},
 
 	"dark_golden_brown": {
-		"ref_name" : "ColourRef",
-		"title": "Ciemnozłoty brąz",
-		"colour":"#554838",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Ciemnozłoty brąz"
 	},
 
 	"light_golden_brown": {
-		"ref_name" : "ColourRef",
-		"title": "Jasnozłoty brąz",
-		"colour":"#A7856A",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Jasnozłoty brąz"
 	},
 
 	"honey_blonde": {
-		"ref_name" : "ColourRef",
-		"title": "Miodowy blond",
-		"colour":"#B89778",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Miodowy blond"
 	},
 
 	"bleach_blonde": {
-		"ref_name" : "ColourRef",
-		"title": "Rozjaśniany blond",
-		"colour":"#DCD0BA",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Rozjaśniany blond"
 	},
 
 	"ash_blonde": {
-		"ref_name" : "ColourRef",
-		"title": "Popielaty blond",
-		"colour":"#DEBC99",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Popielaty blond"
 	},
 
 	"ash_brown": {
-		"ref_name" : "ColourRef",
-		"title": "Popielaty brąz",
-		"colour":"#977961",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Popielaty brąz"
 	},
 
 	"light_blonde": {
-		"ref_name" : "ColourRef",
-		"title": "Jasny blond",
-		"colour":"#E6CEA8",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Jasny blond"
 	},
 
 	"golden_blonde": {
-		"ref_name" : "ColourRef",
-		"title": "Złoty blondynk",
-		"colour":"#E5C8A8",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Złoty blond"
 	},
 
 	"strawberry_blonde": {
-		"ref_name" : "ColourRef",
-		"title": "Truskawkowy blond",
-		"colour":"#A56B46",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Truskawkowy blond"
 	},
 
 	"light_auburn": {
-		"ref_name" : "ColourRef",
-		"title": "Jasnokasztanowy",
-		"colour":"#91553D",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Jasny kasztan"
 	},
 
 	"dark_auburn": {
-		"ref_name" : "ColourRef",
-		"title": "Ciemny kasztan",
-		"colour":"#533D32",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Ciemny kasztan"
 	},
 
 	"dark_grey": {
-		"ref_name" : "ColourRef",
-		"title": "Ciemnoszary",
-		"colour":"#71635A",
-		"for_species": ["Human"],
-		"old": true
+		"title": "Ciemnoszary"
 	},
 
 	"medium_grey": {
-		"ref_name" : "ColourRef",
-		"title": "Średni szary",
-		"colour":"#B7A69E",
-		"for_species": ["Human"],
-		"old": true
+		"title": "Średni szary"
 	},
 
 	"light_grey": {
-		"ref_name" : "ColourRef",
-		"title": "Jasnoszary",
-		"colour":"#D6C4C2",
-		"for_species": ["Human"],
-		"old": true
+		"title": "Jasnoszary"
 	},
 
 	"white_blonde": {
-		"ref_name" : "ColourRef",
-		"title": "Biały blond",
-		"colour":"#FFF5E1",
-		"for_species": ["Human"],
-		"old": true
+		"title": "Biały blond"
 	},
 
 	"platinum_blonde": {
-		"ref_name" : "ColourRef",
-		"title": "Platynowy blond",
-		"colour":"#CABFB1",
-		"for_species": ["Human"],
-		"old": true
+		"title": "Platynowy blond"
 	},
 
 	"red": {
-		"ref_name" : "ColourRef",
-		"title": "Czerwony",
-		"colour":"#8D4A43",
-		"for_species": ["Human"],
-		"young": true
+		"title": "Czerwony"
 	},
 
 	"cotta": {
-		"ref_name" : "ColourRef",
-		"title": "Cotta",
-		"colour":"#B55239",
-		"for_species": ["Human"],
-		"young": true,
-		"old": true
+		"title": "Terakota"
 	}
 }

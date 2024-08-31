@@ -1,22 +1,10 @@
 {
-	"file_data": {
-		"name": "meat_types"
-	},
-	
 	"Human": {
-		"ref_name": "MeatRef",
 		"title": "Mięso",
-        "description": "Grube i czerwone.",
-        "colour": "#ff7f7f",
-        "material": "RawMeat",
-        "base_quantity": "1"
+        "description": "Grube i czerwone."
 	},
     "Worm": {
-		"ref_name": "MeatRef",
 		"title": "Mięso",
-		"description": "Zielone i lepkie.",
-        "colour": "#9dc100",
-        "material": "RawMeat",
-        "base_quantity": "1"
+		"description": "Zielone i lepkie."
 	}
 }

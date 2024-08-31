@@ -1,309 +1,31 @@
 {
-	"file_data":{
-        "menu_type": "power",
-		"name": "building",
-        "cache_textures": true
-	},
-
     "Cables": {
-        "base_class": "Building",
-        "entity_class": "Cable",
         "title": "Kabel zasilający",
-        "description": "Przewodzi prąd.",
-        "movement_cost": 0,
-        "mass": 3,
-        "deterioration_rate": 10,
-        "flammability": 40,
-        "base_market_value": 30,
-        "comfort": 1,
-        "work_to_build": 80,
-        "builds_on_wall": true,
-        "draw_size": "Vector2i(1, 1)",
-        "size": "Vector2i(1, 1)",
-        "materials": {
-            "use_material_colour": true,
-            "material_types": {
-                "primary_mats": [
-                    "Titanium",
-                    "Gold"
-                ],
-                "primary_mats_amount": 1
-            }
-        },
-        "health": {
-            "max_health": 10
-        },
-        "graphics": {
-            "graphics_class": "GraphicsLinked",
-            "texture_path": "Textures/Things/Building/BuildingFrame/Cables"
-        }
+        "description": "Przewodzi prąd."
     },
 
     "SmallGenerator": {
-        "base_class": "Building",
         "title": "Mały generator",
-        "description": "Zużywa pluton przechowywany w ogniwach paliwowych, aby wytworzyć niewielką ilość energii elektrycznej.",
-        "movement_cost": 50,
-        "mass": 95,
-        "deterioration_rate": 10,
-        "flammability": 40,
-        "base_market_value": 440,
-        "comfort": 1,
-        "work_to_build": 2200,
-        "rotatable": true,
-        "builds_on_wall": false,
-        "draw_size": "Vector2i(1, 1)",
-        "size": "Vector2i(1, 1)",
-        "materials": {
-            "use_material_colour": true,
-            "material_types": {
-                "primary_mats": [
-                    "Titanium", 
-                    "Gold"
-                ],
-                "primary_mats_amount": 22,
-                "secondary_mats": [
-                    "Silicon"
-                ],
-                "secondary_mats_amount": 8
-            }
-        },
-        "health": {
-            "max_health": 100
-        },
-        "graphics": {
-            "graphics_class": "GraphicsMultiple",
-            "shader_type": "ColourMask",
-            "texture_path": "Textures/Things/Building/Production/SmallGenerator"
-        },
-        "components": {
-            "PowerSource": {
-                "amount_provided": 250
-            },
-            "ConsumesFuel": {
-                 "fuel_type": "FuelCell",
-                 "burn_rate": 0.8,
-                 "consume_fuel_only_if_powered": true,
-                 "fuel_capacity": 3
-            },
-            "Switchable":{},
-            "GlowLamp": {
-                "texture_mask_path": "Textures/Things/LightMaps/CircularLightMap.png",
-                "position": "Vector2i(32, 32)",
-                "illumination_radius": 2,
-                "max_light_intensity": 1,
-                "colour": "#feaf76"
-            }
-        }
+        "description": "Zużywa pluton przechowywany w ogniwach paliwowych, aby wytworzyć niewielką ilość energii elektrycznej."
     },
 
     "LargeGenerator": {
-        "base_class": "Building",
         "title": "Duży generator",
-        "description": "Zużywa pluton przechowywany w ogniwach paliwowych, aby wygenerować dużą ilość energii elektrycznej.",
-        "movement_cost": 50,
-        "mass": 220,
-        "deterioration_rate": 10,
-        "flammability": 40,
-        "base_market_value": 1000,
-        "comfort": 1,
-        "skill_amount_required": 6,
-        "work_to_build": 4100,
-        "rotatable": true,
-        "builds_on_wall": false,
-        "draw_size": "Vector2i(2, 3)",
-        "size": "Vector2i(2, 3)",
-        "materials": {
-            "use_material_colour": true,
-            "material_types": {
-                "primary_mats": [
-                    "Titanium", 
-                    "Gold"
-                ],
-                "primary_mats_amount": 42,
-                "secondary_mats": [
-                    "Silicon"
-                ],
-                "secondary_mats_amount": 16
-            }
-        },
-        "health": {
-            "max_health": 200
-        },
-        "graphics": {
-            "graphics_class": "GraphicsMultiple",
-            "shader_type": "ColourMask",
-            "texture_path": "Textures/Things/Building/Production/LargeGenerator"
-        },
-        "components": {
-            "PowerSource": {
-                "amount_provided": 2400
-            },
-            "ConsumesFuel": {
-                 "fuel_type": "FuelCell",
-                 "burn_rate": 4.4,
-                 "consume_fuel_only_if_powered": true,
-                 "fuel_capacity": 17
-            },
-            "Switchable":{},
-            "GlowLamp": {
-                "texture_mask_path": "Textures/Things/LightMaps/CircularLightMap.png",
-                "position": "Vector2i(32, 32)",
-                "illumination_radius": 4,
-                "max_light_intensity": 1,
-                "colour": "#feaf76"
-            }
-        }
+        "description": "Zużywa pluton przechowywany w ogniwach paliwowych, aby wygenerować dużą ilość energii elektrycznej."
     },
 
     "SmallSolarPanel": {
-        "base_class": "Building",
         "title": "Mały panel słoneczny",
-        "description": "Generuje niewielką ilość energii elektrycznej z naturalnych źródeł światła, takich jak gwiazda.",
-        "movement_cost": 50,
-        "mass": 34,
-        "deterioration_rate": 10,
-        "flammability": 40,
-        "base_market_value": 1000,
-        "comfort": 1,
-        "skill_amount_required": 4,
-        "work_to_build": 2100,
-        "rotatable": false,
-        "builds_on_wall": true,
-        "draw_size": "Vector2i(1, 1)",
-        "size": "Vector2i(1, 1)",
-        "materials": {
-            "use_material_colour": true,
-            "material_types": {
-                "primary_mats": [
-                    "Titanium", 
-                    "Gold"
-                ],
-                "primary_mats_amount": 21,
-                "secondary_mats": [
-                    "Silicon"
-                ],
-                "secondary_mats_amount": 8
-            }
-        },
-        "health": {
-            "max_health": 120
-        },
-        "graphics": {
-            "graphics_class": "Graphics",
-            "shader_type": "ColourMask",
-            "texture_path": "Textures/Things/Building/Production/SmallSolarPanel",
-            "show_above_walls": true
-        },
-        "components": {
-            "PowerSource": {
-                "amount_provided": 160
-            },
-            "SolarPower": {
-                "indicator_size": "Vector2(52, 11)",
-                "indicator_pos": "Vector2(27, 9)"
-            }
-        }
+        "description": "Generuje niewielką ilość energii elektrycznej z naturalnych źródeł światła, takich jak gwiazda."
     },
 
     "LargeSolarPanel": {
-        "base_class": "Building",
         "title": "Duży panel słoneczny",
-        "description": "Wytwarza energię elektryczną z naturalnych źródeł światła, takich jak gwiazda.",
-        "movement_cost": 50,
-        "mass": 102,
-        "deterioration_rate": 10,
-        "flammability": 40,
-        "base_market_value": 1000,
-        "comfort": 1,
-        "skill_amount_required": 6,
-        "work_to_build": 4250,
-        "rotatable": false,
-        "builds_on_wall": true,
-        "draw_size": "Vector2i(2, 2)",
-        "size": "Vector2i(2, 2)",
-        "materials": {
-            "use_material_colour": true,
-            "material_types": {
-                "primary_mats": [
-                    "Titanium", 
-                    "Gold"
-                ],
-                "primary_mats_amount": 44,
-                "secondary_mats": [
-                    "Silicon"
-                ],
-                "secondary_mats_amount": 17
-            }
-        },
-        "health": {
-            "max_health": 200
-        },
-        "graphics": {
-            "graphics_class": "Graphics",
-            "shader_type": "ColourMask",
-            "texture_path": "Textures/Things/Building/Production/LargeSolarPanel",
-            "show_above_walls": true
-        },
-        "components": {
-            "PowerSource": {
-                "amount_provided": 760
-            },
-            "SolarPower": {
-                "indicator_size": "Vector2(114, 11)",
-                "indicator_pos": "Vector2(59, 9)"
-            }
-        }
+        "description": "Wytwarza energię elektryczną z naturalnych źródeł światła, takich jak gwiazda."
     },
     
     "Battery": {
-        "base_class": "Building",
         "title": "Bateria",
-        "description": "Przechowuje ilość energii elektrycznej, którą można wykorzystać w razie potrzeby.",
-        "rotatable": true,
-        "movement_cost": 50,
-        "mass": 52,
-        "deterioration_rate": 10,
-        "flammability": 40,
-        "base_market_value": 100,
-        "comfort": 1,
-        "skill_amount_required": 3,
-        "work_to_build": 2600,
-        "builds_on_wall": false,
-        "draw_size": "Vector2i(1, 2)",
-        "size": "Vector2i(1, 2)",
-        "materials": {
-            "use_material_colour": true,
-            "material_types": {
-                "primary_mats": [
-                    "Titanium", 
-                    "Gold"
-                ],
-                "primary_mats_amount": 28,
-                "secondary_mats": [
-                    "Silicon"
-                ],
-                "secondary_mats_amount": 8
-            }
-        },
-        "health": {
-            "max_health": 100
-        },
-        "graphics": {
-            "graphics_class": "GraphicsMultiple",
-            "shader_type": "ColourMask",
-            "texture_path": "Textures/Things/Building/Production/Battery"
-        },
-        "components": {
-            "PowerStorer": {
-                "max_storage": 700,
-                "indicator_size": "Vector2(80, 20)",
-                "indicator_pos": "Vector2(20, 21)"
-            },
-            "PowerSource": {
-            },
-            "PowerReceiver": {
-            }
-        }
+        "description": "Przechowuje ilość energii elektrycznej, którą można wykorzystać w razie potrzeby."
     }
 }

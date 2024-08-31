@@ -1,47 +1,31 @@
 {
-	"file_data": {
-		"name": "faction_laws"
-	},
-    
     "Slavery": {
-        "ref_name": "LawRef",
         "title": "Niewolnictwo",
-        "description": "Handel gatunkami jest zjawiskiem normalnym i nie podlega karze. To sprawiło, że kupno i sprzedaż niewolników stało się powszechnym widokiem na terytoriach tej frakcji i wokół nich.",
-        "relation_modifier": -10
+        "description": "Handel gatunkami jest zjawiskiem normalnym i nie podlega karze. To sprawiło, że kupno i sprzedaż niewolników stało się powszechnym widokiem na terytoriach tej frakcji i wokół nich."
     },
 
     "Cannibalism": {
-        "ref_name": "LawRef",
         "title": "Kanibalizm",
-        "description": "Niektórzy uciekają się do kanibalizmu z potrzeby, inni z niedostatku. Ta frakcja nie widzi żadnego problemu w żadnym z nich, a nawet uczyniła to legalnym.",
-        "relation_modifier": -15
+        "description": "Niektórzy uciekają się do kanibalizmu z potrzeby, inni z niedostatku. Ta frakcja nie widzi żadnego problemu w żadnym z nich, a nawet uczyniła to legalnym."
     },
 
     "Commerce": {
-        "ref_name": "LawRef",
         "title": "Handlarz",
-        "description": "Frakcja ta posiada wyrafinowany system handlu.",
-        "relation_modifier": 10
+        "description": "Frakcja ta posiada wyrafinowany system handlu."
     },
 
     "Exploration": {
-        "ref_name": "LawRef",
         "title": "Badacze",
-        "description": "Gatunek odkrywców. Przyłączenie się do wysłanych statków badawczych jest wymogiem prawnym.",
-        "relation_modifier": 15
+        "description": "Gatunek odkrywców. Przyłączenie się do wysłanych statków badawczych jest wymogiem prawnym."
     },
 
     "Expansionist": {
-        "ref_name": "LawRef",
         "title": "Ekspansjonista",
-        "description": "Próby kolonizacji innych części wszechświata są zachęcane i legalne.",
-        "relation_modifier": 0
+        "description": "Próby kolonizacji innych części wszechświata są zachęcane i legalne."
     },
     
     "Banditry": {
-        "ref_name": "LawRef",
         "title": "Bandyci",
-        "description": "W tej frakcji zachęca się do bandytyzmu, który często obejmuje przestępstwa takie jak wymuszenia, rabunki i morderstwa. Osoby zajmujące się tego typu działalnością często nazywane są bandytami.",
-        "relation_modifier": -30
+        "description": "W tej frakcji zachęca się do bandytyzmu, który często obejmuje przestępstwa takie jak wymuszenia, rabunki i morderstwa. Osoby zajmujące się tego typu działalnością często nazywane są bandytami."
     }
 }

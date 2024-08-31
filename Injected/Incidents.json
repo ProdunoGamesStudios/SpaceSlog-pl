@@ -1,38 +1,21 @@
 {
-	"file_data": {
-		"name": "incidents"
-	},
-
     "PassingShip": {
-        "ref_name": "IncidentRef",
-        "incident_type": "PassingShip",
         "title": "Przepływający statek",
         "description": "Nasze skanery wykryły w pobliżu statek. Wkrótce powinien znaleźć się w zasięgu komunikacji."
     },
     "Asteroids": {
-        "ref_name": "IncidentRef",
-        "incident_type": "AsteroidField",
         "title": "Pole asteroid",
-        "description": "Przelatujemy przez pole asteroid, możemy spróbować trochę wydobyć,ale musimy uważać na posożyty i infekcje.",
-        "delay": "Vector2(1200, 2200)"
+        "description": "Przelatujemy przez pole asteroid, możemy spróbować trochę wydobyć,ale musimy uważać na posożyty i infekcje."
     },
     "Debris": {
-        "ref_name": "IncidentRef",
-        "incident_type": "Debris",
-        "title": "Gruz",
-        "description": "Wykrywamy w pobliżu jakieś szczątki. Możemy przeszukać wrak w poszukiwaniu zapasów lub sprawdzić, czy ktoś przeżył. Musimy uważać na piratów w okolicy.",
-        "delay": "Vector2(1200, 2200)"
+        "title": "Szczątki",
+        "description": "Wykrywamy w pobliżu jakieś szczątki. Możemy przeszukać wrak w poszukiwaniu zapasów lub sprawdzić, czy ktoś przeżył. Musimy uważać na piratów w okolicy."
     },
     "CryoChamber": {
-        "ref_name": "IncidentRef",
-        "incident_type": "CryoChamber",
         "title": "Komora kriogeniczna",
-        "description": "Wygląda na to, że w pobliżu unosi się komora kriogeniczna. Moglibyśmy sprawdzić, czy ktoś jest w środku.",
-        "delay": "Vector2(1000, 2000)"
+        "description": "Wygląda na to, że w pobliżu unosi się komora kriogeniczna. Moglibyśmy sprawdzić, czy ktoś jest w środku."
     },
     "HostileCreatureAssault": {
-        "ref_name": "IncidentRef",
-        "incident_type": "HostileCreatureAssault",
         "title": "Wróg",
         "description": "W zasięgu statku zauważono wrogie stworzenia."
     }

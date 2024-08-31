@@ -1,36 +1,17 @@
 {
-	"file_data": {
-		"name": "incident_options"
-	},
-
     "PassingShip": {
-        "ref_name": "OptionRef",
-        "title": "Przepływający obok statek",
-        "incident": "a passing ship",
-        "considerations": ["IsShipStationary", "IsTransponderActive"]
+        "title": "Przemieszczający się obok statek"
     },
     "AsteroidField": {
-        "ref_name": "OptionRef",
-        "title": "Pole asteroid",
-        "incident": "Asteroids",
-        "considerations": ["IsShipMoving"]
+        "title": "Pole asteroid"
     },
     "BattleDebris": {
-        "ref_name": "OptionRef",
-        "title": "Szczątki bitwy",
-        "incident": "Debris",
-        "considerations": ["IsShipMoving"]
+        "title": "Szczątki bitwy"
     },
     "CryoChamber": {
-        "ref_name": "OptionRef",
-        "title": "Znaleziono komorę kriogeniczną",
-        "incident": "CryoChamber",
-        "considerations": ["IsShipMoving"]
+        "title": "Znaleziono komorę kriogeniczną"
     },
     "HostileCreatureAssault": {
-        "ref_name": "OptionRef",
-        "title": "Wrogie stworzenia weszły na ten obszar",
-        "incident": "HostileCreatureAssault",
-        "considerations": ["IsShipStationary"]
+        "title": "Wrogie stworzenia weszły na ten obszar"
     }
 }

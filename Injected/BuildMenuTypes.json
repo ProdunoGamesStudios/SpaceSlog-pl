@@ -1,53 +1,33 @@
 {
-	"file_data": {
-		"name": "build_menu_types"
-	},
-    
     "atmosphere": {
-        "ref_name": "BaseRef",
-        "title": "Atmosfera",
-        "texture_path": "res://Textures/UI/Icons/Atmosphere.png"
+        "title": "Atmosfera"
     },
 
     "cargo": {
-        "ref_name": "BaseRef",
-        "title": "Ładunek",
-        "texture_path": "res://Textures/UI/Icons/Cargo.png"
+        "title": "Ładunek"
     },
 
     "furniture": {
-        "ref_name": "BaseRef",
-        "title": "Meble",
-        "texture_path": "res://Textures/UI/Icons/Furniture.png"
+        "title": "Meble"
     },
 
     "power": {
-        "ref_name": "BaseRef",
-        "title": "Moc",
-        "texture_path": "res://Textures/UI/Icons/Power.png"
+        "title": "Moc"
     },
 
     "production": {
-        "ref_name": "BaseRef",
-        "title": "Produkcja",
-        "texture_path": "res://Textures/UI/Icons/Production.png"
+        "title": "Produkcja"
     },
 
     "structure": {
-        "ref_name": "BaseRef",
-        "title": "Struktura",
-        "texture_path": "res://Textures/UI/Icons/Structure.png"
+        "title": "Struktura"
     },
 
     "entertainment": {
-        "ref_name": "BaseRef",
-        "title": "Rozrywka",
-        "texture_path": "res://Textures/UI/Icons/Entertainment.png"
+        "title": "Rozrywka"
     },
     
     "misc": {
-        "ref_name": "BaseRef",
-        "title": "rozmaity",
-        "texture_path": "res://Textures/UI/Icons/Misc.png"
+        "title": "Rozmaite"
     }
 }

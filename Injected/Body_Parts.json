@@ -1,118 +1,81 @@
 {
-	"file_data": {
-		"name": "body_parts"
-	},
-	
 	"torso": {
-		"ref_name": "BodyPartRef",
 		"title": "Tułów"
 	},
 	"head": {
-		"ref_name": "BodyPartRef",
-		"title": "Głowa",
-		"damage_type": "Headbutt"
+		"title": "Głowa"
 	},
 	"jaw": {
-		"ref_name": "BodyPartRef",
 		"title": "Szczęka"
 		},
 	"leg": {
-		"ref_name": "BodyPartRef",
 		"title": "Noga",
 		"damage_type": "Kick"
 	},
 	"foot": {
-		"ref_name": "BodyPartRef",
-		"title": "Stopa",
-		"damage_type": "Stomp"
+		"title": "Stopa"
 	},
 	"arm": {
-		"ref_name": "BodyPartRef",
 		"title": "Ramię"
 	},
 	"hand": {
-		"ref_name": "BodyPartRef",
-		"title": "Ręka",
-		"damage_type": "Punch"
+		"title": "Ręka"
 	},
 	"lung": {
-		"ref_name": "BodyPartRef",
 		"title": "Płuco"
 	},
 	"ribs": {
-		"ref_name": "BodyPartRef",
 		"title": "Żebro"
 	},
 	"heart": {
-		"ref_name": "BodyPartRef",
 		"title": "Serce"
 	},
 	"liver": {
-		"ref_name": "BodyPartRef",
 		"title": "Wątroba"
 	},
 	"teeth": {
-		"ref_name": "BodyPartRef",
-		"title": "Ząb",
-		"damage_type": "Bite"
+		"title": "Zęby"
 	},
 	"claw": {
-		"ref_name": "BodyPartRef",
-		"title": "Pazur",
-		"damage_type": "Scratch"	
+		"title": "Pazur"	
 	},
 	"kidney": {
-		"ref_name": "BodyPartRef",
 		"title": "Nerka"
 	},
 	"groin": {
-		"ref_name": "BodyPartRef",
 		"title": "Pachwina"
 	},
 	"finger": {
-		"ref_name": "BodyPartRef",
-		"title": "Palec",
-		"damage_type": "Poke"		
+		"title": "Palec"		
 	},
 	"thumb": {
-		"ref_name": "BodyPartRef",
-		"title": "Kciuk",
-		"damage_type": "Gouge"
+		"title": "Kciuk"
 	},
 	"toe": {
-		"ref_name": "BodyPartRef",
 		"title": "Palec u nogi"
 	},
 	"neck": {
-		"ref_name": "BodyPartRef",
 		"title": "Szyja"
 	},
 	"stomach": {
-		"ref_name": "BodyPartRef",
 		"title": "Brzuch"
 	},
 	"intestines": {
-		"ref_name": "BodyPartRef",
-		"title": "Jelita"
+		"title": "Wnętrzności"
 	},
 	"ear": {
-		"ref_name": "BodyPartRef",
 		"title": "Ucho"
 	},
 	"nose": {
-		"ref_name": "BodyPartRef",
 		"title": "Nos"
 	},
 	"skull": {
-		"ref_name": "BodyPartRef",
 		"title": "Czaszka"
 	},
 	"paw": {
-		"ref_name": "BodyPartRef",
 		"title": "Łapa"
 	},
 	"tail": {
-		"ref_name": "BodyPartRef",
 		"title": "Ogon"
 	}
 }

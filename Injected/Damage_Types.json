@@ -1,118 +1,59 @@
 {
-	"file_data": {
-		"name": "damage_types"
-	},
-
 	"General": {
-		"ref_name": "DamageRef",
-		"title": "Ogólne",
-		"death_text": ".",
-		"allows_blood": true
+		"title": "Ogólne"
 	},
 	"Explosion": {
-		"ref_name": "DamageRef",
-		"title": "Eksplozja",
-		"death_text": "by explosion.",
-		"allows_blood": true
+		"title": "Eksplozja"
 	},
 	"Mining": {
-		"ref_name": "DamageRef",
-		"title": "Mined"
+		"title": "Wydobywanie "
 	},
 	"Dehydration": {
-		"ref_name": "DamageRef",
-		"title": "Odwodnienie",
-		"past_tense": "dehydrated",
-		"death_text": "from dehydration."
+		"title": "Odwodnienie"
 	},
 	"Starvation": {
-		"ref_name": "DamageRef",
-		"title": "Wygłodzenie",
-		"past_tense": "starved",
-		"death_text": "from starvation."
+		"title": "Wygłodzenie"
 	},
 	"Exhaustion": {
-		"ref_name": "DamageRef",
-		"title": "Wyczerpanie",
-		"past_tense": "exhausted",
-		"death_text": "from exhaustion."
+		"title": "Wyczerpanie"
 	},
 	"Suffocation": {
-		"ref_name": "DamageRef",
-		"title": "Uduszenie",
-		"past_tense": "suffocated",
-		"death_text": "from suffocation."
+		"title": "Uduszenie"
 	},
 	"OrganFailure": {
-		"ref_name": "DamageRef",
-		"title": "Niewydolność narządów",
-		"past_tense": "extreme internal organ failure",
-		"death_text": "from extreme internal organ failure."
+		"title": "Niewydolność narządów"
 	},
 	"Punch": {
-		"ref_name": "DamageRef",
-		"title": "uderzanie",
-		"past_tense": "punched",
-		"death_text": "from being punched."
+		"title": "Uderzanie"
 	},
 	"Kick": {
-		"ref_name": "DamageRef",
-		"title": "Kopnięcie",
-		"past_tense": "kicked",
-		"death_text": "from being kicked."
+		"title": "Kopnięcie"
 	},
 	"Bite": {
-		"ref_name": "DamageRef",
-		"title": "Ugryzienie",
-		"past_tense": "bitten",
-		"death_text": "from being bitten."
+		"title": "Ugryzienie"
 	},
 	"Scratch": {
-		"ref_name": "DamageRef",
-		"title": "Zadrapanie",
-		"past_tense": "scratched",
-		"death_text": "from being scratched."
+		"title": "Zadrapanie"
 	},
 	"Poke": {
-		"ref_name": "DamageRef",
-		"title": "szturchnięty",
-		"past_tense": "poked",
-		"death_text": "from being poked."
+		"title": "szturchnięty"
 	},
 	"Headbutt": {
-		"ref_name": "DamageRef",
-		"title": "Uderzenie głową",
-		"past_tense": "headbutted",
-		"death_text": "from being headbutted."
+		"title": "Uderzenie głową"
 	},
 	"Gouge": {
-		"ref_name": "DamageRef",
-		"title": "wyżłobiony",
-		"past_tense": "gouged",
-		"death_text": "from being gouged."
+		"title": "Wyżłobiony"
 	},
 	"Stomp": {
-		"ref_name": "DamageRef",
-		"title": "uderzenie",
-		"past_tense": "stomped",
-		"death_text": "from being stomped."
+		"title": "Tupać"
 	},
 	"Whip": {
-		"ref_name": "DamageRef",
-		"title": "bicz",
-		"past_tense": "whipped",
-		"death_text": "from being whipped."
+		"title": "Bity"
 	},
 	"Rot": {
-		"ref_name": "DamageRef",
-		"title": "Gnicie",
-		"past_tense": "rotted",
-		"death_text": "from rotting."
+		"title": "Gnić"
 	},
 	"Deteriorate": {
-		"ref_name": "DamageRef",
-		"title": "podupadł ",
-		"past_tense": "deteriorated",
-		"death_text": "deteriorated."
+		"title": "podupadać "
 	}
 }

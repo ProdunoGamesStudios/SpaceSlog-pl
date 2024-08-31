@@ -1,20 +1,10 @@
 {
-	"file_data": {
-		"name": "blood_types"
-	},
-	
 	"Human": {
-		"ref_name": "BloodRef",
 		"title": "Krew.",
-        "description": "Gęsta i czerwona.",
-        "colour": "#ff0000",
-		"dirt_type": "Blood"
+        "description": "Gęsta i czerwona."
 	},
     "Worm": {
-		"ref_name": "BloodRef",
 		"title": "Krew.",
-		"description": "Zielona i lepka.",
-        "colour": "#9dc100",
-		"dirt_type": "Blood"
+		"description": "Zielona i lepka."
 	}
 }

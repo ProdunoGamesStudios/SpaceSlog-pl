@@ -1,71 +1,18 @@
 {
-	"file_data": {
-		"name": "base_factions"
-	},
-
 	"Player": {
-		"ref_name": "FactionRef",
-		"type": "Player",
 		"title": "Frakcja gracza",
-		"description": "To jest frakcja gracza.",
-		"species": "Human",
-		"starting_name": "Player's faction"
+		"description": "To jest frakcja gracza."
 	},
 
 	"Reavers": {
-		"ref_name": "FactionRef",
-		"type": "Reavers",
-		"description": "Gatunek niegdyś cywilizowany, doprowadzony do szaleństwa i zagubiony na obrzeżach kosmosu.",
-		"species": "Human",
-		"allowed_laws": [
-			"Cannibalism", 
-			"Banditry"
-		],
-		"allowed_traits": [
-			"Psychotic"
-		],
-		"amount_required_at_game_start": 1,
-		"max_amount_at_game_start": 1
+		"description": "Gatunek niegdyś cywilizowany, doprowadzony do szaleństwa i zagubiony na obrzeżach kosmosu."
 	},
 
 	"Pirates": {
-		"ref_name": "FactionRef",
-		"type": "Pirates",
-		"description": "Zawiedzeni i zapomniani przez społeczeństwo, aby przetrwać, muszą teraz plądrować i szabrować wszystko, co tylko się da.",
-		"species": "Human",
-		"allowed_laws": [
-			"Banditry", 
-			"Slavery"
-		],
-		"allowed_traits": [
-			"Rebellious"
-		],
-		"amount_required_at_game_start": 1,
-		"max_amount_at_game_start": 1
+		"description": "Zawiedzeni i zapomniani przez społeczeństwo, aby przetrwać, muszą teraz plądrować i szabrować wszystko, co tylko się da."
 	},
 	
 	"SplinterFaction": {
-		"ref_name": "FactionRef",
-		"type": "Splinter Faction",
-		"description": "Oderwana frakcja, która została rozproszona po całym wszechświecie.",
-		"species": "Human",
-		"allowed_laws": [
-			"Slavery", 
-			"Commerce", 
-			"Exploration", 
-			"Expansionist"
-		],
-		"allowed_traits": [
-			"Rebellious", 
-			"Farming", 
-			"Mining", 
-			"Capitalist", 
-			"Unassimilable",
-			"Explorer"
-		],
-		"random_laws": true,
-		"random_traits": true,
-		"amount_required_at_game_start": 1,
-		"max_amount_at_game_start": 10
+		"description": "Oderwana frakcja, która została rozproszona po całym wszechświecie."
 	}
 }

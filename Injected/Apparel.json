@@ -5,7 +5,7 @@
 		"description": "Będąc częścią kombinezonu EVA używanego do wykonywania orbitalnych czynności poza pojazdami, do pełnej funkcjonalności potrzebny jest również hełm. Kombinezony te mają wbudowane oddychanie zwrotne, które oczyszczają wszelkie gazy odlotowe. Niezwykle niewygodne do spania."
 	},
 	"JumpSuit": {
-		"title": "kobinezon",
+		"title": "Kobinezon",
 		"description": "Odzież zakrywająca górną i dolną połowę ciała."
 	},
 	"FlakVest": {
@@ -13,27 +13,27 @@
 		"description": "Zaprojektowany, aby zmniejszyć siłę uderzenia pocisków."
 	},
 	"Jacket": {
-		"title": "jacket",
-		"description": "Regular jacket."
+		"title": "Kurtka",
+		"description": "Normalna kurtka."
 	},
 	"DusterJacket": {
 		"title": "Kurtka przeciwpyłowa",
 		"description": "Kurtka zakrywająca całe ciało."
 	},
 	"Jeans": {
-		"title": "dżinsy",
+		"title": "Dżinsy",
 		"description": "Wygodna odzież zakrywająca dolną połowę ciała."
 	},
 	"Shirt": {
-		"title": "koszulka",
+		"title": "Koszulka",
 		"description": "Wygodna odzież zakrywająca górną połowę ciała."
 	},
 	"Shoes": {
-		"title": "buty",
+		"title": "Buty",
 		"description": "Para wygodnych butów."
 	},
 	"Boots": {
-		"title": "buty",
-		"description": "Para wygodnych butów."
+		"title": "Buty robocze",
+		"description": "Para wygodnych butów roboczych."
 	}
 }

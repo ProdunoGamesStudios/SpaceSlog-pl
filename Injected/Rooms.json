@@ -1,12 +1,6 @@
 {
-	"file_data": {
-		"name": "rooms"
-	},
-    
     "Room": {
-        "ref_name": "AreaRef",
         "title": "Pokój",
-        "description": "Standardowy typ pokoju.",
-        "highlight": "Edge"
+        "description": "Standardowy typ pokoju."
     }
 }

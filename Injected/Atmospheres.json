@@ -1,27 +1,16 @@
 {
-	"file_data": {
-		"name": "atmospheres"
-	},
-    
     "None": {
-        "ref_name": "AtmosphereRef",
         "title": "Brak atmosfery",
-        "description": "Nie ma tu atmosfery. Oznacza to, że ciśnienie lub gazy są bardzo małe, jeśli w ogóle występują.",
-        "max_pressure_per_cell": 0
+        "description": "Nie ma tu atmosfery. Oznacza to, że ciśnienie lub gazy są bardzo małe, jeśli w ogóle występują."
     },
 
     "Empty": {
-        "ref_name": "AtmosphereRef",
         "title": "Pusta atmosfera",
-        "description": "Musisz wypełnić tę atmosferę gazami.",
-        "max_pressure_per_cell": 200
+        "description": "Musisz wypełnić tę atmosferę gazami."
     },
 
     "EarthLike": {
-        "ref_name": "AtmosphereRef",
-        "title": "Ziemskie",
-        "description": "Atmosfera ta ma właściwości podobne do ziemskich.",
-        "max_pressure_per_cell": 200,
-        "gasses": ["Oxygen", "Nitrogen"]
+        "title": "Atmosfera podobna do Ziemskiej ",
+        "description": "Atmosfera ta ma właściwości podobne do ziemskich."
     }
 }
