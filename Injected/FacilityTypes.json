@@ -1,22 +1,14 @@
 {
-	"file_data": {
-		"name": "facility_types"
-	},
-
     "PlayerShip": {
-        "ref_name": "BaseRef",
         "title": "Statek gracza"
     },
     "TradeShip": {
-        "ref_name": "BaseRef",
         "title": "Statek handlowy"
     },
     "PirateShip": {
-        "ref_name": "BaseRef",
         "title": "Statek piracki"
     },
     "SlaveShip": {
-        "ref_name": "BaseRef",
         "title": "Statek niewolników"
     }
 }

@@ -28,7 +28,7 @@
         "description": "Twój statek jest atakowany!"
     },
     "PawnAttacked": {
-        "title": "Pionek zaatakowany.",
+        "title": "{subject_name} zaatakowany.",
         "description": "{subject_name} jest atakowany!"
     }
 }

@@ -1,46 +1,35 @@
 {
-	"file_data": {
-		"name": "item_stats"
-	},
-    
     "CutProtection": {
-        "ref_name": "BaseRef",
-        "title": "Ochrona przed cięciem",
-        "description": "Chroni użytkownika przed cięciami."
+        "title": "Ochrona przed obrażeniami ciętymi",
+        "description": "Chroni użytkownika przed ciętymi obrażeniami."
     },
 
     "CutDamage": {
-        "ref_name": "BaseRef",
-        "title": "obrażenia od cięcia",
+        "title": "Obrażenia cięte",
         "description": "Ilość zadanych obrażeń ciętych."
     },
 
     "BluntProtection": {
-        "ref_name": "BaseRef",
         "title": "ochrona przed narzędziami tępymi",
-        "description": "Chroni noszącego przed obrażeniami tępymi."
+        "description": "Chroni przed obrażeniami tępymi."
     },
 
     "BluntDamage": {
-        "ref_name": "BaseRef",
         "title": "Tępe obrażenia",
         "description": "Ilość zadanych obrażeń tępych."
     },
 
     "RadiationProtection": {
-        "ref_name": "BaseRef",
         "title": "Ochrona przed promieniowaniem",
         "description": "Chroni użytkownika przed promieniowaniem."
     },
 
     "HeatInsulation": {
-        "ref_name": "BaseRef",
         "title": "Izolacja cieplna",
         "description": "Izoluje użytkownika od ciepła."
     },
     
     "ColdInsulation": {
-        "ref_name": "BaseRef",
         "title": "Izolacja zimna",
         "description": "Izoluje noszącego od zimna."
     }

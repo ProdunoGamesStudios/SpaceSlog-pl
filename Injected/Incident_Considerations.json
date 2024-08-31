@@ -1,30 +1,17 @@
 {
-	"file_data": {
-		"name": "incident_considerations"
-	},
-    
     "IsShipMoving": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "ConsiderationIsShipMoving",
         "title": "Czy statek się porusza",
         "description": "Czy statek gracza się porusza?"
     },
     "IsShipStationary": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "ConsiderationIsShipStationary",
         "title": "Czy statek stoi",
         "description": "Czy statek gracza jest nieruchomy?"
     },
     "AboveWealthThreshold": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "ConsiderationAboveWealthThreshold",
         "title": "Jest powyżej kwoty majątku",
-        "description": "Czy gracz przekroczył tę kwotę?",
-        "wealth": 10000
+        "description": "Czy gracz przekroczył tę kwotę?"
     },
     "IsTransponderActive": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "IsTransponderActive",
         "title": "Czy transponder jest aktywny",
         "description": "Sprawdzanie, czy transponder statku jest aktywny."
     }

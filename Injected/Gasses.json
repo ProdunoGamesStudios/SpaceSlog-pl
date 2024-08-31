@@ -1,36 +1,22 @@
-{
-	"file_data": {
-		"name": "gasses"
-	},
-    
+{  
     "Oxygen": {
-        "ref_name": "GasRef",
         "title": "Tlen",
-        "description": "Tlen jest środkiem utleniającym i większość humanoidalnych form życia używa go do oddychania.",
-        "symbol": "02"
+        "description": "Tlen jest środkiem utleniającym i większość form życia używa go do oddychania."
     },
     "Nitrogen": {
-        "ref_name": "GasRef",
         "title": "Azot",
-        "description": "Azot jest powszechnym pierwiastkiem we wszechświecie i występuje w większości związków organicznych.",
-        "symbol": "N2"
+        "description": "Azot jest powszechnym pierwiastkiem we wszechświecie i występuje w większości związków organicznych."
     },
     "CarbonDioxide": {
-        "ref_name": "GasRef",
         "title": "Dwutlenek węgla",
-        "description": "Dwutlenek węgla jest produktem ubocznym oddychania większości humanoidalnych form życia.",
-        "symbol": "CO2"
+        "description": "Dwutlenek węgla jest produktem ubocznym oddychania większości form życia."
     },
     "Hazardous": {
-        "ref_name": "GasRef",
         "title": "Niebezpieczny gaz",
-        "description": "Niebezpieczny gaz to zbiorcze określenie wszelkich gazów uznawanych za toksyczne lub w inny sposób szkodliwe dla większości humanoidalnych form życia.",
-        "symbol": "H"
+        "description": "Niebezpieczny gaz to zbiorcze określenie wszelkich gazów uznawanych za toksyczne lub w inny sposób szkodliwe dla większości humanoidalnych form życia."
     },
     "Explosive": {
-        "ref_name": "GasRef",
         "title": "Gaz wybuchowy",
-        "description": "Gaz wybuchowy to zbiorcze określenie wszelkich gazów uznawanych za łatwopalne lub wybuchowe.",
-        "symbol": "Ex"
+        "description": "Gaz wybuchowy to zbiorcze określenie wszelkich gazów uznawanych za łatwopalne lub wybuchowe."
     }
 }

@@ -1,216 +1,87 @@
 {
-	"file_data": {
-		"name": "sounds"
-	},
-    
     "Thruster": {
-        "ref_name": "SoundRef",
-        "title": "Ster strumieniowy",
-        "sound_path": "Resources/Sounds/Light_Thruster.wav",
-        "persist": true,
-        "fade_out": 1.0,
-        "positional": true,
-        "volume_range": "Vector2(0.7, 0.7)",
-        "distance": 1000
+        "title": "Ster strumieniowy"
     },
     "ButtonHover": {
-        "ref_name": "SoundRef",
-        "title": "Najedź przyciskiem",
-        "sound_path": "res://Resources/Sounds/Button_hover.wav",
-        "one_shot": true
+        "title": "Najedź przyciskiem"
     },
     "ButtonHoverRandomPitch": {
-        "ref_name": "SoundRef",
-        "title": "Najedź przyciskiem",
-        "sound_path": "res://Resources/Sounds/Button_hover.wav",
-        "one_shot": true,
-        "pitch_range": "Vector2(0.9, 1.1)"
+        "title": "Najedź przyciskiem"
     },
     "ButtonClick": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Blip_select_1.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
 
     "ButtonTab": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Tab_press.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
     "BuildHover": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Build_hover.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
     "BuildClick": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Build_click.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
     "ButtonError": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/UI_cancel_cp.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
     "AlertSound": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Alert_notification.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
     "AlertText": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Alert_text.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
     "PlaceObject": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Place_Object.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
     "PlaceObjectRandomPitch": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Place_Object.wav",
-        "one_shot": true,
-        "pitch_range": "Vector2(0.9, 1.1)"
+        "title": "Kliknij przycisk"
     },
     "PlaceObjectError": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Place_Object_Error.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
     "PlaceMultiBuild": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Objective.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
     "ObjectSelect": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Select.wav",
-        "one_shot": true,
-        "max_at_once": 1
+        "title": "Kliknij przycisk"
     },
     "MultiBuildStart": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Multibuild_Start.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
     "Draft": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Draft.wav",
-        "one_shot": true
+        "title": "Kliknij przycisk"
     },
     "DropObject": {
-        "ref_name": "SoundRef",
-        "title": "Kliknij przycisk",
-        "sound_path": "res://Resources/Sounds/Drop_object.wav",
-        "one_shot": true,
-        "licence": "Taken from Dark Fantasy Studio Humble Bundle pack. - Licence http://darkfantasystudio.com/premium-licence/"
+        "title": "Kliknij przycisk"
     },
      "DoorMedium": {
-        "ref_name": "SoundRef",
-        "title": "Średnie drzwi",
-        "sound_path": "res://Resources/Sounds/DoorMedium.wav",
-        "one_shot": true,
-        "positional": true,
-        "volume_range": "Vector2(0.1, 0.1)",
-        "distance": 600
+        "title": "Średnie drzwi"
     },
     "BuildWeld": {
-        "ref_name": "SoundRef",
-        "title": "Spawarka",
-        "sound_path": "res://Resources/Sounds/Welding.wav",
-        "persist": true,
-        "positional": true,
-        "distance": 600
+        "title": "Spawarka"
     },
     "Explosion": {
-        "ref_name": "SoundRef",
-        "title": "Eksplozja",
-        "sound_path": "res://Resources/Sounds/Explosion.wav",
-        "one_shot": true,
-        "positional": true,
-        "volume_range": "Vector2(0.6, 0.6)"
+        "title": "Eksplozja"
     },
     "ArcadeMachinePlayingOne": {
-        "ref_name": "SoundRef",
-        "title": "Gra na automatach",
-        "sound_path": "res://Resources/Sounds/ArcadeOne.wav",
-        "one_shot": true,
-        "positional": true,
-        "volume_range": "Vector2(0.2, 0.2)",
-        "distance": 700
+        "title": "Gra na automatach"
     },
     "ArcadeMachinePlayingTwo": {
-        "ref_name": "SoundRef",
-        "title": "Gra na automatach",
-        "sound_path": "res://Resources/Sounds/ArcadeTwo.wav",
-        "one_shot": true,
-        "positional": true,
-        "volume_range": "Vector2(0.2, 0.2)",
-        "distance": 700
+        "title": "Gra na automatach"
     },
     "ArcadeMachineLose": {
-        "ref_name": "SoundRef",
-        "title": "Automat do gier przegrał",
-        "sound_path": "res://Resources/Sounds/ArcadeLose.wav",
-        "one_shot": true,
-        "positional": true,
-        "volume_range": "Vector2(0.2, 0.2)",
-        "distance": 700
+        "title": "Automat do gier przegrał"
     },
     "AlertAlarm": {
-        "ref_name": "SoundRef",
-        "title": "Alarm",
-        "sound_path": "res://Resources/Sounds/AlertAlarm.wav",
-        "persist": true,
-        "positional": true,
-        "volume_range": "Vector2(0.3, 0.3)",
-        "distance": 800
+        "title": "Alarm"
     },
     "MiningHit": {
-        "ref_name": "SoundRef",
-        "title": "Uderzenie kilofem",
-        "sound_path": "res://Resources/Sounds/MiningHit.wav",
-        "one_shot": true,
-        "max_at_once": 4,
-        "positional": true,
-        "distance": 800,
-        "pitch_range": "Vector2(0.9, 1.1)"
+        "title": "Uderzenie kilofem"
     },
     "DestroyRock": {
-        "ref_name": "SoundRef",
-        "title": "Udzerzenie kilofem",
-        "sound_path": "res://Resources/Sounds/DestroyRock.wav",
-        "one_shot": true,
-        "max_at_once": 3,
-        "distance": 600,
-        "positional": true,
-        "volume_range": "Vector2(0.5, 0.5)",
-        "pitch_range": "Vector2(0.9, 1.1)"
+        "title": "Uderzerzenie kilofem"
     },
     "SpaceWormDead": {
-        "ref_name": "SoundRef",
-        "title": "Kosmiczny robak nie żyje",
-        "sound_path": "res://Resources/Sounds/SpaceWormDead.wav",
-        "one_shot": true,
-        "max_at_once": 3,
-        "distance": 300,
-        "positional": true,
-        "volume_range": "Vector2(0.5, 0.5)",
-        "pitch_range": "Vector2(0.9, 1.1)"
+        "title": "Kosmiczny robak nie żyje"
     }
 }

@@ -1,24 +1,14 @@
 {
-	"file_data": {
-		"name": "skin_types"
-	},
-	
 	"Human": {
-		"ref_name": "SkinRef",
 		"title": "Skóra",
-        "description": "Wodoodporna, ale słaba.",
-        "material": "Leather"
+        "description": "Wodoodporna, ale słaba."
 	},
     "Worm": {
-		"ref_name": "SkinRef",
 		"title": "Skóra",
-		"description": "Stosunkowo mocna.",
-        "material": "Leather"
+		"description": "Stosunkowo mocna."
 	},
     "Rodent": {
-		"ref_name": "SkinRef",
 		"title": "Skóra",
-		"description": "Stosunkowo mocny.",
-        "material": "Leather"
+		"description": "Stosunkowo mocna."
 	}
 }

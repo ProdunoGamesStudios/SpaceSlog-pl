@@ -1,28 +1,14 @@
 {
-	"file_data": {
-		"name": "bone_types"
-	},
-	
 	"Human": {
-		"ref_name": "BonesRef",
 		"title": "Kość",
-        "description": "zrobione z tkanki i komórek kostnych.",
-        "colour": "#ff0000",
-        "material": "Bone",
-		"texture_path": ""
+        "description": "Tkanki i komórki kostne."
 	},
     "Worm": {
-		"ref_name": "BonesRef",
 		"title": "Kość",
-		"description": "cienka i krucha.",
-        "colour": "#9dc100",
-        "material": "Bone"
+		"description": "cienka i krucha."
 	},
     "Rodent": {
-		"ref_name": "BonesRef",
 		"title": "Kość",
-		"description": "cienka i krucha.",
-        "colour": "#ff0000",
-        "material": "Bone"
+		"description": "cienka i krucha."
 	}
 }

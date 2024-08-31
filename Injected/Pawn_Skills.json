@@ -1,289 +1,56 @@
 {
-	"file_data": {
-		"name": "pawn_skills"
-	},
-	
 	"Engineering" : {
-		"ref_name": "PawnSkillRef",
-		"title": "inżynieria",
-		"description": "Umiejętność przydatna podczas budowania, konserwacji i naprawy rzeczy.\n\n- Budowanie.\n- Rozmontowywanie.",
-		"allowed_professions": [
-			"Engineer", 
-			"Pilot", 
-			"Scientist", 
-			"Retired", 
-			"Professor", 
-			"Student", 
-			"Pirate",
-			"OffworldDetective", 
-			"PlanetDrifter",
-			"Spacefarer", 
-			"Planetologist"
-		],
-		"preferred_professions": [
-			"Engineer"
-		]
+		"title": "Inżynieria",
+		"description": "Umiejętność przydatna podczas budowania, konserwacji i naprawy rzeczy."
 	},
 
 	"Navigation" : {
-		"ref_name": "PawnSkillRef",
-		"title": "nawigacja",
-		"description": "Większe prędkości statków i mogą być lepszym kapitanem.",
-		"allowed_professions": [
-			"Engineer", 
-			"Doctor", 
-			"Marine", 
-			"Pilot", 
-			"Miner", 
-			"Scientist", 
-			"Retired", 
-			"Professor", 
-			"Student", 
-			"Pirate", 
-			"Slaver", 
-			"BountyHunter", 
-			"Merchant", 
-			"OffworldDetective", 
-			"PlanetDrifter", 
-			"Spacefarer", 
-			"Planetologist"
-		],
-		"preferred_professions": [
-			"Pilot"
-		]
+		"title": "Nawigacja",
+		"description": "Zwiększa prędkości statków i bycie lepszym kapitanem."
 	},
 
 	"Ranged" : {
-		"ref_name": "PawnSkillRef",
 		"title": "walka dystansowa",
-		"description": "Walka dystansowa, lepsza celność i skuteczność \n bronią palną i bronią pokładową.\n\n- Strzelanie.",
-		"allowed_professions": [
-			"Engineer", 
-			"Marine", 
-			"Labourer", 
-			"Pilot", 
-			"Miner", 
-			"Scientist", 
-			"Retired", 
-			"Professor", 
-			"Student", 
-			"Pirate", 
-			"Slaver", 
-			"BountyHunter", 
-			"Merchant", 
-			"OffworldDetective", 
-			"PlanetDrifter", 
-			"Spacefarer", 
-			"Planetologist", 
-			"Consor"
-		],
-		"preferred_professions": [
-			"Marine",
-			"BountyHunter",
-			"OffworldDetective"
-		]
+		"description": "Walka dystansowa, lepsza celność i skuteczność\n bronią palną i bronią pokładową."
 	},
 
 	"Melee" : {
-		"ref_name": "PawnSkillRef",
 		"title": "Walka",
-		"description": "Skuteczność w walce wręcz \nbzarówno uzbrojonych, jak i nieuzbrojonych.\n\n- Bijatyka.",
-		"allowed_professions": [
-			"Engineer", 
-			"Marine", 
-			"Labourer", 
-			"Pilot", 
-			"Miner", 
-			"Grower", 
-			"Professor", 
-			"Student", 
-			"Pirate", 
-			"Slave", 
-			"Slaver", 
-			"BountyHunter", 
-			"Merchant", 
-			"OffworldDetective", 
-			"PlanetDrifter", 
-			"Spacefarer", 
-			"Planetologist", 
-			"Consor"
-		],
-		"preferred_professions": [
-			"Marine",
-			"Labourer",
-			"Consor",
-			"Chef"
-		]
+		"description": "Skuteczność w walce wręcz\nbzarówno uzbrojonych, jak i nieuzbrojonych."
 	},
 
 	"Social" : {
-		"ref_name": "PawnSkillRef",
-		"title": "społeczny",
-		"description": "Sympatia, negocjacje i umiejętność \nżeby dogadać się z innymi.\n\n- Wymiana.",
-		"allowed_professions": [
-			"Engineer", 
-			"Doctor", 
-			"Marine", 
-			"Labourer", 
-			"Pilot", 
-			"Miner", 
-			"AnimalHandler", 
-			"Scientist", 
-			"Grower", 
-			"Retired", 
-			"Professor", 
-			"Student", 
-			"Pirate", 
-			"Merchant", 
-			"OffworldDetective",
-			"PlanetDrifter", 
-			"Spacefarer", 
-			"Planetologist", 
-			"Consor",
-			"Chef"
-		],
-		"preferred_professions": [
-			"Consor",
-			"AnimalHandler",
-			"Merchant"
-		]
+		"title": "Społeczny",
+		"description": "Sympatia, negocjacje i umiejętność\nżeby dogadać się z innymi."
 	},
 
 	"Operations" : {
-		"ref_name": "PawnSkillRef",
 		"title": "Operators",
-		"description": "Obsługa różnych elementów statku, takich jak stery strumieniowe.",
-		"allowed_professions": [
-			"Engineer", 
-			"Marine", 
-			"Pilot", 
-			"Scientist", 
-			"Grower", 
-			"Professor", 
-			"Student", 
-			"Pirate", 
-			"BountyHunter",
-			"Merchant", 
-			"OffworldDetective", 
-			"PlanetDrifter", 
-			"Spacefarer", 
-			"Planetologist"
-		],
-		"preferred_professions": [
-			"Professor",
-			"Pilot",
-			"Marine"
-		]
+		"description": "Obsługa różnych elementów statku, takich jak stery strumieniowe."
 	},
 
 	"Cooking" : {
-		"ref_name": "PawnSkillRef",
-		"title": "gotowanie",
-		"description": "Umiejętność gotowania i warzenia z wykorzystaniem składników.\n\n- Browarnictwo.",
-		"allowed_professions": [
-			"Engineer", 
-			"Marine", 
-			"Pilot", 
-			"Scientist", 
-			"Grower", 
-			"Professor", 
-			"Slaver", 
-			"BountyHunter", 
-			"OffworldDetective", 
-			"PlanetDrifter", 
-			"Spacefarer", 
-			"Planetologist"
-		],
-		"preferred_professions": [
-			"Chef"
-		]
+		"title": "Gotowanie",
+		"description": "Umiejętność gotowania i warzenia z wykorzystaniem składników."
 	},
 
 	"Mining" : {
-		"ref_name": "PawnSkillRef",
-		"title": "górnictwo",
-		"description": "Wydajność i szybkość wydobywania materiałów.\n\n- Górnictwo.",
-		"allowed_professions": [
-			"Engineer", 
-			"Marine", 
-			"Labourer", 
-			"Miner",
-			"Student", 
-			"Slave", 
-			"Merchant", 
-			"PlanetDrifter", 
-			"Spacefarer", 
-			"Planetologist"
-		],
-		"preferred_professions": [
-			"Miner"
-		]
+		"title": "Górnictwo",
+		"description": "Wydajność i szybkość wydobywania materiałów."
 	},
 
 	"Science" : {
-		"ref_name": "PawnSkillRef",
-		"title": "nauka",
-		"description": "Badania i rozwój.\n\n- Rozwój.",
-		"allowed_professions": [
-			"Engineer", 
-			"Scientist", 
-			"Retired", 
-			"Grower",
-			"Professor", 
-			"Student", 
-			"PlanetDrifter", 
-			"Spacefarer", 
-			"Planetologist",
-			"Chef"
-		],
-		"preferred_professions": [
-			"Scientist"
-		]
+		"title": "Nauka",
+		"description": "Badania i rozwój."
 	},
 
 	"Animals" : {
-		"ref_name": "PawnSkillRef",
-		"title": "zwierzęta",
-		"description": "Oswajanie i tresowanie zwierząt, a może i kosmitów.",
-		"allowed_professions": [
-			"Doctor", 
-			"AnimalHandler", 
-			"Scientist", 
-			"Retired", 
-			"Professor", 
-			"Student", 
-			"Slave", 
-			"PlanetDrifter", 
-			"Spacefarer", 
-			"Planetologist", 
-			"Consor"
-		],
-		"preferred_professions": [
-			"AnimalHandler"
-		]
+		"title": "Zwierzęta",
+		"description": "Oswajanie i tresowanie zwierząt, a może i kosmitów."
 	},
 
 	"Medical" : {
-		"ref_name": "PawnSkillRef",
-		"title": "medyczny",
-		"description": "Stosowanie medycyny i uzdrawianie innych.\n\n- Uzdrawianie innych.",
-		"allowed_professions": [
-			"Doctor", 
-			"Scientist", 
-			"Retired", 
-			"Professor", 
-			"Student", 
-			"BountyHunter", 
-			"OffworldDetective", 
-			"PlanetDrifter", 
-			"Spacefarer", 
-			"Planetologist", 
-			"Consor",
-			"Chef"
-		],
-		"preferred_professions": [
-			"Doctor",
-			"Consor"
-		]
+		"title": "Medycyna",
+		"description": "Stosowanie medycyny i uzdrawianie innych."
 	}
 }

@@ -1,360 +1,226 @@
 {
-	"file_data": {
-		"name": "tasks"
-	},
-    
     "Pickup": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskPickup",
         "title": "Podnieś",
-        "description": "Chwytanie",
-        "variable": "entity"
+        "description": "Chwytanie"
     },
     "DropIntoBed": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskDropIntoBed",
-        "title": "rzuć na łóżko",
-        "description": "rzuć na łóżko.",
-        "variable": "entity_b"
+        "title": "Rzuć na łóżko",
+        "description": "Rzuć na łóżko."
     },
     "Drop": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskDrop",
         "title": "Upuść",
         "description": "Upuszczanie"
     },
     "DropAtTargetB": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskDrop",
         "title": "Upuść",
-        "description": "Upuszczanie",
-        "variable": "entity_b"
+        "description": "Upuszczanie"
     },
     "Heal": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskHeal",
         "title": "Wylecz",
         "description": "Leczenie"
     },
     "Repair": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskRepair",
         "title": "Napraw",
         "description": "Naprawianie"
     },
     "MoveTo": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskMoveTo",
         "title": "Ruszyć się",
-        "description": "Porusza się ",
-        "variable": "path"
+        "description": "Porusza się "
     },
     "Wait": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskWait",
         "title": "Czekaj",
         "description": "Czekanie"
     },
     "FindFood": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskFindFood",
         "title": "Znajdź jedzenie",
         "description": "Szukanie jedzenia"
     },
     "EatFood": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskEatFood",
         "title": "Jedz jedzenie",
         "description": "Jedzenie"
     },
     "Drink": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskDrink",
         "title": "Pij",
         "description": "Picie"
     },
     "FindPathToTarget": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskFindPathToTarget",
         "title": "Znajdź ścieżkę do celu",
         "description": "Szukanie ścieżki do celu"
     },
     "FindPathToTargetB": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskFindPathToTarget",
         "title": "Znajdź ścieżkę do celu",
-        "description": "Szukanie ścieżki do celu",
-        "variable": "entity_b"
+        "description": "Szukanie ścieżki do celu"
     },
     "FindPathToTargetCell": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskFindPathToTargetCell",
         "title": "Znajdź ścieżkę do celu",
         "description": "Znajdowanie ścieżki do celu"
     },
     "FindBestStorageCell": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskFindBestStorageCell",
         "title": "Znajdź najlepszą komórkę do przechowywania",
         "description": "Znalezienie najlepszej komórki do przechowywania przedmiotu."
     },
     "GetClosestFuel": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskGetClosestFuel",
         "title": "Znajdź drogę do najbliższego paliwa",
         "description": "Znalezienie drogi do paliwa"
     },
     "GetDeadPawnDropSpot": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskGetDeadPawnDropSpot",
-        "title": "Znajdź miejsce, w którym możesz pozbyć się martwego pionka",
-        "description": "Znalezienie miejsca na pozbycie się martwego pionka."
+        "title": "Znajdź miejsce, w którym możesz pozbyć się martwego osobnika",
+        "description": "Znalezienie miejsca na pozbycie się martwego osobnika."
     },
     "Refuel": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskRefuel",
         "title": "Tankowanie",
         "description": "Tankowanie"
     },
     "RefuelTargetB": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskRefuel",
         "title": "Tankowanie",
-        "description": "Tankowanie",
-        "variable": "entity_b"
+        "description": "Tankowanie"
     },
     "Clean": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskClean",
-        "title": "Czysty",
+        "title": "Czyścić",
         "description": "Cczyszczenie"
     },
     "Reserve": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskReserve",
         "title": "Zarezerwować",
-        "description": "Rezerwacja",
-        "variable": "entity"
+        "description": "Rezerwacja"
     },
     "ReserveEntityB": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskReserve",
-        "title": "Zarezerwować",
-        "description": "Rezerwacja",
-        "variable": "entity_b"
+        "title": "Zarezerwować"
     },
     "ReserveCell": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskReserve",
         "title": "Komórka rezerwowa",
-        "description": "Rezerwacja komórki",
-        "variable": "target_cell"
+        "description": "Rezerwacja komórki"
     },
     "ReserveCombatTarget": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskReserveCombatTarget",
         "title": "Rezerwowy cel bojowy",
-        "description": "Rezerwowy kombatant",
-        "variable": "entity"
+        "description": "Rezerwowy kombatant"
     },
     "Sleep": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskSleep",
         "title": "Spać",
         "description": "Spanie"
     },
     "Equip": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskEquip",
         "title": "Wyposaż",
         "description": "Wyposażenie"
     },
     "UnEquip": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskUnEquip",
         "title": "Usuwanie",
         "description": "Usunięcie z ekwipunku"
     },
     "Slip": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskSlip",
         "title": "Poślizg",
         "description": "Poślizgnął się"
     },
     "Trip": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskTrip",
         "title": "Wycieczka",
         "description": "Wycieczka"
     },
     "Sing": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskSing",
         "title": "Śpiewać",
         "description": "Śpiewanie"
     },
     "Wave": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskWave",
         "title": "Fala",
         "description": "Falowanie"
     },
     "Chat": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskChat",
         "title": "Pogadać",
         "description": "rozmowa"
     },
     "Daze": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskDaze",
         "title": "Oszołomienie",
         "description": "Oszołomiony"
     },
     "Shout": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskShout",
         "title": "Krzyczeć",
         "description": "Krzyczy"
     },
     "SowAtTargetB": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskSow",
         "title": "Siać",
-        "description": "Śanie",
-        "variable": "entity_b"
+        "description": "Śanie"
     },
     "HarvestPlant": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskHarvest",
         "title": "Zbiór",
         "description": "żniwa"
     },
     "HarvestBrew": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskHarvestBrew",
         "title": "Zbiór",
         "description": "żniwa"
     },
     "Water": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskWater",
         "title": "Woda",
         "description": "Podlewanie"
     },
     "Feed": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskFeed",
         "title": "Karmić",
         "description": "Karmienie"
     },
     "ClosestMoveCellToPos": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskClosestMoveCellToPos",
         "title": "Wymuszony ruch",
         "description": "Wymuś ruch."
     },
     "Strip": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskStrip",
         "title": "Zdejmij",
-        "description": "Rozbierz pionek."
+        "description": "Rozbierz."
     },
     "Mine": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskMine",
-        "title": "Kop",
+        "title": "Wydobywaj",
         "description": "Kopanie"
     },
     "Deconstruct": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskDeconstruct",
         "title": "zdekonstruować",
         "description": "Dekonstrukcja"
     },
     "Build": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskBuild",
         "title": "Zbudować",
         "description": "Budowanie"
     },
     "DestroyAsset": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskDestroyAsset",
         "title": "Zniszcz zasób.",
         "description": "Niszczenie"
     },
     "SitAtChair": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskSitAtChair",
         "title": "Usiądź na krześle.",
         "description": "usiąść"
     },
     "PlayArcadeMachine": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskPlayArcadeMachine",
         "title": "Zagraj na automacie .",
         "description": "Gra dalej"
     },
     "TendHeal": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskHeal",
         "title": "Lecz",
-        "description": "Leczenie",
-        "variable_b": "entity_b"
+        "description": "Leczenie"
     },
     "TendFeed": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskFeed",
-        "title": "Karmić",
-        "description": "Karmienie",
-        "variable_b": "entity_b"
+        "title": "Nakarm",
+        "description": "Karmienie"
     },
     "TendHydrate": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskHydrate",
-        "title": "napój",
-        "description": "nawadnianie",
-        "variable_b": "entity_b"
+        "title": "Napój",
+        "description": "nawadnianie"
     },
     "FindPlaceToIngest": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskFindPlaceToIngest",
         "title": "Znajdź miejsce do spożycia",
         "description": "Znalezienie miejsca do spożycia"
     },
     "BackToShip": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskBackToShip",
         "title": "Znajdź miejsce do spożycia",
         "description": "Znalezienie miejsca do spożycia"
     },
-
     "Slaughter": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskSlaughter",
         "title": "Ubój",
         "description": "Ubój"
     },
     "Butcher": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskButcher",
         "title": "Rzeźnik",
         "description": "zmasakrować"
     },
     "FollowAndMelee": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskFollowAndMelee",
         "title": "Podążaj i walcz wręcz",
         "description": "Atakujący"
     },
-
     "InsertGetMaterials": {
-        "ref_name": "TaskRef",
-        "task_type": "TaskInsertTaskDriver",
         "title": "Zbierz materiały",
-        "description": "Zbieranie żądanych materiałów.",
-        "task_driver_type": "TaskDriverCollectMaterials"
+        "description": "Zbieranie żądanych materiałów."
     }
     
 }

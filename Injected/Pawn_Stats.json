@@ -1,30 +1,14 @@
 {
-	"file_data": {
-		"name": "pawn_stats"
-	},
-    
     "MiningSpeed": {
-        "ref_name": "PawnStatRef",
         "title": "Prędkość wydobycia",
-        "description": "Jak szybko to stworzenie może uderzyć podczas wydobywania.",
-        "linked_skill": "Mining",
-        "base_amount": 0.3,
-        "bonus_per_level": 0.11
+        "description": "Jak szybko ten osobnik może uderzać podczas wydobywania."
     },
     "SowingSpeed": {
-        "ref_name": "PawnStatRef",
         "title": "Szybkość siewu",
-        "description": "Jak szybko to stworzenie może siać.",
-        "linked_skill": "Science",
-        "base_amount": 0.5,
-        "bonus_per_level": 0.08
+        "description": "Jak szybko ten osobnik może siać."
     },
     "Trading": {
-        "ref_name": "PawnStatRef",
-        "title": "Handel",
-        "description": "Jak dobrze to stworzenie potrafi handlować.",
-        "linked_skill": "Social",
-        "base_amount": 0.5,
-        "bonus_per_level": 0.02
+        "title": "Handlowanie",
+        "description": "Jak dobrze to stworzenie potrafi handlować."
     }
 }

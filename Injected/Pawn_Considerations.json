@@ -1,237 +1,145 @@
 {
-	"file_data": {
-		"name": "pawn_considerations"
-	},
-    
     "Hungry": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasNeed",
         "title": "Jest głodny",
-        "description": "Czy Jestem głodny?",
-        "response_curve": "PolyLowerRight",
-        "component_needed": "Hunger"
+        "description": "Czy Jestem głodny?"
     },
     "Thirsty": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasNeed",
-        "title": "jest spragniony",
-        "description": "Czy jestem spragniony?",
-        "response_curve": "PolyLowerRight",
-        "component_needed": "Thirst"
+        "title": "Jest spragniony",
+        "description": "Czy jestem spragniony?"
     },
     "Tired": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasNeed",
         "title": "Jest zmęczony",
-        "description": "Czy jestem zmęczony?",
-        "response_curve": "PolyLowerRightEnergy",
-        "component_needed": "Energy"
+        "description": "Czy jestem zmęczony?"
     },
     "HasFood": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasFood",
-        "title": "ma jedzenie",
+        "title": "Ma jedzenie",
         "description": "Czy jest jedzenie?"
     },
     "HasDrink": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasDrink",
-        "title": "ma napój",
+        "title": "Ma napój",
         "description": "Czy jest coś do picia?"
     },
     "Fallback": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "Fallback",
         "title": "Rezerwa",
         "description": "To tylko rezerwa, gdy nie mamy nic innego do roboty."
     },
     "HasPrefab": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasPrefab",
         "title": "Coś trzeba zbudować",
         "description": "Czy coś wymaga budowania?"
     },
     "HasDirt": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasDirt",
         "title": "Coś wymaga czyszczenia",
         "description": "Czy jest jakiś brud do wyczyszczenia?"
     },
     "ThingToHaul": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "ThingToHaul",
-        "title": "Coś trzeba przewieźć",
-        "description": "Sprawdzam, czy jest coś do przewiezienia."
+        "title": "Coś trzeba przetransportować",
+        "description": "Sprawdzam, czy jest coś do przetransportowania."
     },
     "NeedsMatsPrefab": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "NeedsMatsPrefab",
         "title": "Posiada materiały",
         "description": "Sprawdzamy, czy posiadamy wymagane materiały."
     },
     "NeedsMatsRecipe": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "NeedsMatsRecipe",
         "title": "Posiada materiały",
         "description": "Sprawdzamy, czy posiadamy wymagane materiały."
     },
     "HasDeconstruction": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasDeconstruction",
         "title": "Coś wymaga dekonstrukcji",
         "description": "Czy jest coś do dekonstrukcji?"
     },
     "HasMineable": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasMineable",
         "title": "Coś wymaga wydobycia",
         "description": "Czy jest coś do wydobycia?"
     },
     "SomewhereToSleep": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "SomewhereToSleep",
         "title": "Ma gdzie spać",
         "description": "Sprawdzam, czy jest gdzie spać."
     },
     "PawnNeedsRescue": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "PawnNeedsRescue",
-        "title": "Pionek wymaga ratunku",
-        "description": "Sprawdzanie, czy pionek wymaga ratowania."
+        "title": "Osobnik wymaga ratunku",
+        "description": "Sprawdzanie, czy osobnik wymaga ratowania."
     },
     "HasMedicalBed": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasMedicalBed",
         "title": "Ma gdzie odpocząć i wyleczyć się",
         "description": "Sprawdzamy, czy jest gdzie odpocząć i wyzdrowieć."
     },
     "Greedy": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasCharacteristic",
-        "characteristic_type": "Greedy",
         "title": "Jest chciwy",
-        "description": "Czy jestem uważany za chciwego?.",
-        "add": true
+        "description": "Czy jestem uważany za chciwego?."
     },
     "SomewhereToRoam": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "SomewhereToRoam",
         "title": "Ma gdzie wędrować",
         "description": "Czy jest gdzie powędrować?"
     },
     "MyHealth": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "MyHealth",
         "title": "Moje zdrowie",
-        "description": "sprawdzanie mojego zdrowia.",
-        "response_curve": "ReverseLinear"
+        "description": "Sprawdzanie mojego zdrowia."
     },
     "TargetHealth": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "TargetHealth",
         "title": "Zdrowie celu",
-        "description": "Sprawdzanie zdrowia celu.",
-        "response_curve": "ReverseLinear"
+        "description": "Sprawdzanie zdrowia celu."
     },
     "ThingNeedsRefuelling": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "ThingNeedsRefuelling",
         "title": "Coś wymaga uzupełnienia",
-        "description": "Sprawdzanie, czy nie trzeba czegoś uzupełnić paliwem.",
-        "response_curve": "ReverseLinear"
+        "description": "Sprawdzanie, czy nie trzeba czegoś uzupełnić paliwem."
     },
     "DeadPawn": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "IsDeadPawn",
-        "title": "Martwy pionek wymaga ruchu",
-        "description": "Sprawdzamy, czy nie mamy martwego pionka, którego trzeba się pozbyć."
+        "title": "Martwy osobnik wymaga ruchu",
+        "description": "Sprawdzamy, czy nie mamy martwego osobnika, którego trzeba się pozbyć."
     },
     "EquipSpacesuit": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "Variable",
         "title": "Trzeba wyposażyć się w skafander kosmiczny",
-        "description": "Sprawdzamy, czy trzeba wyposażyć się w skafander kosmiczny.",
-        "variable": "always_try_equip_space_suit",
-        "boolean": true
+        "description": "Sprawdzamy, czy trzeba wyposażyć się w skafander kosmiczny."
     },
     "HasFullPressuredSuit": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasFullPressuredSuit",
         "title": "Posiada kombinezon ciśnieniowy",
         "description": "Sprawdzamy, czy mamy już na wyposażeniu pełny skafander ciśnieniowy."
     },
     "IsCaptain": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasRole",
-        "role": "Captain",
-        "title": "Jest kapitanem",
-        "description": "Czy jestem kapitanem?"
+        "title": "Kapitan",
+        "description": "Czy jest kapitanem?"
     },
     "HasEntertainment": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasEntertainment",
-        "title": "jest gra do pogrania.",
-        "description": "Sprawdzamy, czy mamy jakąś rozrywkę do zabawy."
+        "title": "Jest rozrywka.",
+        "description": "Sprawdzamy, czy mamy jakąś rozrywkę."
     },
     "PawnNeedsHealing": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "NeedsTendHeal",
-        "title": "Pionek potrzebuje leczenia",
-        "description": "Sprawdzanie, czy pionek wymaga leczenia."
+        "title": "Osobnik potrzebuje leczenia",
+        "description": "Sprawdzanie, czy osobnik wymaga leczenia."
     },
     "PawnNeedsFeeding": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "NeedsTendFeed",
-        "title": "Pionek potrzebuje karmienia",
-        "description": "Sprawdzanie, czy pionek wymaga karmienia."
+        "title": "Potrzebuje karmienia",
+        "description": "Sprawdzanie, czy osobnik wymaga karmienia."
     },
     "PawnNeedsHydrating": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "NeedsTendHydrate",
-        "title": "Pionek potrzebuje nawodnienia",
-        "description": "Sprawdzanie, czy pionek potrzebuje nawodnienia."
+        "title": "Potrzebuje nawodnienia",
+        "description": "Sprawdzanie, czy osobnik potrzebuje nawodnienia."
     },
     "PrefabObstruction": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "PrefabHasObstruction",
         "title": "Należy przenieść przeszkodę",
         "description": "Sprawdzenie, czy przeszkoda wymaga usunięcia."
     },
     "Aggroed": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "Variable",
         "title": "Czy jesteśmy zestresowani??",
-        "description": "Sprawdzamy, czy jesteśmy zdenerwowani.",
-        "variable": "aggroed",
-        "boolean": true
+        "description": "Sprawdzamy, czy jesteśmy zdenerwowani."
     },
     "HasAttackTarget": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "HasAttackTarget",
         "title": "Czy mamy cel do ataku?",
         "description": "Próbuję znaleźć cel do ataku."
     },
     "IsHostileEnemyNearby": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "IsHostileEnemyNearby",
         "title": "Czy w pobliżu jest wróg?",
         "description": "Sprawdzanie, czy w pobliżu nie ma wroga."
     },
     "SomethingToSow": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "SomethingToSow",
         "title": "Czy jest co siać?",
         "description": "Sprawdzam, czy jest coś do zasiania."
     },
     "SomethingToHarvest": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "SomethingToHarvest",
         "title": "Czy jest coś do zbioru?",
         "description": "Sprawdzam, czy jest co zbierać."
     },
     "SomethingToHarvestRecipe": {
-        "ref_name": "ConsiderationRef",
-        "consideration_type": "SomethingToHarvestRecipe",
         "title": "Czy przepis jest gotowy ?",
         "description": "Sprawdzam, czy jest gotowy przepis."
     }

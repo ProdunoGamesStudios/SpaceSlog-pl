@@ -28,8 +28,7 @@
                         "layer": "inner"
                     },
                     "kidney": {
-                        "title": "prawa nerka",
-                        "layer": "inner"
+                        "title": "prawa nerka"
                     },
                     "liver": {
                         "layer": "inner"
@@ -45,7 +44,6 @@
                     },
                     "arm": {
                         "title": "lewe ramię",
-                        "layer": "outer",
                         "parts": {
                             "hand": {
                                 "title": "lewa ręka",
@@ -383,31 +381,27 @@
                     },
                     "leg": {
                         "title": "tył prawej nogi",
-                        "layer": "outer",
                         "parts": {
                             "paw": {
                                 "title": "tylna prawa łapa",
-                                "layer": "outer",
                                 "parts": {
                                     "claw": {
                                         "title": "tylnny prawy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "tylnny prawy pazur",
+                                        "title": "tylny prawy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "tylnny prawy pazur",
+                                        "title": "tylny prawy pazur",
                                         "layer": "outer"
                                     },
                                     "claw": {
-                                        "title": "tylnny prawy pazur",
-                                        "layer": "outer"
+                                        "title": "tylny prawy pazur"
                                     },
                                     "claw": {
-                                        "title": "tylnny prawy pazur",
-                                        "layer": "outer"
+                                        "title": "tylny prawy pazur"
                                     }
                                 }
                             }
@@ -416,13 +410,10 @@
                 }
             },
             "head": {
-                "layer": "outer",
                 "parts": {
                     "jaw": {
-                        "layer": "outer",
                         "parts": {
                             "teeth": {
-                                "layer": "outer"
                             }
                         }
                     }

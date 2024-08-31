@@ -1,11 +1,5 @@
 {
-	"file_data": {
-		"name": "thoughts"
-	},
-	
     "Thirsty": {
-		"ref_name": "ThoughtRef",
-		"text": "Jestem bardzo spragniony. Chciałbym, żeby było tu coś do picia.",
 		"title": "Odwodniony",
 		"base_effect": -5,
 		"show_thought_bubble": true,

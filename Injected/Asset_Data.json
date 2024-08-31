@@ -16,1321 +16,239 @@
 		"description": "Nasiona wykorzystywane do uprawy ziół."
 	},
 	"RiceSeeds": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Nasiona ryżu",
-		"description": "Nasiona używane do uprawy ryżu.",
-		"movement_cost": 14,
-		"mass": 0.1,
-		"poisonous": false,
-		"can_rot": false,
-		"merchandise": true,
-		"base_market_value": 5,
-		"max_stack_size": 90,
-		"health": {
-			"max_health": 100
-		},
-		"components": {
-            "Seed":{
-				"plant_type": "RicePlant"
-			}
-        },
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/RiceSeeds"
-		}
+		"description": "Nasiona używane do uprawy ryżu."
 	},
 	"WheatSeeds": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Nasiona pszenicy",
-		"description": "Nasiona używane do uprawy pszenicy.",
-		"movement_cost": 14,
-		"mass": 0.1,
-		"poisonous": false,
-		"can_rot": false,
-		"merchandise": true,
-		"base_market_value": 5,
-		"max_stack_size": 90,
-		"health": {
-			"max_health": 100
-		},
-		"components": {
-            "Seed":{
-				"plant_type": "WheatPlant"
-			}
-        },
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/WheatSeeds"
-		}
+		"description": "Nasiona używane do uprawy pszenicy."
 	},
 	"SpacewormEggs": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Jaja robaków kosmicznych",
-		"description": "Jaja robaków kosmicznych są obecnie podstawową dietą człowieka, są obrzydliwe, ale odżywcze.",
-		"movement_cost": 14,
-		"mass": 0.5,
-		"nutrition": 0.7,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 10,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 5,
-		"max_stack_size": 50,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/SpacewormEggs"
-		}
+		"description": "Jaja robaków kosmicznych są obecnie podstawową dietą człowieka, są obrzydliwe, ale odżywcze."
 	},
 	"Eggs": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Jajka",
-		"description": "Jajka.",
-		"movement_cost": 14,
-		"mass": 0.5,
-		"nutrition": 0.7,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 10,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 5,
-		"max_stack_size": 50,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#f0ead6",
-			"texture_path": "Textures/Things/Assets/Eggs"
-		}
+		"description": "Jajka."
 	},
 	"RawMeat": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Surowe mięso",
-		"description": "Mięso, które jest surowe. Smakuje lepiej po ugotowaniu.",
-		"movement_cost": 14,
-		"mass": 0.8,
-		"nutrition": 0.7,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 20,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 7,
-		"max_stack_size": 25,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#ff7f7f",
-			"texture_path": "Textures/Things/Assets/RawMeat"
-		}
+		"description": "Mięso, które jest surowe. Smakuje lepiej po ugotowaniu."
 	},
 	"CookedMeat": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Ugotowane mięso",
-		"description": "Mięso, które jest ugotowane.Dobry posiłek.",
-		"movement_cost": 14,
-		"mass": 0.8,
-		"nutrition": 0.9,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 20,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 9,
-		"max_stack_size": 25,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/CookedMeat"
-		}
+		"description": "Mięso, które jest ugotowane.Dobry posiłek."
 	},
 	"Berries": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Jagody",
-		"description": "Dzikie jagody, prawdopodobnie bardzo trujące.",
-		"movement_cost": 14,
-		"mass": 0.2,
-		"nutrition": 0.6,
-		"edible": true,
-		"poisonous": true,
-		"can_rot": true,
-		"days_till_rot_start": 5,
-		"rot_destroys": true,
-		"merchandise": false,
-		"base_market_value": 7,
-		"max_stack_size": 40,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Berries"
-		}
+		"description": "Dzikie jagody, prawdopodobnie bardzo trujące."
 	},
 	"Fungus": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Grzyb",
-		"description": "Dziki grzyb. Może być trujący.",
-		"movement_cost": 14,
-		"mass": 0.2,
-		"nutrition": 0.5,
-		"edible": true,
-		"poisonous": true,
-		"can_rot": true,
-		"days_till_rot_start": 5,
-		"rot_destroys": true,
-		"merchandise": false,
-		"base_market_value": 6,
-		"max_stack_size": 20,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Fungus"
-		}
+		"description": "Dziki grzyb. Może być trujący."
 	},
 	"Rice": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Ryż",
-		"description": ".",
-		"movement_cost": 14,
-		"mass": 0.2,
-		"nutrition": 0.7,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 5,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 8,
-		"max_stack_size": 40,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#EAE7D2",
-			"texture_path": "Textures/Things/Assets/Rice"
-		}
+		"description": "Ryż uprawiany z nasion."
 	},
 	"Potato": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Ziemniak",
-		"description": ".",
-		"movement_cost": 14,
-		"mass": 0.2,
-		"nutrition": 0.7,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 5,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 8,
-		"max_stack_size": 40,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Potatoes"
-		}
+		"description": "Ziemniak uprawiany z nasion."
 	},
 	"Wheat": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Pszenica",
-		"description": "Służy do tworzenia różnych produktów jadalnych.",
-		"movement_cost": 14,
-		"mass": 0.2,
-		"nutrition": 0.5,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 5,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 6,
-		"max_stack_size": 40,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Wheat"
-		}
+		"description": "Służy do tworzenia różnych produktów jadalnych."
 	},
 	"Herbs": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Zioła",
-		"description": "Służy do tworzenia różnych produktów jadalnych.",
-		"movement_cost": 14,
-		"mass": 0.2,
-		"nutrition": 0.2,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 5,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 2,
-		"max_stack_size": 25,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Herbs"
-		}
+		"description": "Służy do tworzenia różnych produktów jadalnych."
 	},
 	"RootVegetables": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Warzywa korzenne",
-		"description": "Służy do tworzenia różnych produktów jadalnych.",
-		"movement_cost": 14,
-		"mass": 0.2,
-		"nutrition": 0.6,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 5,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 6,
-		"max_stack_size": 20,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/RootVegetables"
-		}
+		"description": "Służy do tworzenia różnych produktów jadalnych."
 	},
 	"PackagedMeals": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Spakowany posiłek",
-		"description": "Wcześniej przygotowany posiłek.",
-		"movement_cost": 14,
-		"mass": 0.5,
-		"nutrition": 0.9,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 5,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 15,
-		"max_stack_size": 20,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/PackagedMeal"
-		}
+		"description": "Wcześniej przygotowany posiłek."
 	},
 	"Bread": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Chleb",
-		"description": "Wykonany z pszenicy.",
-		"movement_cost": 14,
-		"mass": 0.3,
-		"nutrition": 0.8,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 5,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 9,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Bread"
-		}
+		"description": "Zrobiony z pszenicy."
 	},
 	"Bone": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Kość",
-		"description": "Kości.",
-		"movement_cost": 14,
-		"mass": 0.5,
-		"nutrition": 0.1,
-		"edible": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 50,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 4,
-		"max_stack_size": 20,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#ff7f7f",
-			"texture_path": "Textures/Things/Assets/RawMeat"
-		}
+		"description": "Kości."
 	},
 	"VegetableBroth": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Liquid",
 		"title": "Rosół warzywny",
-		"description": "Smaczny rosół na bazie ziół i warzyw.",
-		"movement_cost": 14,
-		"mass": 0.2,
-		"nutrition": 0.8,
-		"edible": true,
-		"drinkable": true,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 10,
-		"rot_destroys": true,
-		"merchandise": true,
-		"base_market_value": 24,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Soup"
-		}
+		"description": "Smaczny rosół na bazie ziół i warzyw."
 	},
 	"Water": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Liquid",
 		"title": "Woda",
-		"description": "Zwykła filtrowana woda.",
-		"movement_cost": 14,
-		"mass": 1,
-		"nutrition": 1,
-		"drinkable": true,
-		"alcoholic": false,
-		"poisonous": false,
-		"can_rot": true,
-		"days_till_rot_start": 50,
-		"rot_destroys": false,
-		"merchandise": true,
-		"base_market_value": 18,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Water"
-		}
+		"description": "Zwykła filtrowana woda."
 	},
 	"Ale": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Liquid",
-		"title": "Ale",
-		"description": "Prosto wyprodukowany napój alkoholowy.",
-		"movement_cost": 14,
-		"mass": 1,
-		"nutrition": 0.4,
-		"drinkable": true,
-		"alcoholic": true,
-		"poisonous": false,
-		"can_rot": false,
-		"merchandise": true,
-		"base_market_value": 20,
-		"max_stack_size": 10,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#494127",
-			"texture_path": "Textures/Things/Assets/Water"
-		}
+		"title": "Piwo",
+		"description": "Prymitywnie wyprodukowany napój alkoholowy."
 	},
 	"Wine": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Liquid",
 		"title": "Wino",
-		"description": "Prosto wyprodukowany napój alkoholowy.",
-		"movement_cost": 14,
-		"mass": 1,
-		"nutrition": 0.4,
-		"drinkable": true,
-		"alcoholic": true,
-		"poisonous": false,
-		"can_rot": false,
-		"merchandise": true,
-		"base_market_value": 36,
-		"max_stack_size": 24,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Wine"
-		}
+		"description": "Prymitywnie wyprodukowany napój alkoholowy."
 	},
 	"MediKit": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Solid",
 		"title": "Zestaw medyczny",
-		"description": "Zawiera zbiór materiałów i sprzętu umożliwiającego natychmiastową pomoc medyczną.",
-		"movement_cost": 14,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 120,
-		"max_stack_size": 7,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Items/Other/MediKit"
-		}
+		"description": "Zawiera zbiór materiałów i sprzętu umożliwiającego natychmiastową pomoc medyczną."
 	},
 	"Coins": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
 		"title": "Monety",
-		"category": "Mineral",
-		"description": "Standardowa waluta używana w całym wszechświecie.",
-		"movement_cost": 14,
-		"mass": 0.01,
-		"merchandise": false,
-		"base_market_value": 1,
-		"max_stack_size": 1000,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Credits"
-		}
+		"description": "Standardowa waluta używana w całym wszechświecie."
 	},
 	"Diamond": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Diament",
-		"description": "Drogi towar.",
-		"movement_cost": 14,
-		"mass": 2,
-		"merchandise": false,
-		"base_market_value": 90,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#00a156",
-			"texture_path": "Textures/Things/Assets/Diamonds"
-		}
+		"description": "Drogi towar."
 	},
 	"FuelCell": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Liquid",
 		"title": "Ogniwo paliwowe",
-		"description": "Zawiera pluton. Zapewnia stabilność plutonu do czasu jego użycia.",
-		"movement_cost": 18,
-		"mass": 20,
-		"merchandise": true,
-		"base_market_value": 300,
-		"max_stack_size": 5,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/FuelCell"
-		}
+		"description": "Zawiera pluton. Zapewnia stabilność plutonu do czasu jego użycia."
 	},
 	"Uranium": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Metal",
 		"title": "Uran",
-		"description": "Można go rafinować do plutonu, który można następnie przechowywać w ogniwach paliwowych.",
-		"movement_cost": 14,
-		"mass": 2,
-		"merchandise": true,
-		"base_market_value": 45,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Uranium"
-		}
+		"description": "Można go rafinować do plutonu, który można następnie przechowywać w ogniwach paliwowych."
 	},
 	"Titanium": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Metal",
 		"title": "Tytan",
-		"description": "Używany do budowania większości rzeczy w kosmosie.",
-		"movement_cost": 14,
-		"mass": 2,
-		"merchandise": true,
-		"base_market_value": 22,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#65686d",
-			"texture_path": "Textures/Things/Assets/MetalBlock"
-		}
+		"description": "Używany do budowania większości rzeczy w kosmosie."
 	},
 	"Rhodium": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Metal",
 		"title": "Rod",
-		"description": "Używany do budowania rzeczy.",
-		"movement_cost": 14,
-		"mass": 2,
-		"merchandise": true,
-		"base_market_value": 50,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#65686d",
-			"texture_path": "Textures/Things/Assets/MetalBlock"
-		}
+		"description": "Używany do budowania."
 	},
 	"Glass": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Szkło",
-		"description": "Używany do budowania rzeczy.",
-		"movement_cost": 14,
-		"mass": 2,
-		"merchandise": true,
-		"base_market_value": 50,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#65686d",
-			"texture_path": "Textures/Things/Assets/Glass"
-		}
+		"description": "Używane do budowania."
 	},
 	"Silver": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Metal",
 		"title": "Srebro",
-		"description": "Rodzaj metalu.",
-		"movement_cost": 14,
-		"mass": 2.2,
-		"merchandise": true,
-		"base_market_value": 35,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#949494",
-			"texture_path": "Textures/Things/Assets/MetalBlock"
-		}
+		"description": "Rodzaj metalu."
 	},
 	"Alloys": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Metal",
 		"title": "Stop metali",
-		"description": "materiał utworzony przez połączenie metalu z innym metalem.",
-		"movement_cost": 14,
-		"mass": 2.2,
-		"merchandise": true,
-		"base_market_value": 35,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#949494",
-			"texture_path": "Textures/Things/Assets/MetalBlock"
-		}
+		"description": "Materiał utworzony przez połączenie metalu z innym metalem."
 	},
 	"Gold": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Metal",
 		"title": "Złoto",
-		"description": "Drogi, błyszczący metal.",
-		"movement_cost": 14,
-		"mass": 3,
-		"merchandise": true,
-		"base_market_value": 50,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#c09e31",
-			"texture_path": "Textures/Things/Assets/MetalBlock"
-		}
+		"description": "Drogi, błyszczący metal."
 	},
 	"Silicon": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Metal",
 		"title": "Krzem",
-		"description": "Stosowany głównie w elementach elektrycznych.",
-		"movement_cost": 14,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 40,
-		"max_stack_size": 35,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#4468a5",
-			"texture_path": "Textures/Things/Assets/Ore"
-		}
+		"description": "Stosowany głównie w elementach elektrycznych."
 	},
 	"Ruby": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Rubin",
-		"description": "Rodzaj minerału.",
-		"movement_cost": 14,
-		"mass": 2.8,
-		"merchandise": true,
-		"base_market_value": 45,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#ab1d1d",
-			"texture_path": "Textures/Things/Assets/Ore"
-		}
+		"description": "Rodzaj minerału."
 	},
 	"Emerald": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Szmaragd",
-		"description": "Rodzaj minerału.",
-		"movement_cost": 14,
-		"mass": 2.7,
-		"merchandise": true,
-		"base_market_value": 43,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#24a836",
-			"texture_path": "Textures/Things/Assets/Ore"
-		}
+		"description": "Rodzaj minerału."
 	},
 	"Logs": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Wood",
 		"title": "Kłody z twardego drewna",
-		"description": "Zbierane z określonych rodzajów drzew z niektórych planet.",
-		"movement_cost": 14,
-		"mass": 1.5,
-		"merchandise": true,
-		"base_market_value": 24,
-		"max_stack_size": 40,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"colour": "#4f4116",
-			"texture_path": "Textures/Things/Assets/Wood"
-		}
+		"description": "Zbierane z określonych rodzajów drzew z niektórych planet."
 	},
 	"Cloth": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Fabric",
 		"title": "Odzież",
-		"description": "Miękka i wygodna tkanina stworzona z włókien bawełnianych.",
-		"movement_cost": 14,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 25,
-		"max_stack_size": 40,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#EDECDD",
-			"texture_path": "Textures/Things/Assets/Cloth"
-		}
+		"description": "Miękka i wygodna tkanina stworzona z włókien bawełnianych."
 	},
 	"Linen": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Fabric",
 		"title": "Len",
-		"description": "Mocna i trwała tkanina stworzona z włókien lnianych.",
-		"movement_cost": 14,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 25,
-		"max_stack_size": 40,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#EDECDD",
-			"texture_path": "Textures/Things/Assets/Linen"
-		}
+		"description": "Mocna i trwała tkanina stworzona z włókien lnianych."
 	},
 	"Leather": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Fabric",
 		"title": "Skóra",
-		"description": "Mocny, elastyczny i trwały materiał stworzony ze skór zwierzęcych.",
-		"movement_cost": 14,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 27,
-		"max_stack_size": 40,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#8F8643",
-			"texture_path": "Textures/Things/Assets/Leather"
-		}
+		"description": "Mocny, elastyczny i trwały materiał stworzony ze skór zwierzęcych."
 	},
 	"Wool": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Fabric",
 		"title": "Wełna",
-		"description": "Arodzaj materiału.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 27,
-		"max_stack_size": 40,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#DEDEDE",
-			"texture_path": "Textures/Things/Assets/Wool"
-		}
+		"description": "Rodzaj materiału."
 	},
 	"CarbonFibre": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Fabric",
 		"title": "Tkanina z włókna węglowego",
-		"description": "Mocny, elastyczny i trwały materiał stworzony z węgla.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 48,
-		"max_stack_size": 50,
-		"health": {
-			"max_health": 200
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/CarbonFibre",
-			"use_colour": true,
-			"colour": "#858585"
-		}
+		"description": "Mocny, elastyczny i trwały materiał stworzony z włókna węglowego."
 	},
 	"Concrete": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Beton",
-		"description": "Rodzaj materiału.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 22,
-		"max_stack_size": 15,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#f0d4d4",
-			"texture_path": "Textures/Things/Assets/Concrete"
-		}
+		"description": "Wykorzystywany w budownictwie."
 	},
 	"Sandstone": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Piaskowiec",
-		"description": "Rodzaj materiału.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 25,
-		"max_stack_size": 15,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#C2B280",
-			"texture_path": "Textures/Things/Assets/Ore"
-		}
+		"description": "Rodzaj materiału wykorzystywany w budownictwie."
 	},
 	"Rock": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Kamień",
-		"description": "Rodzaj materiału.",
-		"movement_cost": 12,
-		"mass": 2,
-		"merchandise": true,
-		"base_market_value": 3,
-		"max_stack_size": 50,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#f0d4d4",
-			"texture_path": "Textures/Things/Assets/Ore"
-		}
+		"description": "Pozyskiwany ze skał i minerałów."
 	},
 	"Carbon": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "węgiel",
-		"description": "Rodzaj materiału. Materiał potrzebny do opracowania włókna węglowego.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 25,
-		"max_stack_size": 15,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#858585",
-			"texture_path": "Textures/Things/Assets/Ore"
-		}
+		"description": "Materiał potrzebny do opracowania włókna węglowego."
 	},
 	"Granite": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Granit",
-		"description": "Rodzaj materiału.",
-		"movement_cost": 12,
-		"mass": 2,
-		"merchandise": true,
-		"base_market_value": 25,
-		"max_stack_size": 15,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#1c1c1c",
-			"texture_path": "Textures/Things/Assets/Ore"
-		}
+		"description": "Rodzaj materiału."
 	},
 	"Ice": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Lód",
-		"description": "Można go wykorzystać do produkcji tlenu lub przetopić na wodę.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 160,
-		"max_stack_size": 10,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"colour": "#f0d4d4",
-			"texture_path": "Textures/Things/Assets/Ice"
-		}
+		"description": "Można go wykorzystać do produkcji tlenu lub przetopić na wodę."
 	},
 	"RedDye": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Czerwony barwnik",
-		"description": "Barwnik stosowany do barwienia różnych materiałów.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 15,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#7a2e2e",
-			"texture_path": "Textures/Things/Assets/Dye"
-		}
+		"description": "Barwnik stosowany do barwienia różnych materiałów."
 	},
 	"CharcoalDye": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Węglowy barwnik",
-		"description": "Barwnik stosowany do barwienia różnych materiałów.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 15,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#5b5b5b",
-			"texture_path": "Textures/Things/Assets/Dye"
-		}
+		"description": "Barwnik stosowany do barwienia różnych materiałów."
 	},
 	"GreenDye": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Zielony barwnik",
-		"description": "Barwnik stosowany do barwienia różnych materiałów.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 15,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#3b6342",
-			"texture_path": "Textures/Things/Assets/Dye"
-		}
+		"description": "Barwnik stosowany do barwienia różnych materiałów."
 	},
 	"BlueDye": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Niebieski barwnik",
-		"description": "Barwnik stosowany do barwienia różnych materiałów.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 15,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#37446c",
-			"texture_path": "Textures/Things/Assets/Dye"
-		}
+		"description": "Barwnik stosowany do barwienia różnych materiałów."
 	},
 	"LightBlueDye": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Jasnoniebieski barwnik",
-		"description": "Barwnik stosowany do barwienia różnych materiałów.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 15,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#97d0d6",
-			"texture_path": "Textures/Things/Assets/Dye"
-		}
+		"description": "Barwnik stosowany do barwienia różnych materiałów."
 	},
 	"PurpleDye": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Fioletowy barwnik",
-		"description": "Barwnik stosowany do barwienia różnych materiałów.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 15,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#603f60",
-			"texture_path": "Textures/Things/Assets/Dye"
-		}
+		"description": "Barwnik stosowany do barwienia różnych materiałów."
 	},
 	"TanDye": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Brązowy barwnik",
-		"description": "Barwnik stosowany do barwienia różnych materiałów.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 15,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#967b51",
-			"texture_path": "Textures/Things/Assets/Dye"
-		}
+		"description": "Barwnik stosowany do barwienia różnych materiałów."
 	},
 	"DarkTanDye": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Ciemnobrązowy barwnik",
-		"description": "Barwnik stosowany do barwienia różnych materiałów.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 15,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#644e2f",
-			"texture_path": "Textures/Things/Assets/Dye"
-		}
+		"description": "Barwnik stosowany do barwienia różnych materiałów."
 	},
 	"OrangeDye": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Pomarańczowy barwnik",
-		"description": "Barwnik stosowany do barwienia różnych materiałów.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 15,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#c26c2e",
-			"texture_path": "Textures/Things/Assets/Dye"
-		}
+		"description": "Barwnik stosowany do barwienia różnych materiałów."
 	},
 	"YellowDye": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Mineral",
 		"title": "Żółty barwnik",
-		"description": "Barwnik stosowany do barwienia różnych materiałów.",
-		"movement_cost": 12,
-		"mass": 1,
-		"merchandise": true,
-		"base_market_value": 15,
-		"max_stack_size": 30,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"use_colour": true,
-			"colour": "#ada565",
-			"texture_path": "Textures/Things/Assets/Dye"
-		}
+		"description": "Barwnik stosowany do barwienia różnych materiałów."
 	},
 	"Torpedoes": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Metal",
 		"title": "Torpedy",
-		"description": "Używany z uzbrojeniem okrętowym. Może być niszczycielski, jeśli zostanie wystrzelony w inne statki kosmiczne.",
-		"movement_cost": 12,
-		"mass": 2,
-		"damage": 50,
-		"merchandise": true,
-		"base_market_value": 300,
-		"max_stack_size": 15,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/Torpedoes"
-		}
+		"description": "Używany z uzbrojeniem okrętowym. Może być niszczycielski, jeśli zostanie wystrzelony w inne statki kosmiczne."
 	},
 	"RailGunSmallSlugs": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Metal",
-		"title": "Małe naboje do railgun'a",
-		"description": "Do stosowania w lekkim uzbrojeniu okrętowym.",
-		"movement_cost": 12,
-		"mass": 0.2,
-		"damage": 1,
-		"merchandise": true,
-		"base_market_value": 3,
-		"max_stack_size": 150,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/SmallRailgunSlugs"
-		}
+		"title": "Małe naboje do działa elektromagnetycznego",
+		"description": "Do stosowania w lekkim uzbrojeniu okrętowym."
 	},
 	"RailGunLargeSlugs": {
-		"ref_name": "ItemRef",
-		"entity_class": "Asset",
-		"category": "Metal",
-		"title": "Duże naboje do railgun'a",
-		"description": "Do stosowania w ciężkim uzbrojeniu okrętowym.",
-		"movement_cost": 12,
-		"mass": 0.2,
-		"damage": 5,
-		"merchandise": true,
-		"base_market_value": 3,
-		"max_stack_size": 80,
-		"health": {
-			"max_health": 100
-		},
-		"graphics": {
-			"graphics_class": "GraphicsSingle",
-			"texture_path": "Textures/Things/Assets/LargeRailgunSlugs"
-		}
+		"title": "Duże naboje do działa elektromagnetycznego",
+		"description": "Do stosowania w ciężkim uzbrojeniu okrętowym."
 	}
 }

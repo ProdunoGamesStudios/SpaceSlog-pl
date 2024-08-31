@@ -1,57 +1,20 @@
 {
-	"file_data": {
-		"name": "dirt",
-        "cache_textures": true
-	},
-    
     "Dirt": {
-        "ref_name": "DirtRef",
         "title": "Brud",
-        "description": "Brud.",
-        "ticks_to_clean": 40,
-        "chance_to_spread": 0.1,
-        "beauty": -4,
-        "texture_path": "Textures/Things/Filth/Dirt",
-        "small_amount_text": "Small amount of ",
-        "medium_amount_text": "Lot's of ",
-        "large_amount_text": "Huge amount of "
+        "description": "Brud."
     },
 
     "Slime": {
-        "ref_name": "DirtRef",
-        "title": "Szlam",
-        "description": "Brudne i oślizgłe.",
-        "ticks_to_clean": 60,
-        "chance_to_spread": 0.3,
-        "beauty": -6,
-        "texture_path": "Textures/Things/Filth/Slime",
-        "small_amount_text": "Small amount of ",
-        "medium_amount_text": "Lot's of ",
-        "large_amount_text": "Huge amount of "
+        "title": "Śluz",
+        "description": "Brudne i oślizgłe."
     },
 
     "Puke": {
-        "ref_name": "DirtRef",
         "title": "Wymiociny",
-        "description": "płyny ustrojowe.",
-        "ticks_to_clean": 40,
-        "chance_to_spread": 0.1,
-        "beauty": -5,
-        "texture_path": "Textures/Things/Filth/Slime",
-        "small_amount_text": "Small amount of ",
-        "medium_amount_text": "Lot's of ",
-        "large_amount_text": "Huge amount of "
+        "description": "Niestrawione jedzenie wydalone z żołądka."
     },
     "Blood": {
-        "ref_name": "DirtRef",
         "title": "Krew",
-        "description": "płyny ustrojowe.",
-        "ticks_to_clean": 40,
-        "chance_to_spread": 0.1,
-        "beauty": -5,
-        "texture_path": "Textures/Things/Filth/Blood",
-        "small_amount_text": "Small amount of ",
-        "medium_amount_text": "Lot's of ",
-        "large_amount_text": "Horrific amount of "
+        "description": "płyny ustrojowe."
     }
 }

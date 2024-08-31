@@ -1,51 +1,29 @@
 {
-	"file_data": {
-		"name": "pawn_status"
-	},
-    
     "Incapacitated": {
-        "ref_name": "BaseRef",
-        "title": "Ubezwłasnowolniony.",
-        "texture_path": "res://Textures/UI/Mote/Incapacitated.png"
+        "title": "Ubezwłasnowolniony."
     },
     "Death": {
-        "ref_name": "BaseRef",
-        "title": "Martwy.",
-        "texture_path": "res://Textures/UI/Mote/Death.png"
+        "title": "Martwy."
     },
     "Collapsed": {
-        "ref_name": "BaseRef",
-        "title": "Upadł.",
-        "texture_path": "res://Textures/UI/Mote/Collapsed.png"
+        "title": "Upadł."
     },
     "Idle": {
-        "ref_name": "BaseRef",
-        "title": "Bezczynny.",
-        "texture_path": "res://Textures/UI/Mote/Death.png"
+        "title": "Bezczynny."
     },
     "Injured": {
-        "ref_name": "BaseRef",
-        "title": "Zraniony.",
-        "texture_path": "res://Textures/UI/Mote/General.png"
+        "title": "Zraniony."
     },
     "Ill": {
-        "ref_name": "BaseRef",
-        "title": "Chory.",
-        "texture_path": "res://Textures/UI/Mote/General.png"
+        "title": "Chory."
     },
     "Bleeding": {
-        "ref_name": "BaseRef",
-        "title": "Krwawi.",
-        "texture_path": "res://Textures/UI/Mote/General.png"
+        "title": "Krwawi."
     },
     "Away": {
-        "ref_name": "BaseRef",
-        "title": "Z dala.",
-        "texture_path": "res://Textures/UI/Mote/General.png"
+        "title": "Z dala."
     },
     "MentalBreak": {
-        "ref_name": "BaseRef",
-        "title": "Na przerwie psychicznej.",
-        "texture_path": "res://Textures/UI/Mote/General.png"
+        "title": "Na przerwie psychicznej."
     }
 }

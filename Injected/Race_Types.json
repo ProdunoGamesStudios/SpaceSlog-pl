@@ -1,42 +1,18 @@
 {
-	"file_data": {
-		"name": "race_types"
-	},
-	
 	"Earther": {
-		"ref_name": "RaceRef",
 		"title": "Ziemianin",
-        "description": "Człowiek, który spędził pokolenia na Ziemi.",
-        "skin": "Human",
-        "blood": "Human",
-        "bone": "Human",
-        "meat": "Human"
+        "description": "Człowiek, który spędził pokolenia na Ziemi."
 	},
 	"Spacer": {
-		"ref_name": "RaceRef",
-		"title": "odstępnik",
-        "description": "Człowiek, który spędził pokolenia w kosmosie.",
-        "skin": "Human",
-        "blood": "Human",
-        "bone": "Human",
-        "meat": "Human"
+		"title": "Spacer",
+        "description": "Człowiek, który spędził pokolenia w kosmosie."
 	},
     "SpaceWorm": {
-		"ref_name": "RaceRef",
 		"title": "Kosmiczny robak",
-		"description": "Duży, grubo wyglądający, gąbczasty robak, zaskakująco mocny i sprężysty.",
-        "skin": "Worm",
-        "blood": "Worm",
-        "bone": "Worm",
-        "meat": "Worm"
+		"description": "Duży, grubo wyglądający, gąbczasty robak, zaskakująco mocny i sprężysty."
 	},
     "Rodent": {
-		"ref_name": "RaceRef",
-		"title": "Szczury",
-		"description": "Mały gryzoń.",
-        "skin": "Rodent",
-        "blood": "Human",
-        "bone": "Human",
-        "meat": "Human"
+		"title": "Gryzonie",
+		"description": "Mały gryzoń."
 	}
 }

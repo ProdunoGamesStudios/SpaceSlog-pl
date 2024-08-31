@@ -1,45 +1,33 @@
 {
-	"file_data": {
-		"name": "buttons"
-	},
-    
     "CancelBlueprint": {
-        "ref_name": "BaseRef",
         "title": "Anuluj",
         "description": "Anuluje wyznaczoną pracę."
     },
     "Deconstruct": {
-        "ref_name": "BaseRef",
         "title": "Dekonstuuj",
         "description": "Usuwa już zbudowaną jednostkę."
     },
     "DeconstructFlooringOverlay": {
-        "ref_name": "BaseRef",
         "title": "Zdemontować nakładkę podłogową",
-        "description": "Usuwa wszelkie powłoki podłogowe, takie jak dywany."
+        "description": "Usuwa wszelkie powłoki podłogowe."
     },
     "DeconstructCables": {
-        "ref_name": "BaseRef",
         "title": "Zdekonstruuj kable",
         "description": "Usuwa wszelkie już zbudowane kable."
     },
     "DeconstructDucting": {
-        "ref_name": "BaseRef",
         "title": "Zdemontuj przewody",
         "description": "Usuwa już zbudowany przewód."
     },
     "CancelFlooringOverlay": {
-        "ref_name": "BaseRef",
         "title": "Anuluj nakładkę na podłogę",
-        "description": "Usuwa wszelkie wyznaczone powłoki podłogowe, takie jak dywany."
+        "description": "Usuwa wszelkie wyznaczone powłoki podłogowe."
     },
     "CancelCables": {
-        "ref_name": "BaseRef",
         "title": "Anuluj kable",
         "description": "Usuwa wszelkie wyznaczone kable."
     },
     "CancelDucting": {
-        "ref_name": "BaseRef",
         "title": "Anuluj kanały",
         "description": "Usuwa wszelkie wyznaczone kanały."
     }

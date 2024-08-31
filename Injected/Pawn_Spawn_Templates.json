@@ -1,46 +1,17 @@
 {
-    "file_data": {
-        "name": "pawn_spawn_templates"
-    },
-	
 	"HumanPlayer": {
-		"ref_name": "PawnSpawnRef",
-		"title": "Gracz",
-		"pawn_type": "Human",
-		"default_faction": "player_faction",
-		"inventory": [
-			"SpaceSuit", 
-			"SpaceHelmet"
-		]
+		"title": "Gracz"
 	},
 	"HumanPirate": {
-		"ref_name": "PawnSpawnRef",
-		"title": "Ludzki pirat",
-		"pawn_type": "Human",
-		"default_faction": "hostile",
-		"inventory": [
-			"SpaceSuit", 
-			"SpaceHelmet"
-		]
+		"title": "Ludzki pirat"
 	},
 	"HumanNeutral": {
-		"ref_name": "PawnSpawnRef",
-		"title": "człowiek neutralny",
-		"pawn_type": "Human",
-		"default_faction": "neutral",
-		"inventory": [
-			"SpaceSuit", 
-			"SpaceHelmet"
-		]
+		"title": "Człowiek neutralny"
 	},
 	"SpaceWorm": {
-		"ref_name": "PawnSpawnRef",
-		"title": "Kosmiczny robak",
-		"pawn_type": "Worm"
+		"title": "Kosmiczny robak"
 	},
 	"Rat": {
-		"ref_name": "PawnSpawnRef",
-		"title": "Szczór",
-		"pawn_type": "Rat"
+		"title": "Szczór"
 	}
 }

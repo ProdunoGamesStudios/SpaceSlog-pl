@@ -1,14 +1,8 @@
 {
-	"file_data": {
-		"name": "illness_types"
-	},
-
 	"General": {
-		"ref_name": "IllnessRef",
-		"title": "Ogólnie"
+		"title": "Ogólne"
 	},
 	"Hypoxia": {
-		"ref_name": "IllnessRef",
 		"title": "Niedotlenienie"
 	}
 }

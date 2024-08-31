@@ -1,8 +1,4 @@
 {
-	"file_data": {
-		"name": "medical_conditions"
-	},
-
     "Senile" : {
 		"title" : "rozsądek",
 		"description" : "Ukazanie utraty zdolności umysłowych."

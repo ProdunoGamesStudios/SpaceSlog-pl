@@ -1,29 +1,21 @@
 {
-	"file_data": {
-		"name": "genders"
-	},
-	
 	"Male": {
-		"ref_name": "BaseRef",
 		"title": "Mężczyzna",
 		"description": "Posiada męskie narządy rozrodcze."
 	},
 
 	"Female": {
-		"ref_name": "BaseRef",
 		"title": "Kobieta",
 		"description": "Posiada żeńskie narządy rozrodcze."
 	},
 
 	"Neutral": {
-		"ref_name": "BaseRef",
-		"title": "neutralny",
+		"title": "Neutralny",
 		"description": "Nie ma ani męskich, ani żeńskich narządów rozrodczych."
 	},
 	
 	"Hermaphrodite": {
-		"ref_name": "BaseRef",
-		"title": "hermafrodyta",
+		"title": "Hermafrodyta",
 		"description": "Posiada męskie i żeńskie narządy rozrodcze."
 	}
 }

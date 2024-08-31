@@ -1,158 +1,26 @@
 {
-	"file_data": {
-		"name": "asteroids",
-        "cache_textures": true
-	},
-
-
     "SmallRockAsteroid": {
-        "ref_name": "EntityRef",
-        "entity_class": "Asteroid",
-        "title": "Asteroida",
-        "description": "Może zawierać cenne zasoby.",
-        "skill_type_required": "Mining",
-        "skill_amount_required": 0,
-        "can_be_forbidden": false,
-        "deconstructable": false,
-        "mineable": true,
-        "mass": 24,
-        "movement_cost": 1,
-        "is_interactable": true,
-        "draw_size": "Vector2i(2, 2)",
-        "size": "Vector2i(2, 2)",
-        "mineable_asset": "Rock",
-        "mining_yield": "3",
-        "health": {
-            "max_health": 2000
-        },
-        "graphics": {
-            "graphics_class": "GraphicsRandom",
-            "texture_path": "Textures/Things/Debris/SmallAsteroid"
-        }
+        "title": "Mała asteroida",
+        "description": "Może zawierać cenne zasoby."
     },
     "LargeRockAsteroid": {
-        "ref_name": "EntityRef",
-        "entity_class": "Asteroid",
-        "title": "Asteroida",
-        "description": "Może zawierać cenne zasoby.",
-        "skill_type_required": "Mining",
-        "skill_amount_required": 0,
-        "can_be_forbidden": false,
-        "deconstructable": false,
-        "mineable": true,
-        "mass": 50,
-        "movement_cost": 1,
-        "is_interactable": true,
-        "draw_size": "Vector2i(4, 4)",
-        "size": "Vector2i(4, 4)",
-        "mineable_asset": "Rock",
-        "mining_yield": "6",
-        "health": {
-            "max_health": 4000
-        },
-        "graphics": {
-            "graphics_class": "GraphicsRandom",
-            "texture_path": "Textures/Things/Debris/LargeAsteroid"
-        }
+        "title": "Duża asteroida",
+        "description": "Może zawierać cenne zasoby."
     },
     "SmallIceAsteroid": {
-        "ref_name": "EntityRef",
-        "entity_class": "Asteroid",
-        "title": "Asteroida",
-        "description": "Może zawierać cenne zasoby.",
-        "skill_type_required": "Mining",
-        "skill_amount_required": 0,
-        "can_be_forbidden": false,
-        "deconstructable": false,
-        "mineable": true,
-        "mass": 24,
-        "movement_cost": 1,
-        "is_interactable": true,
-        "draw_size": "Vector2i(2, 2)",
-        "size": "Vector2i(2, 2)",
-        "mineable_asset": "Ice",
-        "mining_yield": "1",
-        "health": {
-            "max_health": 2000
-        },
-        "graphics": {
-            "graphics_class": "GraphicsRandom",
-            "texture_path": "Textures/Things/Debris/SmallAsteroid"
-        }
+        "title": "Asteroida lodowa",
+        "description": "Może zawierać cenne zasoby."
     },
     "LargeIceAsteroid": {
-        "ref_name": "EntityRef",
-        "entity_class": "Asteroid",
-        "title": "Asteroida",
-        "description": "Może zawierać cenne zasoby.",
-        "skill_type_required": "Mining",
-        "skill_amount_required": 0,
-        "can_be_forbidden": false,
-        "deconstructable": false,
-        "mineable": true,
-        "mass": 50,
-        "movement_cost": 1,
-        "is_interactable": true,
-        "draw_size": "Vector2i(4, 4)",
-        "size": "Vector2i(4, 4)",
-        "mineable_asset": "Ice",
-        "mining_yield": "2",
-        "health": {
-            "max_health": 4000
-        },
-        "graphics": {
-            "graphics_class": "GraphicsRandom",
-            "texture_path": "Textures/Things/Debris/LargeAsteroid"
-        }
+        "title": "Asteroida lodowa",
+        "description": "Może zawierać cenne zasoby."
     },
     "SmallSiliconAsteroid": {
-        "ref_name": "EntityRef",
-        "entity_class": "Asteroid",
-        "title": "Asteroida",
-        "description": "Może zawierać cenne zasoby.",
-        "skill_type_required": "Mining",
-        "skill_amount_required": 0,
-        "can_be_forbidden": false,
-        "deconstructable": false,
-        "mineable": true,
-        "mass": 24,
-        "movement_cost": 1,
-        "is_interactable": true,
-        "draw_size": "Vector2i(2, 2)",
-        "size": "Vector2i(2, 2)",
-        "mineable_asset": "Silicon",
-        "mining_yield": "3",
-        "health": {
-            "max_health": 2000
-        },
-        "graphics": {
-            "graphics_class": "GraphicsRandom",
-            "texture_path": "Textures/Things/Debris/SmallAsteroid"
-        }
+        "title": "Asteroida krzemowa",
+        "description": "Może zawierać cenne zasoby."
     },
     "LargeSiliconAsteroid": {
-        "ref_name": "EntityRef",
-        "entity_class": "Asteroid",
-        "title": "Asteroida",
-        "description": "Może zawierać cenne zasoby.",
-        "skill_type_required": "Mining",
-        "skill_amount_required": 0,
-        "can_be_forbidden": false,
-        "deconstructable": false,
-        "mineable": true,
-        "mass": 50,
-        "movement_cost": 1,
-        "is_interactable": true,
-        "draw_size": "Vector2i(4, 4)",
-        "size": "Vector2i(4, 4)",
-        "mineable_asset": "Silicon",
-        "mining_yield": "6",
-        "health": {
-            "max_health": 4000
-        },
-        "graphics": {
-            "graphics_class": "GraphicsRandom",
-            "texture_path": "Textures/Things/Debris/LargeAsteroid"
-        }
+        "title": "Asteroida krzemowa",
+        "description": "Może zawierać cenne zasoby."
     }
 }
