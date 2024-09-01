@@ -1,8 +1,4 @@
 {
-	"file_data": {
-		"name": "asset",
-		"cache_textures": true
-	},
 	"PotatoSeeds": {
 		"title": "Nasiona ziemniaków",
 		"description": "Nasiona używane do uprawy ziemniaków."

@@ -1,7 +1,4 @@
 {
-	"Pawn_Jobs": {
-		"name": "pawn_jobs"
-	},
 	"Engineer" : {
 		"title" : "Test",
 		"description" : "{pawn_name} kolejnu test."

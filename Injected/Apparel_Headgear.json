@@ -1,9 +1,4 @@
 {
-	"file_data": {
-		"name": "item",
-		"cache_textures": true
-	},
-	
 	"SpaceHelmet": {
 		"title": "Kosmiczny hełm",
 		"description": "Część skafandra EVA używanego do wykonywania orbitalnych działań poza pojazdami, odpowiednik skafandra kosmicznego jest również potrzebny do pełnej funkcjonalności. Niezwykle niewygodne do spania."

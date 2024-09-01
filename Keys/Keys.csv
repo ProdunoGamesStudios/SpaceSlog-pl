@@ -1,4 +1,4 @@
-Keys,pl
+Keys,en
 UI_NOT_IMPLEMENTED,Nie wdrożony jeszcze
 UI_NEW_GAME,Nowa gra
 UI_LOAD_GAME,Załaduj grę
@@ -8,8 +8,8 @@ UI_CREDITS,Przypisy
 UI_QUIT,Wyjdź
 UI_BACK,Wróć
 UI_CONFIRM,Zatwierdź
-UI_CREATIVE_MODE,Free build
-UI_GAME_VERSION,For game version
+UI_CREATIVE_MODE,Tryb kreatywności
+UI_GAME_VERSION,Wersja gry
 UI_AUTHOR,Autor
 UI_NEWS,Nowości
 UI_TWITTER,Twitter (X)
@@ -19,16 +19,16 @@ UI_MUSIC,Muzyka
 UI_FORUMS,Forum
 UI_CHOOSE_STORY,Wybierz swoją historię
 UI_WORLD_SEED,Ziarno generatora
-UI_SKIP_STORY,Przewiń opis
+UI_SKIP_STORY,Pomiń opwieść
 UI_DIFFICULTY,Trudność
 UI_SCENARIO,Scenariusz
 UI_SHIPBUILDER,Budowanie statku
 UI_TRAITS,Cechy
-UI_TIMID,Nieśmiały
+UI_TIMID,Bojaźliwy
 UI_NORMAL,Normalny
 UI_BRUTAL,Brutalny
 UI_CHOOSE_CREW,Wybierz swoją załogę
-UI_AVAILABLE,Dostępne
+UI_AVAILABLE,Dostępność
 UI_SELECTED,Wybrane
 UI_BACKSTORY,Historia
 UI_FIRST_NAME,Imię 
@@ -37,68 +37,68 @@ UI_NICKNAME,Pseudonim
 UI_LAWS,Prawa
 UI_CHARACTERISTICS,Cechy
 UI_MEDICAL_CONDITIONS,Stan zdrowia
-UI_NONE,None
+UI_NONE,Nic
 UI_VOCATION,Powołanie
-UI_PARTY_SKILLS,Party skills
+UI_PARTY_SKILLS,Umiejętności załogi
 UI_HEADGEAR,Nakrycie głowy
-UI_RANDOMISE,Losowa gra        
+UI_RANDOMISE,Gra losowa        
 UI_OPTIONS,Opcje
-UI_GAMEPLAY,Gameplay
-UI_PAUSE_ON_ALERT,Pause on alert
-UI_SHOW_NAME_LABEL,Show name under pawns
+UI_GAMEPLAY,Rozgrywka
+UI_PAUSE_ON_ALERT,Wstrzymaj grę podczas alarmu
+UI_SHOW_NAME_LABEL,Pokaż nazwę pod graczami
 UI_SHOW_FPS,Pokaż FPS
-UI_SHOW_CUSTOM_MOUSE,Show custom mouse cursor
-UI_ENABLE_MOUSE_SCROLL,Enable mouse scrolling
-UI_DEV_MODE,Enable developer mode
+UI_SHOW_CUSTOM_MOUSE,Pokaż niestandardowy kursor myszy
+UI_ENABLE_MOUSE_SCROLL,Włącz przewijanie myszą
+UI_DEV_MODE,Tryb deweloperski
 UI_GRAPHICS,Grafika
 UI_RESOLUTION,Rozdzielczość
-UI_VSYNC,Enable Vsync
+UI_VSYNC,Włacz Vsync
 UI_FULLSCREEN,Pełny ekran
-UI_BORDERLESS_WINDOW,Enable borderless window
+UI_BORDERLESS_WINDOW,Okno bez ramki
 UI_SOUNDS,Dźwięk
-UI_MASTER_VOLUME,Master volume
-UI_MUSIC_VOLUME,Music volume
-UI_SOUNDS_VOLUME,Sfx volume
-UI_MENU_VOLUME,Menu volume
+UI_MASTER_VOLUME,Głośność główna
+UI_MUSIC_VOLUME,Głośność muzyki
+UI_SOUNDS_VOLUME,Głośność efektów
+UI_MENU_VOLUME,Głośność w menu
 UI_CLOSE,Zamknij
 UI_CANCEL,Anuluj
 UI_OK,Ok
-UI_OPEN_USER_DIR,Open user directory
+UI_OPEN_USER_DIR,Otwórz katalog użytkownika
 UI_SAVE_MENU,Zapisz grę
 UI_LOAD_MENU,Załaduj grę
-UI_LOAD,Załduj Grę
-UI_SAVE,New Save
-UI_OVERWRITE,Overwrite
+UI_LOAD,Załaduj 
+UI_SAVE,Zapisz
+UI_OVERWRITE,Nadpisz
 UI_LANGUAGE_CREDITS,Language credits
-UI_RELATIONS,Relations
-UI_RACE,Race
-UI_SPECIES,Species
-UI_TYPE,Type
-UI_POWER,Power
-UI_TECH_LEVEL,Tech level
+UI_RELATIONS,Relacje
+UI_RACE,Rasa
+UI_SPECIES,Gatunek
+UI_TYPE,Typ
+UI_POWER,Moc
+UI_TECH_LEVEL,Poziom techniczny
 UI_CREW,Załoga
 UI_NAME,Imię
 UI_MORALE,Morale
 UI_STATUS,Status
-UI_ASSIGNED_ROOM,Przydziel pokój
-UI_ASSIGNED_ROLE,Przydziel zadanie
+UI_ASSIGNED_ROOM,Przydzielony pokój
+UI_ASSIGNED_ROLE,Przydzielone zadanie
 UI_CONTINUE,Kontynuuj
 UI_SAVE_LOAD,Zapisz/Załaduj menu
 UI_EXIT,Wyjdź do menu głównego
 UI_EXIT_TO_OS,Wyjdź do OS
 UI_CONTINUE,Kontynuuj
 UI_GAME_OVER,Koniec gry
-UI_CARGO_CAPACITY,Pojemność przestrzeni ładunkowej
-UI_MONEY,Credits
+UI_CARGO_CAPACITY,Pojemność statku
+UI_MONEY,Pieniądze
 UI_RESOURCE,Źródło
-UI_STARTING_ITEMS,Starting items:
+UI_STARTING_ITEMS,Przedmioty startowe:
 UI_YOUR_STOCK,Twoje zapasy
 UI_SELL_PRICE,Cena sprzedaży
 UI_SELL,Sprzedaj
 UI_PURCHASE,Kup
 UI_BUY_PRICE,Cena kupna
-UI_TRADER_STOCK,Trader stock
-UI_TOTAL_TRADE_VALUE,Total trade value:
+UI_TRADER_STOCK,Zapasy handlowe
+UI_TOTAL_TRADE_VALUE,Całkowita wartość handlowa:
 UI_TRADE,Handluj
 UI_PLAYER,Gracz
 UI_TRADER,Handlarz
@@ -106,83 +106,83 @@ UI_RESET,Reset
 UI_ACCEPT,Akceptuj
 UI_ADD,Dodaj
 UI_TYPE_NEW_ROLE,Wpisz swoją nową rolę w grze
-UI_SHIP_ROLES,Ship roles
-UI_JOBS,Jobs
-UI_SCHEDULE,Schedule
-UI_ADD_REMOVE_ROLES,Add/Remove roles
-UI_ROLE_NAME,Role name
-UI_NUMBER_OF_MEMBERS,# members
+UI_SHIP_ROLES,Role statku
+UI_JOBS,Prace
+UI_SCHEDULE,Harmonogram
+UI_ADD_REMOVE_ROLES,Dodaj/Zabierz role
+UI_ROLE_NAME,Nazwa roli
+UI_NUMBER_OF_MEMBERS,# załogi
 UI_REMOVE,Usuń
 UI_HOTKEY,Hotkey
-UI_HEALTH,Health
-UI_NO_MATS_REQ,Nie wymaga materiałów
+UI_HEALTH,Zdrowie
+UI_NO_MATS_REQ,Nie potrzeba żadnych materiałów
 HINT_ROTATE_LEFT,Obróć w lewo
 HINT_ROTATE_RIGHT,Obróć w prawo
 UI_QUARTERMASTER,Kwatermistrz
 UI_CAPTAIN,Kapitan
 UI_REG_SHIP_NAME,Zapisane imię
-UI_SYS_MONITOR,System monitor
+UI_SYS_MONITOR,Monitor systemu
 UI_ALERT,Alarm
 UI_CARGO,Ładunek
-UI_POWER_OUTPUT,Power output
+UI_POWER_OUTPUT,Moc wyjściowa
 UI_POWER_USAGE,Zużycie energii
-UI_STORED_POWER,Stored power
-UI_STORED_GAS,Stored gas
-UI_MAX_STORAGE,Max storage
+UI_STORED_POWER,Zmagazynowana moc
+UI_STORED_GAS,Zmagazynowanay gaz
+UI_MAX_STORAGE,Maxymalna pojemność
 UI_WORK_TO_BUILD,Construction progress
-UI_GAS_PROVIDED,Gas producing
-UI_GAS_SUPPLIED,Gas receiving
+UI_GAS_PROVIDED,Gaz 
+UI_GAS_SUPPLIED,Dostarczany gaz
 UI_GAS_USAGE,Zużycie gazu
 UI_GAS_OUTPUT,Gas output
-UI_FUEL_REQUIRED,Fuel required
+UI_FUEL_REQUIRED,Wymagane paliwo
 UI_FUEL,Paliwo
 UI_ENTER_NAME,Wpisz imię
 UI_AUTO_SAVE,Automatyczne zapisywanie
 UI_HELP,Pomoc
 UI_GITHUB,Github
 UI_MAX_HP,Max HP
-UI_DETERIORATION,Deterioration rate
-UI_FLAMMABILITY,Flammability
-UI_MARKET_VALUE,Market value 
-UI_PRICE_MULTIPLIER,Price multiplier 
-UI_MASS,Mass 
-UI_COMFORT,Comfort
-DEFAULT_NO_NAME,No name
-DEFAULT_NO_TITLE,No title
-DEFAULT_NO_DESCRIPTION,No description
+UI_DETERIORATION,Szybkość pogorszenia stanu
+UI_FLAMMABILITY,Łatwopalność
+UI_MARKET_VALUE,Wartość rynkowa
+UI_PRICE_MULTIPLIER,Mnożnik cen 
+UI_MASS,Masa
+UI_COMFORT,Komfort
+DEFAULT_NO_NAME,Brak nazwy
+DEFAULT_NO_TITLE,Brak tytułu
+DEFAULT_NO_DESCRIPTION,Brak opisu
 UI_DESCRIPTION,Opis
-UNSUPPORTED_RESOLUTION,Trying to set an unsupported resolution
-UI_SHIP_WEIGHT_CAP,Ship weight capacity
+UNSUPPORTED_RESOLUTION,Nieobsługiwana rozdzielczość
+UI_SHIP_WEIGHT_CAP,Limit wagi statku
 UI_ZONES,Strefy
-UI_ALLOW_ALL,Zezwól wszystko
+UI_ALLOW_ALL,Zezwól na wszystko
 UI_REMOVE_ALL,Usuń wszystko
-UI_PROFESSION,Profession
+UI_PROFESSION,Zawód
 UI_PREVIOUS,Wcześniejsze
-UI_CURRENT,Current
-UI_INFO,Info
+UI_CURRENT,Aktualne
+UI_INFO,Informacje
 UI_AGE,Wiek
 UI_GENDER,Płeć
 UI_ILLNESSES,Choroby
 UI_INJURIES,Obrażenia
 UI_HYDRATION,Nawodnienie
 UI_ENERGY,Siła
-UI_FULLNESS,Fullness
-UI_HISTORY,History
-UI_SKILLS,Skills
+UI_FULLNESS,Pełnia
+UI_HISTORY,Historia
+UI_SKILLS,Umiejętności
 UI_STATISTICS,Statystyka
-UI_PRIMARY_MATERIAL,Primary material
-UI_SECONDARY_MATERIAL,Secondary material
-UI_EXPORT_SHIP_LAYOUT,Export ship layout
-UI_CURRENT_TRACK,Current track:
+UI_PRIMARY_MATERIAL,Materiał podstawowy
+UI_SECONDARY_MATERIAL,Materiał wtórny
+UI_EXPORT_SHIP_LAYOUT,Exportuj układ statku
+UI_CURRENT_TRACK,Aktualna piosenka:
 UI_NEEDS,Potrzeby
-UI_UNIVERSE_CREATION,Universe creation
-UI_FACTIONS_AVAILABLE,Factions available 
-UI_FACTIONS_SELECTED,Factions selected
+UI_UNIVERSE_CREATION,Stworzenie wrzechświata
+UI_FACTIONS_AVAILABLE,Dostępna frakcja
+UI_FACTIONS_SELECTED,Wybrana frakcja
 UI_CONSTRUCTION,Konstrukcja
 UI_RESEARCH_MENU,Szukaj
 UI_GAME_INFO,Dane gry
-UI_FACTIONS,Grupy
-UI_FACTION,Grupa
+UI_FACTIONS,Frakcje
+UI_FACTION,Frakcja
 UI_PAIN,Ból
 UI_CONSCIOUSNESS,Świadomość
 UI_RESPIRATION,Oddychanie
@@ -192,7 +192,7 @@ UI_ROOMS,Pomieszczenia
 UI_EQUIPMENT,Wyposażenie
 UI_CHOOSE_EMBLEM,Wybierz godło
 UI_PICK_A_COLOUR,Wybierz kolor
-UI_RECORDS,Records
+UI_RECORDS,Dokumentacja
 UI_TRADE,Handluj
 UI_BRIBE,Daj łapówkę
 UI_NEGOTIATE,Negocjuj
@@ -212,9 +212,10 @@ UI_RECIPE,Przepis
 UI_INGREDIENTS_ADDED,Dodane składniki:
 UI_GAME_STATS,Statystyki gry
 UI_BUILDING,Budowa
-UI_SHIP_SYSTEMS,Ship systems
-UI_EXIT_SURVEY,Wyjdź z ankiety
+UI_SHIP_SYSTEMS,System statku
+UI_EXIT_SURVEY,Ankieta wyjściowa
 UI_WISHLIST,Lista Zyczen!
 UI_GAMETYPE,Game type
 UI_HARMONY,Harmony
 UI_RANDOM,Random
+
