@@ -1,190 +1,21 @@
 {
-	"file_data": {
-		"name": "item",
-		"cache_textures": true
-	},
-	
 	"Gladius": {
-		"ref_name": "ItemRef",
-		"entity_class": "Weapon",
 		"title": "Gladius",
-		"description": "Krótki miecz używany do walki wręcz.",
-		"for_species": [
-			"Human"
-		],
-		"random_rotation_on_dropped": true,
-		"skill_type_required_to_make": "Tailor",
-		"skill_amount_required_to_make": 3,
-		"base_market_value": 360,
-		"work_to_make": 120,
-		"comfort": -1,
-		"equip_delay": 120,
-		"slot": "weapon",
-		"materials": {
-			"use_material_colour": true,
-			"material_types": {
-				"primary_mats": [
-					"Logs", 
-					"Gold", 
-					"Silver"
-				],
-				"primary_mats_amount": 6
-			}
-		},
-		"stats": {
-			"CutDamage": {
-				"max_value": 2
-			},
-			"BluntDamage": {
-				"max_value": 2
-			}
-		},
-		"health": {
-			"max_health": 100
-		},
-        "graphics": {
-			"graphics_class": "GraphicsSingle",
-			"random_rotation_on_dropped": true,
-            "texture_path": "Textures/Things/Items/Weapons/Gladius"
-        }
+		"description": "Krótki miecz używany do walki wręcz."
 	},
 
 	"HandGun": {
-		"ref_name": "ItemRef",
-		"entity_class": "ProjectileWeapon",
 		"title": "Pistolet",
-		"description": "Mały pistolet używany do walki na dystans.",
-		"for_species": [
-			"Human"
-		],
-		"random_rotation_on_dropped": true,
-		"skill_type_required_to_make": "Tailor",
-		"skill_amount_required_to_make": 3,
-		"base_market_value": 420,
-		"work_to_make": 120,
-		"equip_delay": 120,
-		"slot": "weapon",
-		"fire_rate": 60,
-		"reload_time": 240,
-		"magazine_size": "7",
-		"materials": {
-			"use_material_colour": true,
-			"material_types": {
-				"primary_mats": [
-					"Titanium", 
-					"Gold", 
-					"Silver"
-				],
-				"primary_mats_amount": 32
-			}
-		},
-		"stats": {
-			"CutDamage": {
-				"max_value": 2
-			},
-			"BluntDamage": {
-				"max_value": 2
-			}
-		},
-		"health": {
-			"max_health": 100
-		},
-        "graphics": {
-			"graphics_class": "GraphicsSingle",
-			"random_rotation_on_dropped": true,
-            "texture_path": "Textures/Things/Items/Weapons/HandGun"
-        }
+		"description": "Mały pistolet używany do walki na dystans."
 	},
 
 	"SubMachineGun": {
-		"ref_name": "ItemRef",
-		"entity_class": "ProjectileWeapon",
-		"title": "Sub machine gun",
-		"description": "A rapid fire sub machine gun.",
-		"for_species": [
-			"Human"
-		],
-		"random_rotation_on_dropped": true,
-		"skill_type_required_to_make": "Tailor",
-		"skill_amount_required_to_make": 3,
-		"base_market_value": 500,
-		"work_to_make": 120,
-		"equip_delay": 140,
-		"slot": "weapon",
-		"fire_rate": 20,
-		"reload_time": 300,
-		"magazine_size": "21",
-		"materials": {
-			"use_material_colour": true,
-			"material_types": {
-				"primary_mats": [
-					"Titanium", 
-					"Gold", 
-					"Silver"
-				],
-				"primary_mats_amount":35
-			}
-		},
-		"stats": {
-			"CutDamage": {
-				"max_value": 2
-			},
-			"BluntDamage": {
-				"max_value": 2
-			}
-		},
-		"health": {
-			"max_health": 100
-		},
-        "graphics": {
-			"graphics_class": "GraphicsSingle",
-			"random_rotation_on_dropped": true,
-            "texture_path": "Textures/Things/Items/Weapons/SubMachineGun"
-        }
+		"title": "Pistolet maszynowy",
+		"description": "Szybko strzelający pistolet maszynowy."
 	},
 	
 	"RoundShield": {
-		"ref_name": "ItemRef",
-		"entity_class": "Weapon",
 		"title": "Okrągła tarcza",
-		"description": "Okrągła tarcza służąca do blokowania ataków.",
-		"for_species": [
-			"Human"
-		],
-		"random_rotation_on_dropped": true,
-		"skill_type_required_to_make": "Tailor",
-		"skill_amount_required_to_make": 3,
-		"base_market_value": 810,
-		"work_to_make": 120,
-		"comfort": -1,
-		"equip_delay": 140,
-		"slot": "offhand",
-		"materials": {
-			"use_material_colour": true,
-			"material_types": {
-				"primary_mats": [
-					"Logs", 
-					"Gold", 
-					"Silver"
-				],
-				"primary_mats_amount": 12
-			}
-		},
-		"stats": {
-			"CutProtection": {
-				"max_value": 2
-			},
-			"BluntProtection": {
-				"max_value": 2
-			}
-		},
-		"health": {
-			"max_health": 100
-		},
-        "graphics": {
-			"graphics_class": "GraphicsSingle",
-			"random_rotation_on_dropped": true,
-            "texture_path": "Textures/Things/Items/Weapons/RoundShield"
-        }
+		"description": "Okrągła tarcza służąca do blokowania ataków."
 	}
 }

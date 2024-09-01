@@ -1,113 +1,49 @@
 {
-	"file_data": {
-		"name": "widgets"
-	},
-
     "PowerReceiverSwitch": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButtonWithState",
-        "title": "Przełącz zasilanie.",
-        "pressed_state_text": "Turn off. This will no longer receive power.",
-        "depressed_state_text": "Turn on. This will start to receive power if connected to a grid and there is enough supply.",
-        "texture_path": "Textures/UI/Buttons/PowerButton.png"
+        "title": "Przełącznik zasilania."
     },
     "PowerSourceSwitch": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButtonWithState",
-        "title": "Przełącz zasilanie.",
-        "pressed_state_text": "Turn off. This will no longer provide power.",
-        "depressed_state_text": "Turn on. This will start to provide power to it's connected grid if it has enough supply.",
-        "texture_path": "Textures/UI/Buttons/PowerButton.png"
+        "title": "Włącznik zasilania."
     },
     "AutoRefuel": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButtonWithState",
-        "title": "Przełącz automatyczne tankowanie.",
-        "pressed_state_text": "Turn off. Your crew will no longer automatically replenish the fuel.",
-        "depressed_state_text": "Turn on. Your crew will automatically replenish the fuel when required.",
-        "texture_path": "Textures/UI/Buttons/Auto.png"
+        "title": "Przełącz automatyczne tankowanie."
     },
     "Cancel": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButton",
         "title": "Anuluj plan.",
-        "description": "Anuluje i usuwa bieżący plan.",
-        "texture_path": "Textures/UI/Buttons/CancelButton.png"
+        "description": "Anuluje i usuwa bieżący plan."
     },
     "Deconstruct": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButtonWithState",
-        "title": "Anuluj rozbiórkę.",
-        "pressed_state_text": "Cancel deconstruction designation.",
-        "depressed_state_text": "Designate this to be deconstructed.",
-        "texture_path": "Textures/UI/Buttons/DeconstructButton.png"
+        "title": "Anuluj rozbiórkę."
     },
     "Draft": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButtonWithState",
-        "title": "przełącz wersję .",
-        "pressed_state_text": "Un-draft this crew member.\nThey will resume normal daily tasks by themselves.",
-        "depressed_state_text": "Draft this crew member.\nDrafted people will follow orders but will not complete normal daily tasks on there own.",
-        "texture_path": "Textures/UI/Buttons/Draft.png"
+        "title": "Przełącz wersję ."
     },
     "DeleteZone": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButton",
         "title": "Usuń strefę.",
-        "description": "Usuwa tę strefę.",
-        "texture_path": "Textures/UI/Buttons/DeconstructButton.png"
+        "description": "Usuwa tę strefę."
     },
     "ExpandZone": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButton",
         "title": "Rozwiń strefę.",
-        "description": "Zwiększ rozmiar tej strefy.",
-        "texture_path": "Textures/UI/Buttons/ExpandZone.png"
+        "description": "Zwiększ rozmiar tej strefy."
     },
     "ReduceZone": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButton",
         "title": "Zmniejsz strefę.",
-        "description": "Zmniejsz rozmiar tej strefy.",
-        "texture_path": "Textures/UI/Buttons/ShrinkZone.png"
+        "description": "Zmniejsz rozmiar tej strefy."
     },  
     "ChangeColour": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButton",
         "title": "Zmień kolor.",
-        "description": "Zmień kolor tej strefy.",
-        "texture_path": "Textures/UI/Buttons/ColourSwatch.png"
+        "description": "Zmień kolor tej strefy."
     },
     "ZoneVisibility": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButtonWithState",
-        "title": "Widoczność strefy.",
-        "pressed_state_text": "Click to hide this zone.",
-        "depressed_state_text": "Click to show this zone.",
-        "texture_path": "Textures/UI/Buttons/ZoneVisibility.png"
+        "title": "Widoczność strefy."
     } ,
     "Forbid": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButtonWithState",
-        "title": "Przełącz interakcję.",
-        "pressed_state_text": "Your crew cannot interact with this. Click to allow.",
-        "depressed_state_text": "Your crew can interact with this. Click to forbid.",
-        "texture_path": "Textures/UI/Widgets/Forbid.png"
+        "title": "Przełącz interakcję."
     },
     "Mine": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButtonWithState",
-        "title": "Przełącz wydobycie.",
-        "pressed_state_text": "Cancel mining designation.",
-        "depressed_state_text": "Designate this to be mined.",
-        "texture_path": "Textures/UI/Buttons/Mining.png"
+        "title": "Przełącz wydobycie."
     },
     "Harvest": {
-        "ref_name": "WidgetRef",
-        "type": "WidgetButtonWithState",
-        "title": "wymuś żniwa.",
-        "pressed_state_text": "Cancel forced harvest.",
-        "depressed_state_text": "Force this to be harvested.",
-        "texture_path": "Textures/UI/Buttons/Harvesting.png"
+        "title": "Wymuś żniwa."
     }
 }

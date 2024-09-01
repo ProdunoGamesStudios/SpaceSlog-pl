@@ -1,71 +1,55 @@
 {
-	"file_data": {
-		"name": "faction_traits"
-	},
-    
     "Farming": {
-        "ref_name": "FactionTraitRef",
         "title": "Rolnictwo",
-        "description": "Duża proporcja {faction_name} ziem jest dbana pod rolnictwo."
+        "description": "Duża proporcja {faction_name} ziem jest brana pod rolnictwo."
     },
 
     "Mining": {
-        "ref_name": "FactionTraitRef",
         "title": "Górnictwo",
         "description": "Z dużą ilością minerałów lub metali rzadkich, {faction_name} przeznacza znaczne środki na wydobycie i przetwórstwo."
     },
 
     "Capitalist": {
-        "ref_name": "FactionTraitRef",
         "title": "Kapitalista",
         "description": "Wszystko do kogoś należy i jeśli jest na coś popyt, trzeba na tym zarobić."
     },
 
     "Unassimilable": {
-        "ref_name": "FactionTraitRef",
         "title": "Patriota",
         "description": "Niezwykle patriotyczny dla sprawy."
     },
 
     "Explorer": {
-        "ref_name": "FactionTraitRef",
         "title": "Odkrywca",
         "description": "Wrodzona ciekawość i nieograniczone poczucie przygody są powszechne wśród ludzi {faction_name}."
     },
 
     "Rebellious": {
-        "ref_name": "FactionTraitRef",
         "title": "Buntownik",
         "description": "Zasady są po to, żeby je łamać, i tutaj zasady są łamane mocno!"
     },
     
     "Psychotic": {
-        "ref_name": "FactionTraitRef",
         "title": "Psychopata",
-        "description": "Skąd ktokolwiek ma wiedzieć, co jest prawdą, a co jest w twojej głowie? Ludzie z {faction_name} pewnością nie są w stanie tego stwierdzić."
+        "description": "Skąd ktokolwiek ma wiedzieć, co jest prawdą, a co jest w twojej głowie? Ludzie z {faction_name} z pewnością nie są w stanie tego stwierdzić."
     },
     "Obtruder": {
-        "ref_name": "FactionTraitRef",
         "title": "Natręt",
         "description": "Ciągle próbuje narzucać innym swoje własne pomysły."
     },
     "Defiant": {
-        "ref_name": "FactionTraitRef",
-        "title": "Czupunry",
+        "title": "Czupurny",
         "description": "Nie chce negocjować transakcji ani ulegać łapówkom."
     },
     "Militar": {
-        "ref_name": "FactionTraitRef",
         "title": "Wojskowi",
         "description": "Jedynym sposobem na przetrwanie w surowym wszechświecie jest zdyscyplinowana armia."
     },
     "Mechanical": {
-        "ref_name": "FactionTraitRef",
         "title": "Mechanicy",
         "description": "{faction_name} mają jedne z najlepszych umysłów inżynieryjnych we wszechświecie."
     },
     "Scientific": {
-        "ref_name": "FactionTraitRef",
         "title": "Naukowcy",
         "description": "Solidny i analityczny sposób myślenia zapewnia im lepsze zrozumienie otaczającej ich galaktyki."
     }

@@ -1,163 +1,81 @@
 {
     "Thirsty": {
-		"title": "Odwodniony",
-		"base_effect": -5,
-		"show_thought_bubble": true,
-		"emote": "Thirsty"
+		"title": "Odwodniony"
 	},
 
     "Starving": {
-		"ref_name": "ThoughtRef",
-		"title": "Głodowanie",
-		"base_effect": -5,
-		"text": "Umieram z głodu. Chciałbym, żeby było tu coś do jedzenia.",
-		"show_thought_bubble": true,
-		"emote": "Starving"
+		"title": "Głodowanie"
 	},
 
 	"Exhausted": {
-		"ref_name": "ThoughtRef",
-		"title": "Wyczerpany",
-		"base_effect": -5,
-		"text": "Jestem tak zmęczony, że ledwo mogę utrzymać oczy otwarte.",
-		"show_thought_bubble": true,
-		"emote": "Exhausted"
+		"title": "Wyczerpany"
 	},
 
 	"ColonistDied": {
-		"ref_name": "ThoughtRef",
-		"title": "Kolonista zmarł",
-		"text": "Zmarł członek załogi. Może następnym razem to będę ja.",
-		"base_effect": -10,
-		"duration": 96
+		"title": "Kolonista zmarł"
 	},
 
 	"Ill": {
-		"ref_name": "ThoughtRef",
-		"title": "Ma chorobę",
-		"base_effect": -5,
-		"text": "Czuję się tak źle."
+		"title": "Chory"
 	},
 
     "LowOxygen": {
-		"ref_name": "ThoughtRef",
-		"note": "If oxygen is below 10% capacity?",
-		"title": "Niski poziom tlenu",
-		"base_effect": -9,
-		"text": "Naprawdę ciężko się oddycha.",
-		"show_thought_bubble": true,
-		"emote": "Panicking"
+		"title": "Niski poziom tlenu"
 	},
 
     "Optimistic":  {
-		"ref_name": "ThoughtRef",
-		"title": "Optymistyczny",
-		"text": "Jestem całkiem zadowolony z tego, jak sprawy się obecnie układają.",
-		"base_effect": 12,
-		"duration": 72
+		"title": "Optymistyczny"
 	},
 
     "PlentyOfReserves":  {
-		"ref_name": "ThoughtRef",
-		"note": "We need to check how many colonists there are and then make sure there is enough food for at least a week or two?",
-		"title": "Mnóstwo rezerw",
-		"base_effect": 7,
-		"text": "Świetnie, że mamy na statku mnóstwo zapasów żywności i wody."
+		"title": "Mnóstwo rezerw"
 	},
 
     "Content":  {
-		"ref_name": "ThoughtRef",
-		"note": "If they have above 60% food and water for more than so many days??",
-		"title": "Treść",
-		"base_effect": 7,
-		"text": "Jestem dobrze nawodniony i jestem pełny wszystko wydaję sie być na razie w porządku."
+		"title": "Treść"
 	},
 
     "AteOnFloor":  {
-		"ref_name": "ThoughtRef",
-		"title": "Je na podłodze .",
-		"text": "Szkoda że ​​trzeba jeść na podłodze.",
-		"base_effect": -3,
-		"duration": 20
+		"title": "Je na podłodze ."
 	},
 
     "SharesRoom":  {
-		"ref_name": "ThoughtRef",
-		"title": "Dzieli pokój.",
-		"text": "Naprawdę potrzebuję prywatności.",
-		"base_effect": -4,
-		"duration": 20
+		"title": "Dzieli pokój."
 	},
 
     "SleptOnFloor":  {
-		"ref_name": "ThoughtRef",
-		"title": "Spałem na podłodze.",
-		"text": "Naprawdę chciałbym mieć łóżko Szkoda że ​​muszę spać na podłodze.",
-		"base_effect": -10,
-		"duration": -2
+		"title": " na podłodze."
 	},
 
 	"SleptInComfyBed":  {
-		"ref_name": "ThoughtRef",
-		"title": "Spałem na podłodze.",
-		"text": "Wow, moje łóżko jest takie wygodne. Mógłbym w nim spać cały dzień.",
-		"base_effect": 10,
-		"duration": 3
+		"title": "Spałem na podłodze."
 	},
 
 	"SharingBed":  {
-		"ref_name": "ThoughtRef",
-		"title": "Spałem na podłodze.",
-		"text": "Nienawidzę dzielić łóżka, śmierdzi.",
-		"base_effect": -10,
-		"duration": -3
+		"title": "Spałem na podłodze."
 	},
 
     "Cramped":  {
-		"ref_name": "ThoughtRef",
-		"title": "Tłoczno.",
-		"text": "Ledwo co mogę się poruszać.",
-		"base_effect": -10,
-		"duration": -6
+		"title": "Tłoczno."
 	},
 	
     "Spacious":  {
-		"ref_name": "ThoughtRef",
-		"title": "Przestronny.",
-		"text": "To miejsce jest ogromne.",
-		"base_effect": 10,
-		"duration": 6
+		"title": "Przestronny."
 	},
 
 	"UnsatisfiedWithRole":  {
-		"ref_name": "ThoughtRef",
-		"title": "Niezadowolony z danej roli.",
-		"text": "Naprawdę uważam, że zasługuję na wyższą rolę niż ta, którą mi wyznaczono.",
-		"base_effect": -4,
-		"replace_thoughts": ["SatisfiedWithRole"],
-		"show_thought_bubble": true
+		"title": "Niezadowolony z danej roli."
 	},
 
 	"SatisfiedWithRole":  {
-		"ref_name": "ThoughtRef",
-		"title": "Zadowolony z danej roli.",
-		"text": "Jestem bardzo zadowolony z roli, jaką mi powierzono.",
-		"base_effect": 4,
-		"replace_thoughts": ["UnsatisfiedWithRole"],
-		"show_thought_bubble": true
+		"title": "Zadowolony z danej roli."
 	},
 
 	"Depressed":  {
-		"ref_name": "ThoughtRef",
-		"title": "Przygnębiony.",
-		"text": "Moje życie ssie, nienawidzę go!",
-		"base_effect": -8
+		"title": "Przygnębiony."
 	},
 
 	"HappyThoughts":  {
-		"ref_name": "ThoughtRef",
-		"title": "Szczęśliwe myśli.",
-		"text": "Trala lalala. Jupeeeee.",
-		"base_effect": 8
+		"title": "Szczęśliwe myśli."
 	}
 }
