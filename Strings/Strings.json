@@ -1,34 +1,22 @@
 {
 	"game_difficulty": {
-		"shipbuilder": "Łatwy",
-		"timid": "Średni",
-		"normal": "Normalny",
-		"brutal": "Wyzwanie",
+		"shipbuilder": "Budowanie statku - Architekt",
+		"timid": "Bojaźliwy - Układny",
+		"normal": "Normalny - Jestem tradycjonalistą",
+		"brutal": "Brutalny - Nienawidzę wygrywać",
 		"default_description": "Tutaj możesz wybrać poziom trudności gry. Poziom trudności wpłynie na takie rzeczy jak częstotliwość i poziom trudności zdarzeń,ilość generowanych frakcji oraz siłę tych frakcji.",
-		"shipbuilder_description": "Jeśli chcesz w spokoju zbudować swój statek lub po prostu eksplorować. Zagrożenia będą praktycznie nieistnieć, a frakcje będą w wiekszości przyjazne.Oraz większą  potencjalną zmielnośc handlu, a postacie będą miały stały buff nastroju .",
-		"timid_description": "Dla tych, którzy wolą budować lub ekspolorować, ten tryb oferuję bardzie swobodne doświadczenie. Wydarzenia będą mnie wrogie i rzadsze.frakcję mogą być przyjaźniejsze niż wrogie.",
-		"normal_description": "Rozgrywka będzie wyglądała tak jak twórca planował. Wydarzenia będą losowe,wszystko może pójść zgodnie z planem lub starsznie źle.Przynależnośc frakcji jest losowa.",
-		"brutal_description": "Wybierz ten tryb tylko jeśli pragniesz wyzwania. Preferowane dla doświadczonych graczy. Wydarzenia będą pojawiały się częściej,frakcję będą wrogo nastawione."
-	},
-
-	"game_difficulty": {
-		"shipbuilder": "Ship Builder - The architect",
-		"timid": "Timid - Easy does it",
-		"normal": "Normal - I'm a traditionalist",
-		"brutal": "Brutal - I hate winning",
-		"shipbuilder_description": "If you want to peacefully build your ship or just explore. Threats will be mostly non-existent and factions will be mostly friendly. Your pawns will have a permanent mood buff.",
-		"timid_description": "For those that prefer a more laid back slightly easier experience. Threats will be lower and incidents will be less frequent.",
-		"normal_description": "This offers the standard classic experience. Best suited to those that have played before.",
-		"brutal_description": "Only choose this option if you want a real challenge, this is only advised for more experienced players. Incidents will be more hostile and will occur much more frequently. Factions will be more foe than friend."
+		"shipbuilder_description": "Jeśli chcesz w spokoju zbudować swój statek lub po prostu eksplorować. Zagrożeń praktycznie nie będzie, a frakcje będą w wiekszości przyjazne. Twoja załoga będzie ciągle w dobrym humorze.",
+		"timid_description": "Dla tych którzy wolą aby ich przeżycia były łatwiejsze. Zagrożeń bedzie mniej i wypadki będą pojawiać sie rzadziej.",
+		"normal_description": "Oferuje standardowe doświadczenia. Odpowiedni dla graczy którzy już grali.",
+		"brutal_description": "Wybierz ten tryb tylko jeśli pragniesz wyzwania. Preferowane dla doświadczonych graczy. Wydarzenia będą bardziej nieprzychylne i będą pojawiały się częściej, frakcje będą wrogo nastawione."
 	},
 
 	"game_type": {
-		"progressive": "Harmony - Let's take it slow",
-		"random": "Random - Loves chaos and drama",
-		"progressive_description": "Creates a more harmonious and laid back experience. Here there is still some randomisation but not as much. Incidents will be more calculated and progressive, giving you extra breathing space.",
-		"random_description": "Faction alignment, incidents and various other elements of the game will be much more randomised offering more drama and a higher replay value. Things could either go really well or horribly wrong."
+		"progressive": "Harmonijny - Przeżyjmy to powoli",
+		"random": "Losowy - Kocha chaos and kłopoty",
+		"progressive_description": "Tworzy bardziej swobodne i spokojne doświadzczenia. Przynależność frakcji mniej losowa. Wydarzenia będą bardziej zaplanowane i progresywne, dając ci większą przestrzeń by złapać oddech.",
+		"random_description": "Przynależność frakcji i wydarzenia będą losowe, co oferuje więcej zdarzeń i zwiększa wartość gry. Wydarzenia mogą potoczyć się zgodnie z planem albo skończyć beznadziejnie."
 	},
-
 	
 	"game_settings": {
 		"world_seed_description": "Tutaj możesz zmienić koordy dla bieżącego wszechświata. Możesz również udostępnić te koordy aby inni gracze mogli grać w tym samym wszechświecie co ty.",

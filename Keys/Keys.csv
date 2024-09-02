@@ -19,7 +19,7 @@ UI_MUSIC,Muzyka
 UI_FORUMS,Forum
 UI_CHOOSE_STORY,Wybierz swoją historię
 UI_WORLD_SEED,Ziarno generatora
-UI_SKIP_STORY,Pomiń opwieść
+UI_SKIP_STORY,Pomiń opowieść
 UI_DIFFICULTY,Trudność
 UI_SCENARIO,Scenariusz
 UI_SHIPBUILDER,Budowanie statku
@@ -69,7 +69,7 @@ UI_LOAD_MENU,Załaduj grę
 UI_LOAD,Załaduj 
 UI_SAVE,Zapisz
 UI_OVERWRITE,Nadpisz
-UI_LANGUAGE_CREDITS,Language credits
+UI_LANGUAGE_CREDITS,Tumaczenie 
 UI_RELATIONS,Relacje
 UI_RACE,Rasa
 UI_SPECIES,Gatunek
@@ -83,7 +83,7 @@ UI_STATUS,Status
 UI_ASSIGNED_ROOM,Przydzielony pokój
 UI_ASSIGNED_ROLE,Przydzielone zadanie
 UI_CONTINUE,Kontynuuj
-UI_SAVE_LOAD,Zapisz/Załaduj menu
+UI_SAVE_LOAD,Zapisz menu
 UI_EXIT,Wyjdź do menu głównego
 UI_EXIT_TO_OS,Wyjdź do OS
 UI_CONTINUE,Kontynuuj
@@ -113,7 +113,7 @@ UI_ADD_REMOVE_ROLES,Dodaj/Zabierz role
 UI_ROLE_NAME,Nazwa roli
 UI_NUMBER_OF_MEMBERS,# załogi
 UI_REMOVE,Usuń
-UI_HOTKEY,Hotkey
+UI_HOTKEY,Skrót
 UI_HEALTH,Zdrowie
 UI_NO_MATS_REQ,Nie potrzeba żadnych materiałów
 HINT_ROTATE_LEFT,Obróć w lewo
@@ -128,12 +128,12 @@ UI_POWER_OUTPUT,Moc wyjściowa
 UI_POWER_USAGE,Zużycie energii
 UI_STORED_POWER,Zmagazynowana moc
 UI_STORED_GAS,Zmagazynowanay gaz
-UI_MAX_STORAGE,Maxymalna pojemność
-UI_WORK_TO_BUILD,Construction progress
+UI_MAX_STORAGE,Maksymalna pojemność
+UI_WORK_TO_BUILD,Postép budowy
 UI_GAS_PROVIDED,Gaz 
 UI_GAS_SUPPLIED,Dostarczany gaz
 UI_GAS_USAGE,Zużycie gazu
-UI_GAS_OUTPUT,Gas output
+UI_GAS_OUTPUT,Wyjcie gazu
 UI_FUEL_REQUIRED,Wymagane paliwo
 UI_FUEL,Paliwo
 UI_ENTER_NAME,Wpisz imię
@@ -215,7 +215,7 @@ UI_BUILDING,Budowa
 UI_SHIP_SYSTEMS,System statku
 UI_EXIT_SURVEY,Ankieta wyjściowa
 UI_WISHLIST,Lista Zyczen!
-UI_GAMETYPE,Game type
-UI_HARMONY,Harmony
-UI_RANDOM,Random
+UI_GAMETYPE,Rodzaj gry
+UI_HARMONY,Harmonijny
+UI_RANDOM,Losowy
 
