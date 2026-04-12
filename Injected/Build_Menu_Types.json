@@ -2,31 +2,24 @@
     "atmosphere": {
         "title": "Atmosfera"
     },
-
     "cargo": {
         "title": "Ładunek"
     },
-
     "furniture": {
         "title": "Meble"
     },
-
     "power": {
         "title": "Moc"
     },
-
     "production": {
         "title": "Produkcja"
     },
-
     "structure": {
         "title": "Struktura"
     },
-
     "entertainment": {
         "title": "Rozrywka"
     },
-    
     "misc": {
         "title": "Rozmaite"
     }
