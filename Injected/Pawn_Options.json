@@ -62,7 +62,7 @@
         "title": "Przeszkoda w transporcie",
         "description": "Przeszkoda w transporcie"
     },
-    "HaulToPrefab": {
+    "HaulToBlueprint": {
         "title": "Transport do prefabrykatów",
         "description": "Transport do prefabrykatów"
     },

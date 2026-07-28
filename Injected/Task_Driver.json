@@ -53,7 +53,7 @@
     "DestroyAsset": {
         "title": "Zniszcz zasób"
     },
-    "HaulToPrefab": {
+    "HaulToBlueprint": {
         "title": "Transport do prefabrykatów"
     },
     "Build": {
