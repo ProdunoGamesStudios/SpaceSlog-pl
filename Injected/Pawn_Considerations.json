@@ -23,7 +23,7 @@
         "title": "Rezerwa",
         "description": "To tylko rezerwa, gdy nie mamy nic innego do roboty."
     },
-    "HasPrefab": {
+    "HasBlueprint": {
         "title": "Coś trzeba zbudować",
         "description": "Czy coś wymaga budowania?"
     },
@@ -35,7 +35,7 @@
         "title": "Coś trzeba przetransportować",
         "description": "Sprawdzam, czy jest coś do przetransportowania."
     },
-    "NeedsMatsPrefab": {
+    "NeedsMatsBlueprint": {
         "title": "Posiada materiały",
         "description": "Sprawdzamy, czy posiadamy wymagane materiały."
     },
@@ -115,7 +115,7 @@
         "title": "Potrzebuje nawodnienia",
         "description": "Sprawdzanie, czy osobnik potrzebuje nawodnienia."
     },
-    "PrefabObstruction": {
+    "BlueprintObstruction": {
         "title": "Należy przenieść przeszkodę",
         "description": "Sprawdzenie, czy przeszkoda wymaga usunięcia."
     },
