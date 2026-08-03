@@ -338,7 +338,7 @@
 	"backstory": {
 		"health_state": "jest {health_status}",
 		"joined_crew": "{pawn_name} dołączył do załogi dnia {day} miesiąca {month} roku {year}.",
-		"age_gender_and_species_status": "jest {species} {gender} urodził się dnia{day} miesiąca {month} roku {year}, co czyni {pawn_reflexive_short} {age} lat"
+		"age_gender_and_species_status": "jest {species} {gender} urodził się dnia{day} miesiąca {month} roku {year}, co czyni {pawn_objective} {age} lat"
 	},
 
 	"debug": {

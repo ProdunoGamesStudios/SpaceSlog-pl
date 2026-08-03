@@ -86,7 +86,7 @@
 
 	"OffworldDetective" : {
 		"title" : "Detektyw z pozaświata",
-		"description" : "Jako sierota {pawn_name} wychowywał się na statkach kolonialnych. Próba przetrwania w dzieciństwie oznaczała wpadnięcie w wiele kłopotów. To właśnie to spowodowało u {pawn_reflexive_short} że „dawanie kopniaków jest lepsze niż bycie butem”."
+		"description" : "Jako sierota {pawn_name} wychowywał się na statkach kolonialnych. Próba przetrwania w dzieciństwie oznaczała wpadnięcie w wiele kłopotów. To właśnie to spowodowało u {pawn_objective} że „dawanie kopniaków jest lepsze niż bycie butem”."
 	},
 
 	"PlanetDrifter" : {
